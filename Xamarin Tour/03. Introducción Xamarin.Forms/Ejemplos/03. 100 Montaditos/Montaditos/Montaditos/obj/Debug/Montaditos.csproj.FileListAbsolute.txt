@@ -1,0 +1,15 @@
+c:\users\javier\documents\visual studio 2013\Projects\Montaditos\Montaditos\Montaditos\obj\Debug\Montaditos.csprojResolveAssemblyReference.cache
+c:\users\javier\documents\visual studio 2013\Projects\Montaditos\Montaditos\Montaditos\obj\Debug\MainView.xaml.g.cs
+c:\users\javier\documents\visual studio 2013\Projects\Montaditos\Montaditos\Montaditos\bin\Debug\Montaditos.dll
+c:\users\javier\documents\visual studio 2013\Projects\Montaditos\Montaditos\Montaditos\bin\Debug\Montaditos.pdb
+c:\users\javier\documents\visual studio 2013\Projects\Montaditos\Montaditos\Montaditos\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\javier\documents\visual studio 2013\Projects\Montaditos\Montaditos\Montaditos\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\javier\documents\visual studio 2013\Projects\Montaditos\Montaditos\Montaditos\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\javier\documents\visual studio 2013\Projects\Montaditos\Montaditos\Montaditos\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\javier\documents\visual studio 2013\Projects\Montaditos\Montaditos\Montaditos\obj\Debug\Montaditos.dll
+c:\users\javier\documents\visual studio 2013\Projects\Montaditos\Montaditos\Montaditos\obj\Debug\Montaditos.pdb
+c:\users\javier\documents\visual studio 2013\Projects\Montaditos\Montaditos\Montaditos\bin\Debug\Assets\Jamon.jpg
+c:\users\javier\documents\visual studio 2013\Projects\Montaditos\Montaditos\Montaditos\bin\Debug\Assets\PateSalsaMostaza.jpg
+c:\users\javier\documents\visual studio 2013\Projects\Montaditos\Montaditos\Montaditos\bin\Debug\Assets\QuesoBriePimiento.jpg
+c:\users\javier\documents\visual studio 2013\Projects\Montaditos\Montaditos\Montaditos\bin\Debug\Assets\QuesoCabra.jpg
+c:\users\javier\documents\visual studio 2013\Projects\Montaditos\Montaditos\Montaditos\bin\Debug\Assets\QuesoIbericoPimienta.jpg
