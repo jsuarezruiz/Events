@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SURFACEJSUAREZ</Machine>
+    <WindowsUser>Javier</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>37e8870c-71b6-4774-a21e-3f5c423ff049</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Windows\HelloMVVMCross.Windows.WindowsPhone\obj\x86\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Windows\HelloMVVMCross.Windows.WindowsPhone\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Windows\HelloMVVMCross.Windows.WindowsPhone\bin\x86\Debug\HelloMVVMCross.Windows.WindowsPhone.exe">
+      <PackagePath>HelloMVVMCross.Windows.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\wpa81\Cirrious.CrossCore.dll">
+      <PackagePath>Cirrious.CrossCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\wpa81\Cirrious.CrossCore.WindowsCommon.dll">
+      <PackagePath>Cirrious.CrossCore.WindowsCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.0\lib\wpa81\Cirrious.MvvmCross.dll">
+      <PackagePath>Cirrious.MvvmCross.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\wpa81\Cirrious.MvvmCross.Localization.dll">
+      <PackagePath>Cirrious.MvvmCross.Localization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.0\lib\wpa81\Cirrious.MvvmCross.WindowsCommon.dll">
+      <PackagePath>Cirrious.MvvmCross.WindowsCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross\bin\Debug\HelloMVVMCross.dll">
+      <PackagePath>HelloMVVMCross.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Windows\HelloMVVMCross.Windows.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Windows\HelloMVVMCross.Windows.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Windows\HelloMVVMCross.Windows.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Windows\HelloMVVMCross.Windows.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Windows\HelloMVVMCross.Windows.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Windows\HelloMVVMCross.Windows.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Windows\HelloMVVMCross.Windows.WindowsPhone\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Windows\HelloMVVMCross.Windows.WindowsPhone\bin\x86\Debug\Views\FirstView.xbf">
+      <PackagePath>Views\FirstView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Windows\HelloMVVMCross.Windows.WindowsPhone\bin\x86\Debug\HelloMVVMCross.Windows.WindowsPhone.xr.xml">
+      <PackagePath>HelloMVVMCross.Windows.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Windows\HelloMVVMCross.Windows.WindowsPhone\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Core\Value.Core.csproj;neutral
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Store\Value.Store.csproj;x86

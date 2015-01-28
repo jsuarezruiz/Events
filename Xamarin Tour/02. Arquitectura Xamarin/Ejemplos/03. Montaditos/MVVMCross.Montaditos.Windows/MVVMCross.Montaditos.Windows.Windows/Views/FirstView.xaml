@@ -1,0 +1,38 @@
+<views:MvxWindowsPage
+    x:Class="MVVMCross.Montaditos.Windows.Views.FirstView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:views="using:Cirrious.MvvmCross.WindowsCommon.Views"
+    mc:Ignorable="d">
+    <Page.Resources>
+
+        <DataTemplate x:Key="MontaditosItemTemplate">
+            <Grid HorizontalAlignment="Left" Width="250" Height="250">
+                <Border Background="DarkGray">
+                    <Image Source="{Binding Image}" Stretch="UniformToFill" 
+                           AutomationProperties.Name="{Binding Name}"/>
+                </Border>
+                <StackPanel VerticalAlignment="Bottom"
+                            Background="DarkOrange">
+                    <TextBlock Text="{Binding Name}" 
+                               Foreground="White"
+                               FontSize="32"
+                               Height="60" Margin="15,0,15,0"/>
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+
+    </Page.Resources>
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <GridView
+            AutomationProperties.AutomationId="ItemsGridView"
+            AutomationProperties.Name="Items"
+            Padding="116,136,116,46"
+            ItemsSource="{Binding Montaditos}"
+            ItemTemplate="{StaticResource MontaditosItemTemplate}"
+            SelectionMode="None"
+            IsSwipeEnabled="false"/>
+    </Grid>
+</views:MvxWindowsPage>

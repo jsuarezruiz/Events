@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SURFACEJSUAREZ</Machine>
+    <WindowsUser>Javier</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>d6f00efc-a967-4b0f-8ddb-9ff85989b0b6</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.Windows\obj\x86\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.Windows\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.Windows\bin\x86\Debug\MVVMCross.Navigation.Windows.Windows.exe">
+      <PackagePath>MVVMCross.Navigation.Windows.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\win81\Cirrious.CrossCore.dll">
+      <PackagePath>Cirrious.CrossCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\win81\Cirrious.CrossCore.WindowsCommon.dll">
+      <PackagePath>Cirrious.CrossCore.WindowsCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.0\lib\win81\Cirrious.MvvmCross.dll">
+      <PackagePath>Cirrious.MvvmCross.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\win81\Cirrious.MvvmCross.Localization.dll">
+      <PackagePath>Cirrious.MvvmCross.Localization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.0\lib\win81\Cirrious.MvvmCross.WindowsCommon.dll">
+      <PackagePath>Cirrious.MvvmCross.WindowsCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation\bin\Debug\MVVMCross.Navigation.dll">
+      <PackagePath>MVVMCross.Navigation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.Windows\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.Windows\bin\x86\Debug\Views\FirstView.xbf">
+      <PackagePath>Views\FirstView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.Windows\bin\x86\Debug\Views\SecondView.xbf">
+      <PackagePath>Views\SecondView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.Windows\bin\x86\Debug\MVVMCross.Navigation.Windows.Windows.xr.xml">
+      <PackagePath>MVVMCross.Navigation.Windows.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.Windows\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
