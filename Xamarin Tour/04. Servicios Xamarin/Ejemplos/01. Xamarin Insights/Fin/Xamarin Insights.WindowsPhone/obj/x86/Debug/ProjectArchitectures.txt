@@ -1,0 +1,2 @@
+C:\Users\Javier\Desktop\Curso Xamarin Bravent\06. Servicios Xamarin\Ejemplos\Xamarin Insights\Fin\Xamarin Insights.WindowsPhone\Xamarin Insights.WindowsPhone.csproj;x86
+C:\Users\Javier\Desktop\Curso Xamarin Bravent\06. Servicios Xamarin\Ejemplos\Xamarin Insights\Fin\Xamarin Insights\Xamarin Insights.Core.csproj;neutral
