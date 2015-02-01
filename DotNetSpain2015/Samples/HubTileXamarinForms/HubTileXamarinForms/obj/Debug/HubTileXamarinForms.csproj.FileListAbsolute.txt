@@ -1,0 +1,14 @@
+c:\users\javier\documents\visual studio 2013\Projects\HubTileXamarinForms\HubTileXamarinForms\bin\Debug\HubTileXamarinForms.dll
+c:\users\javier\documents\visual studio 2013\Projects\HubTileXamarinForms\HubTileXamarinForms\bin\Debug\HubTileXamarinForms.pdb
+c:\users\javier\documents\visual studio 2013\Projects\HubTileXamarinForms\HubTileXamarinForms\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\javier\documents\visual studio 2013\Projects\HubTileXamarinForms\HubTileXamarinForms\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\javier\documents\visual studio 2013\Projects\HubTileXamarinForms\HubTileXamarinForms\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\javier\documents\visual studio 2013\Projects\HubTileXamarinForms\HubTileXamarinForms\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\javier\documents\visual studio 2013\Projects\HubTileXamarinForms\HubTileXamarinForms\obj\Debug\HubTileXamarinForms.dll
+c:\users\javier\documents\visual studio 2013\Projects\HubTileXamarinForms\HubTileXamarinForms\obj\Debug\HubTileXamarinForms.pdb
+C:\Users\Javier\documents\visual studio 2013\Projects\HubTileXamarinForms\HubTileXamarinForms\obj\Debug\HubTileXamarinForms.csprojResolveAssemblyReference.cache
+C:\Users\Javier\documents\visual studio 2013\Projects\HubTileXamarinForms\HubTileXamarinForms\obj\Debug\MainView.xaml.g.cs
+C:\Users\Javier\documents\visual studio 2013\Projects\HubTileXamarinForms\HubTileXamarinForms\bin\Debug\Assets\arroces.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\HubTileXamarinForms\HubTileXamarinForms\bin\Debug\Assets\pastas.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\HubTileXamarinForms\HubTileXamarinForms\bin\Debug\Assets\pescados.jpg
+C:\Users\Javier\documents\visual studio 2013\Projects\HubTileXamarinForms\HubTileXamarinForms\bin\Debug\Assets\rapida.jpg
