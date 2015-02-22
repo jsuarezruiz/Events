@@ -24,3 +24,4 @@ C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspai
 C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015\obj\Debug\ExtendControlView.xaml.g.cs
 C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015\obj\Debug\LoadingView.xaml.g.cs
 C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015\bin\Debug\Assets\SpainDotNetConf.png
+C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015\obj\Debug\dotnetspain2015.csprojResolveAssemblyReference.cache

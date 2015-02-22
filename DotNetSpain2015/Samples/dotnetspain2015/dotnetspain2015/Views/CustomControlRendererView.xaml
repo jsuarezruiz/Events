@@ -7,6 +7,8 @@
     <custom:RoundedBoxView x:Name="rbv" WidthRequest="200" HeightRequest="200"
         Stroke="Yellow" StrokeThickness="2" CornerRadius="20"
         Color="Red" />
+    <custom:SeparatorControl Color="Red" 
+                             StrokeType="Dashed"/>
     <Label Text="Corner Radius" />
     <Slider x:Name="theSlider" Minimum="0" Maximum="75"
         BindingContext="{x:Reference rbv}"

@@ -38,6 +38,7 @@
     <Compile Include="CustomControls\HubTileView.cs" />
     <Compile Include="CustomControls\HyperLinkControl.cs" />
     <Compile Include="CustomControls\RoundedBoxView.cs" />
+    <Compile Include="CustomControls\SeparatorControl.cs" />
     <Compile Include="CustomPages\GesturedContentPage.cs" />
     <Compile Include="MarkupExtensions\DateDisplayExtension.cs" />
     <Compile Include="MarkupExtensions\TranslateExtension.cs" />

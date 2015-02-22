@@ -74,6 +74,8 @@
   <ItemGroup>
     <Compile Include="Controls\HyperLinkControlRenderer.cs" />
     <Compile Include="Controls\RoundedBoxViewRenderer.cs" />
+    <Compile Include="Controls\SeparatorControlRenderer.cs" />
+    <Compile Include="Controls\SeparatorDroidView.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Pages\GesturedContentPageRenderer.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />

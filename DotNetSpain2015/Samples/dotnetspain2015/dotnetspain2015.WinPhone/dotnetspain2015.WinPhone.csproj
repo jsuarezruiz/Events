@@ -97,6 +97,7 @@
     <Compile Include="Controls\HubTileViewRenderer.cs" />
     <Compile Include="Controls\HyperLinkControlRenderer.cs" />
     <Compile Include="Controls\RoundedBoxViewRenderer.cs" />
+    <Compile Include="Controls\SeparatorControlRenderer.cs" />
     <Compile Include="LocalizedStrings.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>

@@ -1,5 +1,5 @@
-﻿<xapCache source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\Bin\Debug\PhoneApp1_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="22/02/2015 18:25:19">
-  <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\obj\Debug\dotnetspain2015.WinPhone.dll" archivePath="dotnetspain2015.WinPhone.dll" lastWriteTime="22/02/2015 18:25:15" />
+﻿<xapCache source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\Bin\Debug\PhoneApp1_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="22/02/2015 20:45:09">
+  <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\obj\Debug\dotnetspain2015.WinPhone.dll" archivePath="dotnetspain2015.WinPhone.dll" lastWriteTime="22/02/2015 20:45:04" />
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="08/02/2015 18:08:31" />
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="08/02/2015 18:08:19" />
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="08/02/2015 18:08:19" />
@@ -12,7 +12,7 @@
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="08/02/2015 18:08:31" />
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="08/02/2015 18:08:31" />
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="08/02/2015 18:08:31" />
-  <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="22/02/2015 18:23:59" />
+  <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="22/02/2015 19:01:51" />
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\Bin\Debug\Assets\arroces.jpg" archivePath="Assets\arroces.jpg" lastWriteTime="13/02/2015 20:19:43" />
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\Bin\Debug\Assets\pastas.jpg" archivePath="Assets\pastas.jpg" lastWriteTime="13/02/2015 20:19:43" />
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\Bin\Debug\Assets\pescados.jpg" archivePath="Assets\pescados.jpg" lastWriteTime="13/02/2015 20:19:43" />
@@ -20,7 +20,7 @@
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\Bin\Debug\Assets\SpainDotNetConf.png" archivePath="Assets\SpainDotNetConf.png" lastWriteTime="22/02/2015 18:11:50" />
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="08/02/2015 18:08:19" />
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="08/02/2015 18:08:19" />
-  <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015\bin\Debug\dotnetspain2015.dll" archivePath="dotnetspain2015.dll" lastWriteTime="22/02/2015 18:23:18" />
+  <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015\bin\Debug\dotnetspain2015.dll" archivePath="dotnetspain2015.dll" lastWriteTime="22/02/2015 20:45:01" />
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="31/01/2015 17:32:58" />
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\packages\Xamarin.Forms.Behaviors.1.3.1\lib\Xamarin.Behaviors.dll" archivePath="Xamarin.Behaviors.dll" lastWriteTime="08/02/2015 18:51:21" />
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\packages\Xamarin.Forms.1.3.1.6296\lib\WP80\Xamarin.Forms.Core.dll" archivePath="Xamarin.Forms.Core.dll" lastWriteTime="31/01/2015 17:19:39" />
@@ -34,5 +34,5 @@
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015\Assets\pescados.jpg" archivePath="dotnetspain2015\Assets\pescados.jpg" lastWriteTime="13/02/2015 20:19:43" />
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015\Assets\rapida.jpg" archivePath="dotnetspain2015\Assets\rapida.jpg" lastWriteTime="13/02/2015 20:19:43" />
   <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015\Assets\SpainDotNetConf.png" archivePath="dotnetspain2015\Assets\SpainDotNetConf.png" lastWriteTime="22/02/2015 18:11:50" />
-  <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="22/02/2015 18:23:59" />
+  <file source="C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="22/02/2015 19:01:52" />
 </xapCache>
