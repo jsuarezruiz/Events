@@ -8,7 +8,7 @@ using Xamarin.Forms.Xaml;
 
 namespace dotnetspain2015.MarkupExtensions
 {
-    class TranslateExtension : IMarkupExtension
+    public class TranslateExtension : IMarkupExtension
     {
         const string ResourceId = "dotnetspain2015.Resx.AppResources";
         readonly CultureInfo _ci;

@@ -29,3 +29,4 @@ C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspai
 C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
 C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.Droid\obj\Debug\R.cs.flag
 C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.Droid\obj\Debug\uploadflags.txt
+C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.Droid\bin\Debug\Assets\SpainDotNetConf.png

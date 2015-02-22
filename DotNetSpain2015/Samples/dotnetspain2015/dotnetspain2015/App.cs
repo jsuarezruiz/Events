@@ -8,7 +8,7 @@ namespace dotnetspain2015
     {
         public App()
         {
-            MainPage = new MainView();
+            MainPage = new LoadingView();
 
             if (Device.OS != TargetPlatform.WinPhone)
                 DependencyService.Get<ILocalizeService>().SetLocale();

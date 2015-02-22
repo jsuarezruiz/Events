@@ -2,10 +2,14 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="dotnetspain2015.Views.MarkupExtensionView"
-             xmlns:localize="clr-namespace:dotnetspain2015.MarkupExtensions;assembly=dotnetspain2015">
+             xmlns:extension="clr-namespace:dotnetspain2015.MarkupExtensions;assembly=dotnetspain2015">
   <StackLayout
      HorizontalOptions="CenterAndExpand"
      VerticalOptions="CenterAndExpand">
-    <Label Text="{localize:TranslateExtension Text=Greeting}" />
+    <Label Text="TranslateExtension" />
+    <Label Text="{extension:TranslateExtension Text=Greeting}" />
+    <Label Text="DateDisplayExtension" />
+    <Label Text="{extension:DateDisplay Date, Binding=Yes}" />
+    <Label Text="{extension:DateDisplay Time}" />
   </StackLayout>
 </ContentPage>

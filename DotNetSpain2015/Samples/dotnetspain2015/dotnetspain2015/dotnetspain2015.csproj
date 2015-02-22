@@ -39,6 +39,7 @@
     <Compile Include="CustomControls\HyperLinkControl.cs" />
     <Compile Include="CustomControls\RoundedBoxView.cs" />
     <Compile Include="CustomPages\GesturedContentPage.cs" />
+    <Compile Include="MarkupExtensions\DateDisplayExtension.cs" />
     <Compile Include="MarkupExtensions\TranslateExtension.cs" />
     <Compile Include="Models\Sample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -63,6 +64,9 @@
     </Compile>
     <Compile Include="Views\ExtendControlView.xaml.cs">
       <DependentUpon>ExtendControlView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoadingView.xaml.cs">
+      <DependentUpon>LoadingView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\NativeControlView.xaml.cs">
       <DependentUpon>NativeControlView.xaml</DependentUpon>
@@ -143,9 +147,18 @@
     <Content Include="Assets\rapida.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\SpainDotNetConf.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\ExtendControlView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\LoadingView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

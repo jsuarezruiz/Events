@@ -94,3 +94,4 @@ C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspai
 C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\obj\Debug\dotnetspain2015.WinPhone.dll
 C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\obj\Debug\dotnetspain2015.WinPhone.pdb
 C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\obj\Debug\XapCacheFile.xml
+C:\Users\Javier\documents\visual studio 2013\Projects\dotnetspain2015\dotnetspain2015.WinPhone\Bin\Debug\Assets\SpainDotNetConf.png
