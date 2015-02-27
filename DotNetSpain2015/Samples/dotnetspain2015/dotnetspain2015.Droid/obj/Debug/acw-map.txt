@@ -1,3 +1,4 @@
+dotnetspain2015.Droid.Controls.CustomEntryRenderer;dotnetspain2015.droid.controls.CustomEntryRenderer
 dotnetspain2015.Droid.Controls.HyperLinkControlRenderer;dotnetspain2015.droid.controls.HyperLinkControlRenderer
 dotnetspain2015.Droid.Controls.RoundedBoxViewRenderer;dotnetspain2015.droid.controls.RoundedBoxViewRenderer
 dotnetspain2015.Droid.Controls.SeparatorRenderer;dotnetspain2015.droid.controls.SeparatorRenderer

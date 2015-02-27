@@ -89,6 +89,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Controls\CustomEntryRenderer.cs" />
     <Compile Include="Controls\HyperLinkControlRenderer.cs" />
     <Compile Include="Controls\RoundedBoxViewRenderer.cs" />
     <Compile Include="Main.cs" />

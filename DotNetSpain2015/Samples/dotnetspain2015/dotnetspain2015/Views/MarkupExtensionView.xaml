@@ -11,5 +11,9 @@
     <Label Text="DateDisplayExtension" />
     <Label Text="{extension:DateDisplay Date, Binding=Yes}" />
     <Label Text="{extension:DateDisplay Time}" />
+    <!-- Blue BoxView HslColor -->
+    <BoxView Color="{extension:HslColor H=0.67, S=1, L=0.5}"
+             HorizontalOptions="Center"
+             VerticalOptions="CenterAndExpand" />
   </StackLayout>
 </ContentPage>

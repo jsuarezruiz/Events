@@ -94,6 +94,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\CustomEntryRenderer.cs" />
     <Compile Include="Controls\HubTileViewRenderer.cs" />
     <Compile Include="Controls\HyperLinkControlRenderer.cs" />
     <Compile Include="Controls\RoundedBoxViewRenderer.cs" />

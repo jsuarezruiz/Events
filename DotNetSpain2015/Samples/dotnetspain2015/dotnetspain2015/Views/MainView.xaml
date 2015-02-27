@@ -18,9 +18,22 @@
         <ListView.ItemTemplate>
           <DataTemplate>
             <ViewCell>
-              <StackLayout Orientation="Horizontal" Padding="10" >
+              <StackLayout Orientation="Horizontal" Padding="10">
                 <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
                   <Button Text="{Binding Name}">
+                    <Button.HeightRequest>
+                      <OnPlatform x:TypeArguments="x:Double">
+                      <OnPlatform.iOS>
+                        40
+                      </OnPlatform.iOS>
+                      <OnPlatform.Android>
+                        40
+                      </OnPlatform.Android>
+                      <OnPlatform.WinPhone>
+                        100
+                      </OnPlatform.WinPhone>
+                    </OnPlatform>
+                    </Button.HeightRequest>
                     <b:Interaction.Behaviors>
                       <b:BehaviorCollection>
                         <b:EventToCommand CommandNameContext="{b:RelativeContext MainView}"

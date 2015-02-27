@@ -72,6 +72,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\CustomEntryRenderer.cs" />
     <Compile Include="Controls\HyperLinkControlRenderer.cs" />
     <Compile Include="Controls\RoundedBoxViewRenderer.cs" />
     <Compile Include="Controls\SeparatorControlRenderer.cs" />

@@ -61,22 +61,22 @@
             switch (parameter)
             {
                 case "Service":
-                    await _navigationService.PushAsync(new ServiceView());
+                    await _navigationService.PushModalAsync(new ServiceView());
                     break;
                 case "MarkupExension":
-                    await _navigationService.PushAsync(new MarkupExtensionView());
+                    await _navigationService.PushModalAsync(new MarkupExtensionView());
                     break;
                 case "Extend Control":
-                    await _navigationService.PushAsync(new ExtendControlView());
+                    await _navigationService.PushModalAsync(new ExtendControlView());
                     break;
                 case "Custom Control Renderer":
-                    await _navigationService.PushAsync(new CustomControlRendererView());
+                    await _navigationService.PushModalAsync(new CustomControlRendererView());
                     break;
                 case "Custom Gesture Page":
-                    await _navigationService.PushAsync(new SwipeGesturedContentView());
+                    await _navigationService.PushModalAsync(new SwipeGesturedContentView());
                     break;
                 case "Native Control":
-                    await _navigationService.PushAsync(new NativeControlView());
+                    await _navigationService.PushModalAsync(new NativeControlView());
                     break;
             }
         }

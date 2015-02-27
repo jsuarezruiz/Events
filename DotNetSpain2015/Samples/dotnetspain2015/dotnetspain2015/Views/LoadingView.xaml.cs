@@ -14,7 +14,7 @@ namespace dotnetspain2015.Views
         async void Initialize()
         {
             await ExecuteStoryboardAsync();
-            await this.Navigation.PushAsync(new MainView());
+            await this.Navigation.PushModalAsync(new MainView());
         }
         async Task ExecuteStoryboardAsync()
         {

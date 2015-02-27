@@ -4,6 +4,15 @@
              x:Class="dotnetspain2015.Views.CustomControlRendererView"
              xmlns:custom="clr-namespace:dotnetspain2015.CustomControls;assembly=dotnetspain2015">
   <StackLayout Padding="20" Spacing="20">
+    <Label Text="CustomEntry" />
+    <custom:CustomEntry />
+    <Entry>
+      <Entry.Style>
+        <Style TargetType="Entry">
+          <Setter Property="BackgroundColor" Value="Yellow" />
+        </Style>
+      </Entry.Style>
+    </Entry>
     <custom:RoundedBoxView x:Name="rbv" WidthRequest="200" HeightRequest="200"
         Stroke="Yellow" StrokeThickness="2" CornerRadius="20"
         Color="Red" />

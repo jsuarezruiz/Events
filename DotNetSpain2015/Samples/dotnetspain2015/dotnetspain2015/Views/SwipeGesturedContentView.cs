@@ -7,7 +7,7 @@ namespace dotnetspain2015.Views
 	{
         public SwipeGesturedContentView()
 		{
-			Title = "Swipe me!";
+			Title = "Gestures Content View";
 
 			CaptureSwipeBottomToTop = true;
 			CaptureSwipeTopToBottom = true;
@@ -17,11 +17,12 @@ namespace dotnetspain2015.Views
 			CaptureLongTap = true;
 
 			var directionDisplay = new Label () {
-				Text = "Swipe to Update",
+				Text = "Tap or Swipe!",
 				Font = Font.SystemFontOfSize (30),
 				VerticalOptions = LayoutOptions.CenterAndExpand,
 				HorizontalOptions = LayoutOptions.CenterAndExpand,
 			};
+
 			Content = directionDisplay;
 
 			OnSwipeLeftToRight += () => directionDisplay.Text = "-->";
