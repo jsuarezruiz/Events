@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Globalization;
+using System.IO;
 using System.Linq;
 using NUnit.Framework;
 using Xamarin.UITest;
@@ -38,13 +39,13 @@ namespace TipCalc.UITests
         [Test]
         public void CalculateTip()
         {
-			var subTotal = 10M;
-			var postTaxTotal = 12M;
+			const decimal subTotal = 10M;
+			const decimal postTaxTotal = 12M;
 
-			_app.EnterText(e => e.Marked("SubTotal"), subTotal.ToString());
+			_app.EnterText(e => e.Marked("SubTotal"), subTotal.ToString(CultureInfo.InvariantCulture));
 			_app.Screenshot("When I enter a subtotal");
 
-			_app.EnterText(e => e.Marked("PostTaxTotal"), postTaxTotal.ToString());
+			_app.EnterText(e => e.Marked("PostTaxTotal"), postTaxTotal.ToString(CultureInfo.InvariantCulture));
 			_app.Screenshot("And I enter the post-tax total");
 
 			var tipPercent = decimal.Parse(_app.Query(e => e.Marked("TipPercent")).Single().Text) / 100;
