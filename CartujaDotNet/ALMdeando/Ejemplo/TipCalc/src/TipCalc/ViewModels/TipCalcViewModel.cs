@@ -5,17 +5,20 @@ namespace TipCalc.ViewModels
 {
     public class TipCalcViewModel : ViewModelBase
     {
-        private double _subTotal, _postTaxTotal, _tipPercent, _tipAmount, _total;
+        double _subTotal, _postTaxTotal, _tipPercent, _tipAmount, _total;
 
         public double SubTotal
         {
             set
             {
                 _subTotal = value;
-                RaisePropertyChanged();
+                OnPropertyChanged("SubTotal");
                 Recalculate();
             }
-            get { return _subTotal; }
+            get
+            {
+                return _subTotal;
+            }
         }
 
         public double PostTaxTotal
@@ -23,10 +26,13 @@ namespace TipCalc.ViewModels
             set
             {
                 _postTaxTotal = value;
-                RaisePropertyChanged();
+                OnPropertyChanged("PostTaxTotal");
                 Recalculate();
             }
-            get { return _postTaxTotal; }
+            get
+            {
+                return _postTaxTotal;
+            }
         }
 
         public double TipPercent
@@ -34,10 +40,13 @@ namespace TipCalc.ViewModels
             set
             {
                 _tipPercent = value;
-                RaisePropertyChanged();
+                OnPropertyChanged("TipPercent");
                 Recalculate();
             }
-            get { return _tipPercent; }
+            get
+            {
+                return _tipPercent;
+            }
         }
 
         public double TipAmount
@@ -45,9 +54,12 @@ namespace TipCalc.ViewModels
             set
             {
                 _tipAmount = value;
-                RaisePropertyChanged();
+                OnPropertyChanged("TipAmount");
             }
-            get { return _tipAmount; }
+            get
+            {
+                return _tipAmount;
+            }
         }
 
         public double Total
@@ -55,17 +67,20 @@ namespace TipCalc.ViewModels
             set
             {
                 _total = value;
-                RaisePropertyChanged();
+                OnPropertyChanged("Total");
             }
-            get { return _total; }
+            get
+            {
+                return _total;
+            }
         }
 
-        private void Recalculate()
+        void Recalculate()
         {
-            TipAmount = Math.Round(TipPercent * SubTotal / 100, 2);
+            this.TipAmount = Math.Round(this.TipPercent * this.SubTotal / 100, 2);
 
             // Round total to nearest quarter.
-            Total = Math.Round(4 * (PostTaxTotal + TipAmount)) / 4;
+            this.Total = Math.Round(4 * (this.PostTaxTotal + this.TipAmount)) / 4;
         }
     }
 }
