@@ -12,6 +12,7 @@ type HockeyAppParams = {
     BuildCounter: string
 }
 
+// http://support.hockeyapp.net/kb/api/api-apps#upload-app
 let private getCurlArgs token file buildCounter = seq {
     yield "-F status=2" 
     yield "-F notify=0" 

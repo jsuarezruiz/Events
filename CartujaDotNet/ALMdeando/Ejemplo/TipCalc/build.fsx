@@ -30,6 +30,12 @@ Target "core-tests" (fun () ->
     RunNUnitTests "src/TipCalc/bin/Debug/TipCalc.Tests.dll" "src/TipCalc/bin/Debug/testresults.xml" |> ignore
 )
 
+Target "windows-phone-build" (fun () ->
+    RestorePackages "TipCalc.WindowsPhone.sln"
+
+    MSBuild "src/TipCalc.WindowsPhone/TipCalc.WindowsPhone/bin/Debug" "Build" [ ("Configuration", "Debug") ] [ "TipCalc.WindowsPhone.sln" ] |> ignore
+)
+
 Target "android-build" (fun () ->
     RestorePackages "TipCalc.Android.sln"
 
@@ -43,21 +49,18 @@ Target "android-package" (fun () ->
             Configuration = "Debug"
             OutputPath = "src/TipCalc.Android/bin/Debug"
         }) 
-    |> AndroidSignAndAlign (fun defaults ->
-        {defaults with
-            KeystorePath = "tipcalc.keystore"
-            KeystorePassword = "tipcalc" 
-            KeystoreAlias = "tipcalc"
-        })
     |> fun file -> TeamCityHelper.PublishArtifact file.FullName
 )
 
 Target "android-deploy" (fun () ->
+
+    Environment.SetEnvironmentVariable("HockeyAppApiToken", "780b27c279354896b9734b03a9019c97")
+
     let buildCounter = BuildHelpers.GetBuildCounter TeamCityHelper.TeamCityBuildNumber
 
     let hockeyAppApiToken = Environment.GetEnvironmentVariable("HockeyAppApiToken")
 
-    let appPath = Directory.EnumerateFiles(Path.Combine( "TipCalc.Android", "bin", "Debug"), "*.apk", SearchOption.AllDirectories).First()
+    let appPath = "src/TipCalc.Android/bin/Debug/TipCalc.Android.apk" // Directory.EnumerateFiles
 
     HockeyAppHelper.Upload hockeyAppApiToken appPath buildCounter
 )
