@@ -1,0 +1,53 @@
+﻿<base:PageBase
+    x:Class="UniversalApp01.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UniversalApp01"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:base="using:UniversalApp01.Views.Base"
+    mc:Ignorable="d"
+    Foreground="{StaticResource CustomForeground}"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    DataContext="{Binding MainViewModel, Source={StaticResource Locator}}">
+    <Grid Background="{StaticResource CustomBackground}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Hub Header="Formula One">
+            <HubSection Header="Constructors" Width="Auto">
+                <DataTemplate>
+                    <GridView
+                        ItemsSource="{Binding ConstructorStanding}"
+                        ItemTemplate="{StaticResource ConstructorTemplate}"
+                        SelectionMode="None"
+                        IsItemClickEnabled="True">
+                        <GridView.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel />
+                            </ItemsPanelTemplate>
+                        </GridView.ItemsPanel>
+                    </GridView>
+                </DataTemplate>
+            </HubSection>
+            <HubSection Header="Drivers" Width="Auto">
+                <DataTemplate>
+                    <GridView
+                        ItemsSource="{Binding DriverStanding}"
+                        ItemTemplate="{StaticResource DriverTemplate}"
+                        SelectionMode="None"
+                        IsItemClickEnabled="True">
+                        <GridView.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel />
+                            </ItemsPanelTemplate>
+                        </GridView.ItemsPanel>
+                    </GridView>
+                </DataTemplate>
+            </HubSection>
+        </Hub>
+    </Grid>
+</base:PageBase>
+

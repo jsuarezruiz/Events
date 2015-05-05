@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Microsoft.Practices.Unity.NetCore" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>EN-US</Language>
+		</Qualifiers>
+		<ResourceMapSubtree name="Microsoft.Practices.Unity.NetCore">
+			<ResourceMapSubtree name="Resources">
+				<NamedResource name="AmbiguousInjectionConstructor" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/AmbiguousInjectionConstructor">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The type {0} has multiple constructors of length {1}. Unable to disambiguate.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ArgumentMustNotBeEmpty" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/ArgumentMustNotBeEmpty">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The provided string argument must not be empty.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BuildFailedException" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/BuildFailedException">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The current build operation (build key {2}) failed: {3} (Strategy type {0}, index {1})</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CannotConstructInterface" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/CannotConstructInterface">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The current type, {0}, is an interface and cannot be constructed. Are you missing a type mapping?</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CannotExtractTypeFromBuildKey" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/CannotExtractTypeFromBuildKey">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Cannot extract type from build key {0}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CannotInjectGenericMethod" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/CannotInjectGenericMethod">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The method {0}.{1}({2}) is an open generic method. Open generic methods cannot be injected.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CannotInjectIndexer" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/CannotInjectIndexer">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The property {0} on type {1} is an indexer. Indexed properties cannot be injected.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CannotInjectMethodWithOutParam" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/CannotInjectMethodWithOutParam">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The method {1} on type {0} has an out parameter. Injection cannot be performed.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CannotInjectMethodWithOutParams" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/CannotInjectMethodWithOutParams">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The method {0}.{1}({2}) has at least one out parameter. Methods with out parameters cannot be injected.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CannotInjectMethodWithRefParams" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/CannotInjectMethodWithRefParams">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The method {0}.{1}({2}) has at least one ref parameter.Methods with ref parameters cannot be injected.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CannotInjectOpenGenericMethod" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/CannotInjectOpenGenericMethod">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The method {1} on type {0} is marked for injection, but it is an open generic method. Injection cannot be performed.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CannotInjectStaticMethod" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/CannotInjectStaticMethod">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The method {0}.{1}({2}) is static. Static methods cannot be injected.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CannotResolveOpenGenericType" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/CannotResolveOpenGenericType">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The type {0} is an open generic type. An open generic type cannot be resolved.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ConstructorArgumentResolveOperation" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/ConstructorArgumentResolveOperation">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Resolving parameter "{0}" of constructor {1}</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ConstructorParameterResolutionFailed" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/ConstructorParameterResolutionFailed">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The parameter {0} could not be resolved when attempting to call constructor {1}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DuplicateTypeMappingException" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/DuplicateTypeMappingException">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>An attempt to override an existing mapping was detected for type {1} with name "{0}", currently mapped to type {2}, to type {3}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ExceptionNullAssembly" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/ExceptionNullAssembly">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The set of assemblies contains a null element.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ExceptionNullParameterValue" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/ExceptionNullParameterValue">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Parameter type inference does not work for null values. Indicate the parameter type explicitly using a properly configured instance of the InjectionParameter or InjectionParameter&lt;T&gt; classes.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InvokingConstructorOperation" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/InvokingConstructorOperation">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Calling constructor {0}</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InvokingMethodOperation" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/InvokingMethodOperation">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Calling method {0}.{1}</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="KeyAlreadyPresent" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/KeyAlreadyPresent">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>An item with the given key is already present in the dictionary.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LifetimeManagerInUse" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/LifetimeManagerInUse">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The lifetime manager is already registered. Lifetime managers cannot be reused, please create a new one.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MarkerBuildPlanInvoked" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/MarkerBuildPlanInvoked">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The override marker build plan policy has been invoked. This should never happen, looks like a bug in the container.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MethodArgumentResolveOperation" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/MethodArgumentResolveOperation">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Resolving parameter "{0}" of method {1}.{2}</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MethodParameterResolutionFailed" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/MethodParameterResolutionFailed">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The value for parameter "{1}" of method {0} could not be resolved. </Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MissingDependency" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/MissingDependency">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Could not resolve dependency for build key {0}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MultipleInjectionConstructors" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/MultipleInjectionConstructors">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The type {0} has multiple constructors marked with the InjectionConstructor attribute. Unable to disambiguate.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MustHaveOpenGenericType" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/MustHaveOpenGenericType">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The supplied type {0} must be an open generic type.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MustHaveSameNumberOfGenericArguments" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/MustHaveSameNumberOfGenericArguments">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The supplied type {0} does not have the same number of generic arguments as the target type {1}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NoConstructorFound" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/NoConstructorFound">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The type {0} does not have an accessible constructor.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NoMatchingGenericArgument" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/NoMatchingGenericArgument">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The type {0} does not have a generic argument named "{1}"</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NoOperationExceptionReason" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/NoOperationExceptionReason">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>while resolving</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NoSuchConstructor" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/NoSuchConstructor">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The type {0} does not have a constructor that takes the parameters ({1}).</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NoSuchMethod" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/NoSuchMethod">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The type {0} does not have a public method named {1} that takes the parameters ({2}).</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NoSuchProperty" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/NoSuchProperty">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The type {0} does not contain an instance property named {1}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NotAGenericType" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/NotAGenericType">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The type {0} is not a generic type, and you are attempting to inject a generic parameter named "{1}".</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NotAnArrayTypeWithRankOne" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/NotAnArrayTypeWithRankOne">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The type {0} is not an array type with rank 1, and you are attempting to use a [DependencyArray] attribute on a parameter or property with this type.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="OptionalDependenciesMustBeReferenceTypes" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/OptionalDependenciesMustBeReferenceTypes">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Optional dependencies must be reference types. The type {0} is a value type.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PropertyNotSettable" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/PropertyNotSettable">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The property {0} on type {1} is not settable.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PropertyTypeMismatch" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/PropertyTypeMismatch">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The property {0} on type {1} is of type {2}, and cannot be injected with a value of type {3}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PropertyValueResolutionFailed" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/PropertyValueResolutionFailed">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The value for the property "{0}" could not be resolved.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ProvidedStringArgMustNotBeEmpty" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/ProvidedStringArgMustNotBeEmpty">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The provided string argument must not be empty.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ResolutionFailed" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/ResolutionFailed">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Resolution of the dependency failed, type = "{0}", name = "{1}".
+Exception occurred while: {2}.
+Exception is: {3} - {4}
+-----------------------------------------------
+At the time of the exception, the container was:
+</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ResolutionTraceDetail" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/ResolutionTraceDetail">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Resolving {0},{1}</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ResolutionWithMappingTraceDetail" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/ResolutionWithMappingTraceDetail">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Resolving {0},{1} (mapped from {2}, {3})</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ResolvingPropertyValueOperation" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/ResolvingPropertyValueOperation">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Resolving value for property {0}.{1}</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SelectedConstructorHasRefParameters" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/SelectedConstructorHasRefParameters">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The constructor {1} selected for type {0} has ref or out parameters. Such parameters are not supported for constructor injection.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SettingPropertyOperation" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/SettingPropertyOperation">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Setting value for property {0}.{1}</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TypeIsNotConstructable" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/TypeIsNotConstructable">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The type {0} cannot be constructed. You must configure the container to supply this value.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TypesAreNotAssignable" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/TypesAreNotAssignable">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The type {1} cannot be assigned to variables of type {0}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="UnknownType" uri="ms-resource://Microsoft.Practices.Unity.NetCore/Microsoft.Practices.Unity.NetCore/Resources/UnknownType">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>&lt;unknown&gt;</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

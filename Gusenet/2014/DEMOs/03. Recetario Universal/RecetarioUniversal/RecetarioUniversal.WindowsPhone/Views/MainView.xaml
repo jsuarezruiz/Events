@@ -1,0 +1,47 @@
+﻿<base:PageBase
+    x:Class="RecetarioUniversal.Views.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:base="using:RecetarioUniversal.Views.Base"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    DataContext="{Binding Path=MainViewModel, Source={StaticResource ViewModelLocator}}">
+    <Grid  Background="{StaticResource CustomApplicationBackgroundBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="12,17,0,15">
+            <Image Source="ms-appx:///Images/Logo.png" Stretch="Uniform" HorizontalAlignment="Left" Width="75"/>
+            <TextBlock Text="Recetas" Foreground="{StaticResource CustomGroupTitleBrush}" 
+                       FontSize="36" Margin="15,-7,0,0"/>
+        </StackPanel>
+        <Grid 
+              Grid.Row="1" 
+              Margin="12,0,12,0">
+            <ListBox 
+                     Background="Transparent"
+                     ItemsSource="{Binding Recipes}" 
+                     SelectedItem="{Binding SelectedRecipeDataGroup, Mode=TwoWay}">
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <VirtualizingStackPanel Orientation="Vertical"/>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="5">
+                            <Image x:Name="img" Source="{Binding BackgroundImage}" Stretch="UniformToFill" Height="175"/>
+                            <StackPanel Background="{StaticResource CustomGroupTitleBrush}" VerticalAlignment="Bottom" Height="75" Opacity="0.75">
+                                <TextBlock Text="{Binding Title}" FontSize="28" Foreground="White"/>
+                                <TextBlock Text="{Binding Description}" TextWrapping="Wrap" FontSize="14" Foreground="white"/>
+                            </StackPanel>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
+    </Grid>
+</base:PageBase>

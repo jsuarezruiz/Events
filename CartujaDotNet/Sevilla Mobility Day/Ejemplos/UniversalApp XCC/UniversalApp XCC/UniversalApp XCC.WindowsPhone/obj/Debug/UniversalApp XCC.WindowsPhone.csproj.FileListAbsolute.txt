@@ -1,0 +1,33 @@
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\preprocessedxaml\Views\MainView.xaml
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\App.g.i.cs
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\App.g.cs
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\Views\MainView.g.i.cs
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\Views\MainView.g.cs
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\App.xaml
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\App.xbf
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\bin\Debug\App.xbf
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\bin\Debug\Views\MainView.xbf
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\bin\Debug\UniversalApp XCC.WindowsPhone.xr.xml
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\bin\Debug\UniversalApp XCC.WindowsPhone.exe
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\bin\Debug\UniversalApp XCC.WindowsPhone.pdb
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\bin\Debug\resources.pri
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\bin\Debug\AppxManifest.xml
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\bin\Debug\UniversalApp XCC.WindowsPhone.build.appxrecipe
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\Views\MainView.xaml
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\Views\MainView.xbf
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\UniversalApp XCC.WindowsPhone.exe
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\UniversalApp XCC.WindowsPhone.pdb
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\priconfig.xml
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\layout.resfiles
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\resources.resfiles
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\pri.resfiles
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\qualifiers.txt
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\obj\Debug\ProjectArchitectures.txt

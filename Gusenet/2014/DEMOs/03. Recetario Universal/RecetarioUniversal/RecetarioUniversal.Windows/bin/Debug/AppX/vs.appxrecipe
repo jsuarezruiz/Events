@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JAVI</Machine>
+    <WindowsUser>Javier</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>b694d957-4888-4e68-8d31-a58d995b0cf5</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>5FE00A8553670CC5DF37C1872F631663869E308AF01F0866E8F6E2C4872A5BE0</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>b694d957-4888-4e68-8d31-a58d995b0cf5_1.0.0.0_neutral__j6j5z4mnvcpja</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>b694d957-4888-4e68-8d31-a58d995b0cf5_j6j5z4mnvcpja!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>b694d957-4888-4e68-8d31-a58d995b0cf5</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Javier</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-04-23T06:24:46.000</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Windows\bin\Debug\RecetarioUniversal.Windows.exe">
+      <PackagePath>RecetarioUniversal.Windows.exe</PackagePath>
+      <Modified>2014-04-24T19:05:52.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\packages\Unity.3.0.1304.1\lib\NetCore45\Microsoft.Practices.Unity.NetCore.dll">
+      <PackagePath>Microsoft.Practices.Unity.NetCore.dll</PackagePath>
+      <Modified>2014-04-20T16:50:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T09:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T09:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T09:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T09:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Carnes\Carnes.png">
+      <PackagePath>Images\Carnes\Carnes.png</PackagePath>
+      <Modified>2014-04-21T19:31:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Logo.png">
+      <PackagePath>Images\Logo.png</PackagePath>
+      <Modified>2014-04-22T13:19:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Pastas\Pastas.png">
+      <PackagePath>Images\Pastas\Pastas.png</PackagePath>
+      <Modified>2014-04-21T19:31:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Pescados\Pescados.png">
+      <PackagePath>Images\Pescados\Pescados.png</PackagePath>
+      <Modified>2014-04-21T19:31:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Postres\Postres.png">
+      <PackagePath>Images\Postres\Postres.png</PackagePath>
+      <Modified>2014-04-21T19:31:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Data\Recipes.txt">
+      <PackagePath>Data\Recipes.txt</PackagePath>
+      <Modified>2014-04-22T06:50:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Carnes\Carnes_0.jpg">
+      <PackagePath>Images\Carnes\Carnes_0.jpg</PackagePath>
+      <Modified>2014-04-21T19:31:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Carnes\Carnes_1.jpg">
+      <PackagePath>Images\Carnes\Carnes_1.jpg</PackagePath>
+      <Modified>2014-04-21T19:31:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Carnes\Carnes_2.jpg">
+      <PackagePath>Images\Carnes\Carnes_2.jpg</PackagePath>
+      <Modified>2014-04-21T19:31:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Carnes\Carnes_3.jpg">
+      <PackagePath>Images\Carnes\Carnes_3.jpg</PackagePath>
+      <Modified>2014-04-21T19:31:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Pastas\Pastas_0.jpg">
+      <PackagePath>Images\Pastas\Pastas_0.jpg</PackagePath>
+      <Modified>2014-04-21T19:31:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Pescados\Pescados_0.jpg">
+      <PackagePath>Images\Pescados\Pescados_0.jpg</PackagePath>
+      <Modified>2014-04-21T19:31:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Pescados\Pescados_1.jpg">
+      <PackagePath>Images\Pescados\Pescados_1.jpg</PackagePath>
+      <Modified>2014-04-21T19:31:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Postres\Postres_0.jpg">
+      <PackagePath>Images\Postres\Postres_0.jpg</PackagePath>
+      <Modified>2014-04-21T19:31:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Postres\Postres_0_0.jpg">
+      <PackagePath>Images\Postres\Postres_0_0.jpg</PackagePath>
+      <Modified>2014-04-21T19:31:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Postres\Postres_0_1.jpg">
+      <PackagePath>Images\Postres\Postres_0_1.jpg</PackagePath>
+      <Modified>2014-04-21T19:31:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-04-24T19:05:51.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Windows\bin\Debug\Themes\Colors.xbf">
+      <PackagePath>Themes\Colors.xbf</PackagePath>
+      <Modified>2014-04-22T19:41:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Windows\bin\Debug\Themes\Button.xbf">
+      <PackagePath>Themes\Button.xbf</PackagePath>
+      <Modified>2014-04-23T06:54:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Windows\bin\Debug\Views\GroupDetailView.xbf">
+      <PackagePath>Views\GroupDetailView.xbf</PackagePath>
+      <Modified>2014-04-24T19:05:51.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Windows\bin\Debug\Themes\List.xbf">
+      <PackagePath>Themes\List.xbf</PackagePath>
+      <Modified>2014-04-22T19:08:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Windows\bin\Debug\Views\MainView.xbf">
+      <PackagePath>Views\MainView.xbf</PackagePath>
+      <Modified>2014-04-24T19:05:51.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Windows\bin\Debug\Views\RecipeDetailView.xbf">
+      <PackagePath>Views\RecipeDetailView.xbf</PackagePath>
+      <Modified>2014-04-24T19:05:51.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Windows\bin\Debug\RecetarioUniversal.Windows.xr.xml">
+      <PackagePath>RecetarioUniversal.Windows.xr.xml</PackagePath>
+      <Modified>2014-04-24T19:05:51.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-04-24T18:26:49.059</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

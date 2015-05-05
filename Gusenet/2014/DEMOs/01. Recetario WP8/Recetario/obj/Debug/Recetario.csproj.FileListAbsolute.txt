@@ -1,0 +1,35 @@
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\obj\Debug\App.g.cs
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\obj\Debug\View\GroupDetailPage.g.cs
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\obj\Debug\View\MainPage.g.cs
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\obj\Debug\View\RecipeDetailPage.g.cs
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\obj\Debug\Recetario.g.resources
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\obj\Debug\Recetario.dll
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\obj\Debug\Recetario.pdb
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\ApplicationIcon.png
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\Background.png
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\Recetario.dll
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\Recetario.pdb
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\AppManifest.xaml
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\Recetario_Debug_AnyCPU.xap
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\Microsoft.Practices.Unity.Silverlight.dll
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\obj\Debug\XapCacheFile.xml
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\Bin\Debug\ApplicationIcon.png
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\Bin\Debug\Background.png
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\Bin\Debug\Recetario.dll
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\Bin\Debug\Recetario.pdb
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\Bin\Debug\AppManifest.xaml
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\Bin\Debug\Recetario_Debug_AnyCPU.xap
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\Bin\Debug\Microsoft.Practices.Unity.Silverlight.dll
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\obj\Debug\Recetario.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\obj\Debug\App.g.cs
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\obj\Debug\View\GroupDetailPage.g.cs
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\obj\Debug\View\MainPage.g.cs
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\obj\Debug\View\RecipeDetailPage.g.cs
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\obj\Debug\Recetario.g.resources
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\obj\Debug\Recetario.dll
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\obj\Debug\Recetario.pdb
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\01. Recetario WP8\Recetario\obj\Debug\XapCacheFile.xml

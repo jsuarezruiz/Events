@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>2d78dffb-51e6-4376-b0ea-64d04e2b2cea</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>RecetarioUniversal</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\ImageSourceToStringConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\StringImageSourceConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\UserImagesDisplayConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\RecipeDataCommon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\RecipeDataGroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\RecipeDataItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\RecipeRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\UserRecipeImages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Dialog\DialogService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Dialog\IDialogService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\LocalData\ILocalDataService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\LocalData\LocalDataService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Navigation\INavigationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Navigation\NavigationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Share\IShareService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Share\ShareService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Speech\ISpeechService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Speech\SpeechService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Storage\IStorageService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Storage\StorageService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Tile\ITileService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Tile\TileService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Base\DelegateCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Base\DelegateCommandAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Base\ViewModelBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Base\ViewModelLocator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\GroupDetailViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\RecipeDetailViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Base\PageBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Data\Recipes.txt" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Carnes\Carnes.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Carnes\Carnes_0.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Carnes\Carnes_1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Carnes\Carnes_2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Carnes\Carnes_3.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Logo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Pastas\Pastas.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Pastas\Pastas_0.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Pescados\Pescados.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Pescados\Pescados_0.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Pescados\Pescados_1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Postres\Postres.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Postres\Postres_0.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Postres\Postres_0_0.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Postres\Postres_0_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Themes\Colors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+</Project>

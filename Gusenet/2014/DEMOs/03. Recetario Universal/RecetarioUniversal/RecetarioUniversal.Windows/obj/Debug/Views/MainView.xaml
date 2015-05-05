@@ -1,0 +1,82 @@
+﻿<base:PageBase
+    x:Class="RecetarioUniversal.Views.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:base="using:RecetarioUniversal.Views.Base"
+    DataContext="{Binding Path=MainViewModel, Source={StaticResource ViewModelLocator}}">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Themes/Button.xaml"/>
+                <ResourceDictionary Source="/Themes/List.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <CollectionViewSource
+                x:Name="groupedItemsViewSource"
+                Source="{Binding Recipes}"
+                IsSourceGrouped="true"
+                ItemsPath="Items"/>
+
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid x:Name="LayoutRoot" Background="{StaticResource CustomApplicationBackgroundBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel x:Name="TitlePanel" Grid.Column="1" Orientation="Horizontal" Margin="12,17,0,15">
+                <Image x:Name="imgLogo" Source="../images/Logo.png" Stretch="Uniform" HorizontalAlignment="Left" Width="75"/>
+                <TextBlock x:Name="PageTitle" Text="Recetas" Foreground="{StaticResource CustomGroupTitleBrush}" 
+                           Style="{StaticResource HeaderTextBlockStyle}" FontSize="44" Margin="15,25,0,0"/>
+            </StackPanel>
+        </Grid>
+        <GridView
+            Grid.Row="1"
+            x:Name="itemGridView"
+            AutomationProperties.AutomationId="ItemGridView"                 
+            AutomationProperties.Name="Grouped Items"                
+            Margin="0,-3,0,0"                
+            Padding="116,0,40,46"                 
+            ItemsSource="{Binding Source={StaticResource groupedItemsViewSource}}" 
+            ItemTemplate="{StaticResource DefaultRecipeItemTemplate}"
+            SelectedItem="{Binding SelectedRecipeDataItem, Mode=TwoWay}">
+            <GridView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VirtualizingStackPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </GridView.ItemsPanel>
+            <GridView.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <Grid Margin="1,0,0,6">
+                                <Button   
+                                    Style="{StaticResource TextBlockButtonStyle}"
+                                    Foreground="Black"               
+                                    AutomationProperties.Name="Group Title"                                          
+                                    Content="{Binding Title}"
+                                    Command="{Binding DataContext.RecipeGroupSelectedCommand, ElementName=LayoutRoot}"
+                                    CommandParameter="{Binding UniqueId}"/>
+                            </Grid>
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                    <GroupStyle.Panel>
+                        <ItemsPanelTemplate>
+                            <VariableSizedWrapGrid Orientation="Vertical" Margin="0,0,80,0"/>
+                        </ItemsPanelTemplate>
+                    </GroupStyle.Panel>
+                </GroupStyle>
+            </GridView.GroupStyle>
+        </GridView>
+    </Grid>
+</base:PageBase>
+
