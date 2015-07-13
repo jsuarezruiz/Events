@@ -8,7 +8,14 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/Themes/Colors.xaml" />
+                <ResourceDictionary Source="/Styles/Colors.xaml" />
+                <ResourceDictionary Source="/Styles/Converters.xaml" />
+                <ResourceDictionary Source="/Styles/FlipViewStyles.xaml" />
+                <ResourceDictionary Source="/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="/Styles/ListViewStyles.xaml" />
+                <ResourceDictionary Source="/Styles/RadioButtonStyles.xaml" />
+                <ResourceDictionary Source="/Styles/TextStyles.xaml" />
+                <ResourceDictionary Source="/Styles/ToggleButtonStyles.xaml" />
             </ResourceDictionary.MergedDictionaries>
 
             <!-- ViewModelLocator -->

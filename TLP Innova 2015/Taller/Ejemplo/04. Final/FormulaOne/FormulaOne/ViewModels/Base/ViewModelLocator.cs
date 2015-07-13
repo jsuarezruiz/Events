@@ -1,5 +1,7 @@
 ﻿namespace FormulaOne.ViewModels.Base
 {
+    using Services.Package;
+    using Services.Standings;
     using Microsoft.Practices.Unity;
     using ViewModels;
 
@@ -11,13 +13,35 @@
         {
             _container = new UnityContainer();
 
-			// ViewModels
+            // ViewModels
             _container.RegisterType<MainViewModel>();
-		}
+            _container.RegisterType<HomeViewModel>();
+            _container.RegisterType<StandingsViewModel>();
+            _container.RegisterType<AboutViewModel>();
+
+            // Services
+            _container.RegisterType<IStandingService, StandingService>(new ContainerControlledLifetimeManager());
+            _container.RegisterType<IPackageService, PackageService>(new ContainerControlledLifetimeManager());
+        }
 
         public MainViewModel MainViewModel
         {
             get { return _container.Resolve<MainViewModel>(); }
         }
-	}
+
+        public HomeViewModel HomeViewModel
+        {
+            get { return _container.Resolve<HomeViewModel>(); }
+        }
+
+        public StandingsViewModel StandingsViewModel
+        {
+            get { return _container.Resolve<StandingsViewModel>(); }
+        }
+
+        public AboutViewModel AboutViewModel
+        {
+            get { return _container.Resolve<AboutViewModel>(); }
+        }
+    }
 }

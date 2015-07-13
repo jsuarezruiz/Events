@@ -1,14 +1,106 @@
 ﻿<base:PageBase
-    x:Class="FormulaOne.MainView"
+    x:Class="FormulaOne.Views.MainView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:FormulaOne"
-    xmlns:base="using:FormulaOne.Views.Base"
+	xmlns:base="using:FormulaOne.Views.Base"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:behaviors="using:FormulaOne.Behaviors"  	
+    xmlns:customAdaptiveTriggers="using:FormulaOne.AdaptiveTriggers"
     mc:Ignorable="d"
-    DataContext="{Binding MainViewModel, Source={StaticResource Locator}}">
+	DataContext="{Binding MainViewModel, Source={StaticResource Locator}}">
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-    </Grid>
+		<VisualStateManager.VisualStateGroups>
+			<VisualStateGroup>
+				<VisualState x:Name="wideState">
+					<VisualState.StateTriggers>
+						<AdaptiveTrigger MinWindowWidth="641" />
+					</VisualState.StateTriggers>
+					<VisualState.Setters>
+						<Setter Target="Splitter.DisplayMode" Value="CompactInline"/>
+					</VisualState.Setters>
+				</VisualState>
+				<VisualState x:Name="narrowState">
+					<VisualState.StateTriggers>
+						<AdaptiveTrigger MinWindowWidth="0" />
+					</VisualState.StateTriggers>
+					<VisualState.Setters>
+						<Setter Target="Splitter.DisplayMode" Value="Overlay"/>
+					</VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="mobile">
+                    <VisualState.StateTriggers>
+                        <customAdaptiveTriggers:DeviceFamilyAdaptiveTrigger DeviceFamily="Mobile" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="BackButton.Visibility" Value="Collapsed" />
+                        <Setter Target="Splitter.DisplayMode" Value="Overlay"/>
+                        <Setter Target="MenuList.Margin" Value="0, 50, 0, 0"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+		</VisualStateManager.VisualStateGroups>
+		<SplitView x:Name="Splitter" 
+				   DisplayMode="CompactInline"
+				   Background="{StaticResource BackgroundBrush}"
+				   PaneBackground="{StaticResource BackgroundPaneBrush}"
+				   PanePlacement="Left"
+				   CompactPaneLength="60"
+				   OpenPaneLength="240"	
+				   IsPaneOpen="{Binding IsPaneOpen}">
+			<SplitView.Pane>
+				<RelativePanel>
+					  <RadioButton 
+						  x:Name="BackButton"
+						  Command="{Binding BackCommand}"  
+						  Background="{StaticResource SystemControlBackgroundAccentBrush}"
+						  Width="240"
+						  Margin="0, 50, 0, 0">
+                            <RadioButton.Tag>
+                                <TextBlock Text=""
+										   FontFamily="Segoe MDL2 Assets"
+										   VerticalAlignment="Center"
+										   HorizontalAlignment="Left"
+										   Margin="24, 0, 0 ,0" />
+                            </RadioButton.Tag>
+                        </RadioButton>
+					<ListView
+                        x:Name="MenuList"
+						ItemsSource="{Binding MenuItems}"
+						SelectedItem="{Binding SelectedMenuItem, Mode=TwoWay}"
+						ItemTemplate="{StaticResource MenuItemDataTemplate}"
+						behaviors:ItemClickCommandBehavior.Command="{Binding NavigateCommand}"
+						SelectionMode="Single" 
+						IsItemClickEnabled="True"
+						Margin="0, 10, 0, 0"
+						RelativePanel.Below="BackButton" />
+				</RelativePanel>
+			</SplitView.Pane>
+			<Frame x:Name="SplitViewFrame" 
+				   Margin="0, 10" />
+		</SplitView>
+		<Grid
+			Background="{StaticResource AccentBrush}"
+			Height="50"
+			VerticalAlignment="Top">
+			<ToggleButton 
+				x:Name="HamburguerButton"
+				Style="{StaticResource SymbolButton}"	    
+				Command="{Binding HamburgerCommand}"
+				VerticalAlignment="Top" 
+				Foreground="White" 
+				Margin="0,5,0,0">
+				<ToggleButton.Content>
+					<Border Background="Transparent" 
+						Width="40" 
+						Height="40">
+						<FontIcon x:Name="Hamburger" 
+							  FontFamily="Segoe MDL2 Assets" 
+							  Glyph="&#xE700;" />
+					</Border>
+				</ToggleButton.Content>
+			</ToggleButton>
+		</Grid>
+	</Grid>
 </base:PageBase>

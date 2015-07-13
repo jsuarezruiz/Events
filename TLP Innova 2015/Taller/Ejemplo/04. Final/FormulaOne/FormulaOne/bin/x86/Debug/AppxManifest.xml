@@ -41,6 +41,7 @@
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="ilc.exe" Version="1.0.22816.00 built by: PROJECTNREL" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.22823.1" />
+    <build:Item Name="WindowsMobile" Version="10.0.0.1" />
     <build:Item Name="MakePri.exe" Version="10.0.10069.0 (fbl_impressive.150419-0022)" />
   </build:Metadata>
 </Package>
