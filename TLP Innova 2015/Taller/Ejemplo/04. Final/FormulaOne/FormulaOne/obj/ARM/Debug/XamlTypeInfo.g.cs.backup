@@ -186,7 +186,6 @@ namespace FormulaOne.FormulaOne_XamlTypeInfo
         }
 
         private object Activate_0_ViewModelLocator() { return new global::FormulaOne.ViewModels.Base.ViewModelLocator(); }
-        private object Activate_2_MainViewModel() { return new global::FormulaOne.ViewModels.MainViewModel(); }
         private object Activate_4_PageBase() { return new global::FormulaOne.Views.Base.PageBase(); }
         private object Activate_7_MainView() { return new global::FormulaOne.MainView(); }
 
