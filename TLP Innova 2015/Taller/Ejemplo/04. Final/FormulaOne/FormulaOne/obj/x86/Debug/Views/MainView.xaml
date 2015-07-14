@@ -6,14 +6,44 @@
 	xmlns:base="using:FormulaOne.Views.Base"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:behaviors="using:FormulaOne.Behaviors"  	
+    xmlns:behaviors="using:FormulaOne.Behaviors" 
+    xmlns:model="using:FormulaOne.Models"
     xmlns:customAdaptiveTriggers="using:FormulaOne.AdaptiveTriggers"
     mc:Ignorable="d"
 	DataContext="{Binding MainViewModel, Source={StaticResource Locator}}">
+    <Page.Resources>
+
+        <DataTemplate x:Key="MenuItemDataTemplate"                            >
+            <Grid x:ConnectionId='1'
+			Width="250">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Border 
+				Grid.Column="0"
+				Background="Transparent" 
+			    Width="40" 
+				Height="40">
+                    <FontIcon x:ConnectionId='3' 
+					FontFamily="Segoe MDL2 Assets" 
+					Foreground="White"
+					                      />
+                </Border>
+                <TextBlock x:ConnectionId='2' 
+				Grid.Column="1"
+				                                                                  
+				Foreground="White"
+				VerticalAlignment="Center"
+				Margin="10, 0" />
+            </Grid>
+        </DataTemplate>
+        
+    </Page.Resources>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 		<VisualStateManager.VisualStateGroups>
 			<VisualStateGroup>
-				<VisualState x:ConnectionId='1' x:Name="wideState">
+				<VisualState x:ConnectionId='4' x:Name="wideState">
 					<VisualState.StateTriggers>
 						<AdaptiveTrigger MinWindowWidth="641" />
 					</VisualState.StateTriggers>
@@ -21,7 +51,7 @@
 						<Setter Target="Splitter.DisplayMode" Value="CompactInline"/>
 					</VisualState.Setters>
 				</VisualState>
-				<VisualState x:ConnectionId='2' x:Name="narrowState">
+				<VisualState x:ConnectionId='5' x:Name="narrowState">
 					<VisualState.StateTriggers>
 						<AdaptiveTrigger MinWindowWidth="0" />
 					</VisualState.StateTriggers>
@@ -29,7 +59,7 @@
 						<Setter Target="Splitter.DisplayMode" Value="Overlay"/>
 					</VisualState.Setters>
                 </VisualState>
-                <VisualState x:ConnectionId='3' x:Name="mobile">
+                <VisualState x:ConnectionId='6' x:Name="mobile">
                     <VisualState.StateTriggers>
                         <customAdaptiveTriggers:DeviceFamilyAdaptiveTrigger DeviceFamily="Mobile" />
                     </VisualState.StateTriggers>
@@ -41,7 +71,7 @@
                 </VisualState>
             </VisualStateGroup>
 		</VisualStateManager.VisualStateGroups>
-		<SplitView x:ConnectionId='4' x:Name="Splitter" 
+		<SplitView x:ConnectionId='7' x:Name="Splitter" 
 				   DisplayMode="CompactInline"
 				   Background="{StaticResource BackgroundBrush}"
 				   PaneBackground="{StaticResource BackgroundPaneBrush}"
@@ -51,7 +81,7 @@
 				   IsPaneOpen="{Binding IsPaneOpen}">
 			<SplitView.Pane>
 				<RelativePanel>
-					  <RadioButton x:ConnectionId='7' 
+					  <RadioButton x:ConnectionId='10' 
 						  x:Name="BackButton"
 						  Command="{Binding BackCommand}"  
 						  Background="{StaticResource SystemControlBackgroundAccentBrush}"
@@ -65,7 +95,7 @@
 										   Margin="24, 0, 0 ,0" />
                             </RadioButton.Tag>
                         </RadioButton>
-					<ListView x:ConnectionId='8'
+					<ListView x:ConnectionId='11'
                         x:Name="MenuList"
 						ItemsSource="{Binding MenuItems}"
 						SelectedItem="{Binding SelectedMenuItem, Mode=TwoWay}"
@@ -77,14 +107,14 @@
 						RelativePanel.Below="BackButton" />
 				</RelativePanel>
 			</SplitView.Pane>
-			<Frame x:ConnectionId='9' x:Name="SplitViewFrame" 
+			<Frame x:ConnectionId='12' x:Name="SplitViewFrame" 
 				   Margin="0, 10" />
 		</SplitView>
 		<Grid
 			Background="{StaticResource AccentBrush}"
 			Height="50"
 			VerticalAlignment="Top">
-			<ToggleButton x:ConnectionId='5' 
+			<ToggleButton x:ConnectionId='8' 
 				x:Name="HamburguerButton"
 				Style="{StaticResource SymbolButton}"	    
 				Command="{Binding HamburgerCommand}"
@@ -95,7 +125,7 @@
 					<Border Background="Transparent" 
 						Width="40" 
 						Height="40">
-						<FontIcon x:ConnectionId='6' x:Name="Hamburger" 
+						<FontIcon x:ConnectionId='9' x:Name="Hamburger" 
 							  FontFamily="Segoe MDL2 Assets" 
 							  Glyph="&#xE700;" />
 					</Border>

@@ -6,10 +6,40 @@
 	xmlns:base="using:FormulaOne.Views.Base"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:behaviors="using:FormulaOne.Behaviors"  	
+    xmlns:behaviors="using:FormulaOne.Behaviors" 
+    xmlns:model="using:FormulaOne.Models"
     xmlns:customAdaptiveTriggers="using:FormulaOne.AdaptiveTriggers"
     mc:Ignorable="d"
 	DataContext="{Binding MainViewModel, Source={StaticResource Locator}}">
+    <Page.Resources>
+
+        <DataTemplate x:Key="MenuItemDataTemplate" x:DataType="model:MenuItem">
+            <Grid
+			Width="250">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Border 
+				Grid.Column="0"
+				Background="Transparent" 
+			    Width="40" 
+				Height="40">
+                    <FontIcon 
+					FontFamily="Segoe MDL2 Assets" 
+					Foreground="White"
+					Glyph="{x:Bind Icon}" />
+                </Border>
+                <TextBlock 
+				Grid.Column="1"
+				Text="{x:Bind Title, Converter={StaticResource ToUpperConverter}}"
+				Foreground="White"
+				VerticalAlignment="Center"
+				Margin="10, 0" />
+            </Grid>
+        </DataTemplate>
+        
+    </Page.Resources>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 		<VisualStateManager.VisualStateGroups>
 			<VisualStateGroup>

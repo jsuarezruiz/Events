@@ -67,9 +67,6 @@
     <AppxPackagedFile Include="C:\Users\Javier\Documents\GitHub\Events\TLP Innova 2015\Taller\Ejemplo\04. Final\FormulaOne\FormulaOne\bin\x86\Debug\Core\CoreRuntime\FormulaOne.exe">
       <PackagePath>CoreRuntime\FormulaOne.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Javier\Documents\GitHub\Events\TLP Innova 2015\Taller\Ejemplo\04. Final\FormulaOne\FormulaOne\bin\x86\Debug\Core\FormulaOne.csproj.AppLocalNetFX.GenerateResource.Cache">
-      <PackagePath>FormulaOne.csproj.AppLocalNetFX.GenerateResource.Cache</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Javier\Documents\GitHub\Events\TLP Innova 2015\Taller\Ejemplo\04. Final\FormulaOne\FormulaOne\bin\x86\Debug\Core\FormulaOne.exe">
       <PackagePath>FormulaOne.exe</PackagePath>
     </AppxPackagedFile>
