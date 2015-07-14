@@ -1,0 +1,11 @@
+private ICommand _hamburgerCommand;
+
+public ICommand HamburgerCommand
+{
+	get { return _hamburgerCommand = _hamburgerCommand ?? new DelegateCommand(HamburgerCommandExecute); }
+}
+		
+private void HamburgerCommandExecute()
+{
+	IsPaneOpen = (IsPaneOpen == true) ? false : true;
+}

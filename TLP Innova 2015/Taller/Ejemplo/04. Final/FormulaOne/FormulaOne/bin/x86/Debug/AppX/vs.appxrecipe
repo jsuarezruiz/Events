@@ -20,7 +20,7 @@
     <AppXManifest Include="C:\Users\Javier\Documents\GitHub\Events\TLP Innova 2015\Taller\Ejemplo\04. Final\FormulaOne\FormulaOne\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-13T18:59:52.071</Modified>
+      <Modified>2015-07-14T17:00:17.894</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -98,7 +98,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Javier\Documents\GitHub\Events\TLP Innova 2015\Taller\Ejemplo\04. Final\FormulaOne\FormulaOne\bin\x86\Debug\Core\FormulaOne.exe">
       <PackagePath>FormulaOne.exe</PackagePath>
-      <Modified>2015-07-13T18:59:51.496</Modified>
+      <Modified>2015-07-14T17:00:15.780</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Javier\Documents\GitHub\Events\TLP Innova 2015\Taller\Ejemplo\04. Final\FormulaOne\FormulaOne\bin\x86\Debug\Core\FormulaOne.xr.xml">
       <PackagePath>FormulaOne.xr.xml</PackagePath>
@@ -162,7 +162,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Javier\Documents\GitHub\Events\TLP Innova 2015\Taller\Ejemplo\04. Final\FormulaOne\FormulaOne\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-07-13T18:59:52.661</Modified>
+      <Modified>2015-07-14T17:00:19.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Javier\Documents\GitHub\Events\TLP Innova 2015\Taller\Ejemplo\04. Final\FormulaOne\FormulaOne\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
