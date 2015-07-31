@@ -1,1 +1,1 @@
-C:\Users\Javier\Documents\GitHub\Events\xBindPerformance\xBindPerformance\xBindPerformance.csproj;x86
+C:\Users\Javier\Documents\GitHub\Events\TLP Innova 2015\Sesiones\Ejemplos\08. XBindPerf\xBindPerformance\xBindPerformance.csproj;x86

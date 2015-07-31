@@ -129,6 +129,9 @@
   <data name="ArgumentException_CountMaxLengthSmallerThanMinLength" xml:space="preserve">
     <value>MaxLength should be greater than MinLength.</value>
   </data>
+  <data name="Cryptography_HashAlgorithmNameNullOrEmpty" xml:space="preserve">
+    <value>The hash algorithm name cannot be null or empty.</value>
+  </data>
   <data name="ValidateMetadataException_RangeSmallerThanMinRangeFailure" xml:space="preserve">
     <value>The value {0} was smaller than the minimum value {1}. Specify a value greater than or equal to the minimum value and try again.</value>
   </data>

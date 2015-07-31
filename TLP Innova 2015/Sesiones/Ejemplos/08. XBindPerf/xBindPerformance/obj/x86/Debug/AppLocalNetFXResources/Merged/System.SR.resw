@@ -651,36 +651,6 @@
   <data name="IndexOutOfRange_UMSPosition" xml:space="preserve">
     <value>Unmanaged memory stream position was beyond the capacity of the stream.</value>
   </data>
-  <data name="net_headers_toolong" xml:space="preserve">
-    <value>Header values cannot be longer than {0} characters.</value>
-  </data>
-  <data name="net_WebHeaderMissingColon" xml:space="preserve">
-    <value>Specified value does not have a ':' separator.</value>
-  </data>
-  <data name="net_headers_req" xml:space="preserve">
-    <value>This collection holds response headers and cannot contain the specified request header.</value>
-  </data>
-  <data name="net_headers_rsp" xml:space="preserve">
-    <value>This collection holds request headers and cannot contain the specified response header.</value>
-  </data>
-  <data name="net_WebHeaderInvalidControlChars" xml:space="preserve">
-    <value>Specified value has invalid Control characters.</value>
-  </data>
-  <data name="net_WebHeaderInvalidNonAsciiChars" xml:space="preserve">
-    <value>Specified value has invalid non-ASCII characters.</value>
-  </data>
-  <data name="net_WebHeaderInvalidHeaderChars" xml:space="preserve">
-    <value>Specified value has invalid HTTP Header characters.</value>
-  </data>
-  <data name="net_headerrestrict" xml:space="preserve">
-    <value>The '{0}' header must be modified using the appropriate property or method.</value>
-  </data>
-  <data name="net_WebHeaderInvalidCRLFChars" xml:space="preserve">
-    <value>Specified value has invalid CRLF characters.</value>
-  </data>
-  <data name="net_emptystringcall" xml:space="preserve">
-    <value>The parameter '{0}' cannot be an empty string.</value>
-  </data>
   <data name="XmlFoundEndOfFile" xml:space="preserve">
     <value>end of file</value>
   </data>
@@ -1938,6 +1908,9 @@
   <data name="net_uri_SchemeLimit" xml:space="preserve">
     <value>Invalid URI: The Uri scheme is too long.</value>
   </data>
+  <data name="net_headers_toolong" xml:space="preserve">
+    <value>Header values cannot be longer than {0} characters.</value>
+  </data>
   <data name="net_log_cache_resp_valid_based_on_retry" xml:space="preserve">
     <value>Accept this response as valid based on the retry count : {0}.</value>
   </data>
@@ -2370,6 +2343,9 @@
   <data name="net_uri_EmptyUri" xml:space="preserve">
     <value>Invalid URI: The URI is empty.</value>
   </data>
+  <data name="net_WebHeaderMissingColon" xml:space="preserve">
+    <value>Specified value does not have a ':' separator.</value>
+  </data>
   <data name="net_ssl_io_corrupted" xml:space="preserve">
     <value>The stream is corrupted due to an invalid SSL version number in the SSL protocol header.</value>
   </data>
@@ -2457,6 +2433,12 @@
   <data name="net_ipv4_not_installed" xml:space="preserve">
     <value>IPv4 is not installed.</value>
   </data>
+  <data name="net_headers_req" xml:space="preserve">
+    <value>This collection holds response headers and cannot contain the specified request header.</value>
+  </data>
+  <data name="net_headers_rsp" xml:space="preserve">
+    <value>This collection holds request headers and cannot contain the specified response header.</value>
+  </data>
   <data name="net_log_listener_no_spn_platform" xml:space="preserve">
     <value>No service name check because the underlying platform does not support extended protection.</value>
   </data>
@@ -2510,6 +2492,9 @@
   </data>
   <data name="net_log_retrieving_localhost_exception" xml:space="preserve">
     <value>An unexpected exception while retrieving the local address list: {0}.</value>
+  </data>
+  <data name="net_WebHeaderInvalidControlChars" xml:space="preserve">
+    <value>Specified value has invalid Control characters.</value>
   </data>
   <data name="net_io_invalidendcall" xml:space="preserve">
     <value>{0} can only be called once for each asynchronous operation.</value>
@@ -2591,6 +2576,9 @@
   </data>
   <data name="net_log_cache_update_cached_headers" xml:space="preserve">
     <value>Update Cached Headers.</value>
+  </data>
+  <data name="net_WebHeaderInvalidNonAsciiChars" xml:space="preserve">
+    <value>Specified value has invalid non-ASCII characters.</value>
   </data>
   <data name="net_resubmitprotofailed" xml:space="preserve">
     <value>Cannot handle redirect from HTTP/HTTPS protocols to other dissimilar ones.</value>
@@ -2780,6 +2768,9 @@
   </data>
   <data name="net_cookie_attribute" xml:space="preserve">
     <value>The '{0}'='{1}' part of the cookie is invalid.</value>
+  </data>
+  <data name="net_WebHeaderInvalidHeaderChars" xml:space="preserve">
+    <value>Specified value has invalid HTTP Header characters.</value>
   </data>
   <data name="net_ping" xml:space="preserve">
     <value>An exception occurred during a Ping request.</value>
@@ -2972,6 +2963,9 @@
   </data>
   <data name="net_uri_NotJustSerialization" xml:space="preserve">
     <value>UriComponents.SerializationInfoString must not be combined with other UriComponents.</value>
+  </data>
+  <data name="net_headerrestrict" xml:space="preserve">
+    <value>The '{0}' header must be modified using the appropriate property or method.</value>
   </data>
   <data name="net_invalidversion" xml:space="preserve">
     <value>This protocol version is not supported.</value>
@@ -3474,6 +3468,9 @@
   <data name="net_frame_read_io" xml:space="preserve">
     <value>Received incomplete authentication message. Remote party has probably closed the connection.</value>
   </data>
+  <data name="net_WebHeaderInvalidCRLFChars" xml:space="preserve">
+    <value>Specified value has invalid CRLF characters.</value>
+  </data>
   <data name="net_log_cache_range_in_cache" xml:space="preserve">
     <value>Serving Request Range from cache, Range:{0}.</value>
   </data>
@@ -3803,6 +3800,9 @@
   </data>
   <data name="net_io_timeout_use_ge_zero" xml:space="preserve">
     <value>Timeout can be only be set to 'System.Threading.Timeout.Infinite' or a value &gt;= 0.</value>
+  </data>
+  <data name="net_emptystringcall" xml:space="preserve">
+    <value>The parameter '{0}' cannot be an empty string.</value>
   </data>
   <data name="net_log_cache_policy_cache_sync_date" xml:space="preserve">
     <value>Client Policy CacheSyncDate (UTC) : {0}, Cache LastSynchronizedUtc : {1}.</value>
