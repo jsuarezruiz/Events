@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<base:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MicrosoftBand.Views.NotificationsView"
+             xmlns:base="clr-namespace:MicrosoftBand.Views.Base;assembly=MicrosoftBand"
+             Title="Notifications">
+    <StackLayout>
+        <Label Text="Title:" 
+               FontSize="Medium"
+               VerticalOptions="Start" 
+               HorizontalOptions="Start" />
+        <Entry Text="{Binding Title}"
+               VerticalOptions="Start"
+               HorizontalOptions="FillAndExpand" />
+        <Label Text="Body:" 
+               FontSize="Medium"
+               VerticalOptions="Start"
+               HorizontalOptions="Start" />
+        <Entry Text="{Binding Body}"
+               VerticalOptions="Start" 
+               HorizontalOptions="FillAndExpand" />
+        <Button Text="Send Message" 
+                Command="{Binding SendMessageCommand}"
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand" />
+        <Button Text="Send Message + Dialog" 
+                Command="{Binding SendMessageWithDialogCommand}"
+                VerticalOptions="Start"
+                HorizontalOptions="FillAndExpand" />
+        <Button Text="Show Dialog" 
+                Command="{Binding ShowDialogCommand}"
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand" />
+    </StackLayout>
+</base:BaseContentPage>

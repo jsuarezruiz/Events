@@ -1,0 +1,2 @@
+C:\Users\javie\Documents\Visual Studio 2015\Projects\MicrosoftBand\MicrosoftBand.Phone\MicrosoftBand.Phone.csproj;neutral
+C:\Users\javie\Documents\Visual Studio 2015\Projects\MicrosoftBand\MicrosoftBand\MicrosoftBand\MicrosoftBand.csproj;neutral

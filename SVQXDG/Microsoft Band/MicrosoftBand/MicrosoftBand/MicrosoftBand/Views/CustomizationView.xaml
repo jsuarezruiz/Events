@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<base:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MicrosoftBand.Views.CustomizationView"
+             xmlns:base="clr-namespace:MicrosoftBand.Views.Base;assembly=MicrosoftBand"
+             Title="Customization">
+    <Grid>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Me Tile Image:" 
+                       FontSize="Medium"
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Start" />
+                <Image Source="{Binding MeTileImage, Converter={StaticResource BandImageConverter}}"
+                       BackgroundColor="Black"
+                       WidthRequest="310"
+                       HeightRequest="102"
+                       VerticalOptions="Center" 
+                       HorizontalOptions="StartAndExpand" />
+                <Button Text="Set Me Tile Image" 
+                        Command="{Binding SetMeTileCommand}"
+                        VerticalOptions="Center" 
+                        HorizontalOptions="FillAndExpand" />
+                <Label Text="Band Theme:"
+                       FontSize="Medium"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start" />
+                <StackLayout Orientation="Horizontal" 
+                             HorizontalOptions="FillAndExpand" 
+                             VerticalOptions="Start" 
+                             Spacing="0">
+                    <!-- Base -->
+                    <BoxView HorizontalOptions="FillAndExpand" 
+                             MinimumWidthRequest="24"
+                             MinimumHeightRequest="24"
+                             Color="{Binding Base, Converter={StaticResource BandColorToColorConverter}}"/>
+                    <!-- HighContrast -->
+                    <BoxView HorizontalOptions="FillAndExpand" 
+                             MinimumWidthRequest="24" 
+                             MinimumHeightRequest="24"
+                             Color="{Binding HighContrast, Converter={StaticResource BandColorToColorConverter}}"/>
+                    <!-- Highlight -->
+                    <BoxView HorizontalOptions="FillAndExpand" 
+                             MinimumWidthRequest="24"
+                             MinimumHeightRequest="24"
+                             Color="{Binding Highlight, Converter={StaticResource BandColorToColorConverter}}"/>
+                    <!-- Lowlight -->
+                    <BoxView HorizontalOptions="FillAndExpand" 
+                             MinimumWidthRequest="24" 
+                             MinimumHeightRequest="24"
+                             Color="{Binding Lowlight, Converter={StaticResource BandColorToColorConverter}}"/>
+                    <!-- Muted -->
+                    <BoxView HorizontalOptions="FillAndExpand" 
+                             MinimumWidthRequest="24" 
+                             MinimumHeightRequest="24"
+                             Color="{Binding Muted, Converter={StaticResource BandColorToColorConverter}}"/>
+                    <!-- SecondaryText -->
+                    <BoxView HorizontalOptions="FillAndExpand" 
+                             MinimumWidthRequest="24" 
+                             MinimumHeightRequest="24"
+                             Color="{Binding SecondaryText, Converter={StaticResource BandColorToColorConverter}}"/>
+                </StackLayout>
+                <Button Text="Set Theme" 
+                        Command="{Binding SetBandThemeCommand}"
+                        VerticalOptions="Start" 
+                        HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</base:BaseContentPage>

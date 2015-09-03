@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<base:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MicrosoftBand.Views.TilesView"
+             xmlns:base="clr-namespace:MicrosoftBand.Views.Base;assembly=MicrosoftBand"
+             Title="Tiles">
+    <StackLayout>
+        <StackLayout
+            VerticalOptions="Start" 
+            HorizontalOptions="FillAndExpand">
+        <Label Text="Remaining Tile Capacity:"       
+           FontSize="Medium"
+           VerticalOptions="Center" 
+           HorizontalOptions="Start" />
+        <Label Text="{Binding RemainingCapacity}" 
+           FontSize="Medium"
+           VerticalOptions="Center" 
+           HorizontalOptions="Start" />
+        </StackLayout>
+        <ListView 
+            ItemsSource="{Binding Tiles}"
+            SelectedItem="{Binding Tile, Mode=TwoWay}"
+            HorizontalOptions="FillAndExpand" 
+            VerticalOptions="FillAndExpand">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout 
+                                Orientation="Horizontal"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="FillAndExpand">
+                                <Image Source="{Binding Icon, Converter={StaticResource BandImageConverter}}" 
+                                       BackgroundColor="Black"
+                                       WidthRequest="48"
+                                       HeightRequest="48"
+                                       HorizontalOptions="Start" 
+                                       VerticalOptions="Center" />
+                                <Label Text="{Binding Name}" 
+                                       TextColor="{StaticResource WhiteColor}"
+                                       FontSize="Medium" 
+                                       LineBreakMode="TailTruncation"
+                                       HorizontalOptions="StartAndExpand" 
+                                       VerticalOptions="Center" />
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            Text="Add"          
+            Command="{Binding AddTileCommand}"/>
+    </ContentPage.ToolbarItems>
+</base:BaseContentPage>
