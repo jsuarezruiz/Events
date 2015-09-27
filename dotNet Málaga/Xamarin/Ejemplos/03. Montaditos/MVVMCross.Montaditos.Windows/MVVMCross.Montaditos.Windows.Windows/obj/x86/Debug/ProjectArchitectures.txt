@@ -1,0 +1,2 @@
+C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Windows\MVVMCross.Montaditos.Windows.Windows.csproj;x86
+C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\MVVMCross.Montaditos.csproj;neutral

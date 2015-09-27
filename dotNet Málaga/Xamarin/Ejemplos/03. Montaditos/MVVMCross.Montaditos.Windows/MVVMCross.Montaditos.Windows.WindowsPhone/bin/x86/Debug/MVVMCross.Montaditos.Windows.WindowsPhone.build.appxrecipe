@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-CO94C1B</Machine>
+    <WindowsUser>javie</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>19bef112-1b9c-4c7c-9e54-956be9175613</PackageIdentityName>
+    <IntermediateOutputPath>C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.WindowsPhone\obj\x86\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.WindowsPhone\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.WindowsPhone\bin\x86\Debug\MVVMCross.Montaditos.Windows.WindowsPhone.exe">
+      <PackagePath>MVVMCross.Montaditos.Windows.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\wpa81\Cirrious.CrossCore.dll">
+      <PackagePath>Cirrious.CrossCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\wpa81\Cirrious.CrossCore.WindowsCommon.dll">
+      <PackagePath>Cirrious.CrossCore.WindowsCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.0\lib\wpa81\Cirrious.MvvmCross.dll">
+      <PackagePath>Cirrious.MvvmCross.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\wpa81\Cirrious.MvvmCross.Localization.dll">
+      <PackagePath>Cirrious.MvvmCross.Localization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.0\lib\wpa81\Cirrious.MvvmCross.WindowsCommon.dll">
+      <PackagePath>Cirrious.MvvmCross.WindowsCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\bin\Debug\MVVMCross.Montaditos.dll">
+      <PackagePath>MVVMCross.Montaditos.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Shared\Assets\Jamon.jpg">
+      <PackagePath>Assets\Jamon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Shared\Assets\PateSalsaMostaza.jpg">
+      <PackagePath>Assets\PateSalsaMostaza.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Shared\Assets\QuesoBriePimiento.jpg">
+      <PackagePath>Assets\QuesoBriePimiento.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Shared\Assets\QuesoCabra.jpg">
+      <PackagePath>Assets\QuesoCabra.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Shared\Assets\QuesoIbericoPimienta.jpg">
+      <PackagePath>Assets\QuesoIbericoPimienta.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\Assets\Jamon.jpg">
+      <PackagePath>MVVMCross.Montaditos\Assets\Jamon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\Assets\PateSalsaMostaza.jpg">
+      <PackagePath>MVVMCross.Montaditos\Assets\PateSalsaMostaza.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\Assets\QuesoBriePimiento.jpg">
+      <PackagePath>MVVMCross.Montaditos\Assets\QuesoBriePimiento.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\Assets\QuesoCabra.jpg">
+      <PackagePath>MVVMCross.Montaditos\Assets\QuesoCabra.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\Assets\QuesoIbericoPimienta.jpg">
+      <PackagePath>MVVMCross.Montaditos\Assets\QuesoIbericoPimienta.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.WindowsPhone\bin\x86\Debug\MVVMCross.Montaditos.Windows.WindowsPhone.xr.xml">
+      <PackagePath>MVVMCross.Montaditos.Windows.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.WindowsPhone\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.WindowsPhone\bin\x86\Debug\Views\FirstView.xbf">
+      <PackagePath>Views\FirstView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.WindowsPhone\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

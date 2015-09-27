@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SURFACEJSUAREZ</Machine>
+    <WindowsUser>Javier</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>421d5c09-2696-4515-a71b-cd6d0474a50b</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Windows\obj\x86\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>6CC7445CA5907E53D105949F4A29684E075E8FA1F7F91EAECD4B51EFB6FAF5DF</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>421d5c09-2696-4515-a71b-cd6d0474a50b_1.0.0.0_x86__j6j5z4mnvcpja</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>421d5c09-2696-4515-a71b-cd6d0474a50b_j6j5z4mnvcpja!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>421d5c09-2696-4515-a71b-cd6d0474a50b</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Javier</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Windows\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-01-28T08:34:57.997</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Windows\bin\x86\Debug\MVVMCross.Montaditos.Windows.Windows.exe">
+      <PackagePath>MVVMCross.Montaditos.Windows.Windows.exe</PackagePath>
+      <Modified>2015-01-28T08:41:17.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\win81\Cirrious.CrossCore.dll">
+      <PackagePath>Cirrious.CrossCore.dll</PackagePath>
+      <Modified>2015-01-27T15:36:11.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\win81\Cirrious.CrossCore.WindowsCommon.dll">
+      <PackagePath>Cirrious.CrossCore.WindowsCommon.dll</PackagePath>
+      <Modified>2015-01-27T15:36:11.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.0\lib\win81\Cirrious.MvvmCross.dll">
+      <PackagePath>Cirrious.MvvmCross.dll</PackagePath>
+      <Modified>2015-01-27T15:36:12.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\win81\Cirrious.MvvmCross.Localization.dll">
+      <PackagePath>Cirrious.MvvmCross.Localization.dll</PackagePath>
+      <Modified>2015-01-27T15:36:11.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.0\lib\win81\Cirrious.MvvmCross.WindowsCommon.dll">
+      <PackagePath>Cirrious.MvvmCross.WindowsCommon.dll</PackagePath>
+      <Modified>2015-01-27T15:36:12.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\bin\Debug\MVVMCross.Montaditos.dll">
+      <PackagePath>MVVMCross.Montaditos.dll</PackagePath>
+      <Modified>2015-01-28T08:35:59.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-27T02:36:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-27T02:36:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-27T02:36:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-27T02:36:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Shared\Assets\Jamon.jpg">
+      <PackagePath>Assets\Jamon.jpg</PackagePath>
+      <Modified>2015-01-27T11:53:13.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Shared\Assets\PateSalsaMostaza.jpg">
+      <PackagePath>Assets\PateSalsaMostaza.jpg</PackagePath>
+      <Modified>2015-01-27T11:53:13.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Shared\Assets\QuesoBriePimiento.jpg">
+      <PackagePath>Assets\QuesoBriePimiento.jpg</PackagePath>
+      <Modified>2015-01-27T11:53:13.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Shared\Assets\QuesoCabra.jpg">
+      <PackagePath>Assets\QuesoCabra.jpg</PackagePath>
+      <Modified>2015-01-27T11:53:13.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Shared\Assets\QuesoIbericoPimienta.jpg">
+      <PackagePath>Assets\QuesoIbericoPimienta.jpg</PackagePath>
+      <Modified>2015-01-27T11:53:13.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\Assets\Jamon.jpg">
+      <PackagePath>MVVMCross.Montaditos\Assets\Jamon.jpg</PackagePath>
+      <Modified>2015-01-28T07:32:33.735</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\Assets\PateSalsaMostaza.jpg">
+      <PackagePath>MVVMCross.Montaditos\Assets\PateSalsaMostaza.jpg</PackagePath>
+      <Modified>2015-01-28T07:32:33.743</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\Assets\QuesoBriePimiento.jpg">
+      <PackagePath>MVVMCross.Montaditos\Assets\QuesoBriePimiento.jpg</PackagePath>
+      <Modified>2015-01-28T07:32:33.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\Assets\QuesoCabra.jpg">
+      <PackagePath>MVVMCross.Montaditos\Assets\QuesoCabra.jpg</PackagePath>
+      <Modified>2015-01-28T07:32:33.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\Assets\QuesoIbericoPimienta.jpg">
+      <PackagePath>MVVMCross.Montaditos\Assets\QuesoIbericoPimienta.jpg</PackagePath>
+      <Modified>2015-01-28T07:32:33.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Windows\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-01-28T08:34:54.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Windows\bin\x86\Debug\Views\FirstView.xbf">
+      <PackagePath>Views\FirstView.xbf</PackagePath>
+      <Modified>2015-01-28T08:34:54.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Windows\bin\x86\Debug\MVVMCross.Montaditos.Windows.Windows.xr.xml">
+      <PackagePath>MVVMCross.Montaditos.Windows.Windows.xr.xml</PackagePath>
+      <Modified>2015-01-28T07:39:44.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.Windows\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-01-28T08:34:57.673</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

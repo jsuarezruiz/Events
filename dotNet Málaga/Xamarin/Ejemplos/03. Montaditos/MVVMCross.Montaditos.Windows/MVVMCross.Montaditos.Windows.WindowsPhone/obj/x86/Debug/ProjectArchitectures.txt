@@ -1,0 +1,2 @@
+C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos.Windows\MVVMCross.Montaditos.Windows.WindowsPhone\MVVMCross.Montaditos.Windows.WindowsPhone.csproj;x86
+C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\MVVMCross.Montaditos.csproj;neutral

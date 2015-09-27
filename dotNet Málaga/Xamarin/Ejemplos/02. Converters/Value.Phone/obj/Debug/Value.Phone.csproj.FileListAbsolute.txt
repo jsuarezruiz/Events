@@ -1,0 +1,76 @@
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\Value.Phone.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\Value.Phone.pdb
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\AppManifest.xaml
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\Value.Phone_Debug_AnyCPU.xap
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\obj\Debug\App.g.cs
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\obj\Debug\Value.Phone.g.resources
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\obj\Debug\Value.Phone.Resources.AppResources.resources
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\obj\Debug\Value.Phone.csproj.GenerateResource.Cache
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\obj\Debug\Value.Phone.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\obj\Debug\Value.Phone.pdb
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\obj\Debug\XapCacheFile.xml
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\Cirrious.CrossCore.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\Cirrious.CrossCore.WindowsPhone.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\Cirrious.MvvmCross.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\Cirrious.MvvmCross.Localization.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\Cirrious.MvvmCross.WindowsPhone.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\Value.Core.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\Value.Core.pdb
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\obj\Debug\Value.Phone.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Desktop\Taller Xamarin\Ejemplos\Value\Value.Phone\obj\Debug\Views\FirstView.g.cs
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\Assets\ApplicationIcon.png
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\Value.Phone.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\Value.Phone.pdb
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\AppManifest.xaml
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\Properties\WMAppManifest.xml
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\Value.Phone_Debug_AnyCPU.xap
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\Cirrious.CrossCore.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\Cirrious.CrossCore.WindowsPhone.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\Cirrious.MvvmCross.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\Cirrious.MvvmCross.Localization.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\Cirrious.MvvmCross.WindowsPhone.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\Value.Core.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\System.Windows.Interactivity.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\Value.Core.pdb
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\obj\Debug\Value.Phone.csprojResolveAssemblyReference.cache
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\obj\Debug\App.g.cs
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\obj\Debug\Views\FirstView.g.cs
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\obj\Debug\Value.Phone.g.resources
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\obj\Debug\Value.Phone.Resources.AppResources.resources
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\obj\Debug\Value.Phone.csproj.GenerateResource.Cache
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\obj\Debug\Value.Phone.dll
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\obj\Debug\Value.Phone.pdb
+C:\Taller Xamarin\Ejemplos\MVVMCross\02. Value\Value.Phone\obj\Debug\XapCacheFile.xml

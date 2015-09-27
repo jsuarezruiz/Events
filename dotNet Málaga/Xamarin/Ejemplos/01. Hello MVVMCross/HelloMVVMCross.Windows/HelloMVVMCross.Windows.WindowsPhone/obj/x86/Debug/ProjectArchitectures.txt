@@ -1,0 +1,2 @@
+C:\MVVMCross\01. Hello MVVMCross\HelloMVVMCross.Windows\HelloMVVMCross.Windows.WindowsPhone\HelloMVVMCross.Windows.WindowsPhone.csproj;x86
+C:\MVVMCross\01. Hello MVVMCross\HelloMVVMCross\HelloMVVMCross.csproj;neutral

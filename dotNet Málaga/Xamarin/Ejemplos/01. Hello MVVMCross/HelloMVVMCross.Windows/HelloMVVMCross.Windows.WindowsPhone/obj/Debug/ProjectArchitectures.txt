@@ -1,0 +1,2 @@
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Windows\HelloMVVMCross.Windows.WindowsPhone\HelloMVVMCross.Windows.WindowsPhone.csproj;neutral
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross\HelloMVVMCross.csproj;neutral
