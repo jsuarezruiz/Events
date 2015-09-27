@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-CO94C1B</Machine>
+    <WindowsUser>javie</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>696bf528-6f7c-403f-894f-36e9e87f5edf</PackageIdentityName>
+    <IntermediateOutputPath>C:\MVVMCross\04. Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.WindowsPhone\obj\x86\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\MVVMCross\04. Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.WindowsPhone\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.WindowsPhone\bin\x86\Debug\MVVMCross.Navigation.Windows.WindowsPhone.exe">
+      <PackagePath>MVVMCross.Navigation.Windows.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\wpa81\Cirrious.CrossCore.dll">
+      <PackagePath>Cirrious.CrossCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\wpa81\Cirrious.CrossCore.WindowsCommon.dll">
+      <PackagePath>Cirrious.CrossCore.WindowsCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.0\lib\wpa81\Cirrious.MvvmCross.dll">
+      <PackagePath>Cirrious.MvvmCross.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\wpa81\Cirrious.MvvmCross.Localization.dll">
+      <PackagePath>Cirrious.MvvmCross.Localization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.0\lib\wpa81\Cirrious.MvvmCross.WindowsCommon.dll">
+      <PackagePath>Cirrious.MvvmCross.WindowsCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\MVVMCross.Navigation\bin\Debug\MVVMCross.Navigation.dll">
+      <PackagePath>MVVMCross.Navigation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.WindowsPhone\bin\x86\Debug\MVVMCross.Navigation.Windows.WindowsPhone.xr.xml">
+      <PackagePath>MVVMCross.Navigation.Windows.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.WindowsPhone\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.WindowsPhone\bin\x86\Debug\Views\FirstView.xbf">
+      <PackagePath>Views\FirstView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.WindowsPhone\bin\x86\Debug\Views\SecondView.xbf">
+      <PackagePath>Views\SecondView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\MVVMCross\04. Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.WindowsPhone\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
