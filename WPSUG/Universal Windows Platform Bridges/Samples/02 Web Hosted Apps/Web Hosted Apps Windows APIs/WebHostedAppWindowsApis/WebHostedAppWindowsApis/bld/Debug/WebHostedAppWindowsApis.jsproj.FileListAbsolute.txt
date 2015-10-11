@@ -1,0 +1,16 @@
+c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bin\Debug\ReverseMap\resources.pri
+c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bin\Debug\AppxManifest.xml
+c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bin\Debug\WebHostedAppWindowsApis.build.appxrecipe
+c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bld\Debug\ResourceHandlingTask.state
+c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bld\Debug\priconfig.xml
+c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bld\Debug\priconfig.xml.intermediate
+c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bld\Debug\layout.resfiles
+c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bld\Debug\layout.resfiles.intermediate
+c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bld\Debug\resources.resfiles
+c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bld\Debug\resources.resfiles.intermediate
+c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bld\Debug\pri.resfiles
+c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bld\Debug\pri.resfiles.intermediate
+c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bld\Debug\qualifiers.txt
+c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bld\Debug\qualifiers.txt.intermediate
+c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-J46515S</Machine>
+    <WindowsUser>javie</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>c4727e28-6505-472f-8e8f-308703f54a8e</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\javie\Documents\Visual Studio 2015\Projects\WestminsterSample\WestminsterSample\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>0FC9D0A418321FECF22FB73072E4D2B51A2E08A694280EB485A4B2831246B594</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>c4727e28-6505-472f-8e8f-308703f54a8e_1.0.0.0_neutral__3b4dnjq9ntz50</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>c4727e28-6505-472f-8e8f-308703f54a8e_3b4dnjq9ntz50!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>c4727e28-6505-472f-8e8f-308703f54a8e</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=javie</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\javie\Documents\Visual Studio 2015\Projects\WestminsterSample\WestminsterSample\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-08T15:22:11.440</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\javie\Documents\Visual Studio 2015\Projects\WestminsterSample\WestminsterSample\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-06-18T08:22:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\Documents\Visual Studio 2015\Projects\WestminsterSample\WestminsterSample\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <Modified>2015-06-18T08:22:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\Documents\Visual Studio 2015\Projects\WestminsterSample\WestminsterSample\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <Modified>2015-06-18T08:22:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\Documents\Visual Studio 2015\Projects\WestminsterSample\WestminsterSample\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <Modified>2015-06-18T08:22:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\Documents\Visual Studio 2015\Projects\WestminsterSample\WestminsterSample\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <Modified>2015-06-18T08:22:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\Documents\Visual Studio 2015\Projects\WestminsterSample\WestminsterSample\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <Modified>2015-06-18T08:22:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\Documents\Visual Studio 2015\Projects\WestminsterSample\WestminsterSample\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <Modified>2015-06-18T08:22:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\Documents\Visual Studio 2015\Projects\WestminsterSample\WestminsterSample\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-08-08T15:22:11.371</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

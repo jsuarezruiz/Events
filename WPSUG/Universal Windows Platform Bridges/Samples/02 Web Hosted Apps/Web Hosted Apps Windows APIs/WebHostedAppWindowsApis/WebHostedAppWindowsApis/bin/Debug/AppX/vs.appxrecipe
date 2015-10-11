@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-CO94C1B</Machine>
+    <WindowsUser>javie</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ec6076f6-b988-4734-9031-06e6eaf34c7c</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>D51331F5BD463C40A6F0CFD3A9A85F50D025974B954C87740A82E7803D5D8765</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>ec6076f6-b988-4734-9031-06e6eaf34c7c_1.0.0.0_neutral__3b4dnjq9ntz50</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>ec6076f6-b988-4734-9031-06e6eaf34c7c_3b4dnjq9ntz50!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>ec6076f6-b988-4734-9031-06e6eaf34c7c</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=javie</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-11T17:18:59.356</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-08-16T21:10:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-16T21:10:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-16T21:10:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-16T21:10:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-16T21:10:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-16T21:10:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-16T21:10:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javie\documents\visual studio 2015\Projects\WebHostedAppWindowsApis\WebHostedAppWindowsApis\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-10-11T17:18:59.221</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

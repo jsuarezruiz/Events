@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EwiData>
+  <UpgradeLog ProjectName="HelloSilverlight.csproj">
+    <Settings />
+    <File OldPath="C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\App.xaml.cs" NewPath="">
+      <Section Name="Mappings">
+        <Issue Type="Runtime" Number="1101" Quantity="2">System.Windows.Application.Host was not upgraded</Issue>
+        <Issue Type="Runtime" Number="1113" Quantity="1">The tool does not have information on the 'System.Windows.Interop.SilverlightHost' library class. Its 'Settings' member was referenced.</Issue>
+        <Issue Type="Runtime" Number="1113" Quantity="2">The tool does not have information on the 'System.Windows.Interop.Settings' library class. Its 'EnableFrameRateCounter' member was referenced.</Issue>
+      </Section>
+    </File>
+    <File OldPath="C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\MainPage.xaml" NewPath="">
+      <Section Name="Mappings">
+        <Issue Type="Runtime" Number="1101" Quantity="2">PhoneApplicationPage.SupportedOrientations was not upgraded</Issue>
+        <Issue Type="Runtime" Number="1101" Quantity="1">PhoneApplicationPage.Orientation was not upgraded</Issue>
+        <Issue Type="Runtime" Number="1101" Quantity="1">PhoneApplicationPage.IsVisible was not upgraded</Issue>
+      </Section>
+    </File>
+  </UpgradeLog>
+</EwiData>

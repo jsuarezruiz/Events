@@ -1,0 +1,116 @@
+Loading projects
+Finishing loading projects
+Starting task: ConversionSetupTask
+Starting task: CallGraphGenerationTask
+Starting task: CallGraphGenerationTask
+[CallGraphGenerationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\App.xaml.cs
+[CallGraphGenerationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\LocalizedStrings.cs
+[CallGraphGenerationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\MainPage.xaml.cs
+[CallGraphGenerationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Properties\AssemblyInfo.cs
+[CallGraphGenerationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Resources\AppResources.Designer.cs
+[CallGraphGenerationTask] Processing C:\Users\javie\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+Starting task: "Flow cut" decoration
+Starting task: "Flow cut" decoration
+["Flow cut" decoration] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\App.xaml.cs
+["Flow cut" decoration] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\LocalizedStrings.cs
+["Flow cut" decoration] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\MainPage.xaml.cs
+["Flow cut" decoration] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Properties\AssemblyInfo.cs
+["Flow cut" decoration] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Resources\AppResources.Designer.cs
+["Flow cut" decoration] Processing C:\Users\javie\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+["Flow cut" decoration] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\App.g.cs
+["Flow cut" decoration] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\MainPage.g.cs
+Starting task: AsyncAwaitChangerTask
+Starting task: PageIdentificationTask
+Starting task: NavigationMigrationTask
+Starting task: NavigationMigrationTask
+[NavigationMigrationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\App.xaml.cs
+[NavigationMigrationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\LocalizedStrings.cs
+[NavigationMigrationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\MainPage.xaml.cs
+[NavigationMigrationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Properties\AssemblyInfo.cs
+[NavigationMigrationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Resources\AppResources.Designer.cs
+[NavigationMigrationTask] Processing C:\Users\javie\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+[NavigationMigrationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\App.g.cs
+[NavigationMigrationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\MainPage.g.cs
+Starting task: RemoveUsingStatementsTask
+Starting task: RemoveUsingStatementsTask
+[RemoveUsingStatementsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\App.xaml.cs
+[RemoveUsingStatementsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\LocalizedStrings.cs
+[RemoveUsingStatementsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\MainPage.xaml.cs
+[RemoveUsingStatementsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Properties\AssemblyInfo.cs
+[RemoveUsingStatementsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Resources\AppResources.Designer.cs
+[RemoveUsingStatementsTask] Processing C:\Users\javie\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+[RemoveUsingStatementsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\App.g.cs
+[RemoveUsingStatementsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\MainPage.g.cs
+Starting task: GroupInitializationStatementsTask
+Starting task: GroupInitializationStatementsTask
+[GroupInitializationStatementsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\App.xaml.cs
+[GroupInitializationStatementsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\LocalizedStrings.cs
+[GroupInitializationStatementsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\MainPage.xaml.cs
+[GroupInitializationStatementsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Properties\AssemblyInfo.cs
+[GroupInitializationStatementsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Resources\AppResources.Designer.cs
+[GroupInitializationStatementsTask] Processing C:\Users\javie\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+[GroupInitializationStatementsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\App.g.cs
+[GroupInitializationStatementsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\MainPage.g.cs
+Starting task: CompletedActionPatternTask
+Starting task: CompletedActionPatternTask
+[CompletedActionPatternTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\App.xaml.cs
+[CompletedActionPatternTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\LocalizedStrings.cs
+[CompletedActionPatternTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\MainPage.xaml.cs
+[CompletedActionPatternTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Properties\AssemblyInfo.cs
+[CompletedActionPatternTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Resources\AppResources.Designer.cs
+[CompletedActionPatternTask] Processing C:\Users\javie\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+[CompletedActionPatternTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\App.g.cs
+[CompletedActionPatternTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\MainPage.g.cs
+Starting task: DynamicEventHandlerDecoratorTask
+Starting task: DynamicEventHandlerDecoratorTask
+[DynamicEventHandlerDecoratorTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\App.xaml.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\LocalizedStrings.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\MainPage.xaml.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Properties\AssemblyInfo.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Resources\AppResources.Designer.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Users\javie\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\App.g.cs
+[DynamicEventHandlerDecoratorTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\MainPage.g.cs
+Starting task: PhoneMappingsTask
+Starting task: PhoneMappingsTask
+[PhoneMappingsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\App.xaml.cs
+[PhoneMappingsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\LocalizedStrings.cs
+[PhoneMappingsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\MainPage.xaml.cs
+[PhoneMappingsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Properties\AssemblyInfo.cs
+[PhoneMappingsTask] Processing C:\Users\javie\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+[PhoneMappingsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\App.g.cs
+[PhoneMappingsTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\MainPage.g.cs
+Starting task: XamlMapperTask
+[XamlMapperTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\MainPage.xaml
+Starting task: NamespaceReferenceTransformationTask
+Starting task: NamespaceReferenceTransformationTask
+[NamespaceReferenceTransformationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\App.xaml.cs
+[NamespaceReferenceTransformationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\LocalizedStrings.cs
+[NamespaceReferenceTransformationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\MainPage.xaml.cs
+[NamespaceReferenceTransformationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Properties\AssemblyInfo.cs
+[NamespaceReferenceTransformationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Resources\AppResources.Designer.cs
+[NamespaceReferenceTransformationTask] Processing C:\Users\javie\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+[NamespaceReferenceTransformationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\App.g.cs
+[NamespaceReferenceTransformationTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\MainPage.g.cs
+Starting task: AppXamlCorrectionTask
+Starting task: AppXamlCorrectionTask
+[AppXamlCorrectionTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\App.xaml.cs
+[AppXamlCorrectionTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\LocalizedStrings.cs
+[AppXamlCorrectionTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\MainPage.xaml.cs
+[AppXamlCorrectionTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Properties\AssemblyInfo.cs
+[AppXamlCorrectionTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Resources\AppResources.Designer.cs
+[AppXamlCorrectionTask] Processing C:\Users\javie\AppData\Local\Temp\WindowsPhone,Version=v8.0.AssemblyAttributes.cs
+[AppXamlCorrectionTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\App.g.cs
+[AppXamlCorrectionTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\obj\Debug\MainPage.g.cs
+Starting task: UniversalManifestGenerationTask
+Starting task: AddSplashScreenImageWhenMissingTask
+Starting task: ResourceFilesRelocatorTask
+Starting task: MigratorPrettyPrintingTask
+Starting task: MigratorPrettyPrintingTask
+[MigratorPrettyPrintingTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\App.xaml.cs
+[MigratorPrettyPrintingTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\LocalizedStrings.cs
+[MigratorPrettyPrintingTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\MainPage.xaml.cs
+[MigratorPrettyPrintingTask] Processing C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\03 Silverlight Bridge\Silverlight\HelloSilverlight\HelloSilverlight\Properties\AssemblyInfo.cs
+Starting task: UAPSolutionGenerationTask
+Starting task: CleanupTask
+Starting task: ConversionReportGeneratorTask
