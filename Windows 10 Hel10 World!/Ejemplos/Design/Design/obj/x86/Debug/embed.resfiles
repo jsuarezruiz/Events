@@ -1,0 +1,12 @@
+App.xbf
+Controls\TabHeader.xbf
+Themes\Colors.xbf
+Themes\Converters.xbf
+Themes\Fonts.xbf
+Themes\GridView.xbf
+Themes\Pivot.xbf
+Themes\Restaurant.xbf
+Themes\Shell.xbf
+Themes\ToggleButton.xbf
+Views\RestaurantView.xbf
+Views\ShellView.xbf
