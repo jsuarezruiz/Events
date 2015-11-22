@@ -1,0 +1,59 @@
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\bin\Debug\Calculator.Droid.dll
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\bin\Debug\Calculator.Droid.pdb
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\bin\Debug\Calculator.Droid.apk
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\bin\Debug\Calculator.Droid-Signed.apk
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\bin\Debug\Calculator.dll
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\bin\Debug\FormsViewGroup.dll
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\bin\Debug\Calculator.pdb
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\obj\Debug\Calculator.Droid.csprojResolveAssemblyReference.cache
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\obj\Debug\Calculator.Droid.dll
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\obj\Debug\Calculator.Droid.pdb
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\obj\Debug\android\bin\Calculator.Droid.apk
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\obj\Debug\res\drawable\icon.png
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\obj\Debug\R.cs.flag
+C:\Users\javie\Documents\Visual Studio 2015\Projects\Calculator\Calculator\Calculator.Droid\obj\Debug\uploadflags.txt
+C:\Users\javie\documents\visual studio 2015\Projects\Calculator\Calculator\Calculator.Droid\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\javie\documents\visual studio 2015\Projects\Calculator\Calculator\Calculator.Droid\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Calculator.Droid.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Calculator.Droid.pdb
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Calculator.Droid.apk
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Calculator.Droid-Signed.apk
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Calculator.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\FormsViewGroup.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Calculator.pdb
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\obj\Debug\Calculator.Droid.csprojResolveAssemblyReference.cache
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\obj\Debug\Calculator.Droid.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\obj\Debug\Calculator.Droid.pdb
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\obj\Debug\android\bin\Calculator.Droid.apk
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\obj\Debug\res\drawable\icon.png
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\obj\Debug\R.cs.flag
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\obj\Debug\uploadflags.txt
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator\bin\Debug\Calculator.Droid.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator\bin\Debug\Calculator.Droid.pdb
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator\bin\Debug\Calculator.Droid.apk
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator\bin\Debug\Calculator.Droid-Signed.apk
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator.Droid\bin\Debug\Xamarin.Forms.Platform.dll

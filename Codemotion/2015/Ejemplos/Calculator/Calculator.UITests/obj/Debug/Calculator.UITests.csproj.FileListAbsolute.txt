@@ -1,0 +1,20 @@
+C:\Users\javie\documents\visual studio 2015\Projects\Calculator\Calculator.UITests\bin\Debug\Calculator.UITests.dll
+C:\Users\javie\documents\visual studio 2015\Projects\Calculator\Calculator.UITests\bin\Debug\Calculator.UITests.pdb
+C:\Users\javie\documents\visual studio 2015\Projects\Calculator\Calculator.UITests\bin\Debug\nunit.framework.dll
+C:\Users\javie\documents\visual studio 2015\Projects\Calculator\Calculator.UITests\bin\Debug\Xamarin.UITest.dll
+C:\Users\javie\documents\visual studio 2015\Projects\Calculator\Calculator.UITests\bin\Debug\nunit.framework.xml
+C:\Users\javie\documents\visual studio 2015\Projects\Calculator\Calculator.UITests\bin\Debug\Xamarin.UITest.xml
+C:\Users\javie\documents\visual studio 2015\Projects\Calculator\Calculator.UITests\obj\Debug\Calculator.UITests.csprojResolveAssemblyReference.cache
+C:\Users\javie\documents\visual studio 2015\Projects\Calculator\Calculator.UITests\obj\Debug\Calculator.UITests.dll
+C:\Users\javie\documents\visual studio 2015\Projects\Calculator\Calculator.UITests\obj\Debug\Calculator.UITests.pdb
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\Calculator.UITests\bin\Debug\Calculator.UITests.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\Calculator.UITests\bin\Debug\Calculator.UITests.pdb
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\Calculator.UITests\bin\Debug\nunit.framework.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\Calculator.UITests\bin\Debug\Xamarin.UITest.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\Calculator.UITests\bin\Debug\nunit.framework.xml
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\Calculator.UITests\bin\Debug\Xamarin.UITest.xml
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\Calculator.UITests\obj\Debug\Calculator.UITests.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\Calculator.UITests\obj\Debug\Calculator.UITests.pdb
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator\bin\Debug\Calculator.UITests.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\src\Calculator\bin\Debug\Calculator.UITests.pdb
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\Calculator\Calculator.UITests\obj\Debug\Calculator.UITests.csprojResolveAssemblyReference.cache
