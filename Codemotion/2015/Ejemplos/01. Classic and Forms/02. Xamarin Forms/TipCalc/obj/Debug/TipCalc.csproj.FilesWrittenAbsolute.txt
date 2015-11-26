@@ -1,0 +1,9 @@
+/Users/javiersuarezruiz/Projects/TipCalc/TipCalc/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/javiersuarezruiz/Projects/TipCalc/TipCalc/obj/Debug/TipCalc.Views.TipCalcView.xaml
+/Users/javiersuarezruiz/Projects/TipCalc/TipCalc/obj/Debug/TipCalcView.xaml.g.cs
+/Users/javiersuarezruiz/Projects/TipCalc/TipCalc/bin/Debug/TipCalc.dll.mdb
+/Users/javiersuarezruiz/Projects/TipCalc/TipCalc/bin/Debug/TipCalc.dll
+/Users/javiersuarezruiz/Projects/TipCalc/TipCalc/obj/Debug/TipCalc.dll
+/Users/javiersuarezruiz/Projects/TipCalc/TipCalc/obj/Debug/TipCalc.dll.mdb
+/Users/javiersuarezruiz/Projects/TipCalc/TipCalc/bin/Debug/Xamarin.Forms.Core.dll
+/Users/javiersuarezruiz/Projects/TipCalc/TipCalc/bin/Debug/Xamarin.Forms.Xaml.dll

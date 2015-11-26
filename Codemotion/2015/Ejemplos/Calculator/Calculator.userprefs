@@ -1,8 +1,0 @@
-﻿<Properties StartupItem="Calculator\Calculator.Droid\Calculator.Droid.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_GalaxyNexus_ToolsForApacheCordova" />
-  <MonoDevelop.Ide.Workbench />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-</Properties>
