@@ -1,0 +1,37 @@
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\bin\x86\Debug\Task.winmd
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\bin\x86\Debug\Task.pdb
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\bin\x86\Debug\Task.pri
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\obj\x86\Debug\Task.winmd
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\obj\x86\Debug\Task.pdb
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\obj\x86\Debug\Task.winmdobj
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\obj\x86\Debug\Task.compile.pdb
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\obj\x86\Debug\priconfig.xml
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\obj\x86\Debug\priconfig.xml.intermediate
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\obj\x86\Debug\layout.resfiles
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\obj\x86\Debug\layout.resfiles.intermediate
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\obj\x86\Debug\resources.resfiles
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\obj\x86\Debug\resources.resfiles.intermediate
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\obj\x86\Debug\pri.resfiles
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\obj\x86\Debug\pri.resfiles.intermediate
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\obj\x86\Debug\qualifiers.txt
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\obj\x86\Debug\qualifiers.txt.intermediate
+c:\users\jsuarez\documents\visual studio 2015\Projects\BackgroundTask\Task\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\bin\x86\Debug\Task.winmd
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\bin\x86\Debug\Task.pdb
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\bin\x86\Debug\Task.pri
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\obj\x86\Debug\Task.csprojResolveAssemblyReference.cache
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\obj\x86\Debug\Task.winmd
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\obj\x86\Debug\Task.pdb
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\obj\x86\Debug\Task.winmdobj
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\obj\x86\Debug\Task.compile.pdb
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\obj\x86\Debug\priconfig.xml
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\obj\x86\Debug\layout.resfiles
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\obj\x86\Debug\layout.resfiles.intermediate
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\obj\x86\Debug\resources.resfiles
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\obj\x86\Debug\pri.resfiles
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\obj\x86\Debug\qualifiers.txt
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\javie\Documents\Events\Talk4Kids 2015\Ejemplos\03. Background Task\Task\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
