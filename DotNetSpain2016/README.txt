@@ -1,3 +1,6 @@
+Sample service to use with Xamarin Inspector:
+http://ergast.com/api/f1/current.json
+
 FAKE
 https://marketplace.visualstudio.com/items/isaacabraham.fsharp-helpers-extension
 
