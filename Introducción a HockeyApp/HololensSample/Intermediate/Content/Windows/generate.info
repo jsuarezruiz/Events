@@ -1,0 +1,33 @@
+﻿<GenerateInfo xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="WaveEditor.Exporter.Model">
+  <files xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>D:/Samples/Wave Engine/Extensions/HololensSample/Content/Assets/a380.fbx#WaveEditor.Exporter.Exporters.StaticModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>7d08eade262d6e919496e044e9e58f7f</FileHash>
+        <WinfoHash>a3c43a45f790f417c918cc532f1afc81</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>D:/Samples/Wave Engine/Extensions/HololensSample/Content/Assets/AirbusLightingMap.png#WaveEditor.Exporter.Exporters.TextureExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>fd5eedb6b37548668e9f2f05c1ec0c81</FileHash>
+        <WinfoHash>79ecd7e8299d95966734dd4649f4563e</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>D:/Samples/Wave Engine/Extensions/HololensSample/Content/Assets/ColorPalete.png#WaveEditor.Exporter.Exporters.TextureExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>ac7eaf7c68b024395f80502a5568e5dc</FileHash>
+        <WinfoHash>fa4863014ce3ed739955bfb52232740a</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>D:/Samples/Wave Engine/Extensions/HololensSample/Content/Assets/engines.wav#WaveEditor.Exporter.Exporters.SoundExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>0f30ccf809611d3f30108528c3679fb7</FileHash>
+        <WinfoHash>0e1e0ea989bef5375d1a940f59a8d738</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+  </files>
+  <id>BFEBFBFF000506E3</id>
+</GenerateInfo>
