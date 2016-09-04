@@ -1,0 +1,431 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TK.CustomMap.iOSUnified</name>
+    </assembly>
+    <members>
+        <member name="T:TK.CustomMap.iOSUnified.NativePlacesApi">
+            <summary>
+            iOS implementation of the <see cref="T:TK.CustomMap.Api.INativePlacesApi"/>
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.NativePlacesApi.Init">
+            <summary>
+            Just to avoid linking
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.NativePlacesApi.Connect">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.NativePlacesApi.DisconnectAndRelease">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.NativePlacesApi.GetPredictions(System.String,Xamarin.Forms.Maps.MapSpan)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.NativePlacesApi.GetDetails(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:TK.CustomMap.iOSUnified.Extensions">
+            <summary>
+            Extension methods
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.Extensions.ToLocationCoordinate(Xamarin.Forms.Maps.Position)">
+            <summary>
+            Convert <see cref="T:Xamarin.Forms.Maps.Position" /> to <see cref="T:CoreLocation.CLLocationCoordinate2D"/>
+            </summary>
+            <param name="self">Self instance</param>
+            <returns>iOS coordinate</returns>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.Extensions.ToPosition(CoreLocation.CLLocationCoordinate2D)">
+            <summary>
+            Convert <see cref="T:CoreLocation.CLLocationCoordinate2D" /> to <see cref="T:Xamarin.Forms.Maps.Position"/>
+            </summary>
+            <param name="self">Self instance</param>
+            <returns>Forms position</returns>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.Extensions.ToTransportType(TK.CustomMap.Overlays.TKRouteTravelMode)">
+            <summary>
+            Convert <see cref="T:MapKit.MKDirectionsTransportType"/> to <see cref="T:TK.CustomMap.Overlays.TKRouteTravelMode"/>
+            </summary>
+            <param name="self">Self instance</param>
+            <returns>The map kit transport type</returns>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.Extensions.ToImage(Xamarin.Forms.ImageSource)">
+            <summary>
+            Converts an <see cref="T:Xamarin.Forms.ImageSource"/> to the native iOS <see cref="T:UIKit.UIImage"/>
+            </summary>
+            <param name="source">Self intance</param>
+            <returns>The UIImage</returns>
+        </member>
+        <member name="T:TK.CustomMap.iOSUnified.TKCustomMapAnnotation">
+            <summary>
+            Custom map annotation
+            </summary>
+        </member>
+        <member name="P:TK.CustomMap.iOSUnified.TKCustomMapAnnotation.Title">
+            <inheritdoc/>
+        </member>
+        <member name="P:TK.CustomMap.iOSUnified.TKCustomMapAnnotation.Subtitle">
+            <inheritdoc/>
+        </member>
+        <member name="P:TK.CustomMap.iOSUnified.TKCustomMapAnnotation.Coordinate">
+            <inheritdoc/>
+        </member>
+        <member name="P:TK.CustomMap.iOSUnified.TKCustomMapAnnotation.CustomPin">
+            <summary>
+            Gets the forms pin
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapAnnotation.SetCoordinate(CoreLocation.CLLocationCoordinate2D)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapAnnotation.SetCoordinateOriginal(CoreLocation.CLLocationCoordinate2D)">
+            <summary>
+            Xamarin.iOS does (still) not export <value>_original_setCoordinate</value>
+            </summary>
+            <param name="value">The coordinate</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapAnnotation.#ctor(TK.CustomMap.TKCustomMapPin)">
+            <summary>
+            Creates a new instance of <see cref="T:TK.CustomMap.iOSUnified.TKCustomMapAnnotation"/>
+            </summary>
+            <param name="pin">The forms pin</param>
+        </member>
+        <member name="T:TK.CustomMap.iOSUnified.TKCustomMapRenderer">
+            <summary>
+            iOS Renderer of <see cref="T:TK.CustomMap.TKCustomMap"/>
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.InitMapRenderer">
+            <summary>
+            Dummy function to avoid linker.
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnElementChanged(Xamarin.Forms.Platform.iOS.ElementChangedEventArgs{Xamarin.Forms.View})">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.MapLoaded(System.Object,System.EventArgs)">
+            <summary>
+            Initially set all data when map is loaded
+            </summary>
+            <param name="sender">Event sender</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.GetOverlayRenderer(MapKit.MKMapView,MapKit.IMKOverlay)">
+            <summary>
+            Get the overlay renderer
+            </summary>
+            <param name="mapView">The <see cref="T:MapKit.MKMapView"/></param>
+            <param name="overlay">The overlay to render</param>
+            <returns>The overlay renderer</returns>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnDidUpdateUserLocation(System.Object,MapKit.MKUserLocationEventArgs)">
+            <summary>
+            When the user location changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnMapPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            When a property of the forms map changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            When the collection of pins changed
+            </summary>
+            <param name="sender">Event sender</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnMapCalloutAccessoryControlTapped(System.Object,MapKit.MKMapViewAccessoryTappedEventArgs)">
+            <summary>
+            When the accessory control of a callout gets tapped
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnChangedDragState(System.Object,MapKit.MKMapViewDragStateEventArgs)">
+            <summary>
+            When the drag state changed
+            </summary>
+            <param name="sender">Event sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnMapRegionChanged(System.Object,MapKit.MKMapViewChangeEventArgs)">
+            <summary>
+            When the camera region changed
+            </summary>
+            <param name="sender">Event sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnDidSelectAnnotationView(System.Object,MapKit.MKAnnotationViewEventArgs)">
+            <summary>
+            When an annotation view got selected
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnMapClicked(UIKit.UITapGestureRecognizer)">
+            <summary>
+            When a tap was perfomed on the map
+            </summary>
+            <param name="recognizer">The gesture recognizer</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnMapLongPress(UIKit.UILongPressGestureRecognizer)">
+            <summary>
+            When a long press was performed
+            </summary>
+            <param name="recognizer">The gesture recognizer</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.GetViewForAnnotation(MapKit.MKMapView,MapKit.IMKAnnotation)">
+            <summary>
+            Get the view for the annotation
+            </summary>
+            <param name="mapView">The map</param>
+            <param name="annotation">The annotation</param>
+            <returns>The annotation view</returns>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.UpdatePins(System.Boolean)">
+            <summary>
+            Creates the annotations
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.UpdateLines(System.Boolean)">
+            <summary>
+            Creates the lines
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.UpdateRoutes(System.Boolean)">
+            <summary>
+            Create the routes
+            </summary>
+            <param name="firstUpdate">First update of collection or not</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnRouteCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            When the collection of routes changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.UpdateCircles(System.Boolean)">
+            <summary>
+            Creates the circles on the map
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.UpdatePolygons(System.Boolean)">
+            <summary>
+            Create the polygons
+            </summary>
+            <param name="firstUpdate">If the collection updates the first time</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnPolygonsCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            When the collection of polygons changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.AddPolygon(TK.CustomMap.Overlays.TKPolygon)">
+            <summary>
+            Adds a polygon to the map
+            </summary>
+            <param name="polygon">Polygon to add</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnPolygonPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            When a property of a polygon changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnCirclesCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            When the circles collection changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnLineCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            When the route collection changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.AddPin(TK.CustomMap.TKCustomMapPin)">
+            <summary>
+            Adds a pin
+            </summary>
+            <param name="pin">The pin to add</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.AddLine(TK.CustomMap.Overlays.TKPolyline)">
+            <summary>
+            Adds a route
+            </summary>
+            <param name="line">The route to add</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.AddRoute(TK.CustomMap.Overlays.TKRoute)">
+            <summary>
+            Adds a route to the map
+            </summary>
+            <param name="route">The route to add</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnRoutePropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            When a property of a route changed
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.AddCircle(TK.CustomMap.Overlays.TKCircle)">
+            <summary>
+            Adds a circle to the map
+            </summary>
+            <param name="circle">The circle to add</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnCirclePropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            When a property of a circle changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnLinePropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            When a property of the route changes, re-add the <see cref="T:MapKit.MKPolyline"/>
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.OnPinPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            When a property of the pin changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.SetRouteData(TK.CustomMap.Overlays.TKRoute,MapKit.MKRoute)">
+            <summary>
+            Sets the route data
+            </summary>
+            <param name="route">PCL route</param>
+            <param name="nativeRoute">Native route</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.SetAnnotationViewVisibility(MapKit.MKAnnotationView,TK.CustomMap.TKCustomMapPin)">
+            <summary>
+            Set the visibility of an annotation view
+            </summary>
+            <param name="annotationView">The annotation view</param>
+            <param name="pin">The forms pin</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.UpdateImage(MapKit.MKAnnotationView,TK.CustomMap.TKCustomMapPin)">
+            <summary>
+            Set the image of the annotation view
+            </summary>
+            <param name="annotationView">The annotation view</param>
+            <param name="pin">The forms pin</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.UpdateTileOptions">
+            <summary>
+            Updates the tiles and adds or removes the overlay
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.SetSelectedPin">
+            <summary>
+            Sets the selected pin
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.SetMapCenter">
+            <summary>
+            Sets the center of the map
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.UpdateShowTraffic">
+            <summary>
+            Sets traffic enabled on the map
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.UpdateMapRegion">
+            <summary>
+            Updates the map region when changed
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.DistanceOfPoint(MapKit.MKMapPoint,MapKit.MKPolyline)">
+            <summary>
+            Calculates the closest distance of a point to a polyline
+            </summary>
+            <param name="pt">The point</param>
+            <param name="poly">The polyline</param>
+            <returns>The closes distance</returns>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.MetersFromPixel(System.Int32,CoreGraphics.CGPoint)">
+            <summary>
+            Returns the meters between two points
+            </summary>
+            <param name="px">X in pixels</param>
+            <param name="pt">Position</param>
+            <returns>Distance in meters</returns>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.RegionToRect(MapKit.MKCoordinateRegion)">
+            <summary>
+            Convert a <see cref="T:MapKit.MKCoordinateRegion"/> to <see cref="T:MapKit.MKMapRect"/>
+            http://stackoverflow.com/questions/9270268/convert-mkcoordinateregion-to-mkmaprect
+            </summary>
+            <param name="region">Region to convert</param>
+            <returns>The map rect</returns>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.UnregisterCollections(TK.CustomMap.TKCustomMap)">
+            <summary>
+            Unregisters all collections
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.UnregisterCollection(System.Collections.IEnumerable,System.Collections.Specialized.NotifyCollectionChangedEventHandler,System.ComponentModel.PropertyChangedEventHandler)">
+            <summary>
+            Unregisters one collection and all of its items
+            </summary>
+            <param name="collection">The collection to unregister</param>
+            <param name="observableHandler">The <see cref="T:System.Collections.Specialized.NotifyCollectionChangedEventHandler"/> of the collection</param>
+            <param name="propertyHandler">The <see cref="T:System.ComponentModel.PropertyChangedEventHandler"/> of the collection items</param>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.GetSnapshot">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.FitMapRegionToPositions(System.Collections.Generic.IEnumerable{Xamarin.Forms.Maps.Position},System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.MoveToMapRegion(Xamarin.Forms.Maps.MapSpan,System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.FitToMapRegions(System.Collections.Generic.IEnumerable{Xamarin.Forms.Maps.MapSpan},System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.iOSUnified.TKCustomMapRenderer.GetPinByAnnotation(MapKit.IMKAnnotation)">
+            <summary>
+            Returns the <see cref="T:TK.CustomMap.TKCustomMapPin"/> by the native <see cref="T:MapKit.IMKAnnotation"/>
+            </summary>
+            <param name="annotation">The annotation to search with</param>
+            <returns>The forms pin</returns>
+        </member>
+        <member name="T:TK.CustomMap.iOSUnified.TKOverlayItem`2">
+            <summary>
+            Holds the forms instance, the native overlay and the corresponding renderer
+            </summary>
+        </member>
+        <member name="P:TK.CustomMap.iOSUnified.TKOverlayItem`2.Overlay">
+            <summary>
+            Gets/Sets the <see cref="T:TK.CustomMap.Overlays.TKOverlay"/>
+            </summary>
+        </member>
+        <member name="P:TK.CustomMap.iOSUnified.TKOverlayItem`2.Renderer">
+            <summary>
+            Gets/Sets the overlay renderer
+            </summary>
+        </member>
+    </members>
+</doc>
