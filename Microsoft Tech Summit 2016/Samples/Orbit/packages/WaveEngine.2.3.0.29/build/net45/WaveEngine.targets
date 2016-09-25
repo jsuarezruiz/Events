@@ -1,0 +1,29 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003"> 
+  
+  <PropertyGroup>
+	<SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">$(MSBuildProjectDirectory)\..\..\</SolutionDir>		
+    <ProfileName>$([System.IO.Path]::GetFileName($(MSBuildProjectDirectory)))</ProfileName>	
+  </PropertyGroup>
+  
+  <Target Name="BeforeBuild">
+	<RemoveDir Directories="$(TargetDir)Content\" Condition="Exists('$(TargetDir)Content\')"/>	
+	
+	<Message Text="********** Constants process Begin **********"/>
+	<Exec Command='"$(WaveEngine)v2.0\Tools\VisualEditor\WaveConstantsCMD.exe" -i "$(SolutionDir)$(ProjectName).weproj" -o "$(SolutionDir)SharedSource\Main"'/>    
+	<Message Text="********** Constants process End **********"/>
+  </Target>
+  <Target Name="AfterBuild">		
+		
+	<Message Text="********** Asset Export process Begin **********"/>	
+	<Exec Command='"$(WaveEngine)v2.0\Tools\VisualEditor\WaveExporterCMD.exe" -m Project -t Windows -p $(ProfileName) -i "$(SolutionDir)$(ProjectName).weproj" -o "$(SolutionDir)Intermediate\Content\$(ProfileName)"'/>    
+	<Message Text="********** Asset Export process End **********"/>
+	
+	<Message Text="********** Asset Copy Begin **********"/>  				
+    <Exec Command='xcopy /E /I /Y "$(SolutionDir)Intermediate\Content\$(ProfileName)\*.*" "$(TargetDir)\Content\"'/>
+	<Message Text="********** Asset Copy  End **********"/>  
+	
+  </Target>
+  <Target Name="AfterClean">
+    <RemoveDir Directories="$(TargetDir)Content\" Condition="Exists('$(TargetDir)Content')"/>	
+  </Target>
+ </Project>

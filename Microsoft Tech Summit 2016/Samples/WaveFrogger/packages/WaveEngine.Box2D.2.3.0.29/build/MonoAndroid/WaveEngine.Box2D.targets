@@ -1,0 +1,20 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <AndroidNativeLibrary Include="$(MSBuildThisFileDirectory)Box2D\arm\libBox2D.so">
+      <Link>Libs\arm\libBox2D.so</Link>
+      <Abi>armeabi-v7a</Abi>
+    </AndroidNativeLibrary>
+    <AndroidNativeLibrary Include="$(MSBuildThisFileDirectory)Box2D\arm64\libBox2D.so">
+      <Link>Libs\arm\libBox2D.so</Link>
+      <Abi>arm64-v8a</Abi>
+    </AndroidNativeLibrary>
+    <AndroidNativeLibrary Include="$(MSBuildThisFileDirectory)Box2D\x86\libBox2D.so">
+      <Link>Libs\arm\libBox2D.so</Link>
+      <Abi>x86</Abi>
+    </AndroidNativeLibrary>
+    <AndroidNativeLibrary Include="$(MSBuildThisFileDirectory)Box2D\x86_64\libBox2D.so">
+      <Link>Libs\arm\libBox2D.so</Link>
+      <Abi>x86_64</Abi>
+    </AndroidNativeLibrary>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+﻿<Application
+    x:Class="Orbit.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Orbit"
+    xmlns:locator="using:Orbit.ViewModels.Base"
+    RequestedTheme="Dark">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <!-- ViewModelLocator -->
+            <locator:ViewModelLocator x:Key="Locator" />
+
+            <!-- Styles -->
+            <Style TargetType="TextBlock">
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontFamily" Value="Segoe UI"/>
+                <Setter Property="FontWeight" Value="Light"/>
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
