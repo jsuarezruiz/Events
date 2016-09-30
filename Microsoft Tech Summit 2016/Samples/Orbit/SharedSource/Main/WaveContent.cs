@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// File generated on 25/09/2016 13:10:56
+// File generated on 30/09/2016 17:34:28
 namespace Orbit
 {
     using System;
@@ -22,6 +22,9 @@ namespace Orbit
             
             public sealed class Models
             {
+                
+                /// <summary> Path to Content/Assets/Models/Background.fbx </summary>
+                public const string Background_fbx = "Content/Assets/Models/Background.fbx";
                 
                 /// <summary> Path to Content/Assets/Models/Earth.FBX </summary>
                 public const string Earth_FBX = "Content/Assets/Models/Earth.FBX";
@@ -99,6 +102,9 @@ namespace Orbit
             
             public sealed class Materials
             {
+                
+                /// <summary> Path to Content/Assets/Materials/backgroundMat.wmat </summary>
+                public const string backgroundMat = "Content/Assets/Materials/backgroundMat.wmat";
                 
                 /// <summary> Path to Content/Assets/Materials/earthMat.wmat </summary>
                 public const string earthMat = "Content/Assets/Materials/earthMat.wmat";

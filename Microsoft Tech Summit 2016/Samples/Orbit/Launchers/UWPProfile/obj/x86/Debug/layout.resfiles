@@ -1,5 +1,4 @@
 WinMetadata\Windows.winmd
-Box2D.dll
 Assets\Galaxy.jpg
 Assets\gradient1.png
 Assets\gradient2.png
@@ -36,6 +35,7 @@ Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
+Content\Assets\Materials\backgroundMat.wmat
 Content\Assets\Materials\earthMat.wmat
 Content\Assets\Materials\jupiterMat.wmat
 Content\Assets\Materials\marsMat.wmat
@@ -48,6 +48,7 @@ Content\Assets\Materials\saturnMat.wmat
 Content\Assets\Materials\sunMat.wmat
 Content\Assets\Materials\uranusMat.wmat
 Content\Assets\Materials\venusMat.wmat
+Content\Assets\Models\Background.fbx.wpk
 Content\Assets\Models\Earth.FBX.wpk
 Content\Assets\Models\Jupiter.FBX.wpk
 Content\Assets\Models\Mars.FBX.wpk
@@ -75,3 +76,4 @@ Content\Scenes\MyScene.wscene
 Orbit.xr.xml
 Helpers\Composition\CircleMask.png
 Properties\Default.rd.xml
+Box2D.dll

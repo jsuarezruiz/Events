@@ -14,6 +14,9 @@
             Called when [deactivate].
             </summary>
         </member>
+        <member name="F:Orbit.WaveContent.Assets.Models.Background_fbx">
+            <summary> Path to Content/Assets/Models/Background.fbx </summary>
+        </member>
         <member name="F:Orbit.WaveContent.Assets.Models.Earth_FBX">
             <summary> Path to Content/Assets/Models/Earth.FBX </summary>
         </member>
@@ -82,6 +85,9 @@
         </member>
         <member name="F:Orbit.WaveContent.Assets.Textures.Venus_512_png">
             <summary> Path to Content/Assets/Textures/Venus_512.png </summary>
+        </member>
+        <member name="F:Orbit.WaveContent.Assets.Materials.backgroundMat">
+            <summary> Path to Content/Assets/Materials/backgroundMat.wmat </summary>
         </member>
         <member name="F:Orbit.WaveContent.Assets.Materials.earthMat">
             <summary> Path to Content/Assets/Materials/earthMat.wmat </summary>

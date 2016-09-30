@@ -10,7 +10,9 @@ namespace Orbit
     {
         private DisplayRequest displayRequest;
 
-        private Orbit.Game game;
+        private Game game;
+
+        public Game Game { get { return game; } }
 
         public GameRenderer(SwapChainPanel panel)
             : base(panel)
@@ -37,7 +39,7 @@ namespace Orbit
             this.displayRequest = new DisplayRequest();
             this.displayRequest.RequestActive();
 
-            game = new Orbit.Game();
+            game = new Game();
             game.Initialize(this);
         }
 

@@ -4,6 +4,7 @@ using Orbit.ViewModels;
 using Orbit.Views.Base;
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Media.Core;
 using Windows.UI.Core;
@@ -49,9 +50,11 @@ namespace Orbit.Views
 
         #region Methods
 
-        protected override void OnNavigatedTo(NavigationEventArgs e)
+        protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
+
+            RootElement.ScrollToVerticalOffset(0.0d);
 
             var item = e.Parameter as Planet;
             if (item != null)
@@ -78,16 +81,26 @@ namespace Orbit.Views
                 summaryAnimation.TryStart(SummaryText);
             }
 
-            _application = new GameRenderer(this.SwapChainPanel);
+            if (_application == null)
+            {
+                _application = new GameRenderer(this.SwapChainPanel);
 
-            _application.Initialize();
+                _application.Initialize();
+                _application.Update(TimeSpan.FromSeconds(1 / 60));
+            }
+            else
+            {
+                _application.OnResuming();
+            }
+            
+            ((GameRenderer)_application).Game.FollowPlanet(item.PlanetId.ToLower());
         }
 
         protected override void OnNavigatedFrom(NavigationEventArgs e)
         {
             base.OnNavigatedFrom(e);
 
-            _application.Exit();
+            _application.OnResuming();
         }
 
         private void OnLoaded(object sender, RoutedEventArgs e)

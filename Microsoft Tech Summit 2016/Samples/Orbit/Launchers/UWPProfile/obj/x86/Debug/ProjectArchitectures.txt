@@ -1,1 +1,1 @@
-C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Orbit.csproj;x86
+C:\Projects\Orbit\Launchers\UWPProfile\Orbit.csproj;x86

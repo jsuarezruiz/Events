@@ -178,6 +178,7 @@
     <RootType FullName="Windows.UI.Color" />
     <RootType FullName="Orbit.Views.Base.PageBase">
       <RootProperty Name="DataContext" />
+      <RootProperty Name="NavigationCacheMode" />
       <RootProperty Name="Content" />
       <RootProperty Name="Background" />
       <RootProperty Name="Resources" />

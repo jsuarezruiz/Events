@@ -11,7 +11,7 @@ namespace Orbit
 {
     public class App : WaveEngine.Adapter.Application
     {
-        Orbit.Game game;
+        Game game;
         SpriteBatch spriteBatch;
         Texture2D splashScreen;
         bool splashState = true;
@@ -30,7 +30,7 @@ namespace Orbit
 
         public override void Initialize()
         {
-            this.game = new Orbit.Game();
+            this.game = new Game();
             this.game.Initialize(this);
 
             #region DEFAULT SPLASHSCREEN

@@ -9,7 +9,8 @@
     xmlns:controls="using:Orbit.Controls"
     xmlns:triggers="using:Orbit.StateTriggers"
     mc:Ignorable="d"
-    DataContext="{Binding PlanetDetailViewModel, Source={StaticResource Locator}}">
+    DataContext="{Binding PlanetDetailViewModel, Source={StaticResource Locator}}"
+    NavigationCacheMode="Required">
     <ScrollViewer x:ConnectionId='1' 
         x:Name="RootElement" 
         HorizontalAlignment="Stretch"

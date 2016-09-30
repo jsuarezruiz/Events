@@ -2,7 +2,7 @@
 {
     public class Planet
     {
-        public int PlanetId { get; set; }
+        public string PlanetId { get; set; }
         public string Name { get; set; }
         public string Image { get; set; }
         public string HeroImage { get; set; }

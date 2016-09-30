@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>5c3499b7-c0fb-407e-9181-e40dfa4c1bbc</PackageIdentityName>
     <PackageIdentityPublisher>CN=davila</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Projects\Orbit\Launchers\UWPProfile\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -22,163 +22,171 @@
     <RegisteredPackageID>5c3499b7-c0fb-407e-9181-e40dfa4c1bbc</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=davila</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.3.0</RegisteredVersion>
-    <JitOptimizationSuppressed>False</JitOptimizationSuppressed>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-09-25T11:11:02.318</Modified>
+      <Modified>2016-09-30T15:34:35.545</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\earthMat.wmat">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\backgroundMat.wmat">
+      <PackagePath>Content\Assets\Materials\backgroundMat.wmat</PackagePath>
+      <Modified>2016-09-30T15:34:33.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\earthMat.wmat">
       <PackagePath>Content\Assets\Materials\earthMat.wmat</PackagePath>
-      <Modified>2016-09-25T11:11:00.252</Modified>
+      <Modified>2016-09-30T15:34:33.367</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\jupiterMat.wmat">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\jupiterMat.wmat">
       <PackagePath>Content\Assets\Materials\jupiterMat.wmat</PackagePath>
-      <Modified>2016-09-25T11:11:00.252</Modified>
+      <Modified>2016-09-30T15:34:33.370</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\marsMat.wmat">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\marsMat.wmat">
       <PackagePath>Content\Assets\Materials\marsMat.wmat</PackagePath>
-      <Modified>2016-09-25T11:11:00.255</Modified>
+      <Modified>2016-09-30T15:34:33.371</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\mercuryMat.wmat">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\mercuryMat.wmat">
       <PackagePath>Content\Assets\Materials\mercuryMat.wmat</PackagePath>
-      <Modified>2016-09-25T11:11:00.258</Modified>
+      <Modified>2016-09-30T15:34:33.374</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\moonMat.wmat">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\moonMat.wmat">
       <PackagePath>Content\Assets\Materials\moonMat.wmat</PackagePath>
-      <Modified>2016-09-25T11:11:00.259</Modified>
+      <Modified>2016-09-30T15:34:33.375</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\neptuneMat.wmat">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\neptuneMat.wmat">
       <PackagePath>Content\Assets\Materials\neptuneMat.wmat</PackagePath>
-      <Modified>2016-09-25T11:11:00.260</Modified>
+      <Modified>2016-09-30T15:34:33.378</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\orbitMat.wmat">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\orbitMat.wmat">
       <PackagePath>Content\Assets\Materials\orbitMat.wmat</PackagePath>
-      <Modified>2016-09-25T11:11:00.261</Modified>
+      <Modified>2016-09-30T15:34:33.378</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\plutonMat.wmat">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\plutonMat.wmat">
       <PackagePath>Content\Assets\Materials\plutonMat.wmat</PackagePath>
-      <Modified>2016-09-25T11:11:00.261</Modified>
+      <Modified>2016-09-30T15:34:33.381</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\saturnMat.wmat">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\saturnMat.wmat">
       <PackagePath>Content\Assets\Materials\saturnMat.wmat</PackagePath>
-      <Modified>2016-09-25T11:11:00.262</Modified>
+      <Modified>2016-09-30T15:34:33.382</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\sunMat.wmat">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\sunMat.wmat">
       <PackagePath>Content\Assets\Materials\sunMat.wmat</PackagePath>
-      <Modified>2016-09-25T11:11:00.263</Modified>
+      <Modified>2016-09-30T15:34:33.385</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\uranusMat.wmat">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\uranusMat.wmat">
       <PackagePath>Content\Assets\Materials\uranusMat.wmat</PackagePath>
-      <Modified>2016-09-25T11:11:00.264</Modified>
+      <Modified>2016-09-30T15:34:33.388</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\venusMat.wmat">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Materials\venusMat.wmat">
       <PackagePath>Content\Assets\Materials\venusMat.wmat</PackagePath>
-      <Modified>2016-09-25T11:11:00.265</Modified>
+      <Modified>2016-09-30T15:34:33.391</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Earth.FBX.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Background.fbx.wpk">
+      <PackagePath>Content\Assets\Models\Background.fbx.wpk</PackagePath>
+      <Modified>2016-09-30T15:12:55.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Earth.FBX.wpk">
       <PackagePath>Content\Assets\Models\Earth.FBX.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:13.648</Modified>
+      <Modified>2016-09-30T15:12:55.262</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Jupiter.FBX.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Jupiter.FBX.wpk">
       <PackagePath>Content\Assets\Models\Jupiter.FBX.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:13.704</Modified>
+      <Modified>2016-09-30T15:12:55.318</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Mars.FBX.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Mars.FBX.wpk">
       <PackagePath>Content\Assets\Models\Mars.FBX.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:13.746</Modified>
+      <Modified>2016-09-30T15:12:55.356</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Mercury.FBX.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Mercury.FBX.wpk">
       <PackagePath>Content\Assets\Models\Mercury.FBX.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:13.781</Modified>
+      <Modified>2016-09-30T15:12:55.395</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Moon.FBX.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Moon.FBX.wpk">
       <PackagePath>Content\Assets\Models\Moon.FBX.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:13.819</Modified>
+      <Modified>2016-09-30T15:12:55.435</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Neptune.FBX.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Neptune.FBX.wpk">
       <PackagePath>Content\Assets\Models\Neptune.FBX.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:13.855</Modified>
+      <Modified>2016-09-30T15:12:55.471</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Orbits.FBX.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Orbits.FBX.wpk">
       <PackagePath>Content\Assets\Models\Orbits.FBX.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:14.118</Modified>
+      <Modified>2016-09-30T15:12:55.855</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Pluton.FBX.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Pluton.FBX.wpk">
       <PackagePath>Content\Assets\Models\Pluton.FBX.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:14.156</Modified>
+      <Modified>2016-09-30T15:12:55.892</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Saturn.FBX.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Saturn.FBX.wpk">
       <PackagePath>Content\Assets\Models\Saturn.FBX.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:14.209</Modified>
+      <Modified>2016-09-30T15:12:55.949</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Sun.FBX.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Sun.FBX.wpk">
       <PackagePath>Content\Assets\Models\Sun.FBX.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:14.244</Modified>
+      <Modified>2016-09-30T15:12:55.984</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Uranus.FBX.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Uranus.FBX.wpk">
       <PackagePath>Content\Assets\Models\Uranus.FBX.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:14.441</Modified>
+      <Modified>2016-09-30T15:12:56.174</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Venus.FBX.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Models\Venus.FBX.wpk">
       <PackagePath>Content\Assets\Models\Venus.FBX.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:14.479</Modified>
+      <Modified>2016-09-30T15:12:56.216</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Earth_512.png.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Earth_512.png.wpk">
       <PackagePath>Content\Assets\Textures\Earth_512.png.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:14.578</Modified>
+      <Modified>2016-09-30T15:12:56.337</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Jupiter_512.png.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Jupiter_512.png.wpk">
       <PackagePath>Content\Assets\Textures\Jupiter_512.png.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:14.665</Modified>
+      <Modified>2016-09-30T15:12:56.428</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Mars_512.png.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Mars_512.png.wpk">
       <PackagePath>Content\Assets\Textures\Mars_512.png.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:14.754</Modified>
+      <Modified>2016-09-30T15:12:56.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Mercury_512.png.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Mercury_512.png.wpk">
       <PackagePath>Content\Assets\Textures\Mercury_512.png.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:14.833</Modified>
+      <Modified>2016-09-30T15:12:56.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Moon_512.png.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Moon_512.png.wpk">
       <PackagePath>Content\Assets\Textures\Moon_512.png.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:14.908</Modified>
+      <Modified>2016-09-30T15:12:56.749</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Neptune_512.png.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Neptune_512.png.wpk">
       <PackagePath>Content\Assets\Textures\Neptune_512.png.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:14.996</Modified>
+      <Modified>2016-09-30T15:12:56.845</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Pluto_512.png.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Pluto_512.png.wpk">
       <PackagePath>Content\Assets\Textures\Pluto_512.png.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:15.076</Modified>
+      <Modified>2016-09-30T15:12:56.934</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Saturn_512.png.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Saturn_512.png.wpk">
       <PackagePath>Content\Assets\Textures\Saturn_512.png.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:15.154</Modified>
+      <Modified>2016-09-30T15:12:57.013</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Sun_512.png.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Sun_512.png.wpk">
       <PackagePath>Content\Assets\Textures\Sun_512.png.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:15.232</Modified>
+      <Modified>2016-09-30T15:12:57.094</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Uranus_512.png.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Uranus_512.png.wpk">
       <PackagePath>Content\Assets\Textures\Uranus_512.png.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:15.313</Modified>
+      <Modified>2016-09-30T15:12:57.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Venus_512.png.wpk">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Assets\Textures\Venus_512.png.wpk">
       <PackagePath>Content\Assets\Textures\Venus_512.png.wpk</PackagePath>
-      <Modified>2016-09-23T15:35:15.401</Modified>
+      <Modified>2016-09-30T15:12:57.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Scenes\MyScene.wscene">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\\Content\Scenes\MyScene.wscene">
       <PackagePath>Content\Scenes\MyScene.wscene</PackagePath>
-      <Modified>2016-09-23T17:25:37.535</Modified>
+      <Modified>2016-09-30T15:31:56.868</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\Orbit.exe">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\Orbit.exe">
       <PackagePath>entrypoint\Orbit.exe</PackagePath>
-      <Modified>2016-09-25T11:10:58.883</Modified>
+      <Modified>2016-09-30T15:34:31.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jsuarezruiz\.nuget\packages\CommonServiceLocator\1.3.0\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
       <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
@@ -708,184 +716,184 @@
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
       <Modified>2016-05-16T01:04:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Galaxy.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Galaxy.jpg">
       <PackagePath>Assets\Galaxy.jpg</PackagePath>
-      <Modified>2016-09-24T10:35:36.420</Modified>
+      <Modified>2016-09-30T15:09:19.817</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Earth\Earth Hero.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Earth\Earth Hero.jpg">
       <PackagePath>Assets\Planets\Earth\Earth Hero.jpg</PackagePath>
-      <Modified>2016-09-24T19:17:00.916</Modified>
+      <Modified>2016-09-30T15:09:20.056</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Earth\Earth.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Earth\Earth.jpg">
       <PackagePath>Assets\Planets\Earth\Earth.jpg</PackagePath>
-      <Modified>2016-09-23T18:57:12.156</Modified>
+      <Modified>2016-09-30T15:09:20.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Galaxy Hero.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Galaxy Hero.jpg">
       <PackagePath>Assets\Planets\Galaxy Hero.jpg</PackagePath>
-      <Modified>2016-09-24T19:17:18.331</Modified>
+      <Modified>2016-09-30T15:09:20.038</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Jupiter\Jupiter Hero.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Jupiter\Jupiter Hero.jpg">
       <PackagePath>Assets\Planets\Jupiter\Jupiter Hero.jpg</PackagePath>
-      <Modified>2016-09-24T19:46:49.492</Modified>
+      <Modified>2016-09-30T15:09:20.090</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Jupiter\Jupiter.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Jupiter\Jupiter.jpg">
       <PackagePath>Assets\Planets\Jupiter\Jupiter.jpg</PackagePath>
-      <Modified>2016-09-23T18:56:00.080</Modified>
+      <Modified>2016-09-30T15:09:20.105</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Mars\Mars Hero.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Mars\Mars Hero.jpg">
       <PackagePath>Assets\Planets\Mars\Mars Hero.jpg</PackagePath>
-      <Modified>2016-09-24T19:17:07.875</Modified>
+      <Modified>2016-09-30T15:09:20.123</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Mars\Mars.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Mars\Mars.jpg">
       <PackagePath>Assets\Planets\Mars\Mars.jpg</PackagePath>
-      <Modified>2016-09-23T19:00:29.352</Modified>
+      <Modified>2016-09-30T15:09:20.137</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Mercury\Mercury Hero.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Mercury\Mercury Hero.jpg">
       <PackagePath>Assets\Planets\Mercury\Mercury Hero.jpg</PackagePath>
-      <Modified>2016-09-25T08:59:33.591</Modified>
+      <Modified>2016-09-30T15:09:20.156</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Mercury\Mercury.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Mercury\Mercury.jpg">
       <PackagePath>Assets\Planets\Mercury\Mercury.jpg</PackagePath>
-      <Modified>2016-09-23T19:06:40.618</Modified>
+      <Modified>2016-09-30T15:09:20.171</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Neptune\Neptune Hero.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Neptune\Neptune Hero.jpg">
       <PackagePath>Assets\Planets\Neptune\Neptune Hero.jpg</PackagePath>
-      <Modified>2016-09-25T08:59:26.209</Modified>
+      <Modified>2016-09-30T15:09:20.187</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Neptune\Neptune.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Neptune\Neptune.jpg">
       <PackagePath>Assets\Planets\Neptune\Neptune.jpg</PackagePath>
-      <Modified>2016-09-23T18:56:17.914</Modified>
+      <Modified>2016-09-30T15:09:20.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Pluto\Pluto Hero.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Pluto\Pluto Hero.jpg">
       <PackagePath>Assets\Planets\Pluto\Pluto Hero.jpg</PackagePath>
-      <Modified>2016-09-25T08:59:20.870</Modified>
+      <Modified>2016-09-30T15:09:20.217</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Pluto\Pluto.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Pluto\Pluto.jpg">
       <PackagePath>Assets\Planets\Pluto\Pluto.jpg</PackagePath>
-      <Modified>2016-09-23T19:17:30.927</Modified>
+      <Modified>2016-09-30T15:09:20.231</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Saturn\Saturn Hero.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Saturn\Saturn Hero.jpg">
       <PackagePath>Assets\Planets\Saturn\Saturn Hero.jpg</PackagePath>
-      <Modified>2016-09-24T19:46:38.443</Modified>
+      <Modified>2016-09-30T15:09:20.248</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Saturn\Saturn.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Saturn\Saturn.jpg">
       <PackagePath>Assets\Planets\Saturn\Saturn.jpg</PackagePath>
-      <Modified>2016-09-23T19:18:41.608</Modified>
+      <Modified>2016-09-30T15:09:20.261</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Uranus\Uranus Hero.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Uranus\Uranus Hero.jpg">
       <PackagePath>Assets\Planets\Uranus\Uranus Hero.jpg</PackagePath>
-      <Modified>2016-09-25T08:59:14.810</Modified>
+      <Modified>2016-09-30T15:09:20.277</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Uranus\Uranus.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Uranus\Uranus.jpg">
       <PackagePath>Assets\Planets\Uranus\Uranus.jpg</PackagePath>
-      <Modified>2016-09-23T18:58:30.939</Modified>
+      <Modified>2016-09-30T15:09:20.290</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Venus\Venus Hero.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Venus\Venus Hero.jpg">
       <PackagePath>Assets\Planets\Venus\Venus Hero.jpg</PackagePath>
-      <Modified>2016-09-25T08:59:08.787</Modified>
+      <Modified>2016-09-30T15:09:20.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Planets\Venus\Venus.jpg">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Planets\Venus\Venus.jpg">
       <PackagePath>Assets\Planets\Venus\Venus.jpg</PackagePath>
-      <Modified>2016-09-23T19:08:42.181</Modified>
+      <Modified>2016-09-30T15:09:20.323</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\gradient1.png">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\gradient1.png">
       <PackagePath>Assets\gradient1.png</PackagePath>
-      <Modified>2016-09-24T19:11:19.863</Modified>
+      <Modified>2016-09-30T15:09:19.826</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\gradient2.png">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\gradient2.png">
       <PackagePath>Assets\gradient2.png</PackagePath>
-      <Modified>2016-09-24T19:11:19.865</Modified>
+      <Modified>2016-09-30T15:09:19.835</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\gradient3.png">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\gradient3.png">
       <PackagePath>Assets\gradient3.png</PackagePath>
-      <Modified>2016-09-24T19:11:21.223</Modified>
+      <Modified>2016-09-30T15:09:19.844</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\heart.png">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\heart.png">
       <PackagePath>Assets\heart.png</PackagePath>
-      <Modified>2016-09-24T19:11:21.227</Modified>
+      <Modified>2016-09-30T15:09:19.853</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Icons\Measurements.png">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Icons\Measurements.png">
       <PackagePath>Assets\Icons\Measurements.png</PackagePath>
-      <Modified>2016-09-25T09:44:04.658</Modified>
+      <Modified>2016-09-30T15:09:19.991</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Icons\Sun.png">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Icons\Sun.png">
       <PackagePath>Assets\Icons\Sun.png</PackagePath>
-      <Modified>2016-09-25T09:43:42.051</Modified>
+      <Modified>2016-09-30T15:09:20.001</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Icons\Temperature.png">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Icons\Temperature.png">
       <PackagePath>Assets\Icons\Temperature.png</PackagePath>
-      <Modified>2016-09-25T09:43:54.025</Modified>
+      <Modified>2016-09-30T15:09:20.009</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\image1.png">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\image1.png">
       <PackagePath>Assets\image1.png</PackagePath>
-      <Modified>2016-09-24T19:11:21.230</Modified>
+      <Modified>2016-09-30T15:09:19.876</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2016-09-24T10:47:11.190</Modified>
+      <Modified>2016-09-30T15:09:19.885</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\particle1.png">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\particle1.png">
       <PackagePath>Assets\particle1.png</PackagePath>
-      <Modified>2016-09-24T18:29:03.161</Modified>
+      <Modified>2016-09-30T15:09:19.931</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-09-24T19:47:49.000</Modified>
+      <Modified>2016-09-30T15:09:19.939</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-09-24T10:45:16.772</Modified>
+      <Modified>2016-09-30T15:09:19.948</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-09-24T10:45:42.401</Modified>
+      <Modified>2016-09-30T15:09:19.956</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-09-24T10:47:31.042</Modified>
+      <Modified>2016-09-30T15:09:19.965</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-09-24T10:46:51.076</Modified>
+      <Modified>2016-09-30T15:09:19.972</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-09-24T19:47:33.631</Modified>
+      <Modified>2016-09-30T15:09:19.981</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Helpers\Composition\CircleMask.png">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Helpers\Composition\CircleMask.png">
       <PackagePath>Helpers\Composition\CircleMask.png</PackagePath>
-      <Modified>2016-09-23T17:55:26.239</Modified>
+      <Modified>2016-09-30T15:09:33.158</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2016-09-23T15:34:18.970</Modified>
+      <Modified>2016-09-30T15:09:35.518</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jsuarezruiz\.nuget\packages\WaveEngine.Box2D\2.3.0.29\build\uap10.0\Box2D\x86\Box2D.dll">
       <PackagePath>Box2D.dll</PackagePath>
       <Modified>2016-09-23T15:28:50.202</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\Orbit.xr.xml">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\Orbit.xr.xml">
       <PackagePath>Orbit.xr.xml</PackagePath>
-      <Modified>2016-09-25T11:05:19.717</Modified>
+      <Modified>2016-09-30T15:09:34.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-09-17T14:59:30.478</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-09-25T11:11:00.864</Modified>
+      <Modified>2016-09-30T15:34:33.983</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\UWPProfile\bin\x86\Debug\Core\Orbit.exe">
+    <AppxPackagedFile Include="C:\Projects\Orbit\Launchers\UWPProfile\bin\x86\Debug\Core\Orbit.exe">
       <PackagePath>Orbit.exe</PackagePath>
-      <Modified>2016-09-25T11:11:02.311</Modified>
+      <Modified>2016-09-30T15:34:35.539</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
