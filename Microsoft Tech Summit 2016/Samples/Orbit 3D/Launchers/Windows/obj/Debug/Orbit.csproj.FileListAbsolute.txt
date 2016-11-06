@@ -64,3 +64,5 @@ C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 
 C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Physics.xml
 C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\obj\Debug\Orbit.exe
 C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\obj\Debug\Orbit.pdb
+D:\GitHub\Events\Microsoft Tech Summit 2016\Samples\Orbit 3D\Launchers\Windows\obj\Debug\Orbit.exe
+D:\GitHub\Events\Microsoft Tech Summit 2016\Samples\Orbit 3D\Launchers\Windows\obj\Debug\Orbit.pdb
