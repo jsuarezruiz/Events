@@ -1,5 +1,0 @@
-if (DeviceFamilyHelper.GetDeviceFamily().Equals(DeviceFamily.Mobile))
-	IsPaneOpen = false;
-
-if (DeviceFamilyHelper.GetDeviceFamily().Equals(DeviceFamily.Desktop))
-	BackCommand.RaiseCanExecuteChanged();

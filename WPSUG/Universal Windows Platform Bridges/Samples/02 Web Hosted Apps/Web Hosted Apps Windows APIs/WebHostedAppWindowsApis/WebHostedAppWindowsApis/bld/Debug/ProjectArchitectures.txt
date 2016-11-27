@@ -1,1 +1,0 @@
-C:\Users\javie\Documents\GitHub\Events\WPSUG\Universal Windows Platform Bridges\Samples\02 Web Hosted Apps\Web Hosted Apps Windows APIs\WebHostedAppWindowsApis\WebHostedAppWindowsApis\WebHostedAppWindowsApis.jsproj;neutral

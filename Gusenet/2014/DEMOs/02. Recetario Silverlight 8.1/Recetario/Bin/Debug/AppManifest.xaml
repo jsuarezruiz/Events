@@ -1,7 +1,0 @@
-﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="Recetario" EntryPointType="Recetario.App" RuntimeVersion="6.7.50308.0">
-  <Deployment.Parts>
-    <AssemblyPart x:Name="Recetario" Source="Recetario.dll" />
-    <AssemblyPart x:Name="Microsoft.Phone.Controls" Source="Microsoft.Phone.Controls.dll" />
-    <AssemblyPart x:Name="Microsoft.Practices.Unity.Silverlight" Source="Microsoft.Practices.Unity.Silverlight.dll" />
-  </Deployment.Parts>
-</Deployment>

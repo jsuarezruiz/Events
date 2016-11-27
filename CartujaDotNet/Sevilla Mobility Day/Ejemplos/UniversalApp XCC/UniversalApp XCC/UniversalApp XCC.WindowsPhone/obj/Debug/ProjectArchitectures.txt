@@ -1,1 +1,0 @@
-c:\users\javier\documents\visual studio 2013\Projects\UniversalApp XCC\UniversalApp XCC\UniversalApp XCC.WindowsPhone\UniversalApp XCC.WindowsPhone.csproj;neutral

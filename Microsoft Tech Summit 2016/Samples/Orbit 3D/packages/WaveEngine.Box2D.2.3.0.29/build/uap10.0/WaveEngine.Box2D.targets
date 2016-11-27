@@ -1,9 +1,0 @@
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <!-- Add Box2D library to the project -->
-  <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)\Box2D\$(PlatformName)\Box2D.dll">
-      <Link>Box2D.dll</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-</Project>

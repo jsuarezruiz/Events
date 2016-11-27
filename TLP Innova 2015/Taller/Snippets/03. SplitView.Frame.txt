@@ -1,4 +1,0 @@
-<Frame x:Name="SplitViewFrame" 
-	   Margin="0, 10" />
-	   
-base.SplitViewFrame = SplitViewFrame;

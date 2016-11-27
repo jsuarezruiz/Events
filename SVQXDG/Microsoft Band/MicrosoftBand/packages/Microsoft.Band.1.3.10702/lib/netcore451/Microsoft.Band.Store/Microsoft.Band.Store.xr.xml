@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Roots >
-  <Roots.RootTypes>
-    <RootType FullName="Windows.UI.Xaml.Controls.Page" />
-    <RootType FullName="Microsoft.Band.Sensors.SensorConsentPage" />
-    <RootType FullName="Microsoft.Band.Tiles.AddTilePage" />
-  </Roots.RootTypes>
-</Roots>

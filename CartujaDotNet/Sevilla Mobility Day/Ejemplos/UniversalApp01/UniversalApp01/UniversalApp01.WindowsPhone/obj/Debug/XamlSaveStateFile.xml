@@ -1,9 +1,0 @@
-<XamlCompilerSaveState>
-  <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\universalapp01\universalapp01\universalapp01.windowsphone\obj\debug\intermediatexaml\universalapp01.windowsphone.exe" HashGuid="672eda9b-d6db-cbe1-4b0b-d08741938e18" />
-    <ReferenceAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\universalapp01\packages\commonservicelocator.1.2\lib\portable-windows8+net40+sl5+windowsphone8\microsoft.practices.servicelocation.dll" HashGuid="89de7f80-26d8-a17c-5ad9-b855f81ea5b2" />
-    <ReferenceAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\universalapp01\packages\unity.3.5.1404.0\lib\win8\microsoft.practices.unity.dll" HashGuid="bfbab92e-125a-5b6e-9ddc-f777451b52b9" />
-    <ReferenceAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\universalapp01\packages\unity.3.5.1404.0\lib\win8\microsoft.practices.unity.registrationbyconvention.dll" HashGuid="51d90060-4c44-273b-debb-8173fa2723a6" />
-    <ReferenceAssembly PathName="c:\users\javier\documents\visual studio 2013\projects\universalapp01\packages\newtonsoft.json.6.0.3\lib\portable-net45+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="c79997c3-e7ec-c6d9-80a0-b6fbe9a32ff1" />
-  </ReferenceAssemblyList>
-</XamlCompilerSaveState>

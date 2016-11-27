@@ -1,2 +1,0 @@
-C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.Core\TipCalc.Core.csproj;neutral
-C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.UI.WindowsStore\TipCalc.UI.WindowsStore.csproj;x86

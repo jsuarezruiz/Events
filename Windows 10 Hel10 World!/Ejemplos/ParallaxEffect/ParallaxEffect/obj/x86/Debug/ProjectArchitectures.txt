@@ -1,1 +1,0 @@
-c:\users\javie\documents\visual studio 2015\Projects\ParallaxEffect\ParallaxEffect\ParallaxEffect.csproj;x86

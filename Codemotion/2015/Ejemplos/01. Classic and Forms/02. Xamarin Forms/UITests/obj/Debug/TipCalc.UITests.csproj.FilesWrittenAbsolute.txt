@@ -1,7 +1,0 @@
-/Users/javiersuarezruiz/Projects/TipCalc/UITests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/Users/javiersuarezruiz/Projects/TipCalc/UITests/bin/Debug/TipCalc.UITests.dll.mdb
-/Users/javiersuarezruiz/Projects/TipCalc/UITests/bin/Debug/TipCalc.UITests.dll
-/Users/javiersuarezruiz/Projects/TipCalc/UITests/obj/Debug/TipCalc.UITests.dll
-/Users/javiersuarezruiz/Projects/TipCalc/UITests/obj/Debug/TipCalc.UITests.dll.mdb
-/Users/javiersuarezruiz/Projects/TipCalc/UITests/bin/Debug/nunit.framework.dll
-/Users/javiersuarezruiz/Projects/TipCalc/UITests/bin/Debug/Xamarin.UITest.dll

@@ -1,4 +1,0 @@
-C:\MVVMCross\06. App\FormulaOneApp.Classic.Core\FormulaOneApp.Classic.Core.csproj;neutral
-C:\MVVMCross\06. App\FormulaOneApp.Classic.Windows\FormulaOneApp.Classic.Windows.csproj;neutral
-C:\MVVMCross\06. App\FormulaOneApp.ErgastAPI\FormulaOneApp.ErgastAPI.csproj;neutral
-C:\MVVMCross\06. App\FormulaOneApp.Rss\FormulaOneApp.Rss.csproj;neutral

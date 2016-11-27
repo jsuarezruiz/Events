@@ -1,1 +1,0 @@
-https://www.nuget.org/packages/PhoneCall.Forms.Plugin/

@@ -1,2 +1,0 @@
-C:\Users\javie\Documents\GitHub\Events\SVQXDG\Microsoft Band\MicrosoftBand\MicrosoftBand.Phone\MicrosoftBand.Phone.csproj;neutral
-C:\Users\javie\Documents\GitHub\Events\SVQXDG\Microsoft Band\MicrosoftBand\MicrosoftBand\MicrosoftBand\MicrosoftBand.csproj;neutral
