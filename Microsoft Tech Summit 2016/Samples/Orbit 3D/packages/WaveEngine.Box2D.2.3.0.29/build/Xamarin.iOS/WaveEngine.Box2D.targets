@@ -1,0 +1,18 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Add Box2D library to the project -->
+  <ItemGroup>
+	<None Include="$(MSBuildThisFileDirectory)\Box2D\libBox2D.a">
+		<Link>libBox2D.a</Link>
+		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</None>
+  </ItemGroup>  
+  
+  <!-- Link Box2D library -->
+  <PropertyGroup Condition=" '$(OS)' == 'Windows_NT' ">
+    <MtouchExtraArgs>$(MtouchExtraArgs) -cxx -gcc_flags "-L${ProjectDir} -lBox2D -force_load ${ProjectDir}/libBox2D.a"</MtouchExtraArgs>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition=" '$(OS)' == 'Unix' ">
+    <MtouchExtraArgs>$(MtouchExtraArgs) -cxx -gcc_flags "-L${TargetDir} -lBox2D -force_load ${TargetDir}/libBox2D.a"</MtouchExtraArgs>
+  </PropertyGroup>
+</Project>

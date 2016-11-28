@@ -1,0 +1,2 @@
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.Windows\MVVMCross.Navigation.Windows.Windows.csproj;x86
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation\MVVMCross.Navigation.csproj;neutral

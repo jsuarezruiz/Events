@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.ExternalMaps.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.ExternalMaps.Abstractions.IExternalMaps">
+            <summary>
+            Interface for ExternalMaps
+            </summary>
+        </member>
+        <member name="M:Plugin.ExternalMaps.Abstractions.IExternalMaps.NavigateTo(System.String,System.Double,System.Double,Plugin.ExternalMaps.Abstractions.NavigationType)">
+            <summary>
+            Navigate to specific latitude and longitude.
+            </summary>
+            <param name="name">Label to display</param>
+            <param name="latitude">Lat</param>
+            <param name="longitude">Long</param>
+            <param name="navigationType">Type of navigation</param>
+        </member>
+        <member name="M:Plugin.ExternalMaps.Abstractions.IExternalMaps.NavigateTo(System.String,System.String,System.String,System.String,System.String,System.String,System.String,Plugin.ExternalMaps.Abstractions.NavigationType)">
+            <summary>
+            Navigate to an address
+            </summary>
+            <param name="name">Label to display</param>
+            <param name="street">Street</param>
+            <param name="city">City</param>
+            <param name="state">Sate</param>
+            <param name="zip">Zip</param>
+            <param name="country">Country</param>
+            <param name="countryCode">Country Code if applicable</param>
+            <param name="navigationType">Navigation type</param>
+        </member>
+        <member name="T:Plugin.ExternalMaps.Abstractions.NavigationType">
+            <summary>
+            Type of navigation to initiate.
+            </summary>
+        </member>
+        <member name="F:Plugin.ExternalMaps.Abstractions.NavigationType.Default">
+            <summary>
+            OS Default (usually driving)
+            </summary>
+        </member>
+        <member name="F:Plugin.ExternalMaps.Abstractions.NavigationType.Driving">
+            <summary>
+            Driving navigation
+            </summary>
+        </member>
+        <member name="F:Plugin.ExternalMaps.Abstractions.NavigationType.Walking">
+            <summary>
+            Walking navigation
+            </summary>
+        </member>
+    </members>
+</doc>

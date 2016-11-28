@@ -1,0 +1,17 @@
+/Users/javiersuarezruiz/Projects/TipCalc/iOS/obj/iPhone/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/javiersuarezruiz/Projects/TipCalc/iOS/obj/iPhone/Release/ibtool/LaunchScreen.nib
+/Users/javiersuarezruiz/Projects/TipCalc/iOS/obj/iPhone/Release/actool/partial-info.plist
+/Users/javiersuarezruiz/Projects/TipCalc/iOS/obj/iPhone/Release/actool/asset-manifest.plist
+/Users/javiersuarezruiz/Projects/TipCalc/iOS/obj/iPhone/Release/optimized/
+/Users/javiersuarezruiz/Projects/TipCalc/iOS/bin/iPhone/Release/TipCalc.iOS.exe.mdb
+/Users/javiersuarezruiz/Projects/TipCalc/iOS/bin/iPhone/Release/TipCalc.iOS.exe
+/Users/javiersuarezruiz/Projects/TipCalc/iOS/obj/iPhone/Release/TipCalc.iOS.exe
+/Users/javiersuarezruiz/Projects/TipCalc/iOS/obj/iPhone/Release/TipCalc.iOS.exe.mdb
+/Users/javiersuarezruiz/Projects/TipCalc/iOS/bin/iPhone/Release/Xamarin.Insights.dll
+/Users/javiersuarezruiz/Projects/TipCalc/iOS/bin/iPhone/Release/PLCrashReporterUnifiedBinding.dll
+/Users/javiersuarezruiz/Projects/TipCalc/iOS/bin/iPhone/Release/Xamarin.Forms.Platform.iOS.dll
+/Users/javiersuarezruiz/Projects/TipCalc/iOS/bin/iPhone/Release/Xamarin.Forms.Core.dll
+/Users/javiersuarezruiz/Projects/TipCalc/iOS/bin/iPhone/Release/Xamarin.Forms.Xaml.dll
+/Users/javiersuarezruiz/Projects/TipCalc/iOS/bin/iPhone/Release/Calabash.dll
+/Users/javiersuarezruiz/Projects/TipCalc/iOS/bin/iPhone/Release/TipCalc.dll
+/Users/javiersuarezruiz/Projects/TipCalc/iOS/bin/iPhone/Release/TipCalc.dll.mdb

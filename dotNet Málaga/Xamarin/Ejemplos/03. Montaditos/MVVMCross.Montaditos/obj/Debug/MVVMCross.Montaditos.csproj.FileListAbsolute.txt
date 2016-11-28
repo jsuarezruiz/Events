@@ -1,0 +1,25 @@
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\bin\Debug\MVVMCross.Montaditos.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\bin\Debug\MVVMCross.Montaditos.pdb
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\bin\Debug\Cirrious.CrossCore.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\bin\Debug\Cirrious.MvvmCross.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\bin\Debug\Cirrious.MvvmCross.Localization.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\obj\Debug\MVVMCross.Montaditos.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\obj\Debug\MVVMCross.Montaditos.pdb
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\bin\Debug\Assets\Jamon.jpg
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\bin\Debug\Assets\PateSalsaMostaza.jpg
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\bin\Debug\Assets\QuesoBriePimiento.jpg
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\bin\Debug\Assets\QuesoCabra.jpg
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\MVVMCross.Montaditos\MVVMCross.Montaditos\bin\Debug\Assets\QuesoIbericoPimienta.jpg
+C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\bin\Debug\Assets\Jamon.jpg
+C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\bin\Debug\Assets\PateSalsaMostaza.jpg
+C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\bin\Debug\Assets\QuesoBriePimiento.jpg
+C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\bin\Debug\Assets\QuesoCabra.jpg
+C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\bin\Debug\Assets\QuesoIbericoPimienta.jpg
+C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\bin\Debug\MVVMCross.Montaditos.dll
+C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\bin\Debug\MVVMCross.Montaditos.pdb
+C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\bin\Debug\Cirrious.CrossCore.dll
+C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\bin\Debug\Cirrious.MvvmCross.dll
+C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\bin\Debug\Cirrious.MvvmCross.Localization.dll
+C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\obj\Debug\MVVMCross.Montaditos.csprojResolveAssemblyReference.cache
+C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\obj\Debug\MVVMCross.Montaditos.dll
+C:\MVVMCross\03. Montaditos\MVVMCross.Montaditos\obj\Debug\MVVMCross.Montaditos.pdb

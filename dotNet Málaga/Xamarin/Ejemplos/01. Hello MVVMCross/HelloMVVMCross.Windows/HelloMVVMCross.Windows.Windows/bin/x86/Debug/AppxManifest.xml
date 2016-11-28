@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" IgnorableNamespaces="build">
+  <!--
+    ESTE ARCHIVO DE MANIFIESTO DEL PAQUETE SE GENERA MEDIANTE EL PROCESO DE COMPILACIÓN.
+
+    Los cambios realizados en el archivo se perderán al regenerarlo. Para corregir los errores de este archivo, edite el archivo de origen .appxmanifest.
+
+    Para obtener más información acerca de los archivos de manifiesto del paquete, vea http://go.microsoft.com/fwlink/?LinkID=241727
+  -->
+  <Identity Name="be03728f-a6e1-4e76-af6a-5c9a5c9d0c47" Publisher="CN=Javier" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Properties>
+    <DisplayName>HelloMVVMCross.Windows.Windows</DisplayName>
+    <PublisherDisplayName>Javier</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="ES-ES" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="HelloMVVMCross.Windows.Windows.exe" EntryPoint="HelloMVVMCross.Windows.Windows.App">
+      <m2:VisualElements DisplayName="HelloMVVMCross.Windows.Windows" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="HelloMVVMCross.Windows.Windows" ForegroundText="light" BackgroundColor="#464646">
+        <m2:SplashScreen Image="Assets\SplashScreen.png" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+  <build:Metadata>
+    <build:Item Name="SharedGUID" Value="4bdd8dd1-7877-4c26-9e27-813608f550f2" />
+    <build:Item Name="CodeSharingProject" Value="248F659F-DAC5-46E8-AC09-60EC9FC95053" />
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v4.5.1" />
+    <build:Item Name="VisualStudio" Version="14.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2015" />
+    <build:Item Name="OperatingSystem" Version="10.0.10240.16384 (th1.150709-1700)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.23311.4" />
+    <build:Item Name="ProjectGUID" Value="{AA680B82-0ACD-4E34-9688-AFFCC62EAC47}" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.81.Build.Tasks.dll" Version="14.0.22705.1" />
+    <build:Item Name="MakePri.exe" Version="6.3.9600.17336 (winblue.150226-1500)" />
+  </build:Metadata>
+</Package>

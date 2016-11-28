@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FFImageLoading.Forms.WinRT</name>
+    </assembly>
+    <members>
+        <member name="T:FFImageLoading.Forms.WinRT.CachedImageRenderer">
+            <summary>
+            CachedImage Implementation
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Forms.WinRT.CachedImageRenderer.Init">
+            <summary>
+              Used for registration with dependency service
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,55 @@
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\obj\Debug\App.g.cs
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\obj\Debug\View\GroupDetailPage.g.cs
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\obj\Debug\View\MainPage.g.cs
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\obj\Debug\View\RecipeDetailPage.g.cs
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\obj\Debug\Recetario.g.resources
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\obj\Debug\Recetario.dll
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\obj\Debug\Recetario.pdb
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\ApplicationIcon.png
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\Background.png
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\Recetario.dll
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\Recetario.pdb
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\AppManifest.xaml
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\Recetario_Debug_AnyCPU.xap
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\Bin\Debug\Microsoft.Practices.Unity.Silverlight.dll
+C:\Users\Javier\SkyDrive\Charlas\SecondNug\Los Pelochos Contraatacan!\Shared\v2 - Tras MVVM\02. RecetarioWP8\RecetarioWP7\obj\Debug\XapCacheFile.xml
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\Bin\Debug\ApplicationIcon.png
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\Bin\Debug\Background.png
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\Bin\Debug\Recetario.dll
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\Bin\Debug\Recetario.pdb
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\Bin\Debug\resources.pri
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\Bin\Debug\AppxManifest.xml
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\Bin\Debug\Recetario.build.appxrecipe
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\Bin\Debug\AppManifest.xaml
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\Bin\Debug\Recetario_Debug_AnyCPU.xap
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\Bin\Debug\Microsoft.Practices.Unity.Silverlight.dll
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\Recetario.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\App.g.cs
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\View\GroupDetailPage.g.cs
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\View\MainPage.g.cs
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\View\RecipeDetailPage.g.cs
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\Recetario.g.resources
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\Recetario.dll
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\Recetario.pdb
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\Microsoft.Practices.Unity.Silverlight\en\Microsoft.Practices.Unity.Properties.Resources.resw
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\Recetario.csproj.GenerateResource.Cache
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\Microsoft.Practices.Unity.Silverlight.pri
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\Microsoft.Practices.Unity.Silverlight\qualifiers.txt
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\priconfig.xml
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\priconfig.xml.intermediate
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\layout.resfiles
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\layout.resfiles.intermediate
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\resources.resfiles
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\resources.resfiles.intermediate
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\pri.resfiles
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\pri.resfiles.intermediate
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\qualifiers.txt
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\ProjectArchitectures.txt
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\MDILProjectFiles.xml
+C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\02. Recetario Silverlight 8.1\Recetario\obj\Debug\XapCacheFile.xml

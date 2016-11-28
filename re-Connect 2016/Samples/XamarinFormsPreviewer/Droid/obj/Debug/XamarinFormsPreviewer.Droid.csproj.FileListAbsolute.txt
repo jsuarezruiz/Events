@@ -1,0 +1,116 @@
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\XamarinFormsPreviewer.Droid.dll
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\XamarinFormsPreviewer.Droid.pdb
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\com.companyname.xamarinformspreviewer.apk
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\com.companyname.xamarinformspreviewer-Signed.apk
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\FormsViewGroup.dll
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\XamarinFormsPreviewer.dll
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\XamarinFormsPreviewer.pdb
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\FormsViewGroup.pdb
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\obj\Debug\XamarinFormsPreviewer.Droid.csprojResolveAssemblyReference.cache
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\obj\Debug\XamarinFormsPreviewer.Droid.dll
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\obj\Debug\XamarinFormsPreviewer.Droid.pdb
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\bin\com.companyname.xamarinformspreviewer.apk
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\obj\Debug\res\layout\tabbar.xml
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\obj\Debug\res\layout\toolbar.xml
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\obj\Debug\res\values\styles.xml
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\obj\Debug\res\drawable\icon.png
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\obj\Debug\R.cs.flag
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\obj\Debug\uploadflags.txt
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\obj\Debug\XamarinFormsPreviewer.Droid.dll.mdb
+C:\Users\javie\Desktop\Xamarin Dev Days Madrid\Samples\XamarinFormsPreviewer\Droid\bin\Debug\XamarinFormsPreviewer.Droid.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\XamarinFormsPreviewer.Droid.dll
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\XamarinFormsPreviewer.Droid.pdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\com.companyname.xamarinformspreviewer.apk
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\com.companyname.xamarinformspreviewer-Signed.apk
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\FormsViewGroup.dll
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\XamarinFormsPreviewer.dll
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\XamarinFormsPreviewer.pdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\XamarinFormsPreviewer.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\FormsViewGroup.pdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\XamarinFormsPreviewer.Droid.csprojResolveAssemblyReference.cache
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\XamarinFormsPreviewer.Droid.dll
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\XamarinFormsPreviewer.Droid.pdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\bin\com.companyname.xamarinformspreviewer.apk
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\res\layout\tabbar.xml
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\res\layout\toolbar.xml
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\res\values\styles.xml
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\res\drawable\icon.png
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\R.cs.flag
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\uploadflags.txt
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Java.Interop.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\Mono.Android.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\mscorlib.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\System.Core.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\System.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\System.Xml.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\XamarinFormsPreviewer.Droid.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\assets\System.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\assets\XamarinFormsPreviewer.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\android\assets\XamarinFormsPreviewer.Droid.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\obj\Debug\XamarinFormsPreviewer.Droid.dll.mdb
+C:\Users\javie\Desktop\re-Connect\Samples\XamarinFormsPreviewer\Droid\bin\Debug\XamarinFormsPreviewer.Droid.dll.mdb

@@ -1,0 +1,16 @@
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Iphone\obj\iPhone\Debug\
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Iphone\obj\iPhone\Debug\MVVMCross.Navigation.Iphone.csprojResolveAssemblyReference.cache
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Iphone\bin\iPhone\Debug\MVVMCrossNavigationIphone.exe
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Iphone\bin\iPhone\Debug\MVVMCrossNavigationIphone.pdb
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Iphone\bin\iPhone\Debug\Cirrious.CrossCore.dll
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Iphone\bin\iPhone\Debug\Cirrious.CrossCore.Touch.dll
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Iphone\bin\iPhone\Debug\Cirrious.MvvmCross.Binding.dll
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Iphone\bin\iPhone\Debug\Cirrious.MvvmCross.Binding.Touch.dll
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Iphone\bin\iPhone\Debug\Cirrious.MvvmCross.dll
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Iphone\bin\iPhone\Debug\Cirrious.MvvmCross.Localization.dll
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Iphone\bin\iPhone\Debug\Cirrious.MvvmCross.Touch.dll
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Iphone\bin\iPhone\Debug\MVVMCross.Navigation.dll
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Iphone\bin\iPhone\Debug\MVVMCross.Navigation.pdb
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Iphone\bin\iPhone\Debug\MVVMCross.Navigation.dll.mdb
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Iphone\obj\iPhone\Debug\MVVMCrossNavigationIphone.exe
+c:\users\javier\documents\visual studio 2013\Projects\MVVMCross.Navigation\MVVMCross.Navigation.Iphone\obj\iPhone\Debug\MVVMCrossNavigationIphone.pdb

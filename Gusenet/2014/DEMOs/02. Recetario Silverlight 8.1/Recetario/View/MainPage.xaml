@@ -1,0 +1,54 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Recetario.View.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True"
+    DataContext="{Binding Path=MainViewModel, Source={StaticResource ViewModelLocator}}">
+
+    <!--LayoutRoot es la cuadrícula raíz donde se coloca todo el contenido de la página-->
+    <Grid x:Name="LayoutRoot" Background="{StaticResource CustomApplicationBackgroundBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contiene el nombre de la aplicación y el título de la página-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Orientation="Horizontal" Margin="12,17,0,15">
+            <Image x:Name="imgLogo" Source="../Logo.png" Stretch="Uniform" HorizontalAlignment="Left" Width="75"/>
+            <TextBlock x:Name="PageTitle" Text="Recetas" Foreground="{StaticResource CustomGroupTitleBrush}" 
+                       Style="{StaticResource PhoneTextTitle1Style}" Margin="15,-7,0,0"/>
+        </StackPanel>
+
+        <!--ContentPanel. Colocar aquí el contenido adicional-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <ListBox x:Name="lstGroups" ItemsSource="{Binding Recipes}" SelectedItem="{Binding SelectedRecipeDataGroup, Mode=TwoWay}">
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <VirtualizingStackPanel Orientation="Vertical"/>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="5">
+                            <Image x:Name="img" Source="{Binding BackgroundImage}" Stretch="UniformToFill" Height="175"/>
+                            <StackPanel Background="{StaticResource CustomGroupTitleBrush}" VerticalAlignment="Bottom" Height="75" Opacity="0.75">
+                                <TextBlock Text="{Binding Title}" FontSize="28" Foreground="White"/>
+                                <TextBlock Text="{Binding Description}" TextWrapping="Wrap" FontSize="14" Foreground="white"/>
+                            </StackPanel>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

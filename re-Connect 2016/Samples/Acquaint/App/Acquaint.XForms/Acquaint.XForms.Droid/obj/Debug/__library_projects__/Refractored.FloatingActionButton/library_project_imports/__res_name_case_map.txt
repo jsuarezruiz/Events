@@ -1,0 +1,13 @@
+drawable-hdpi/fab_shadow.png;drawable-hdpi/fab_shadow.png
+drawable-hdpi/fab_shadow_mini.png;drawable-hdpi/fab_shadow_mini.png
+drawable-mdpi/fab_shadow.png;drawable-mdpi/fab_shadow.png
+drawable-mdpi/fab_shadow_mini.png;drawable-mdpi/fab_shadow_mini.png
+drawable-xhdpi/fab_shadow.png;drawable-xhdpi/fab_shadow.png
+drawable-xhdpi/fab_shadow_mini.png;drawable-xhdpi/fab_shadow_mini.png
+drawable-xxhdpi/fab_shadow.png;drawable-xxhdpi/fab_shadow.png
+drawable-xxhdpi/fab_shadow_mini.png;drawable-xxhdpi/fab_shadow_mini.png
+drawable-xxxhdpi/fab_shadow.png;drawable-xxxhdpi/fab_shadow.png
+drawable-xxxhdpi/fab_shadow_mini.png;drawable-xxxhdpi/fab_shadow_mini.png
+values/attrs.xml;values/attrs.xml
+values/colors.xml;values/colors.xml
+values/dimens.xml;values/dimens.xml

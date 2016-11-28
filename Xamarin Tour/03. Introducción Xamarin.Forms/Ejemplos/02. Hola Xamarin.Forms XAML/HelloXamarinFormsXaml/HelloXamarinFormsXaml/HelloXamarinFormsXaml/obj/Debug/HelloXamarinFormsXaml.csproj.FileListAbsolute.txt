@@ -1,0 +1,10 @@
+c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsXaml\HelloXamarinFormsXaml\HelloXamarinFormsXaml\bin\Debug\HelloXamarinFormsXaml.dll
+c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsXaml\HelloXamarinFormsXaml\HelloXamarinFormsXaml\bin\Debug\HelloXamarinFormsXaml.pdb
+c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsXaml\HelloXamarinFormsXaml\HelloXamarinFormsXaml\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsXaml\HelloXamarinFormsXaml\HelloXamarinFormsXaml\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsXaml\HelloXamarinFormsXaml\HelloXamarinFormsXaml\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsXaml\HelloXamarinFormsXaml\HelloXamarinFormsXaml\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsXaml\HelloXamarinFormsXaml\HelloXamarinFormsXaml\obj\Debug\HelloXamarinFormsXaml.csprojResolveAssemblyReference.cache
+c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsXaml\HelloXamarinFormsXaml\HelloXamarinFormsXaml\obj\Debug\MainView.xaml.g.cs
+c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsXaml\HelloXamarinFormsXaml\HelloXamarinFormsXaml\obj\Debug\HelloXamarinFormsXaml.dll
+c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsXaml\HelloXamarinFormsXaml\HelloXamarinFormsXaml\obj\Debug\HelloXamarinFormsXaml.pdb

@@ -1,0 +1,34 @@
+﻿<base:PageBase
+    x:Class="VisualStates.Views.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:base="using:VisualStates.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="DefaultLayout">
+                </VisualState>
+                <VisualState x:Name="MinimalOrPhonePortrailLayout">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Duration="0" Storyboard.TargetProperty="Text" Storyboard.TargetName="SimpleMessage">
+                            <DiscreteObjectKeyFrame KeyTime="0:0:0" Value="Phone Layout" />
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+                <VisualState x:Name="PortraitLayout">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Duration="0" Storyboard.TargetProperty="Text" Storyboard.TargetName="SimpleMessage">
+                            <DiscreteObjectKeyFrame KeyTime="0:0:0" Value="Big Device Portrait" />
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <Grid>
+            <TextBlock Name="SimpleMessage" Text="Hello Default World" TextTrimming="WordEllipsis" Foreground="Blue" FontSize="60"/>
+        </Grid>
+    </Grid>
+</base:PageBase>

@@ -1,0 +1,6 @@
+C:\Users\javie\Downloads\app-acquaint-master\App\Acquaint.XForms\Acquaint.XForms.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\javie\Downloads\app-acquaint-master\App\Acquaint.XForms\Acquaint.XForms.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\javie\Downloads\app-acquaint-master\App\Acquaint.XForms\Acquaint.XForms.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\javie\Downloads\app-acquaint-master\App\Acquaint.XForms\Acquaint.XForms.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\javie\Downloads\app-acquaint-master\App\Acquaint.XForms\Acquaint.XForms.iOS\obj\iPhoneSimulator\Debug\Acquaint.XForms.iOS.csprojResolveAssemblyReference.cache
+C:\Users\javie\Downloads\app-acquaint-master\App\Acquaint.XForms\Acquaint.XForms.iOS\obj\iPhoneSimulator\Debug\Acquaint.XForms.iOS.csproj.AcquaintXFormsiOS.exe.config

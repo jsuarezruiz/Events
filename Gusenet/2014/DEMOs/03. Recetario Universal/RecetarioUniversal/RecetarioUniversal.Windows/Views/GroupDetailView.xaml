@@ -1,0 +1,71 @@
+﻿<base:PageBase
+    x:Name="GroupDetail"
+    x:Class="RecetarioUniversal.Views.GroupDetailView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:base="using:RecetarioUniversal.Views.Base"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding Path=GroupDetailViewModel, Source={StaticResource ViewModelLocator}}">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Themes/Button.xaml"/>
+                <ResourceDictionary Source="/Themes/List.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid Background="{StaticResource CustomApplicationBackgroundBrush}" DataContext="{Binding RecipeGroup}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" 
+                    Style="{StaticResource NavigationBackButtonNormalStyle}"
+                    Foreground="{StaticResource CustomGroupTitleBrush}"
+                    VerticalAlignment="Top"
+                    AutomationProperties.Name="Back"
+                    AutomationProperties.AutomationId="BackButton"
+                    AutomationProperties.ItemType="Navigation Button"
+                    Command="{Binding DataContext.GoBackCommand, ElementName=GroupDetail}"/>
+            <TextBlock x:Name="pageTitle" Text="{Binding Title}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1"
+                       Foreground="{StaticResource CustomGroupTitleBrush}"
+                       VerticalAlignment="Bottom" Margin="0,0,30,40"/>
+        </Grid>
+        <GridView
+            x:Name="itemGridView"
+            AutomationProperties.AutomationId="ItemGridView"
+            AutomationProperties.Name="Items In Group"
+            TabIndex="1"
+            Grid.Row="1"
+            Margin="0,-14,0,0"
+            Padding="120,0,120,50"
+            ItemsSource="{Binding Items}"
+            ItemTemplate="{StaticResource DefaultRecipeItemTemplate}"
+            SelectedItem="{Binding DataContext.SelectedRecipe, ElementName=GroupDetail, Mode=TwoWay}">
+            <GridView.Header>
+                <StackPanel Width="480" Margin="0,4,14,0">
+                    <Image Source="{Binding Image}" Width="480" Margin="0,10,18,20" Stretch="UniformToFill"/>
+                    <TextBlock Text="{Binding Description}" TextWrapping="Wrap" Foreground="Black" Margin="0,0,18,0" />
+                </StackPanel>
+            </GridView.Header>
+            <GridView.ItemContainerStyle>
+                <Style TargetType="FrameworkElement">
+                    <Setter Property="Margin" Value="52,0,0,10"/>
+                </Style>
+            </GridView.ItemContainerStyle>
+        </GridView>
+    </Grid>
+</base:PageBase>

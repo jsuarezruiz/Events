@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <ManifestDocuments />
+  <NativeLibraries />
+  <Jars>
+    <Jar>obj\Debug\__library_projects__\FormsViewGroup\library_project_imports\formsviewgroup.jar</Jar>
+    <Jar>obj\Debug\__library_projects__\OkHttp\library_project_imports\okhttp-2.3.0-jar-with-dependencies.jar</Jar>
+  </Jars>
+</Paths>

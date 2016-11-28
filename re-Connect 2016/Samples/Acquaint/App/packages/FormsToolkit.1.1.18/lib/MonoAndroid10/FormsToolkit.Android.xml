@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FormsToolkit.Android</name>
+    </assembly>
+    <members>
+        <member name="T:FormsToolkit.Droid.Toolkit">
+            <summary>
+            Static toolkit Initialization class
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.Droid.Toolkit.Init">
+            <summary>
+            Init so nothing gets linked out
+            </summary>
+        </member>
+    </members>
+</doc>

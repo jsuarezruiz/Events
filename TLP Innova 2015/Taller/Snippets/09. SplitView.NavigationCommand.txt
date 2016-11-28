@@ -1,0 +1,11 @@
+private ICommand _navigateCommand;
+
+public ICommand NavigateCommand
+{
+	get { return _navigateCommand = _navigateCommand ?? new DelegateCommand<MenuItem>(NavigateCommandExecute); }
+}
+
+private void NavigateCommandExecute(MenuItem menuItem)
+{
+	Navigate(menuItem.View);
+}

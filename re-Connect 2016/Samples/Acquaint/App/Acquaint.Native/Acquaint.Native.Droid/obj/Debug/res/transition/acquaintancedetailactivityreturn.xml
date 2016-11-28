@@ -1,0 +1,1 @@
+<changeBounds android:interpolator="@android:interpolator/decelerate_quint" android:duration="300" xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,29 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003"> 
+  <PropertyGroup>
+	<SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">$(MSBuildProjectDirectory)\..\..\</SolutionDir>	
+	<ProjectName Condition="$(ProjectName) == '' Or $(ProjectName) == '*Undefined*'">$(MSBuildProjectName)</ProjectName>
+	<ProfileName>$([System.IO.Path]::GetFileName($(MSBuildProjectDirectory)))</ProfileName>	
+  </PropertyGroup>
+  
+  <Target Name="BeforeBuild">
+	<RemoveDir Directories="$(TargetDir)Content\" Condition="Exists('$(TargetDir)Content\')"/>
+	
+	<Message Text="********** Constants process Begin **********"/>
+	<Exec Command='mono "/Library/Frameworks/WaveEngine.framework/v2.0/Tools/VisualEditor/WaveConstantsCMD.exe" -i "$(SolutionDir)$(ProjectName).weproj" -o "$(SolutionDir)SharedSource\Main"'/>    
+	<Message Text="********** Constants process End **********"/>
+  </Target>
+  
+  <Target Name="CopyAssets" AfterTargets="_CopyContentToBundle">		
+	<Message Text="********** Asset Export process Begin **********"/>
+	<Exec Command="mono /Library/Frameworks/WaveEngine.framework/v2.0/Tools/VisualEditor/WaveExporterCMD.exe -m Project -t MacOS -p $(ProfileName) -i $(SolutionDir)$(ProjectName).weproj -o $(SolutionDir)Intermediate\Content\$(ProfileName)" WorkingDirectory='/Library/Frameworks/WaveEngine.framework/v2.0/Tools/VisualEditor'/>		
+	<Message Text="********** Asset Export process End **********"/>
+	
+	<Message Text="********** Asset Copy Begin **********"/>  				    
+	<Exec Command='cp -r $(SolutionDir)/Intermediate/Content/$(ProfileName)/ /$(TargetDir)/$(ProjectName).app/Contents/Resources/Content/'/>
+	<Message Text="********** Asset Copy  End **********"/>  
+  </Target>
+  
+  <Target Name="AfterClean">
+    <RemoveDir Directories="$(TargetDir)Content\" Condition="Exists('$(TargetDir)Content')"/>	
+  </Target>
+ </Project>

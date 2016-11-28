@@ -1,0 +1,646 @@
+﻿<Prefab xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="WaveEngine.Framework.Models.Assets">
+  <Id xmlns="WaveEngine.Framework.Models">912d7c1a-3689-42d0-893f-6fdaaa11c517</Id>
+  <EntityModel xmlns:d2p1="WaveEngine.Framework.Models.Entities">
+    <d2p1:SerializeChildrens>
+      <d2p1:BaseEntityModel i:type="d2p1:PrefabInstanceModel">
+        <d2p1:SerializeChildrens />
+        <d2p1:isStatic>false</d2p1:isStatic>
+        <d2p1:isVisible>true</d2p1:isVisible>
+        <d2p1:name>Tree13</d2p1:name>
+        <d2p1:tag i:nil="true" />
+        <d2p1:AdditionalComponents xmlns:d5p1="WaveEngine.Framework" />
+        <d2p1:PrefabElem>Tree02</d2p1:PrefabElem>
+        <d2p1:PrefabId>7b7cf133-a145-444b-b678-e19aaabd4998</d2p1:PrefabId>
+        <d2p1:PrefabPath>Content/Prefabs/Tree02.wpref</d2p1:PrefabPath>
+        <d2p1:RemovedComponents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:string>WaveEngine.Framework.Physics3D.BoxCollider3D</d5p1:string>
+        </d2p1:RemovedComponents>
+        <d2p1:modifiedProperties xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalPosition</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>2</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalOrientation</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Quaternion">
+              <d7p1:W>1</d7p1:W>
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalScale</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1</d7p1:X>
+              <d7p1:Y>1</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+        </d2p1:modifiedProperties>
+      </d2p1:BaseEntityModel>
+      <d2p1:BaseEntityModel i:type="d2p1:PrefabInstanceModel">
+        <d2p1:SerializeChildrens />
+        <d2p1:isStatic>false</d2p1:isStatic>
+        <d2p1:isVisible>true</d2p1:isVisible>
+        <d2p1:name>Tree10</d2p1:name>
+        <d2p1:tag i:nil="true" />
+        <d2p1:AdditionalComponents xmlns:d5p1="WaveEngine.Framework" />
+        <d2p1:PrefabElem>Tree02</d2p1:PrefabElem>
+        <d2p1:PrefabId>7b7cf133-a145-444b-b678-e19aaabd4998</d2p1:PrefabId>
+        <d2p1:PrefabPath>Content/Prefabs/Tree02.wpref</d2p1:PrefabPath>
+        <d2p1:RemovedComponents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:string>WaveEngine.Framework.Physics3D.BoxCollider3D</d5p1:string>
+        </d2p1:RemovedComponents>
+        <d2p1:modifiedProperties xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalPosition</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>-2</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalOrientation</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Quaternion">
+              <d7p1:W>1</d7p1:W>
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalScale</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1</d7p1:X>
+              <d7p1:Y>1</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+        </d2p1:modifiedProperties>
+      </d2p1:BaseEntityModel>
+      <d2p1:BaseEntityModel i:type="d2p1:PrefabInstanceModel">
+        <d2p1:SerializeChildrens />
+        <d2p1:isStatic>false</d2p1:isStatic>
+        <d2p1:isVisible>true</d2p1:isVisible>
+        <d2p1:name>Tree09</d2p1:name>
+        <d2p1:tag i:nil="true" />
+        <d2p1:AdditionalComponents xmlns:d5p1="WaveEngine.Framework" />
+        <d2p1:PrefabElem>model</d2p1:PrefabElem>
+        <d2p1:PrefabId>ccb8f673-60ef-431a-9273-7dd9c202f0de</d2p1:PrefabId>
+        <d2p1:PrefabPath>Content/Prefabs/Tree01.wpref</d2p1:PrefabPath>
+        <d2p1:RemovedComponents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:string>WaveEngine.Framework.Physics3D.BoxCollider3D</d5p1:string>
+        </d2p1:RemovedComponents>
+        <d2p1:modifiedProperties xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalPosition</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>-2</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalOrientation</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Quaternion">
+              <d7p1:W>1</d7p1:W>
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalScale</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1</d7p1:X>
+              <d7p1:Y>1</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+        </d2p1:modifiedProperties>
+      </d2p1:BaseEntityModel>
+      <d2p1:BaseEntityModel i:type="d2p1:PrefabInstanceModel">
+        <d2p1:SerializeChildrens />
+        <d2p1:isStatic>false</d2p1:isStatic>
+        <d2p1:isVisible>true</d2p1:isVisible>
+        <d2p1:name>Tree08</d2p1:name>
+        <d2p1:tag i:nil="true" />
+        <d2p1:AdditionalComponents xmlns:d5p1="WaveEngine.Framework" />
+        <d2p1:PrefabElem>Tree04</d2p1:PrefabElem>
+        <d2p1:PrefabId>90a288e6-f5da-4ff0-a922-603f9c8fc6a3</d2p1:PrefabId>
+        <d2p1:PrefabPath>Content/Prefabs/Tree04.wpref</d2p1:PrefabPath>
+        <d2p1:RemovedComponents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:string>WaveEngine.Framework.Physics3D.BoxCollider3D</d5p1:string>
+        </d2p1:RemovedComponents>
+        <d2p1:modifiedProperties xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalPosition</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>-2</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>2</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalOrientation</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Quaternion">
+              <d7p1:W>1</d7p1:W>
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalScale</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1</d7p1:X>
+              <d7p1:Y>1</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+        </d2p1:modifiedProperties>
+      </d2p1:BaseEntityModel>
+      <d2p1:BaseEntityModel i:type="d2p1:PrefabInstanceModel">
+        <d2p1:SerializeChildrens />
+        <d2p1:isStatic>false</d2p1:isStatic>
+        <d2p1:isVisible>true</d2p1:isVisible>
+        <d2p1:name>Tree07</d2p1:name>
+        <d2p1:tag i:nil="true" />
+        <d2p1:AdditionalComponents xmlns:d5p1="WaveEngine.Framework" />
+        <d2p1:PrefabElem>Tree02</d2p1:PrefabElem>
+        <d2p1:PrefabId>7b7cf133-a145-444b-b678-e19aaabd4998</d2p1:PrefabId>
+        <d2p1:PrefabPath>Content/Prefabs/Tree02.wpref</d2p1:PrefabPath>
+        <d2p1:RemovedComponents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:string>WaveEngine.Framework.Physics3D.BoxCollider3D</d5p1:string>
+        </d2p1:RemovedComponents>
+        <d2p1:modifiedProperties xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalPosition</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>-1</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalOrientation</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Quaternion">
+              <d7p1:W>1</d7p1:W>
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalScale</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1</d7p1:X>
+              <d7p1:Y>1</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+        </d2p1:modifiedProperties>
+      </d2p1:BaseEntityModel>
+      <d2p1:BaseEntityModel i:type="d2p1:PrefabInstanceModel">
+        <d2p1:SerializeChildrens />
+        <d2p1:isStatic>false</d2p1:isStatic>
+        <d2p1:isVisible>true</d2p1:isVisible>
+        <d2p1:name>Tree06</d2p1:name>
+        <d2p1:tag i:nil="true" />
+        <d2p1:AdditionalComponents xmlns:d5p1="WaveEngine.Framework" />
+        <d2p1:PrefabElem>model</d2p1:PrefabElem>
+        <d2p1:PrefabId>ccb8f673-60ef-431a-9273-7dd9c202f0de</d2p1:PrefabId>
+        <d2p1:PrefabPath>Content/Prefabs/Tree01.wpref</d2p1:PrefabPath>
+        <d2p1:RemovedComponents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:string>WaveEngine.Framework.Physics3D.BoxCollider3D</d5p1:string>
+        </d2p1:RemovedComponents>
+        <d2p1:modifiedProperties xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalPosition</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>-1</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalOrientation</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Quaternion">
+              <d7p1:W>1</d7p1:W>
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalScale</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1</d7p1:X>
+              <d7p1:Y>1</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+        </d2p1:modifiedProperties>
+      </d2p1:BaseEntityModel>
+      <d2p1:BaseEntityModel i:type="d2p1:PrefabInstanceModel">
+        <d2p1:SerializeChildrens />
+        <d2p1:isStatic>false</d2p1:isStatic>
+        <d2p1:isVisible>true</d2p1:isVisible>
+        <d2p1:name>Tree04</d2p1:name>
+        <d2p1:tag i:nil="true" />
+        <d2p1:AdditionalComponents xmlns:d5p1="WaveEngine.Framework" />
+        <d2p1:PrefabElem>model</d2p1:PrefabElem>
+        <d2p1:PrefabId>ccb8f673-60ef-431a-9273-7dd9c202f0de</d2p1:PrefabId>
+        <d2p1:PrefabPath>Content/Prefabs/Tree01.wpref</d2p1:PrefabPath>
+        <d2p1:RemovedComponents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:string>WaveEngine.Framework.Physics3D.BoxCollider3D</d5p1:string>
+        </d2p1:RemovedComponents>
+        <d2p1:modifiedProperties xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalPosition</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>-1</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>2</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalOrientation</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Quaternion">
+              <d7p1:W>1</d7p1:W>
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalScale</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1</d7p1:X>
+              <d7p1:Y>1</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+        </d2p1:modifiedProperties>
+      </d2p1:BaseEntityModel>
+      <d2p1:BaseEntityModel i:type="d2p1:PrefabInstanceModel">
+        <d2p1:SerializeChildrens />
+        <d2p1:isStatic>false</d2p1:isStatic>
+        <d2p1:isVisible>true</d2p1:isVisible>
+        <d2p1:name>Tree05</d2p1:name>
+        <d2p1:tag i:nil="true" />
+        <d2p1:AdditionalComponents xmlns:d5p1="WaveEngine.Framework" />
+        <d2p1:PrefabElem>Tree02</d2p1:PrefabElem>
+        <d2p1:PrefabId>7b7cf133-a145-444b-b678-e19aaabd4998</d2p1:PrefabId>
+        <d2p1:PrefabPath>Content/Prefabs/Tree02.wpref</d2p1:PrefabPath>
+        <d2p1:RemovedComponents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:string>WaveEngine.Framework.Physics3D.BoxCollider3D</d5p1:string>
+        </d2p1:RemovedComponents>
+        <d2p1:modifiedProperties xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalPosition</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalOrientation</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Quaternion">
+              <d7p1:W>1</d7p1:W>
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalScale</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1</d7p1:X>
+              <d7p1:Y>1</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+        </d2p1:modifiedProperties>
+      </d2p1:BaseEntityModel>
+      <d2p1:BaseEntityModel i:type="d2p1:PrefabInstanceModel">
+        <d2p1:SerializeChildrens />
+        <d2p1:isStatic>false</d2p1:isStatic>
+        <d2p1:isVisible>true</d2p1:isVisible>
+        <d2p1:name>Tree03</d2p1:name>
+        <d2p1:tag i:nil="true" />
+        <d2p1:AdditionalComponents xmlns:d5p1="WaveEngine.Framework" />
+        <d2p1:PrefabElem>Tree03</d2p1:PrefabElem>
+        <d2p1:PrefabId>feda9403-6dd2-4b0b-b16e-83c90445ee85</d2p1:PrefabId>
+        <d2p1:PrefabPath>Content/Prefabs/Tree03.wpref</d2p1:PrefabPath>
+        <d2p1:RemovedComponents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:string>WaveEngine.Framework.Physics3D.BoxCollider3D</d5p1:string>
+        </d2p1:RemovedComponents>
+        <d2p1:modifiedProperties xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalPosition</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalOrientation</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Quaternion">
+              <d7p1:W>1</d7p1:W>
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalScale</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1</d7p1:X>
+              <d7p1:Y>1</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+        </d2p1:modifiedProperties>
+      </d2p1:BaseEntityModel>
+      <d2p1:BaseEntityModel i:type="d2p1:PrefabInstanceModel">
+        <d2p1:SerializeChildrens />
+        <d2p1:isStatic>false</d2p1:isStatic>
+        <d2p1:isVisible>true</d2p1:isVisible>
+        <d2p1:name>Tree01</d2p1:name>
+        <d2p1:tag i:nil="true" />
+        <d2p1:AdditionalComponents xmlns:d5p1="WaveEngine.Framework" />
+        <d2p1:PrefabElem>Tree02</d2p1:PrefabElem>
+        <d2p1:PrefabId>7b7cf133-a145-444b-b678-e19aaabd4998</d2p1:PrefabId>
+        <d2p1:PrefabPath>Content/Prefabs/Tree02.wpref</d2p1:PrefabPath>
+        <d2p1:RemovedComponents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:string>WaveEngine.Framework.Physics3D.BoxCollider3D</d5p1:string>
+        </d2p1:RemovedComponents>
+        <d2p1:modifiedProperties xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalPosition</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>2</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalOrientation</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Quaternion">
+              <d7p1:W>1</d7p1:W>
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalScale</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1</d7p1:X>
+              <d7p1:Y>1</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+        </d2p1:modifiedProperties>
+      </d2p1:BaseEntityModel>
+      <d2p1:BaseEntityModel i:type="d2p1:PrefabInstanceModel">
+        <d2p1:SerializeChildrens />
+        <d2p1:isStatic>false</d2p1:isStatic>
+        <d2p1:isVisible>true</d2p1:isVisible>
+        <d2p1:name>Tree</d2p1:name>
+        <d2p1:tag i:nil="true" />
+        <d2p1:AdditionalComponents xmlns:d5p1="WaveEngine.Framework" />
+        <d2p1:PrefabElem>model</d2p1:PrefabElem>
+        <d2p1:PrefabId>ccb8f673-60ef-431a-9273-7dd9c202f0de</d2p1:PrefabId>
+        <d2p1:PrefabPath>Content/Prefabs/Tree01.wpref</d2p1:PrefabPath>
+        <d2p1:RemovedComponents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:string>WaveEngine.Framework.Physics3D.BoxCollider3D</d5p1:string>
+        </d2p1:RemovedComponents>
+        <d2p1:modifiedProperties xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalPosition</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalOrientation</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Quaternion">
+              <d7p1:W>1</d7p1:W>
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalScale</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1</d7p1:X>
+              <d7p1:Y>1</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+        </d2p1:modifiedProperties>
+      </d2p1:BaseEntityModel>
+      <d2p1:BaseEntityModel i:type="d2p1:PrefabInstanceModel">
+        <d2p1:SerializeChildrens />
+        <d2p1:isStatic>false</d2p1:isStatic>
+        <d2p1:isVisible>true</d2p1:isVisible>
+        <d2p1:name>Tree12</d2p1:name>
+        <d2p1:tag i:nil="true" />
+        <d2p1:AdditionalComponents xmlns:d5p1="WaveEngine.Framework" />
+        <d2p1:PrefabElem>model</d2p1:PrefabElem>
+        <d2p1:PrefabId>ccb8f673-60ef-431a-9273-7dd9c202f0de</d2p1:PrefabId>
+        <d2p1:PrefabPath>Content/Prefabs/Tree01.wpref</d2p1:PrefabPath>
+        <d2p1:RemovedComponents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:string>WaveEngine.Framework.Physics3D.BoxCollider3D</d5p1:string>
+        </d2p1:RemovedComponents>
+        <d2p1:modifiedProperties xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalPosition</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalOrientation</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Quaternion">
+              <d7p1:W>1</d7p1:W>
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalScale</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1</d7p1:X>
+              <d7p1:Y>1</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+        </d2p1:modifiedProperties>
+      </d2p1:BaseEntityModel>
+      <d2p1:BaseEntityModel i:type="d2p1:PrefabInstanceModel">
+        <d2p1:SerializeChildrens />
+        <d2p1:isStatic>false</d2p1:isStatic>
+        <d2p1:isVisible>true</d2p1:isVisible>
+        <d2p1:name>Tree11</d2p1:name>
+        <d2p1:tag i:nil="true" />
+        <d2p1:AdditionalComponents xmlns:d5p1="WaveEngine.Framework" />
+        <d2p1:PrefabElem>Tree03</d2p1:PrefabElem>
+        <d2p1:PrefabId>feda9403-6dd2-4b0b-b16e-83c90445ee85</d2p1:PrefabId>
+        <d2p1:PrefabPath>Content/Prefabs/Tree03.wpref</d2p1:PrefabPath>
+        <d2p1:RemovedComponents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:string>WaveEngine.Framework.Physics3D.BoxCollider3D</d5p1:string>
+        </d2p1:RemovedComponents>
+        <d2p1:modifiedProperties xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalPosition</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1.026782</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>2</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalOrientation</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Quaternion">
+              <d7p1:W>1</d7p1:W>
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalScale</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1</d7p1:X>
+              <d7p1:Y>1</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+        </d2p1:modifiedProperties>
+      </d2p1:BaseEntityModel>
+      <d2p1:BaseEntityModel i:type="d2p1:PrefabInstanceModel">
+        <d2p1:SerializeChildrens />
+        <d2p1:isStatic>false</d2p1:isStatic>
+        <d2p1:isVisible>true</d2p1:isVisible>
+        <d2p1:name>Tree14</d2p1:name>
+        <d2p1:tag i:nil="true" />
+        <d2p1:AdditionalComponents xmlns:d5p1="WaveEngine.Framework" />
+        <d2p1:PrefabElem>model</d2p1:PrefabElem>
+        <d2p1:PrefabId>ccb8f673-60ef-431a-9273-7dd9c202f0de</d2p1:PrefabId>
+        <d2p1:PrefabPath>Content/Prefabs/Tree01.wpref</d2p1:PrefabPath>
+        <d2p1:RemovedComponents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:string>WaveEngine.Framework.Physics3D.BoxCollider3D</d5p1:string>
+        </d2p1:RemovedComponents>
+        <d2p1:modifiedProperties xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalPosition</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>2</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>2</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalOrientation</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Quaternion">
+              <d7p1:W>1</d7p1:W>
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalScale</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1</d7p1:X>
+              <d7p1:Y>1</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+        </d2p1:modifiedProperties>
+      </d2p1:BaseEntityModel>
+      <d2p1:BaseEntityModel i:type="d2p1:PrefabInstanceModel">
+        <d2p1:SerializeChildrens />
+        <d2p1:isStatic>false</d2p1:isStatic>
+        <d2p1:isVisible>true</d2p1:isVisible>
+        <d2p1:name>Tree02</d2p1:name>
+        <d2p1:tag i:nil="true" />
+        <d2p1:AdditionalComponents xmlns:d5p1="WaveEngine.Framework" />
+        <d2p1:PrefabElem>Tree04</d2p1:PrefabElem>
+        <d2p1:PrefabId>90a288e6-f5da-4ff0-a922-603f9c8fc6a3</d2p1:PrefabId>
+        <d2p1:PrefabPath>Content/Prefabs/Tree04.wpref</d2p1:PrefabPath>
+        <d2p1:RemovedComponents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:string>WaveEngine.Framework.Physics3D.BoxCollider3D</d5p1:string>
+        </d2p1:RemovedComponents>
+        <d2p1:modifiedProperties xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalPosition</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>2</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalOrientation</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Quaternion">
+              <d7p1:W>1</d7p1:W>
+              <d7p1:X>0</d7p1:X>
+              <d7p1:Y>0</d7p1:Y>
+              <d7p1:Z>0</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+          <d5p1:KeyValueOfstringanyType>
+            <d5p1:Key>WaveEngine.Framework.Graphics.Transform3D#LocalScale</d5p1:Key>
+            <d5p1:Value xmlns:d7p1="WaveEngine.Common.Math" i:type="d7p1:Vector3">
+              <d7p1:X>1</d7p1:X>
+              <d7p1:Y>1</d7p1:Y>
+              <d7p1:Z>1</d7p1:Z>
+            </d5p1:Value>
+          </d5p1:KeyValueOfstringanyType>
+        </d2p1:modifiedProperties>
+      </d2p1:BaseEntityModel>
+    </d2p1:SerializeChildrens>
+    <d2p1:isStatic>false</d2p1:isStatic>
+    <d2p1:isVisible>true</d2p1:isVisible>
+    <d2p1:name>treelimits00</d2p1:name>
+    <d2p1:tag i:nil="true" />
+    <d2p1:SerializeComponents xmlns:d3p1="WaveEngine.Framework">
+      <d3p1:Component xmlns:d4p1="WaveEngine.Framework.Graphics" i:type="d4p1:Transform3D">
+        <d4p1:LocalOrientation xmlns:d5p1="WaveEngine.Common.Math">
+          <d5p1:W>1</d5p1:W>
+          <d5p1:X>0</d5p1:X>
+          <d5p1:Y>0</d5p1:Y>
+          <d5p1:Z>0</d5p1:Z>
+        </d4p1:LocalOrientation>
+        <d4p1:LocalPosition xmlns:d5p1="WaveEngine.Common.Math">
+          <d5p1:X>0</d5p1:X>
+          <d5p1:Y>0</d5p1:Y>
+          <d5p1:Z>-1.49011614E-09</d5p1:Z>
+        </d4p1:LocalPosition>
+        <d4p1:LocalScale xmlns:d5p1="WaveEngine.Common.Math">
+          <d5p1:X>1</d5p1:X>
+          <d5p1:Y>1</d5p1:Y>
+          <d5p1:Z>1</d5p1:Z>
+        </d4p1:LocalScale>
+      </d3p1:Component>
+    </d2p1:SerializeComponents>
+  </EntityModel>
+</Prefab>

@@ -1,0 +1,10 @@
+<SplitView x:Name="Splitter" 
+			DisplayMode="CompactInline"
+		    Background="{StaticResource BackgroundBrush}"
+		    PaneBackground="{StaticResource BackgroundPaneBrush}"
+			PanePlacement="Left"
+		    CompactPaneLength="60"
+		    OpenPaneLength="240"	
+		    IsPaneOpen="{Binding IsPaneOpen}">
+</SplitView>				   
+				   

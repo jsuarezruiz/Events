@@ -1,0 +1,2 @@
+C:\Users\jsuarez\Documents\Visual Studio 2015\Projects\ApplicationTrigger\ApplicationTrigger\ApplicationTrigger.csproj;x86
+C:\Users\jsuarez\Documents\Visual Studio 2015\Projects\ApplicationTrigger\Task\Task.csproj;x86

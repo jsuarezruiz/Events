@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebP.Touch</name>
+    </assembly>
+    <members>
+        <member name="M:WebP.Touch.WebPCodec.Decode(System.String)">
+            <summary>
+            Decodes the image for given filepath.
+            </summary>
+            <param name="filepath">Filepath to the WebP image.</param>
+            <returns>An image</returns></member>
+        <member name="M:WebP.Touch.WebPCodec.Decode(Foundation.NSData)">
+            <summary>
+            Decodes the image from an iOS NSData.
+            </summary>
+            <param name="data">iOS NSData that contains a WebP image.</param>
+            <returns>An image</returns></member>
+        <member name="M:WebP.Touch.WebPCodec.Decode(System.IO.Stream)">
+            <summary>
+            Reads given Stream and decodes it as an image.
+            </summary>
+            <param name="stream">A readable Stream that contains a WebP image.</param>
+            <returns>An image</returns></member>
+        <member name="M:WebP.Touch.WebPCodec.Decode(System.Byte[])">
+            <summary>
+            Decodes the specified bytes as an image.
+            </summary>
+            <param name="bytes">Byte array that contains a WebP image.</param></member>
+        <member name="P:WebP.Touch.WebPCodec.Version">
+            <summary>
+            Native WebP lib version
+            </summary>
+            <value>The native WebP lib version.</value></member>
+    </members>
+</doc>

@@ -1,0 +1,1245 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FFImageLoading</name>
+    </assembly>
+    <members>
+        <member name="M:FFImageLoading.Work.IImageLoaderTask.UsesSameNativeControl(FFImageLoading.Work.IImageLoaderTask)">
+            <summary>
+            Indicates if the task uses the same native control
+            </summary>
+            <returns><c>true</c>, if same native control is used, <c>false</c> otherwise.</returns>
+            <param name="task">Task to check.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.IImageLoaderTask.GetKey(System.String,System.Boolean)">
+            <summary>
+            Gets the cache key for this image loading task.
+            </summary>
+            <value>The cache key.</value>
+        </member>
+        <member name="M:FFImageLoading.Work.IImageLoaderTask.CanUseMemoryCache(System.String)">
+            <summary>
+            Indicates if memory cache should be used for the request
+            </summary>
+            <returns><c>true</c>, if memory cache should be used, <c>false</c> otherwise.</returns>
+            <param name="path">Path.</param>
+        </member>
+        <member name="P:FFImageLoading.Work.IImageLoaderTask.Parameters">
+            <summary>
+            Gets the parameters used to retrieve the image.
+            </summary>
+            <value>The parameters to retrieve the image.</value>
+        </member>
+        <member name="M:FFImageLoading.Work.IImageLoaderTask.RunAsync">
+            <summary>
+            Runs the image loading task: gets image from file, url, asset or cache. Then assign it to the imageView.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Work.IImageLoaderTask.TryLoadingFromCacheAsync">
+            <summary>
+            Tries to load requested image from the cache asynchronously.
+            </summary>
+            <returns>A boolean indicating if image was loaded from cache.</returns>
+        </member>
+        <member name="M:FFImageLoading.Work.IImageLoaderTask.PrepareAndTryLoadingFromCacheAsync">
+            <summary>
+            Prepares the instance before it runs.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Work.IImageLoaderTask.CancelIfNeeded">
+            <summary>
+            Cancel current task only if needed
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Work.IImageLoaderTask.LoadFromStreamAsync(System.IO.Stream)">
+            <summary>
+            Loads the image from given stream asynchronously.
+            </summary>
+            <returns>An awaitable task.</returns>
+            <param name="stream">The stream to get data from.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.IWorkScheduler.Cancel(FFImageLoading.Work.IImageLoaderTask)">
+            <summary>      
+            Cancels any pending work for the task.        
+            </summary>        
+            <param name="task">Image loading task to cancel</param>
+        </member>
+        <member name="M:FFImageLoading.Work.IWorkScheduler.Cancel(System.Func{FFImageLoading.Work.IImageLoaderTask,System.Boolean})">
+            <summary>
+            Cancels tasks that match predicate.
+            </summary>
+            <param name="predicate">Predicate for finding relevant tasks to cancel.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.IWorkScheduler.LoadImage(FFImageLoading.Work.IImageLoaderTask)">
+            <summary>      
+            Schedules the image loading. If image is found in cache then it returns it, otherwise it loads it.        
+            </summary>        
+            <param name="key">Key for cache lookup.</param>       
+            <param name="task">Image loading task.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.WorkScheduler.Cancel(System.Func{FFImageLoading.Work.IImageLoaderTask,System.Boolean})">
+            <summary>
+            Cancels tasks that match predicate.
+            </summary>
+            <param name="predicate">Predicate for finding relevant tasks to cancel.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.WorkScheduler.LoadImage(FFImageLoading.Work.IImageLoaderTask)">
+            <summary>
+            Schedules the image loading. If image is found in cache then it returns it, otherwise it loads it.
+            </summary>
+            <param name="task">Image loading task.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.FromFile(System.String)">
+            <summary>
+            Constructs a new TaskParameter to load an image from a file.
+            </summary>
+            <returns>The new TaskParameter.</returns>
+            <param name="filepath">Path to the file.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.FromUrl(System.String,System.Nullable{System.TimeSpan})">
+            <summary>
+            Constructs a new TaskParameter to load an image from a URL.
+            </summary>
+            <returns>The new TaskParameter.</returns>
+            <param name="url">URL to the file</param>
+            <param name="cacheDuration">How long the file will be cached on disk</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.FromApplicationBundle(System.String)">
+            <summary>
+            Constructsa new TaskParameter to load an image from a file from application bundle.
+            </summary>
+            <param name="filepath">Path to the file.</param>
+            <returns>The new TaskParameter.</returns>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.FromCompiledResource(System.String)">
+            <summary>
+            Constructs a new TaskParameter to load an image from a compiled drawable resource.
+            </summary>
+            <returns>The new TaskParameter.</returns>
+            <param name="resourceName">Name of the resource in drawable folder without extension</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.FromStream(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{System.IO.Stream}})">
+            <summary>
+            Constructs a new TaskParameter to load an image from a stream
+            </summary>
+            <returns>The new TaskParameter.</returns>
+            <param name="stream">Stream.</param>
+        </member>
+        <member name="P:FFImageLoading.Work.TaskParameter.DelayInMs">
+            <summary>
+            Gets the delay in milliseconds.
+            </summary>
+            <value>The delay in milliseconds.</value>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.LoadingPlaceholder(System.String,FFImageLoading.Work.ImageSource)">
+            <summary>
+            Defines the placeholder used while loading.
+            </summary>
+            <param name="path">Path to the file.</param>
+            <param name="source">Source for the path: local, web, assets</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.ErrorPlaceholder(System.String,FFImageLoading.Work.ImageSource)">
+            <summary>
+            Defines the placeholder used when an error occurs.
+            </summary>
+            <param name="filepath">Path to the file.</param>
+            <param name="source">Source for the path: local, web, assets</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.DownSample(System.Int32,System.Int32)">
+            <summary>
+            Reduce memory usage by downsampling the image. Aspect ratio will be kept even if width/height values are incorrect.
+            Uses pixels units for width/height
+            </summary>
+            <returns>The TaskParameter instance for chaining the call.</returns>
+            <param name="width">Optional width parameter, if value is higher than zero it will try to downsample to this width while keeping aspect ratio.</param>
+            <param name="height">Optional height parameter, if value is higher than zero it will try to downsample to this height while keeping aspect ratio.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.DownSampleInDip(System.Int32,System.Int32)">
+            <summary>
+            Reduce memory usage by downsampling the image. Aspect ratio will be kept even if width/height values are incorrect.
+            Uses device independent points units for width/height
+            </summary>
+            <returns>The TaskParameter instance for chaining the call.</returns>
+            <param name="width">Optional width parameter, if value is higher than zero it will try to downsample to this width while keeping aspect ratio.</param>
+            <param name="height">Optional height parameter, if value is higher than zero it will try to downsample to this height while keeping aspect ratio.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.DownSampleMode(FFImageLoading.Work.InterpolationMode)">
+            <summary>
+            Set mode for downsampling. Speed-wise: nearest neighbour > linear > cubic.\
+            Default: bilinear
+            On Android it's always ignored as Android uses bitmap insamplesize downsampling (bilinear)
+            </summary>
+            <returns>The TaskParameter instance for chaining the call.</returns>
+            <param name="mode">Optional mode parameter, if not set, defaults to linear.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.WithPriority(FFImageLoading.Work.LoadingPriority)">
+            <summary>
+            Defines the loading priority, the default is LoadingPriority.Normal
+            </summary>
+            <returns>The TaskParameter instance for chaining the call.</returns>
+            <param name="priority">Priority.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.WithPriority(System.Int32)">
+            <summary>
+            Defines the loading priority, the default is 0 (LoadingPriority.Normal)
+            </summary>
+            <returns>The TaskParameter instance for chaining the call.</returns>
+            <param name="priority">Priority.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.TransparencyChannel(System.Boolean)">
+            <summary>
+            Indicates if the transparency channel should be loaded. By default this value comes from ImageService.Instance.Config.LoadWithTransparencyChannel.
+            </summary>
+            <returns>The TaskParameter instance for chaining the call.</returns>
+            <param name="loadTransparencyChannel">If set to <c>true</c> force loading alpha channel otherwise force not loading it.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.FadeAnimation(System.Boolean,System.Nullable{System.Boolean},System.Nullable{System.Int32})">
+            <summary>
+            Indicates if the fade animation should be enabled.
+            </summary>
+            <returns>The TaskParameter instance for chaining the call.</returns>
+            <param name="enabled">If set to <c>true</c> enabled.</param>
+            <param name = "enabledForCachedImages">Enables animation for local or cached images</param>
+            <param name = "duration">Fade animation duration in ms</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.TransformPlaceholders(System.Boolean)">
+            <summary>
+            Indicates if transforms should be applied to placeholders.
+            </summary>
+            <returns>The TaskParameter instance for chaining the call.</returns>
+            <param name="enabled">If set to <c>true</c> enabled.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.Retry(System.Int32,System.Int32)">
+            <summary>
+            If image loading fails automatically retry it a number of times, with a specific delay.
+            </summary>
+            <returns>The TaskParameter instance for chaining the call.</returns>
+            <param name="retryCount">Number of retries</param>
+            <param name="millisecondDelay">Delay in milliseconds between each trial</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.CacheKey(System.String)">
+            <summary>
+            Uses this cache key, in addition with the real key, to cache into memory/disk
+            </summary>
+            <returns>The TaskParameter instance for chaining the call.</returns>
+            <param name="customCacheKey">Custom cache key.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.Delay(System.Int32)">
+            <summary>
+            Delay the task by the specified milliseconds.
+            </summary>
+            <param name="milliseconds">Milliseconds to wait prior to start the task.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.Success(System.Action)">
+            <summary>
+            If image loading succeded this callback is called
+            </summary>
+            <returns>The TaskParameter instance for chaining the call.</returns>
+            <param name="action">Action to invoke when loading succeded.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.TaskParameter.Success(System.Action{FFImageLoading.Work.ImageInformation,FFImageLoading.Work.LoadingResult})">
+            <summary>
+            If image loading succeded this callback is called
+            </summary>
+            <returns>The TaskParameter instance for chaining the call.</returns>
+            <param name="action">Action to invoke when loading succeded. Argument is the size of the image loaded.</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:FFImageLoading.Work.TaskParameter.Error(System.Action{System.Exception})" -->
+        <!-- Badly formed XML comment ignored for member "M:FFImageLoading.Work.TaskParameter.Finish(System.Action{FFImageLoading.Work.IScheduledWork})" -->
+        <member name="T:FFImageLoading.Config.Configuration">
+            <summary>
+            Configuration.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.HttpClient">
+            <summary>
+            Gets or sets the http client used for web requests.
+            </summary>
+            <value>The http client used for web requests.</value>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.Scheduler">
+            <summary>
+            Gets or sets the scheduler used to organize/schedule image loading tasks.
+            </summary>
+            <value>The scheduler used to organize/schedule image loading tasks.</value>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.Logger">
+            <summary>
+            Gets or sets the logger used to receive debug/error messages.
+            </summary>
+            <value>The logger.</value>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.DiskCache">
+            <summary>
+            Gets or sets the disk cache.
+            </summary>
+            <value>The disk cache.</value>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.DownloadCache">
+            <summary>
+            Gets or sets the download cache. Download cache is responsible for retrieving data from the web, or taking from the disk cache.
+            </summary>
+            <value>The download cache.</value>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.LoadWithTransparencyChannel">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:FFImageLoading.Config.Configuration"/> loads images with transparency channel. On Android we save 50% of the memory without transparency since we use 2 bytes per pixel instead of 4.
+            </summary>
+            <value><c>true</c> if FFIMageLoading loads images with transparency; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.FadeAnimationEnabled">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:FFImageLoading.Config.Configuration"/> fade animation enabled.
+            </summary>
+            <value><c>true</c> if fade animation enabled; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.FadeAnimationForCachedImages">
+            <summary>
+            Gets or sets a value indicating wheter fade animation for
+            cached or local images should be enabled.
+            </summary>
+            <value><c>true</c> if fade animation for cached or local images; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.FadeAnimationDuration">
+            <summary>
+            Gets or sets the default duration of the fade animation in ms.
+            </summary>
+            <value>The duration of the fade animation.</value>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.TransformPlaceholders">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:FFImageLoading.Config.Configuration"/> transforming place is enabled.
+            </summary>
+            <value><c>true</c> if transform should be applied to placeholder images; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.DownsampleInterpolationMode">
+            <summary>
+            Gets or sets default downsample interpolation mode.
+            </summary>
+            <value>downsample interpolation mode</value>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.HttpHeadersTimeout">
+            <summary>
+            Gets or sets the maximum time in seconds to wait to receive HTTP headers before the HTTP request is cancelled.
+            </summary>
+            <value>The http connect timeout.</value>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.HttpReadTimeout">
+            <summary>
+            Gets or sets the maximum time in seconds to wait before the HTTP request is cancelled.
+            </summary>
+            <value>The http read timeout.</value>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.MaxMemoryCacheSize">
+            <summary>
+            Gets or sets the maximum size of the memory cache in bytes.
+            </summary>
+            <value>The maximum size of the memory cache in bytes.</value>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.DelayInMs">
+            <summary>
+            Milliseconds to wait prior to start any task.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.VerbosePerformanceLogging">
+            <summary>
+            Enables / disables verbose performance logging.
+            </summary>
+            <value>The verbose performance logging.</value>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.VerboseMemoryCacheLogging">
+            <summary>
+            Enables / disables verbose memory cache logging.
+            </summary>
+            <value>The verbose memory cache logging.</value>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.VerboseLoadingCancelledLogging">
+            <summary>
+            Enables / disables verbose image loading cancelled logging.
+            </summary>
+            <value>The verbose image loading cancelled logging.</value>
+        </member>
+        <member name="P:FFImageLoading.Config.Configuration.VerboseLogging">
+            <summary>
+            Enables / disables  verbose logging. 
+            IMPORTANT! If it's disabled are other verbose logging options are disabled too
+            </summary>
+            <value>The verbose logging.</value>
+        </member>
+        <member name="M:FFImageLoading.Cache.IDiskCache.AddToSavingQueueIfNotExistsAsync(System.String,System.Byte[],System.TimeSpan)">
+            <summary>
+            Adds the file to cache and file saving queue if it does not exists.
+            </summary>
+            <param name="key">Key to store/retrieve the file.</param>
+            <param name="bytes">File data in bytes.</param>
+            <param name="duration">Specifies how long an item should remain in the cache.</param>
+        </member>
+        <member name="P:FFImageLoading.IImageService.Config">
+            <summary>
+            Gets FFImageLoading configuration
+            </summary>
+            <value>The configuration used by FFImageLoading.</value>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:FFImageLoading.IImageService.Initialize" -->
+        <!-- Badly formed XML comment ignored for member "M:FFImageLoading.IImageService.Initialize(FFImageLoading.Config.Configuration)" -->
+        <member name="M:FFImageLoading.IImageService.LoadFile(System.String)">
+            <summary>
+            Constructs a new TaskParameter to load an image from a file.
+            </summary>
+            <returns>The new TaskParameter.</returns>
+            <param name="filepath">Path to the file.</param>
+        </member>
+        <member name="M:FFImageLoading.IImageService.LoadUrl(System.String,System.Nullable{System.TimeSpan})">
+            <summary>
+            Constructs a new TaskParameter to load an image from a URL.
+            </summary>
+            <returns>The new TaskParameter.</returns>
+            <param name="url">URL to the file</param>
+            <param name="cacheDuration">How long the file will be cached on disk</param>
+        </member>
+        <member name="M:FFImageLoading.IImageService.LoadFileFromApplicationBundle(System.String)">
+            <summary>
+            Constructs a new TaskParameter to load an image from a file from application bundle.
+            </summary>
+            <returns>The new TaskParameter.</returns>
+            <param name="filepath">Path to the file.</param>
+        </member>
+        <member name="M:FFImageLoading.IImageService.LoadCompiledResource(System.String)">
+            <summary>
+            Constructs a new TaskParameter to load an image from a compiled drawable resource.
+            </summary>
+            <returns>The new TaskParameter.</returns>
+            <param name="resourceName">Name of the resource in drawable folder without extension</param>
+        </member>
+        <member name="M:FFImageLoading.IImageService.LoadStream(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{System.IO.Stream}})">
+            <summary>
+            Constructs a new TaskParameter to load an image from a Stream.
+            </summary>
+            <returns>The new TaskParameter.</returns>
+            <param name="resourceName">A function that allows a CancellationToken and returns the Stream to use. This function will be invoked by LoadStream().</param>
+        </member>
+        <member name="P:FFImageLoading.IImageService.ExitTasksEarly">
+            <summary>
+            Gets a value indicating whether ImageService will exit tasks earlier
+            </summary>
+            <value><c>true</c> if it should exit tasks early; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="M:FFImageLoading.IImageService.SetExitTasksEarly(System.Boolean)">
+            <summary>
+            Sets a value indicating whether ImageService will exit tasks earlier
+            </summary>
+            <param name="exitTasksEarly">If set to <c>true</c> exit tasks early.</param>
+        </member>
+        <member name="M:FFImageLoading.IImageService.SetPauseWork(System.Boolean)">
+            <summary>
+            Sets a value indicating if all loading work should be paused (silently canceled).
+            </summary>
+            <param name="pauseWork">If set to <c>true</c> pause/cancel work.</param>
+        </member>
+        <member name="M:FFImageLoading.IImageService.CancelWorkFor(FFImageLoading.Work.IImageLoaderTask)">
+            <summary>
+            Cancel any loading work for the given ImageView
+            </summary>
+            <param name="task">Image loading task to cancel.</param>
+        </member>
+        <member name="M:FFImageLoading.IImageService.RemovePendingTask(FFImageLoading.Work.IImageLoaderTask)">
+            <summary>
+            Removes a pending image loading task from the work queue.
+            </summary>
+            <param name="task">Image loading task to remove.</param>
+        </member>
+        <member name="M:FFImageLoading.IImageService.LoadImage(FFImageLoading.Work.IImageLoaderTask)">
+            <summary>
+            Queue an image loading task.
+            </summary>
+            <param name="task">Image loading task.</param>
+        </member>
+        <member name="M:FFImageLoading.IImageService.InvalidateCacheAsync(FFImageLoading.Cache.CacheType)">
+            <summary>
+            Invalidates selected caches.
+            </summary>
+            <returns>An awaitable task.</returns>
+            <param name="cacheType">Memory cache, Disk cache or both</param>
+        </member>
+        <member name="M:FFImageLoading.IImageService.InvalidateMemoryCache">
+            <summary>
+            Invalidates the memory cache.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.IImageService.InvalidateDiskCacheAsync">
+            <summary>
+            Invalidates the disk cache.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.IImageService.InvalidateCacheEntryAsync(System.String,FFImageLoading.Cache.CacheType,System.Boolean)">
+            <summary>
+            Invalidates the cache for given key.
+            </summary>
+            <returns>The async.</returns>
+            <param name="key">Concerns images with this key.</param>
+            <param name="cacheType">Memory cache, Disk cache or both</param>
+            <param name="removeSimilar">If similar keys should be removed, ie: typically keys with extra transformations</param>
+        </member>
+        <member name="M:FFImageLoading.IImageService.Cancel(System.Func{FFImageLoading.Work.IImageLoaderTask,System.Boolean})">
+            <summary>
+            Cancels tasks that match predicate.
+            </summary>
+            <param name="predicate">Predicate for finding relevant tasks to cancel.</param>
+        </member>
+        <member name="M:FFImageLoading.IImageService.Cancel(System.Func{FFImageLoading.Work.TaskParameter,System.Boolean})">
+            <summary>
+            Cancels tasks that match predicate.
+            </summary>
+            <param name="predicate">Predicate for finding relevant tasks to cancel.</param>
+        </member>
+        <member name="T:FFImageLoading.Concurrency.ConcurrentDictionary`2">
+            <summary>
+            Represents a thread-safe collection of keys and values.
+            </summary>
+            <typeparam name="TKey">The type of the keys in the dictionary.</typeparam>
+            <typeparam name="TValue">The type of the values in the dictionary.</typeparam>
+            <remarks>
+            All public and protected members of <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> are thread-safe and may be used
+            concurrently from multiple threads.
+            </remarks>
+        </member>
+        <member name="T:FFImageLoading.Concurrency.ConcurrentDictionary`2.Tables">
+             <summary>
+             Tables that hold the internal state of the ConcurrentDictionary
+            
+             Wrapping the three tables in a single object allows us to atomically
+             replace all tables at once.
+             </summary>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.IsValueWriteAtomic">
+            <summary>
+            Determines whether type TValue can be written atomically
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>
+            class that is empty, has the default concurrency level, has the default initial capacity, and
+            uses the default comparer for the key type.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>
+            class that is empty, has the specified concurrency level and capacity, and uses the default
+            comparer for the key type.
+            </summary>
+            <param name="concurrencyLevel">The estimated number of threads that will update the
+            <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> concurrently.</param>
+            <param name="capacity">The initial number of elements that the <see
+            cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>
+            can contain.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="concurrencyLevel"/> is
+            less than 1.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"> <paramref name="capacity"/> is less than
+            0.</exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})">
+            <summary>
+            Initializes a new instance of the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>
+            class that contains elements copied from the specified <see
+            cref="T:System.Collections.IEnumerable{KeyValuePair{TKey,TValue}}"/>, has the default concurrency
+            level, has the default initial capacity, and uses the default comparer for the key type.
+            </summary>
+            <param name="collection">The <see
+            cref="T:System.Collections.IEnumerable{KeyValuePair{TKey,TValue}}"/> whose elements are copied to
+            the new
+            <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="collection"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+            <exception cref="T:System.ArgumentException"><paramref name="collection"/> contains one or more
+            duplicate keys.</exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.#ctor(System.Collections.Generic.IEqualityComparer{`0})">
+            <summary>
+            Initializes a new instance of the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>
+            class that is empty, has the specified concurrency level and capacity, and uses the specified
+            <see cref="T:System.Collections.Generic.IEqualityComparer{TKey}"/>.
+            </summary>
+            <param name="comparer">The <see cref="T:System.Collections.Generic.IEqualityComparer{TKey}"/>
+            implementation to use when comparing keys.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="comparer"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}},System.Collections.Generic.IEqualityComparer{`0})">
+            <summary>
+            Initializes a new instance of the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>
+            class that contains elements copied from the specified <see
+            cref="T:System.Collections.IEnumerable"/>, has the default concurrency level, has the default
+            initial capacity, and uses the specified
+            <see cref="T:System.Collections.Generic.IEqualityComparer{TKey}"/>.
+            </summary>
+            <param name="collection">The <see
+            cref="T:System.Collections.IEnumerable{KeyValuePair{TKey,TValue}}"/> whose elements are copied to
+            the new
+            <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>.</param>
+            <param name="comparer">The <see cref="T:System.Collections.Generic.IEqualityComparer{TKey}"/>
+            implementation to use when comparing keys.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="collection"/> is a null reference
+            (Nothing in Visual Basic). -or-
+            <paramref name="comparer"/> is a null reference (Nothing in Visual Basic).
+            </exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.#ctor(System.Int32,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}},System.Collections.Generic.IEqualityComparer{`0})">
+            <summary>
+            Initializes a new instance of the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> 
+            class that contains elements copied from the specified <see cref="T:System.Collections.IEnumerable"/>, 
+            has the specified concurrency level, has the specified initial capacity, and uses the specified 
+            <see cref="T:System.Collections.Generic.IEqualityComparer{TKey}"/>.
+            </summary>
+            <param name="concurrencyLevel">The estimated number of threads that will update the 
+            <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> concurrently.</param>
+            <param name="collection">The <see cref="T:System.Collections.IEnumerable{KeyValuePair{TKey,TValue}}"/> whose elements are copied to the new 
+            <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>.</param>
+            <param name="comparer">The <see cref="T:System.Collections.Generic.IEqualityComparer{TKey}"/> implementation to use 
+            when comparing keys.</param>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="collection"/> is a null reference (Nothing in Visual Basic).
+            -or-
+            <paramref name="comparer"/> is a null reference (Nothing in Visual Basic).
+            </exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            <paramref name="concurrencyLevel"/> is less than 1.
+            </exception>
+            <exception cref="T:System.ArgumentException"><paramref name="collection"/> contains one or more duplicate keys.</exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.#ctor(System.Int32,System.Int32,System.Collections.Generic.IEqualityComparer{`0})">
+            <summary>
+            Initializes a new instance of the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>
+            class that is empty, has the specified concurrency level, has the specified initial capacity, and
+            uses the specified <see cref="T:System.Collections.Generic.IEqualityComparer{TKey}"/>.
+            </summary>
+            <param name="concurrencyLevel">The estimated number of threads that will update the
+            <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> concurrently.</param>
+            <param name="capacity">The initial number of elements that the <see
+            cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>
+            can contain.</param>
+            <param name="comparer">The <see cref="T:System.Collections.Generic.IEqualityComparer{TKey}"/>
+            implementation to use when comparing keys.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            <paramref name="concurrencyLevel"/> is less than 1. -or-
+            <paramref name="capacity"/> is less than 0.
+            </exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="comparer"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.TryAdd(`0,`1)">
+            <summary>
+            Attempts to add the specified key and value to the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>.
+            </summary>
+            <param name="key">The key of the element to add.</param>
+            <param name="value">The value of the element to add. The value can be a null reference (Nothing
+            in Visual Basic) for reference types.</param>
+            <returns>true if the key/value pair was added to the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>
+            successfully; otherwise, false.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is null reference
+            (Nothing in Visual Basic).</exception>
+            <exception cref="T:System.OverflowException">The <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>
+            contains too many elements.</exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.ContainsKey(`0)">
+            <summary>
+            Determines whether the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> contains the specified
+            key.
+            </summary>
+            <param name="key">The key to locate in the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>.</param>
+            <returns>true if the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> contains an element with
+            the specified key; otherwise, false.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.TryRemove(`0,`1@)">
+            <summary>
+            Attempts to remove and return the value with the specified key from the
+            <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>.
+            </summary>
+            <param name="key">The key of the element to remove and return.</param>
+            <param name="value">When this method returns, <paramref name="value"/> contains the object removed from the
+            <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> or the default value of <typeparamref
+            name="TValue"/>
+            if the operation failed.</param>
+            <returns>true if an object was removed successfully; otherwise, false.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.TryRemoveInternal(`0,`1@,System.Boolean,`1)">
+            <summary>
+            Removes the specified key from the dictionary if it exists and returns its associated value.
+            If matchValue flag is set, the key will be removed only if is associated with a particular
+            value.
+            </summary>
+            <param name="key">The key to search for and remove if it exists.</param>
+            <param name="value">The variable into which the removed value, if found, is stored.</param>
+            <param name="matchValue">Whether removal of the key is conditional on its value.</param>
+            <param name="oldValue">The conditional value to compare against if <paramref name="matchValue"/> is true</param>
+            <returns></returns>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.TryGetValue(`0,`1@)">
+            <summary>
+            Attempts to get the value associated with the specified key from the <see
+            cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>.
+            </summary>
+            <param name="key">The key of the value to get.</param>
+            <param name="value">When this method returns, <paramref name="value"/> contains the object from
+            the
+            <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> with the specified key or the default value of
+            <typeparamref name="TValue"/>, if the operation failed.</param>
+            <returns>true if the key was found in the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>;
+            otherwise, false.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.TryUpdate(`0,`1,`1)">
+            <summary>
+            Compares the existing value for the specified key with a specified value, and if they're equal,
+            updates the key with a third value.
+            </summary>
+            <param name="key">The key whose value is compared with <paramref name="comparisonValue"/> and
+            possibly replaced.</param>
+            <param name="newValue">The value that replaces the value of the element with <paramref
+            name="key"/> if the comparison results in equality.</param>
+            <param name="comparisonValue">The value that is compared to the value of the element with
+            <paramref name="key"/>.</param>
+            <returns>true if the value with <paramref name="key"/> was equal to <paramref
+            name="comparisonValue"/> and replaced with <paramref name="newValue"/>; otherwise,
+            false.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is a null
+            reference.</exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.TryUpdateInternal(`0,System.Int32,`1,`1)">
+            <summary>
+            Compares the existing value for the specified key with a specified value, and if they're equal,
+            updates the key with a third value.
+            </summary>
+            <param name="key">The key whose value is compared with <paramref name="comparisonValue"/> and
+            possibly replaced.</param>
+            <param name="hashcode">The hashcode computed for <paramref name="key"/>.</param>
+            <param name="newValue">The value that replaces the value of the element with <paramref
+            name="key"/> if the comparison results in equality.</param>
+            <param name="comparisonValue">The value that is compared to the value of the element with
+            <paramref name="key"/>.</param>
+            <returns>true if the value with <paramref name="key"/> was equal to <paramref
+            name="comparisonValue"/> and replaced with <paramref name="newValue"/>; otherwise,
+            false.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is a null
+            reference.</exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.Clear">
+            <summary>
+            Removes all keys and values from the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)">
+            <summary>
+            Copies the elements of the <see cref="T:System.Collections.Generic.ICollection"/> to an array of
+            type <see cref="T:System.Collections.Generic.KeyValuePair{TKey,TValue}"/>, starting at the
+            specified array index.
+            </summary>
+            <param name="array">The one-dimensional array of type <see
+            cref="T:System.Collections.Generic.KeyValuePair{TKey,TValue}"/>
+            that is the destination of the <see
+            cref="T:System.Collections.Generic.KeyValuePair{TKey,TValue}"/> elements copied from the <see
+            cref="T:System.Collections.ICollection"/>. The array must have zero-based indexing.</param>
+            <param name="index">The zero-based index in <paramref name="array"/> at which copying
+            begins.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="array"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="index"/> is less than
+            0.</exception>
+            <exception cref="T:System.ArgumentException"><paramref name="index"/> is equal to or greater than
+            the length of the <paramref name="array"/>. -or- The number of elements in the source <see
+            cref="T:System.Collections.ICollection"/>
+            is greater than the available space from <paramref name="index"/> to the end of the destination
+            <paramref name="array"/>.</exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.ToArray">
+            <summary>
+            Copies the key and value pairs stored in the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> to a
+            new array.
+            </summary>
+            <returns>A new array containing a snapshot of key and value pairs copied from the <see
+            cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>.</returns>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.CopyToPairs(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)">
+            <summary>
+            Copy dictionary contents to an array - shared implementation between ToArray and CopyTo.
+            
+            Important: the caller must hold all locks in _locks before calling CopyToPairs.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.CopyToEntries(System.Collections.DictionaryEntry[],System.Int32)">
+            <summary>
+            Copy dictionary contents to an array - shared implementation between ToArray and CopyTo.
+            
+            Important: the caller must hold all locks in _locks before calling CopyToEntries.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.CopyToObjects(System.Object[],System.Int32)">
+            <summary>
+            Copy dictionary contents to an array - shared implementation between ToArray and CopyTo.
+            
+            Important: the caller must hold all locks in _locks before calling CopyToObjects.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.GetEnumerator">
+            <summary>Returns an enumerator that iterates through the <see
+            cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>.</summary>
+            <returns>An enumerator for the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>.</returns>
+            <remarks>
+            The enumerator returned from the dictionary is safe to use concurrently with
+            reads and writes to the dictionary, however it does not represent a moment-in-time snapshot
+            of the dictionary.  The contents exposed through the enumerator may contain modifications
+            made to the dictionary after <see cref="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.GetEnumerator"/> was called.
+            </remarks>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.TryAddInternal(`0,System.Int32,`1,System.Boolean,System.Boolean,`1@)">
+            <summary>
+            Shared internal implementation for inserts and updates.
+            If key exists, we always return false; and if updateIfExists == true we force update with value;
+            If key doesn't exist, we always add value and return true;
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Concurrency.ConcurrentDictionary`2.Item(`0)">
+            <summary>
+            Gets or sets the value associated with the specified key.
+            </summary>
+            <param name="key">The key of the value to get or set.</param>
+            <value>The value associated with the specified key. If the specified key is not found, a get
+            operation throws a
+            <see cref="T:System.Collections.Generic.KeyNotFoundException"/>, and a set operation creates a new
+            element with the specified key.</value>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">The property is retrieved and
+            <paramref name="key"/>
+            does not exist in the collection.</exception>
+        </member>
+        <member name="P:FFImageLoading.Concurrency.ConcurrentDictionary`2.Count">
+            <summary>
+            Gets the number of key/value pairs contained in the <see
+            cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>.
+            </summary>
+            <exception cref="T:System.OverflowException">The dictionary contains too many
+            elements.</exception>
+            <value>The number of key/value pairs contained in the <see
+            cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>.</value>
+            <remarks>Count has snapshot semantics and represents the number of items in the <see
+            cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>
+            at the moment when Count was accessed.</remarks>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.GetOrAdd(`0,System.Func{`0,`1})">
+            <summary>
+            Adds a key/value pair to the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> 
+            if the key does not already exist.
+            </summary>
+            <param name="key">The key of the element to add.</param>
+            <param name="valueFactory">The function used to generate a value for the key</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="valueFactory"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+            <exception cref="T:System.OverflowException">The dictionary contains too many
+            elements.</exception>
+            <returns>The value for the key.  This will be either the existing value for the key if the
+            key is already in the dictionary, or the new value for the key as returned by valueFactory
+            if the key was not in the dictionary.</returns>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.GetOrAdd(`0,`1)">
+            <summary>
+            Adds a key/value pair to the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> 
+            if the key does not already exist.
+            </summary>
+            <param name="key">The key of the element to add.</param>
+            <param name="value">the value to be added, if the key does not already exist</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+            <exception cref="T:System.OverflowException">The dictionary contains too many
+            elements.</exception>
+            <returns>The value for the key.  This will be either the existing value for the key if the 
+            key is already in the dictionary, or the new value if the key was not in the dictionary.</returns>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.AddOrUpdate(`0,System.Func{`0,`1},System.Func{`0,`1,`1})">
+            <summary>
+            Adds a key/value pair to the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> if the key does not already 
+            exist, or updates a key/value pair in the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> if the key 
+            already exists.
+            </summary>
+            <param name="key">The key to be added or whose value should be updated</param>
+            <param name="addValueFactory">The function used to generate a value for an absent key</param>
+            <param name="updateValueFactory">The function used to generate a new value for an existing key
+            based on the key's existing value</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="addValueFactory"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="updateValueFactory"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+            <exception cref="T:System.OverflowException">The dictionary contains too many
+            elements.</exception>
+            <returns>The new value for the key.  This will be either the result of addValueFactory (if the key was 
+            absent) or the result of updateValueFactory (if the key was present).</returns>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.AddOrUpdate(`0,`1,System.Func{`0,`1,`1})">
+            <summary>
+            Adds a key/value pair to the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> if the key does not already 
+            exist, or updates a key/value pair in the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> if the key 
+            already exists.
+            </summary>
+            <param name="key">The key to be added or whose value should be updated</param>
+            <param name="addValue">The value to be added for an absent key</param>
+            <param name="updateValueFactory">The function used to generate a new value for an existing key based on 
+            the key's existing value</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="updateValueFactory"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+            <exception cref="T:System.OverflowException">The dictionary contains too many
+            elements.</exception>
+            <returns>The new value for the key.  This will be either the value of addValue (if the key was 
+            absent) or the result of updateValueFactory (if the key was present).</returns>
+        </member>
+        <member name="P:FFImageLoading.Concurrency.ConcurrentDictionary`2.IsEmpty">
+            <summary>
+            Gets a value that indicates whether the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> is empty.
+            </summary>
+            <value>true if the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/> is empty; otherwise,
+            false.</value>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#Generic#IDictionary{TKey,TValue}#Add(`0,`1)">
+            <summary>
+            Adds the specified key and value to the <see
+            cref="T:System.Collections.Generic.IDictionary{TKey,TValue}"/>.
+            </summary>
+            <param name="key">The object to use as the key of the element to add.</param>
+            <param name="value">The object to use as the value of the element to add.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+            <exception cref="T:System.OverflowException">The dictionary contains too many
+            elements.</exception>
+            <exception cref="T:System.ArgumentException">
+            An element with the same key already exists in the <see
+            cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>.</exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#Generic#IDictionary{TKey,TValue}#Remove(`0)">
+            <summary>
+            Removes the element with the specified key from the <see
+            cref="T:System.Collections.Generic.IDictionary{TKey,TValue}"/>.
+            </summary>
+            <param name="key">The key of the element to remove.</param>
+            <returns>true if the element is successfully remove; otherwise false. This method also returns
+            false if
+            <paramref name="key"/> was not found in the original <see
+            cref="T:System.Collections.Generic.IDictionary{TKey,TValue}"/>.
+            </returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+        </member>
+        <member name="P:FFImageLoading.Concurrency.ConcurrentDictionary`2.Keys">
+            <summary>
+            Gets a collection containing the keys in the <see
+            cref="T:System.Collections.Generic.Dictionary{TKey,TValue}"/>.
+            </summary>
+            <value>An <see cref="T:System.Collections.Generic.ICollection{TKey}"/> containing the keys in the
+            <see cref="T:System.Collections.Generic.Dictionary{TKey,TValue}"/>.</value>
+        </member>
+        <member name="P:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Keys">
+            <summary>
+            Gets an <see cref="T:System.Collections.Generic.IEnumerable{TKey}"/> containing the keys of
+            the <see cref="T:System.Collections.Generic.IReadOnlyDictionary{TKey,TValue}"/>.
+            </summary>
+            <value>An <see cref="T:System.Collections.Generic.IEnumerable{TKey}"/> containing the keys of
+            the <see cref="T:System.Collections.Generic.IReadOnlyDictionary{TKey,TValue}"/>.</value>
+        </member>
+        <member name="P:FFImageLoading.Concurrency.ConcurrentDictionary`2.Values">
+            <summary>
+            Gets a collection containing the values in the <see
+            cref="T:System.Collections.Generic.Dictionary{TKey,TValue}"/>.
+            </summary>
+            <value>An <see cref="T:System.Collections.Generic.ICollection{TValue}"/> containing the values in
+            the
+            <see cref="T:System.Collections.Generic.Dictionary{TKey,TValue}"/>.</value>
+        </member>
+        <member name="P:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Values">
+            <summary>
+            Gets an <see cref="T:System.Collections.Generic.IEnumerable{TValue}"/> containing the values
+            in the <see cref="T:System.Collections.Generic.IReadOnlyDictionary{TKey,TValue}"/>.
+            </summary>
+            <value>An <see cref="T:System.Collections.Generic.IEnumerable{TValue}"/> containing the
+            values in the <see cref="T:System.Collections.Generic.IReadOnlyDictionary{TKey,TValue}"/>.</value>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#Add(System.Collections.Generic.KeyValuePair{`0,`1})">
+            <summary>
+            Adds the specified value to the <see cref="T:System.Collections.Generic.ICollection{TValue}"/>
+            with the specified key.
+            </summary>
+            <param name="keyValuePair">The <see cref="T:System.Collections.Generic.KeyValuePair{TKey,TValue}"/>
+            structure representing the key and value to add to the <see
+            cref="T:System.Collections.Generic.Dictionary{TKey,TValue}"/>.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="keyValuePair"/> of <paramref
+            name="keyValuePair"/> is null.</exception>
+            <exception cref="T:System.OverflowException">The <see
+            cref="T:System.Collections.Generic.Dictionary{TKey,TValue}"/>
+            contains too many elements.</exception>
+            <exception cref="T:System.ArgumentException">An element with the same key already exists in the
+            <see cref="T:System.Collections.Generic.Dictionary{TKey,TValue}"/></exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#Contains(System.Collections.Generic.KeyValuePair{`0,`1})">
+            <summary>
+            Determines whether the <see cref="T:System.Collections.Generic.ICollection{TKey,TValue}"/>
+            contains a specific key and value.
+            </summary>
+            <param name="keyValuePair">The <see cref="T:System.Collections.Generic.KeyValuePair{TKey,TValue}"/>
+            structure to locate in the <see
+            cref="T:System.Collections.Generic.ICollection{TValue}"/>.</param>
+            <returns>true if the <paramref name="keyValuePair"/> is found in the <see
+            cref="T:System.Collections.Generic.ICollection{TKey,TValue}"/>; otherwise, false.</returns>
+        </member>
+        <member name="P:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#IsReadOnly">
+            <summary>
+            Gets a value indicating whether the dictionary is read-only.
+            </summary>
+            <value>true if the <see cref="T:System.Collections.Generic.ICollection{TKey,TValue}"/> is
+            read-only; otherwise, false. For <see
+            cref="T:System.Collections.Generic.Dictionary{TKey,TValue}"/>, this property always returns
+            false.</value>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#Remove(System.Collections.Generic.KeyValuePair{`0,`1})">
+            <summary>
+            Removes a key and value from the dictionary.
+            </summary>
+            <param name="keyValuePair">The <see
+            cref="T:System.Collections.Generic.KeyValuePair{TKey,TValue}"/>
+            structure representing the key and value to remove from the <see
+            cref="T:System.Collections.Generic.Dictionary{TKey,TValue}"/>.</param>
+            <returns>true if the key and value represented by <paramref name="keyValuePair"/> is successfully
+            found and removed; otherwise, false.</returns>
+            <exception cref="T:System.ArgumentNullException">The Key property of <paramref
+            name="keyValuePair"/> is a null reference (Nothing in Visual Basic).</exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#IEnumerable#GetEnumerator">
+            <summary>Returns an enumerator that iterates through the <see
+            cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>.</summary>
+            <returns>An enumerator for the <see cref="T:FFImageLoading.Concurrency.ConcurrentDictionary`2"/>.</returns>
+            <remarks>
+            The enumerator returned from the dictionary is safe to use concurrently with
+            reads and writes to the dictionary, however it does not represent a moment-in-time snapshot
+            of the dictionary.  The contents exposed through the enumerator may contain modifications
+            made to the dictionary after <see cref="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.GetEnumerator"/> was called.
+            </remarks>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#IDictionary#Add(System.Object,System.Object)">
+            <summary>
+            Adds the specified key and value to the dictionary.
+            </summary>
+            <param name="key">The object to use as the key.</param>
+            <param name="value">The object to use as the value.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+            <exception cref="T:System.OverflowException">The dictionary contains too many
+            elements.</exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="key"/> is of a type that is not assignable to the key type <typeparamref
+            name="TKey"/> of the <see cref="T:System.Collections.Generic.Dictionary{TKey,TValue}"/>. -or-
+            <paramref name="value"/> is of a type that is not assignable to <typeparamref name="TValue"/>,
+            the type of values in the <see cref="T:System.Collections.Generic.Dictionary{TKey,TValue}"/>.
+            -or- A value with the same key already exists in the <see
+            cref="T:System.Collections.Generic.Dictionary{TKey,TValue}"/>.
+            </exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#IDictionary#Contains(System.Object)">
+            <summary>
+            Gets whether the <see cref="T:System.Collections.Generic.IDictionary{TKey,TValue}"/> contains an
+            element with the specified key.
+            </summary>
+            <param name="key">The key to locate in the <see
+            cref="T:System.Collections.Generic.IDictionary{TKey,TValue}"/>.</param>
+            <returns>true if the <see cref="T:System.Collections.Generic.IDictionary{TKey,TValue}"/> contains
+            an element with the specified key; otherwise, false.</returns>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="key"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#IDictionary#GetEnumerator">
+            <summary>Provides an <see cref="T:System.Collections.Generics.IDictionaryEnumerator"/> for the
+            <see cref="T:System.Collections.Generic.IDictionary{TKey,TValue}"/>.</summary>
+            <returns>An <see cref="T:System.Collections.Generics.IDictionaryEnumerator"/> for the <see
+            cref="T:System.Collections.Generic.IDictionary{TKey,TValue}"/>.</returns>
+        </member>
+        <member name="P:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#IDictionary#IsFixedSize">
+            <summary>
+            Gets a value indicating whether the <see
+            cref="T:System.Collections.Generic.IDictionary{TKey,TValue}"/> has a fixed size.
+            </summary>
+            <value>true if the <see cref="T:System.Collections.Generic.IDictionary{TKey,TValue}"/> has a
+            fixed size; otherwise, false. For <see
+            cref="T:System.Collections.Generic.ConcurrentDictionary{TKey,TValue}"/>, this property always
+            returns false.</value>
+        </member>
+        <member name="P:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#IDictionary#IsReadOnly">
+            <summary>
+            Gets a value indicating whether the <see
+            cref="T:System.Collections.Generic.IDictionary{TKey,TValue}"/> is read-only.
+            </summary>
+            <value>true if the <see cref="T:System.Collections.Generic.IDictionary{TKey,TValue}"/> is
+            read-only; otherwise, false. For <see
+            cref="T:System.Collections.Generic.ConcurrentDictionary{TKey,TValue}"/>, this property always
+            returns false.</value>
+        </member>
+        <member name="P:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#IDictionary#Keys">
+            <summary>
+            Gets an <see cref="T:System.Collections.ICollection"/> containing the keys of the <see
+            cref="T:System.Collections.Generic.IDictionary{TKey,TValue}"/>.
+            </summary>
+            <value>An <see cref="T:System.Collections.ICollection"/> containing the keys of the <see
+            cref="T:System.Collections.Generic.IDictionary{TKey,TValue}"/>.</value>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#IDictionary#Remove(System.Object)">
+            <summary>
+            Removes the element with the specified key from the <see
+            cref="T:System.Collections.IDictionary"/>.
+            </summary>
+            <param name="key">The key of the element to remove.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+        </member>
+        <member name="P:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#IDictionary#Values">
+            <summary>
+            Gets an <see cref="T:System.Collections.ICollection"/> containing the values in the <see
+            cref="T:System.Collections.IDictionary"/>.
+            </summary>
+            <value>An <see cref="T:System.Collections.ICollection"/> containing the values in the <see
+            cref="T:System.Collections.IDictionary"/>.</value>
+        </member>
+        <member name="P:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#IDictionary#Item(System.Object)">
+            <summary>
+            Gets or sets the value associated with the specified key.
+            </summary>
+            <param name="key">The key of the value to get or set.</param>
+            <value>The value associated with the specified key, or a null reference (Nothing in Visual Basic)
+            if <paramref name="key"/> is not in the dictionary or <paramref name="key"/> is of a type that is
+            not assignable to the key type <typeparamref name="TKey"/> of the <see
+            cref="T:System.Collections.Generic.ConcurrentDictionary{TKey,TValue}"/>.</value>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+            <exception cref="T:System.ArgumentException">
+            A value is being assigned, and <paramref name="key"/> is of a type that is not assignable to the
+            key type <typeparamref name="TKey"/> of the <see
+            cref="T:System.Collections.Generic.ConcurrentDictionary{TKey,TValue}"/>. -or- A value is being
+            assigned, and <paramref name="key"/> is of a type that is not assignable to the value type
+            <typeparamref name="TValue"/> of the <see
+            cref="T:System.Collections.Generic.ConcurrentDictionary{TKey,TValue}"/>
+            </exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#ICollection#CopyTo(System.Array,System.Int32)">
+            <summary>
+            Copies the elements of the <see cref="T:System.Collections.ICollection"/> to an array, starting
+            at the specified array index.
+            </summary>
+            <param name="array">The one-dimensional array that is the destination of the elements copied from
+            the <see cref="T:System.Collections.ICollection"/>. The array must have zero-based
+            indexing.</param>
+            <param name="index">The zero-based index in <paramref name="array"/> at which copying
+            begins.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="array"/> is a null reference
+            (Nothing in Visual Basic).</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="index"/> is less than
+            0.</exception>
+            <exception cref="T:System.ArgumentException"><paramref name="index"/> is equal to or greater than
+            the length of the <paramref name="array"/>. -or- The number of elements in the source <see
+            cref="T:System.Collections.ICollection"/>
+            is greater than the available space from <paramref name="index"/> to the end of the destination
+            <paramref name="array"/>.</exception>
+        </member>
+        <member name="P:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#ICollection#IsSynchronized">
+            <summary>
+            Gets a value indicating whether access to the <see cref="T:System.Collections.ICollection"/> is
+            synchronized with the SyncRoot.
+            </summary>
+            <value>true if access to the <see cref="T:System.Collections.ICollection"/> is synchronized
+            (thread safe); otherwise, false. For <see
+            cref="T:System.Collections.Concurrent.ConcurrentDictionary{TKey,TValue}"/>, this property always
+            returns false.</value>
+        </member>
+        <member name="P:FFImageLoading.Concurrency.ConcurrentDictionary`2.System#Collections#ICollection#SyncRoot">
+            <summary>
+            Gets an object that can be used to synchronize access to the <see
+            cref="T:System.Collections.ICollection"/>. This property is not supported.
+            </summary>
+            <exception cref="T:System.NotSupportedException">The SyncRoot property is not supported.</exception>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.GrowTable(FFImageLoading.Concurrency.ConcurrentDictionary{`0,`1}.Tables)">
+            <summary>
+            Replaces the bucket table with a larger one. To prevent multiple threads from resizing the
+            table as a result of races, the Tables instance that holds the table of buckets deemed too
+            small is passed in as an argument to GrowTable(). GrowTable() obtains a lock, and then checks
+            the Tables instance has been replaced in the meantime or not.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.GetBucket(System.Int32,System.Int32)">
+            <summary>
+            Computes the bucket for a particular key. 
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.GetBucketAndLockNo(System.Int32,System.Int32@,System.Int32@,System.Int32,System.Int32)">
+            <summary>
+            Computes the bucket and lock number for a particular key. 
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Concurrency.ConcurrentDictionary`2.DefaultConcurrencyLevel">
+            <summary>
+            The number of concurrent writes for which to optimize by default.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.AcquireAllLocks(System.Int32@)">
+            <summary>
+            Acquires all locks for this hash table, and increments locksAcquired by the number
+            of locks that were successfully acquired. The locks are acquired in an increasing
+            order.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.AcquireLocks(System.Int32,System.Int32,System.Int32@)">
+            <summary>
+            Acquires a contiguous range of locks for this hash table, and increments locksAcquired
+            by the number of locks that were successfully acquired. The locks are acquired in an
+            increasing order.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.ReleaseLocks(System.Int32,System.Int32)">
+            <summary>
+            Releases a contiguous range of locks.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.GetKeys">
+            <summary>
+            Gets a collection containing the keys in the dictionary.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Concurrency.ConcurrentDictionary`2.GetValues">
+            <summary>
+            Gets a collection containing the values in the dictionary.
+            </summary>
+        </member>
+        <member name="T:FFImageLoading.Concurrency.ConcurrentDictionary`2.Node">
+            <summary>
+            A node in a singly-linked list representing a particular hash table bucket.
+            </summary>
+        </member>
+        <member name="T:FFImageLoading.Concurrency.ConcurrentDictionary`2.DictionaryEnumerator">
+            <summary>
+            A private class to represent enumeration over the dictionary that implements the 
+            IDictionaryEnumerator interface.
+            </summary>
+        </member>
+        <member name="T:FFImageLoading.Concurrency.SR">
+            <summary>
+            Copied from corefx\src\System.Collections.Concurrent\src\Resources
+            </summary>
+        </member>
+    </members>
+</doc>

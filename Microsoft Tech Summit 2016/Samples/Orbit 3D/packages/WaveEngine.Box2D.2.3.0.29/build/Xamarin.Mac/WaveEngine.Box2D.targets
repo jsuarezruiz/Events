@@ -1,0 +1,8 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Add Box2D library to the project -->
+  <Target Name="CopyBox2D" BeforeTargets="_CreatePkgInfo">		
+	<Message Text="********** Copy Box2D library Begin **********"/>
+	<Exec Command='cp $(MSBuildThisFileDirectory)\Box2D\libBox2D.dylib $(TargetDir)/$(ProjectName).app/Contents/MonoBundle/'/>
+	<Message Text="********** Copy Box2D library End **********"/>  
+  </Target>
+</Project>

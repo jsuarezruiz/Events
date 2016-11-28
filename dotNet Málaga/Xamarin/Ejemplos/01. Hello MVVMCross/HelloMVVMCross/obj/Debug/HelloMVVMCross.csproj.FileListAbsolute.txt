@@ -1,0 +1,14 @@
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross\bin\Debug\HelloMVVMCross.dll
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross\bin\Debug\HelloMVVMCross.pdb
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross\bin\Debug\Cirrious.CrossCore.dll
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross\bin\Debug\Cirrious.MvvmCross.dll
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross\bin\Debug\Cirrious.MvvmCross.Localization.dll
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross\obj\Debug\HelloMVVMCross.dll
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross\obj\Debug\HelloMVVMCross.pdb
+C:\MVVMCross\01. Hello MVVMCross\HelloMVVMCross\bin\Debug\HelloMVVMCross.dll
+C:\MVVMCross\01. Hello MVVMCross\HelloMVVMCross\bin\Debug\HelloMVVMCross.pdb
+C:\MVVMCross\01. Hello MVVMCross\HelloMVVMCross\bin\Debug\Cirrious.CrossCore.dll
+C:\MVVMCross\01. Hello MVVMCross\HelloMVVMCross\bin\Debug\Cirrious.MvvmCross.dll
+C:\MVVMCross\01. Hello MVVMCross\HelloMVVMCross\bin\Debug\Cirrious.MvvmCross.Localization.dll
+C:\MVVMCross\01. Hello MVVMCross\HelloMVVMCross\obj\Debug\HelloMVVMCross.dll
+C:\MVVMCross\01. Hello MVVMCross\HelloMVVMCross\obj\Debug\HelloMVVMCross.pdb

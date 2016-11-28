@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HubTileXamarinForms.Views.MainView"
+             xmlns:custom="clr-namespace:HubTileXamarinForms.CustomControls;assembly=HubTileXamarinForms"
+             Title="Monkeys">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="120" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <StackLayout Padding="12">
+      <Label Text="DOTNET CONFERENCE SPAIN" />
+      <Label Text="hubtile" FontSize="48" />
+    </StackLayout>
+    <Grid Grid.Row="1" Padding="12">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="180" />
+        <ColumnDefinition Width="180" />
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="180" />
+        <RowDefinition Height="180" />
+      </Grid.RowDefinitions>
+      <custom:CustomHubTileView
+        Title="Arroces"
+        Message="25 recetas"
+        Source="../Assets/arroces.jpg"
+        Color="Red" />
+      <custom:CustomHubTileView
+        Grid.Column="1"
+        Title="Pizza"
+        Message="5 recetas"
+        Source="../Assets/rapida.jpg"
+        Color="Green" />
+      <custom:CustomHubTileView
+        Grid.Row="1"
+        Title="Pastas"
+        Message="16 recetas"
+        Source="../Assets/pastas.jpg"
+        Color="Blue" />
+      <custom:CustomHubTileView
+        Grid.Column="1"
+        Grid.Row="1"
+        Title="Pescados"
+        Message="52 recetas"
+        Source="../Assets/pescados.jpg"
+        Color="Yellow" />
+    </Grid>
+  </Grid>
+</ContentPage>

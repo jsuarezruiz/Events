@@ -1,0 +1,52 @@
+﻿<Properties StartupItem="Droid/Calculator.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UITests/Tests.cs">
+    <Files>
+      <File FileName="Calculator/ViewModels/CalculatorViewModel.cs" Line="1" Column="1" />
+      <File FileName="Calculator/Models/Operator.cs" Line="1" Column="1" />
+      <File FileName="Calculator/Helpers/ExportedColors.cs" Line="1" Column="1" />
+      <File FileName="Calculator/App.xaml" Line="1" Column="1" />
+      <File FileName="Calculator/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="Calculator/Views/MainView.xaml" Line="105" Column="40" />
+      <File FileName="Calculator/Views/MainView.xaml.cs" Line="1" Column="1" />
+      <File FileName="UITests/Tests.cs" Line="84" Column="13" />
+      <File FileName="iOS/Appareance.cs" Line="1" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="UITests/AppInitializer.cs" Line="1" Column="1" />
+      <File FileName="Calculator/ViewModels/Base/ViewModelLocator.cs" Line="1" Column="1" />
+      <File FileName="Tests/Calculator.Tests/ViewModels/CalculatorViewModelTests.cs" Line="1" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="35" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Calculator" expanded="True">
+            <Node name="App" expanded="True">
+              <Node name="Calculator" expanded="True" selected="True">
+                <Node name="Views" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Tests" expanded="True">
+              <Node name="Calculator.UITests" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="Calculator" expanded="True" selected="True">
+            <Node name="Tests" expanded="True">
+              <Node name="Calculator.UITests" expanded="True">
+                <Node name="Test Apps" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

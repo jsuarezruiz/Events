@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="XDeferLoadStrategy.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XDeferLoadStrategy"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding Path=MainViewModel, Source={StaticResource Locator}}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="12">
+            <TextBlock 
+                Text="x:DefeLoadStrategy"
+                FontWeight="Black"/>
+            <TextBlock 
+                Text="x:DeferLoadStrategy nos permite retrasar la creación de un elemento y sus elementos hijos lo que reduce los tiempos necesarios para la creación de la UI y por lo tanto de carga. Sin embargo, nada en la vida es gratis. A cambio, incrementamos levemente el consumo de memoria."
+                TextWrapping="WrapWholeWords" />
+            <Grid x:Name="DeferredPanel"  
+                  x:DeferLoadStrategy="Lazy">
+                <Image
+                    Stretch="UniformToFill"
+                    Source="ms-appx:///Assets/NinjaCat.jpg" />
+           </Grid>
+            <Button 
+                Content="Crear" 
+                Command="{Binding RealizeElementsCommand}"/>
+        </StackPanel>
+    </Grid>
+</Page>

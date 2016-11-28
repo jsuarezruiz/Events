@@ -1,0 +1,28 @@
+private void LoadMenu()
+{
+	MenuItems = new ObservableCollection<MenuItem>
+	{
+		new MenuItem
+		{
+			Icon = "",
+            Title = "Home",
+			View = typeof(HomeView)
+		},
+		new MenuItem
+		{
+			Icon = "",
+			Title = "Standings",
+			View = typeof(StandingsView)
+		},
+		new MenuItem
+		{
+			Icon = "",
+            Title = "About",
+			View = typeof(AboutView)
+		}
+	};
+
+	SelectedMenuItem = MenuItems.FirstOrDefault();
+	Navigate(SelectedMenuItem.View);
+}
+

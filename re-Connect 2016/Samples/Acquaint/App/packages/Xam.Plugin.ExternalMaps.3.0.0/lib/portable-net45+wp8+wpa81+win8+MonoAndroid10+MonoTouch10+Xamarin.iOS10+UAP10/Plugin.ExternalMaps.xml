@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.ExternalMaps</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.ExternalMaps.CrossExternalMaps">
+            <summary>
+            Cross platform ExternalMaps implemenations
+            </summary>
+        </member>
+        <member name="P:Plugin.ExternalMaps.CrossExternalMaps.Current">
+            <summary>
+            Current settings to use
+            </summary>
+        </member>
+    </members>
+</doc>

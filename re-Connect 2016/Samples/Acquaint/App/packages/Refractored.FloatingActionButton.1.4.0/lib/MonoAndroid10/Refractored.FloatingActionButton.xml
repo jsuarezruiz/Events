@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Refractored.FloatingActionButton</name>
+    </assembly>
+    <members>
+        <member name="P:com.refractored.fab.FloatingActionButton.Visible">
+            <summary>
+            Gets if FAB is visible
+            </summary>
+        </member>
+        <member name="P:com.refractored.fab.FloatingActionButton.ColorNormal">
+            <summary>
+            Gets or sets the normal color
+            </summary>
+        </member>
+        <member name="M:com.refractored.fab.FloatingActionButton.SetColorNormalResId(System.Int32)">
+            <summary>
+            Sets the color normal by res id
+            </summary>
+            <param name="colorresId"></param>
+        </member>
+        <member name="P:com.refractored.fab.FloatingActionButton.ColorPressed">
+            <summary>
+            Gets or sets pressed color
+            </summary>
+        </member>
+        <member name="M:com.refractored.fab.FloatingActionButton.SetColorPressedResId(System.Int32)">
+            <summary>
+            Sets color pressed by res id
+            </summary>
+            <param name="colorResId"></param>
+        </member>
+        <member name="P:com.refractored.fab.FloatingActionButton.ColorDisabled">
+            <summary>
+            Gets or sets the normal color
+            </summary>
+        </member>
+        <member name="M:com.refractored.fab.FloatingActionButton.SetColorDisabledResId(System.Int32)">
+            <summary>
+            Sets the color normal by res id
+            </summary>
+            <param name="colorresId"></param>
+        </member>
+        <member name="P:com.refractored.fab.FloatingActionButton.ColorRipple">
+            <summary>
+            Gets or sets ripple color
+            </summary>
+        </member>
+        <member name="M:com.refractored.fab.FloatingActionButton.SetColorRippleResId(System.Int32)">
+            <summary>
+            Sets color ripple by res id
+            </summary>
+            <param name="colorResId"></param>
+        </member>
+        <member name="P:com.refractored.fab.FloatingActionButton.HasShadow">
+            <summary>
+            Gets or sets if it has a shadow
+            </summary>
+        </member>
+        <member name="M:com.refractored.fab.FloatingActionButton.Show(System.Boolean)">
+            <summary>
+            Show the FAB
+            </summary>
+            <param name="animate">If you want to animate, default true</param>
+        </member>
+        <member name="M:com.refractored.fab.FloatingActionButton.Hide(System.Boolean)">
+            <summary>
+            Hide the FAB
+            </summary>
+            <param name="animate">If you want to animate, default true</param>
+        </member>
+        <member name="P:com.refractored.fab.ObservableScrollView.OnScrollChangedListener">
+            <summary>
+            Gets or sets the on scroll changed listener
+            </summary>
+        </member>
+    </members>
+</doc>

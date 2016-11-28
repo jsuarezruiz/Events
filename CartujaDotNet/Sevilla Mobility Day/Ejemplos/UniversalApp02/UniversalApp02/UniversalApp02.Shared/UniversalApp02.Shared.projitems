@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>35c0bc43-07ac-4cb2-a84c-54ef9bcb74cd</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>UniversalApp02</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\ImageConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Constructor\Constructor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Driver\Driver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Standings\ConstructorStanding.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Standings\DriverStanding.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Standings\StandingList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Standings\StandingMRData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Standings\StandingRootObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Standings\StandingTable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Standings\IStandingService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Standings\StandingService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Base\DelegateCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Base\DelegateCommandAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Base\ViewModelBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Base\ViewModelLocator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Base\PageBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MainView.xaml.cs">
+      <DependentUpon>MainView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Themes\Colors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\MainView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Background.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\NoImage.jpg" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FFImageLoading.Platform</name>
+    </assembly>
+    <members>
+        <member name="M:FFImageLoading.TaskParameterExtensions.InvalidateAsync(FFImageLoading.Work.TaskParameter,FFImageLoading.Cache.CacheType)">
+            <summary>
+            Invalidate the image corresponding to given parameters from given caches.
+            </summary>
+            <param name="parameters">Image parameters.</param>
+            <param name="cacheType">Cache type.</param>
+        </member>
+        <member name="M:FFImageLoading.TaskParameterExtensions.Preload(FFImageLoading.Work.TaskParameter)">
+            <summary>
+            Preload the image request into memory cache/disk cache for future use.
+            </summary>
+            <param name="parameters">Image parameters.</param>
+        </member>
+        <member name="M:FFImageLoading.TaskParameterExtensions.PreloadAsync(FFImageLoading.Work.TaskParameter)">
+            <summary>
+            Preload the image request into memory cache/disk cache for future use.
+            </summary>
+            <param name="parameters">Image parameters.</param>
+        </member>
+    </members>
+</doc>

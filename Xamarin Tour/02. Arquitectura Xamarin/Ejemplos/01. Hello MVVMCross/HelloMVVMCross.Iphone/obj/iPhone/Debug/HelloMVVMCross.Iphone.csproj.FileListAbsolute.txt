@@ -1,0 +1,16 @@
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Iphone\obj\iPhone\Debug\
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Iphone\obj\iPhone\Debug\HelloMVVMCross.Iphone.csprojResolveAssemblyReference.cache
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Iphone\bin\iPhone\Debug\HelloMVVMCrossIphone.exe
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Iphone\bin\iPhone\Debug\HelloMVVMCrossIphone.pdb
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Iphone\bin\iPhone\Debug\Cirrious.CrossCore.dll
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Iphone\bin\iPhone\Debug\Cirrious.CrossCore.Touch.dll
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Iphone\bin\iPhone\Debug\Cirrious.MvvmCross.Binding.dll
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Iphone\bin\iPhone\Debug\Cirrious.MvvmCross.Binding.Touch.dll
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Iphone\bin\iPhone\Debug\Cirrious.MvvmCross.dll
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Iphone\bin\iPhone\Debug\Cirrious.MvvmCross.Localization.dll
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Iphone\bin\iPhone\Debug\Cirrious.MvvmCross.Touch.dll
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Iphone\bin\iPhone\Debug\HelloMVVMCross.dll
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Iphone\bin\iPhone\Debug\HelloMVVMCross.pdb
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Iphone\bin\iPhone\Debug\HelloMVVMCross.dll.mdb
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Iphone\obj\iPhone\Debug\HelloMVVMCrossIphone.exe
+c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross.Iphone\obj\iPhone\Debug\HelloMVVMCrossIphone.pdb

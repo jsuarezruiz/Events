@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="dotnetspain2015.Views.LoadingView">
+  <ContentPage.Content>
+    <Grid BackgroundColor="#67217A">
+      <Image x:Name="LogoImage"
+        Source="../Assets/SpainDotNetConf.png"
+        WidthRequest="250"
+        HeightRequest="250"
+        HorizontalOptions="Center"
+        VerticalOptions="Center" />
+    </Grid>
+  </ContentPage.Content>
+</ContentPage>

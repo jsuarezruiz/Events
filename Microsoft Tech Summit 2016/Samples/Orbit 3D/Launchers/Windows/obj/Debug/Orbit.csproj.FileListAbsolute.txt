@@ -1,0 +1,68 @@
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\Orbit.exe
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\Orbit.pdb
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Adapter.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Box2D.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Common.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Components.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Framework.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.ImageEffects.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Materials.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.Direct3D9.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.Direct3D11.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.DXGI.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.Desktop.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.MediaFoundation.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.Mathematics.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.XAudio2.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\NAudio.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.DirectInput.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.XInput.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Box2DSharp.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Physics.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Bepu.dll
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Adapter.xml
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Box2D.xml
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Common.xml
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Framework.xml
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Components.xml
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Materials.xml
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.ImageEffects.xml
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Physics.xml
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\obj\Debug\Orbit.exe
+C:\Users\jsuarezruiz\Desktop\Orbit\Launchers\Windows\obj\Debug\Orbit.pdb
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\Orbit.exe
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\Orbit.pdb
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Adapter.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Box2D.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Common.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Components.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Framework.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.ImageEffects.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Materials.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.Direct3D9.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.Direct3D11.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.DXGI.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.Desktop.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.MediaFoundation.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.Mathematics.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.XAudio2.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\NAudio.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.DirectInput.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\SharpDX.XInput.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Box2DSharp.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Physics.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Bepu.dll
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Adapter.xml
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Box2D.xml
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Common.xml
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Framework.xml
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Components.xml
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Materials.xml
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.ImageEffects.xml
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\bin\AnyCPU\Debug\WaveEngine.Physics.xml
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\obj\Debug\Orbit.exe
+C:\Users\jsuarez\Downloads\Events-master(1)\Events-master\Microsoft Tech Summit 2016\Samples\Orbit\Launchers\Windows\obj\Debug\Orbit.pdb
+D:\GitHub\Events\Microsoft Tech Summit 2016\Samples\Orbit 3D\Launchers\Windows\obj\Debug\Orbit.exe
+D:\GitHub\Events\Microsoft Tech Summit 2016\Samples\Orbit 3D\Launchers\Windows\obj\Debug\Orbit.pdb

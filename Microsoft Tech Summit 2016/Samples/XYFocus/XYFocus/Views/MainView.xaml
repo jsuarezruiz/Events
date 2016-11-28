@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="XYFocus.Views.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XYFocus.Views"  
+    xmlns:controls="using:XYFocus.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <StackPanel>
+        <Button 
+            x:Name="Button1" 
+            Margin="0,10,0,0" 
+            Width="100" 
+            Content="Button 1" 
+            XYFocusDown="{x:Bind Button2}"/>
+        <Button 
+            x:Name="Button2"
+            Margin="100,10,0,0" 
+            Width="100" 
+            Content="Button 2"              
+            XYFocusDown="{x:Bind Button3}"
+            XYFocusUp="{x:Bind Button1}"      
+            XYFocusLeft="{x:Bind Button2}"
+            XYFocusRight="{x:Bind Button2}"
+            Style="{StaticResource BasicFocusButtonStyle}"/>
+        <Button 
+            x:Name="Button3"
+            Margin="0,10,0,0"
+            Width="100" 
+            Content="Button 3"
+            XYFocusUp="{x:Bind Button2}"          
+            XYFocusDown="{x:Bind MyUserControl}"
+            Style="{StaticResource AdvancedFocusButtonStyle}"/>
+        <controls:MyUserControl 
+            x:Name="MyUserControl"      
+            Width="100"       
+            Margin="0,10,0,0"
+            HorizontalAlignment="Left"
+            XYFocusUp="{x:Bind Button3}"/>
+    </StackPanel>
+</Page>

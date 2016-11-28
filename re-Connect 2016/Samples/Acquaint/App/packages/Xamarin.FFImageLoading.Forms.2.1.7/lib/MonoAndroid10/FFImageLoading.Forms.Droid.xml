@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FFImageLoading.Forms.Droid</name>
+    </assembly>
+    <members>
+        <member name="T:FFImageLoading.Forms.Droid.CachedImageRenderer">
+            <summary>
+            CachedImage Implementation
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Forms.Droid.CachedImageRenderer.Init">
+            <summary>
+              Used for registration with dependency service
+            </summary>
+        </member>
+    </members>
+</doc>

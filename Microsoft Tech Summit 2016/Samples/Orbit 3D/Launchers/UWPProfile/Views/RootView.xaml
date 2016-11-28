@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="Orbit.Views.RootView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Orbit.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid x:Name="Root">
+        <Grid Name="BackgroundContainer">
+            <Image Stretch="UniformToFill" HorizontalAlignment="Center"/>
+            <Image Stretch="UniformToFill" HorizontalAlignment="Center"/>
+            <Image Source="Assets/particle1.png" Stretch="UniformToFill" HorizontalAlignment="Center"/>
+            <Border Background="#4C000000"/>
+            <Canvas>
+                <Border x:Name="Gradient" 
+                        Opacity="0.2">
+                    <Border.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF808737" Offset="0"/>
+                            <GradientStop Color="#FFFF5252" Offset="1"/>
+                            <GradientStop Color="#FF1C9C1C" Offset="0.146"/>
+                            <GradientStop Color="#FF3BA995" Offset="0.265"/>
+                            <GradientStop Color="#FF5782B5" Offset="0.399"/>
+                            <GradientStop Color="#FF8771C0" Offset="0.537"/>
+                            <GradientStop Color="#FFC788CA" Offset="0.672"/>
+                            <GradientStop Color="#FFD39DAE" Offset="0.84"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                </Border>
+            </Canvas>
+        </Grid>
+        <Frame Name="MainFrame"/>
+    </Grid>
+</Page>

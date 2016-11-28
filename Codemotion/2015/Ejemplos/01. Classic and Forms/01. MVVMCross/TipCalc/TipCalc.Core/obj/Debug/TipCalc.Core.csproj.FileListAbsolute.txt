@@ -1,0 +1,12 @@
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.Core\bin\Debug\TipCalc.Core.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.Core\bin\Debug\TipCalc.Core.pdb
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.Core\bin\Debug\Cirrious.CrossCore.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.Core\bin\Debug\Cirrious.MvvmCross.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.Core\bin\Debug\Cirrious.MvvmCross.Localization.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.Core\obj\Debug\TipCalc.Core.csprojResolveAssemblyReference.cache
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.Core\obj\Debug\TipCalc.Core.dll
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.Core\obj\Debug\TipCalc.Core.pdb
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.Core\obj\Debug\TipCalc.Core.dll.mdb
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.Core\bin\Debug\TipCalc.Core.dll.mdb
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.Core\obj\Debug\TipCalc.Core.dll.mdb
+C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.Core\bin\Debug\TipCalc.Core.dll.mdb

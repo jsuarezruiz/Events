@@ -1,0 +1,2 @@
+c:\users\javier\documents\visual studio 2013\Projects\Montaditos\Montaditos\Montaditos.iOS\obj\iPhone\Debug\
+c:\users\javier\documents\visual studio 2013\Projects\Montaditos\Montaditos\Montaditos.iOS\obj\iPhone\Debug\Montaditos.iOS.csprojResolveAssemblyReference.cache

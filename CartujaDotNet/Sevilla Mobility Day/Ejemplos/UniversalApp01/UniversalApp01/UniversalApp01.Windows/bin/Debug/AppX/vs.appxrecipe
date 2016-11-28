@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JAVI</Machine>
+    <WindowsUser>Javier</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>93849ffe-08a0-4963-9461-ffbd5b927394</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\javier\documents\visual studio 2013\Projects\UniversalApp01\UniversalApp01\UniversalApp01.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>2C35E57EE2EB00882172903C3BB4FBC662519CCD4FF51FBB72DA0590E0BAD413</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>93849ffe-08a0-4963-9461-ffbd5b927394_1.0.0.0_neutral__j6j5z4mnvcpja</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>93849ffe-08a0-4963-9461-ffbd5b927394_j6j5z4mnvcpja!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>93849ffe-08a0-4963-9461-ffbd5b927394</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Javier</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\javier\documents\visual studio 2013\Projects\UniversalApp01\UniversalApp01\UniversalApp01.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-07-03T18:58:04.015</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\UniversalApp01\UniversalApp01\UniversalApp01.Windows\bin\Debug\UniversalApp01.Windows.exe">
+      <PackagePath>UniversalApp01.Windows.exe</PackagePath>
+      <Modified>2014-07-03T18:57:57.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\UniversalApp01\packages\CommonServiceLocator.1.2\lib\portable-windows8+net40+sl5+windowsphone8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2014-07-03T17:51:38.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\UniversalApp01\packages\Unity.3.5.1404.0\lib\win8\Microsoft.Practices.Unity.dll">
+      <PackagePath>Microsoft.Practices.Unity.dll</PackagePath>
+      <Modified>2014-07-03T17:51:38.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\UniversalApp01\packages\Unity.3.5.1404.0\lib\win8\Microsoft.Practices.Unity.RegistrationByConvention.dll">
+      <PackagePath>Microsoft.Practices.Unity.RegistrationByConvention.dll</PackagePath>
+      <Modified>2014-07-03T17:51:38.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\UniversalApp01\packages\Newtonsoft.Json.6.0.3\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2014-07-03T17:54:38.238</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\UniversalApp01\UniversalApp01\UniversalApp01.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T09:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\UniversalApp01\UniversalApp01\UniversalApp01.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T09:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\UniversalApp01\UniversalApp01\UniversalApp01.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T09:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\UniversalApp01\UniversalApp01\UniversalApp01.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T09:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\UniversalApp01\UniversalApp01\UniversalApp01.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-07-03T18:57:55.985</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\UniversalApp01\UniversalApp01\UniversalApp01.Windows\bin\Debug\Themes\Colors.xbf">
+      <PackagePath>Themes\Colors.xbf</PackagePath>
+      <Modified>2014-07-03T18:57:56.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\UniversalApp01\UniversalApp01\UniversalApp01.Windows\bin\Debug\Themes\GridView.xbf">
+      <PackagePath>Themes\GridView.xbf</PackagePath>
+      <Modified>2014-07-03T18:57:56.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\UniversalApp01\UniversalApp01\UniversalApp01.Windows\bin\Debug\Views\MainView.xbf">
+      <PackagePath>Views\MainView.xbf</PackagePath>
+      <Modified>2014-07-03T18:57:56.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\UniversalApp01\UniversalApp01\UniversalApp01.Windows\bin\Debug\UniversalApp01.Windows.xr.xml">
+      <PackagePath>UniversalApp01.Windows.xr.xml</PackagePath>
+      <Modified>2014-07-03T18:57:55.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2013\Projects\UniversalApp01\UniversalApp01\UniversalApp01.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-07-03T18:58:03.532</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

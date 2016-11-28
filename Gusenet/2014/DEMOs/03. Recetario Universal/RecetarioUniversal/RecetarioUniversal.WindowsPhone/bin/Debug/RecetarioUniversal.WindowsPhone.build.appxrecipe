@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JAVI</Machine>
+    <WindowsUser>Javier</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ec7351e9-4a1a-4b48-b937-dfaf832490c7</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.WindowsPhone\bin\Debug\RecetarioUniversal.WindowsPhone.exe">
+      <PackagePath>RecetarioUniversal.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\packages\Unity.3.0.1304.1\lib\NetCore45\Microsoft.Practices.Unity.NetCore.dll">
+      <PackagePath>Microsoft.Practices.Unity.NetCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Carnes\Carnes.png">
+      <PackagePath>Images\Carnes\Carnes.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Logo.png">
+      <PackagePath>Images\Logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Pastas\Pastas.png">
+      <PackagePath>Images\Pastas\Pastas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Pescados\Pescados.png">
+      <PackagePath>Images\Pescados\Pescados.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Postres\Postres.png">
+      <PackagePath>Images\Postres\Postres.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Data\Recipes.txt">
+      <PackagePath>Data\Recipes.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Carnes\Carnes_0.jpg">
+      <PackagePath>Images\Carnes\Carnes_0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Carnes\Carnes_1.jpg">
+      <PackagePath>Images\Carnes\Carnes_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Carnes\Carnes_2.jpg">
+      <PackagePath>Images\Carnes\Carnes_2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Carnes\Carnes_3.jpg">
+      <PackagePath>Images\Carnes\Carnes_3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Pastas\Pastas_0.jpg">
+      <PackagePath>Images\Pastas\Pastas_0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Pescados\Pescados_0.jpg">
+      <PackagePath>Images\Pescados\Pescados_0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Pescados\Pescados_1.jpg">
+      <PackagePath>Images\Pescados\Pescados_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Postres\Postres_0.jpg">
+      <PackagePath>Images\Postres\Postres_0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Postres\Postres_0_0.jpg">
+      <PackagePath>Images\Postres\Postres_0_0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.Shared\Images\Postres\Postres_0_1.jpg">
+      <PackagePath>Images\Postres\Postres_0_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.WindowsPhone\bin\Debug\Themes\Colors.xbf">
+      <PackagePath>Themes\Colors.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.WindowsPhone\bin\Debug\Views\GroupDetailView.xbf">
+      <PackagePath>Views\GroupDetailView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.WindowsPhone\bin\Debug\Views\MainView.xbf">
+      <PackagePath>Views\MainView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.WindowsPhone\bin\Debug\Views\RecipeDetailView.xbf">
+      <PackagePath>Views\RecipeDetailView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.WindowsPhone\bin\Debug\RecetarioUniversal.WindowsPhone.xr.xml">
+      <PackagePath>RecetarioUniversal.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Desktop\Charlas\Gusenet\2014\DEMOs\03. Recetario Universal\RecetarioUniversal\RecetarioUniversal.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

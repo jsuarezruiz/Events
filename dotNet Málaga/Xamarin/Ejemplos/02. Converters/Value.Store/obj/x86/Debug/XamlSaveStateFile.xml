@@ -1,0 +1,11 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\taller xamarin\ejemplos\mvvmcross\02. value\value.store\obj\x86\debug\intermediatexaml\value.store.exe" HashGuid="d5567bbd-2b06-b596-e043-7a9af6e32cfe" />
+    <ReferenceAssembly PathName="c:\mvvmcross\02. converters\packages\mvvmcross.hottuna.crosscore.3.2.2\lib\win81\cirrious.crosscore.dll" HashGuid="9af10fd6-4b4f-2165-00ce-d3c7265c853f" />
+    <ReferenceAssembly PathName="c:\mvvmcross\02. converters\packages\mvvmcross.hottuna.crosscore.3.2.2\lib\win81\cirrious.crosscore.windowscommon.dll" HashGuid="33137c4e-381b-0828-9fcf-2ac3014e11f4" />
+    <ReferenceAssembly PathName="c:\mvvmcross\02. converters\packages\mvvmcross.hottuna.mvvmcrosslibraries.3.2.2\lib\win81\cirrious.mvvmcross.dll" HashGuid="8832c4dd-c878-164d-59bf-5da0815534f9" />
+    <ReferenceAssembly PathName="c:\mvvmcross\02. converters\packages\mvvmcross.hottuna.crosscore.3.2.2\lib\win81\cirrious.mvvmcross.localization.dll" HashGuid="cc169ebc-6f40-271e-a9fe-e2fe4b3425db" />
+    <ReferenceAssembly PathName="c:\mvvmcross\02. converters\packages\mvvmcross.hottuna.mvvmcrosslibraries.3.2.2\lib\win81\cirrious.mvvmcross.windowscommon.dll" HashGuid="f95108c3-5290-c22e-6065-08e88a3ea5c0" />
+    <ReferenceAssembly PathName="c:\mvvmcross\02. converters\value.core\bin\debug\value.core.dll" HashGuid="d3f026ac-6832-ebe5-dd43-092761edb60d" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FFImageLoading.Platform</name>
+    </assembly>
+    <members>
+        <member name="T:FFImageLoading.Cache.SimpleDiskCache">
+            <summary>
+            Disk cache iOS/Android implementation.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Cache.SimpleDiskCache.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FFImageLoading.Cache.SimpleDiskCache"/> class.
+            </summary>
+            <param name="cachePath">Cache path.</param>
+        </member>
+        <member name="M:FFImageLoading.Cache.SimpleDiskCache.CreateCache(System.String)">
+            <summary>
+            Creates new cache default instance.
+            </summary>
+            <returns>The cache.</returns>
+            <param name="cacheName">Cache name.</param>
+        </member>
+        <member name="M:FFImageLoading.Cache.SimpleDiskCache.AddToSavingQueueIfNotExistsAsync(System.String,System.Byte[],System.TimeSpan)">
+            <summary>
+            Adds the file to cache and file saving queue if it does not exists.
+            </summary>
+            <param name="key">Key to store/retrieve the file.</param>
+            <param name="bytes">File data in bytes.</param>
+            <param name="duration">Specifies how long an item should remain in the cache.</param>
+        </member>
+        <member name="M:FFImageLoading.Cache.SimpleDiskCache.RemoveAsync(System.String)">
+            <summary>
+            Removes the specified cache entry.
+            </summary>
+            <param name="key">Key.</param>
+        </member>
+        <member name="M:FFImageLoading.Cache.SimpleDiskCache.ClearAsync">
+            <summary>
+            Clears all cache entries.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Cache.SimpleDiskCache.ExistsAsync(System.String)">
+            <summary>
+            Checks if cache entry exists/
+            </summary>
+            <returns>The async.</returns>
+            <param name="key">Key.</param>
+        </member>
+        <member name="M:FFImageLoading.Cache.SimpleDiskCache.TryGetAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Tries to get cached file as byte array.
+            </summary>
+            <returns>The get async.</returns>
+            <param name="key">Key.</param>
+            <param name="token">Token.</param>
+        </member>
+        <member name="M:FFImageLoading.Cache.SimpleDiskCache.TryGetStreamAsync(System.String)">
+            <summary>
+            Tries to get cached file as stream.
+            </summary>
+            <returns>The get stream.</returns>
+            <param name="key">Key.</param>
+        </member>
+        <member name="M:FFImageLoading.Cache.ImageCache.GetBitmapDrawableFromReusableSet(Android.Graphics.BitmapFactory.Options)">
+            <summary>
+            Attempts to find a bitmap suitable for reuse based on the given dimensions.
+            Note that any returned instance will have SetIsRetained(true) called on it
+            to ensure that it does not release its resources prematurely as it is leaving
+            cache management. This means you must call SetIsRetained(false) when you no
+            longer need the instance.
+            </summary>
+            <returns>A SelfDisposingBitmapDrawable that has been retained. You must call SetIsRetained(false)
+            when finished using it.</returns>
+            <param name="options">Bitmap creation options.</param>
+        </member>
+        <member name="M:FFImageLoading.Cache.ImageCache.GetCacheSizeInPercent(System.Single)">
+            <summary>
+            Gets the memory cache size based on a percentage of the max available VM memory.
+            </summary>
+            <example>setting percent to 0.2 would set the memory cache to one fifth of the available memory</example>
+            <param name="percent">Percent of available app memory to use to size memory cache</param>
+            <returns></returns>
+        </member>
+        <member name="M:FFImageLoading.Cache.IImageCache.GetBitmapDrawableFromReusableSet(Android.Graphics.BitmapFactory.Options)">
+            <summary>
+            Attempts to find a bitmap suitable for reuse based on the given dimensions.
+            Note that any returned instance will have SetIsRetained(true) called on it
+            to ensure that it does not release its resources prematurely as it is leaving
+            cache management. This means you must call SetIsRetained(false) when you no
+            longer need the instance.
+            </summary>
+            <returns>A SelfDisposingBitmapDrawable that has been retained. You must call SetIsRetained(false)
+            when finished using it.</returns>
+            <param name="options">Bitmap creation options.</param>
+        </member>
+        <member name="F:FFImageLoading.Cache.ReuseBitmapDrawableCache.displayed_cache">
+            <summary>
+            Contains all entries that are currently being displayed. These entries are not eligible for
+            reuse or eviction. Entries will be added to the reuse pool when they are no longer displayed.
+            </summary>
+        </member>
+        <member name="F:FFImageLoading.Cache.ReuseBitmapDrawableCache.reuse_pool">
+            <summary>
+            Contains entries that potentially available for reuse and candidates for eviction.
+            This is the default location for newly added entries. This cache
+            is searched along with the displayed cache for cache hits. If a cache hit is found here, its
+            place in the LRU list will be refreshed. Items only move out of reuse and into displayed
+            when the entry has SetIsDisplayed(true) called on it.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Cache.ReuseBitmapDrawableCache.#ctor(FFImageLoading.Helpers.IMiniLogger,System.Int64,System.Int64,System.Int64,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="!:AndroidBitmapDrawableCache"/> class.
+            </summary>
+            <param name="logger">Logger for debug messages</param>
+            <param name="highWatermark">Maximum number of bytes the reuse pool will hold before starting evictions.
+            <param name="lowWatermark">Number of bytes the reuse pool will be drained down to after the high watermark is exceeded.</param> 
+            On Honeycomb and higher this value is used for the reuse pool size.</param>
+            <param name="gcThreshold">Threshold in bytes that triggers a System.GC.Collect (Honeycomb+ only).</param>
+            <param name="debugDump">If set to <c>true</c> dump stats to log every 10 seconds.</param>
+        </member>
+        <member name="M:FFImageLoading.Cache.ReuseBitmapDrawableCache.GetReusableBitmapDrawable(System.Int32,System.Int32,Android.Graphics.Bitmap.Config,System.Int32)">
+            <summary>
+            Attempts to find a bitmap suitable for reuse based on the given dimensions.
+            Note that any returned instance will have SetIsRetained(true) called on it
+            to ensure that it does not release its resources prematurely as it is leaving
+            cache management. This means you must call SetIsRetained(false) when you no
+            longer need the instance.
+            </summary>
+            <returns>A SelfDisposingBitmapDrawable that has been retained. You must call SetIsRetained(false)
+            when finished using it.</returns>
+            <param name="width">Width of the image to be written to the bitmap allocation.</param>
+            <param name="height">Height of the image to be written to the bitmap allocation.</param>
+            <param name="inSampleSize">DownSample factor.</param>
+        </member>
+        <member name="M:FFImageLoading.Cache.ReuseBitmapDrawableCache.GetBytesPerPixel(Android.Graphics.Bitmap.Config)">
+            <summary>
+            Return the byte usage per pixel of a bitmap based on its configuration.
+            </summary>
+            <param name="config">The bitmap configuration</param>
+            <returns>The byte usage per pixel</returns>
+        </member>
+        <member name="P:FFImageLoading.ImageService.Config">
+            <summary>
+            Gets FFImageLoading configuration
+            </summary>
+            <value>The configuration used by FFImageLoading.</value>
+        </member>
+        <member name="M:FFImageLoading.ImageService.Initialize">
+            <summary>
+            Initializes FFImageLoading with a default Configuration. 
+            Also forces to run disk cache cleaning routines (avoiding delay for first image loading tasks)
+            </summary>
+            <param name="configuration">Configuration.</param>
+        </member>
+        <member name="M:FFImageLoading.ImageService.Initialize(FFImageLoading.Config.Configuration)">
+            <summary>
+            Initializes FFImageLoading with a given Configuration. It allows to configure and override most of it.
+            Also forces to run disk cache cleaning routines (avoiding delay for first image loading tasks)
+            </summary>
+            <param name="configuration">Configuration.</param>
+        </member>
+        <member name="M:FFImageLoading.ImageService.LoadFile(System.String)">
+            <summary>
+            Constructs a new TaskParameter to load an image from a file.
+            </summary>
+            <returns>The new TaskParameter.</returns>
+            <param name="filepath">Path to the file.</param>
+        </member>
+        <member name="M:FFImageLoading.ImageService.LoadUrl(System.String,System.Nullable{System.TimeSpan})">
+            <summary>
+            Constructs a new TaskParameter to load an image from a URL.
+            </summary>
+            <returns>The new TaskParameter.</returns>
+            <param name="url">URL to the file</param>
+            <param name="cacheDuration">How long the file will be cached on disk</param>
+        </member>
+        <member name="M:FFImageLoading.ImageService.LoadFileFromApplicationBundle(System.String)">
+            <summary>
+            Constructs a new TaskParameter to load an image from a file from application bundle.
+            </summary>
+            <returns>The new TaskParameter.</returns>
+            <param name="filepath">Path to the file.</param>
+        </member>
+        <member name="M:FFImageLoading.ImageService.LoadCompiledResource(System.String)">
+            <summary>
+            Constructs a new TaskParameter to load an image from a compiled drawable resource.
+            </summary>
+            <returns>The new TaskParameter.</returns>
+            <param name="resourceName">Name of the resource in drawable folder without extension</param>
+        </member>
+        <member name="M:FFImageLoading.ImageService.LoadStream(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{System.IO.Stream}})">
+            <summary>
+            Constructs a new TaskParameter to load an image from a Stream.
+            </summary>
+            <returns>The new TaskParameter.</returns>
+            <param name="resourceName">A function that allows a CancellationToken and returns the Stream to use. This function will be invoked by LoadStream().</param>
+        </member>
+        <member name="P:FFImageLoading.ImageService.ExitTasksEarly">
+            <summary>
+            Gets a value indicating whether ImageService will exit tasks earlier
+            </summary>
+            <value><c>true</c> if it should exit tasks early; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="M:FFImageLoading.ImageService.SetExitTasksEarly(System.Boolean)">
+            <summary>
+            Sets a value indicating whether ImageService will exit tasks earlier
+            </summary>
+            <param name="exitTasksEarly">If set to <c>true</c> exit tasks early.</param>
+        </member>
+        <member name="M:FFImageLoading.ImageService.SetPauseWork(System.Boolean)">
+            <summary>
+            Sets a value indicating if all loading work should be paused (silently canceled).
+            </summary>
+            <param name="pauseWork">If set to <c>true</c> pause/cancel work.</param>
+        </member>
+        <member name="M:FFImageLoading.ImageService.CancelWorkFor(FFImageLoading.Work.IImageLoaderTask)">
+            <summary>
+            Cancel any loading work for the given ImageView
+            </summary>
+            <param name="task">Image loading task to cancel.</param>
+        </member>
+        <member name="M:FFImageLoading.ImageService.RemovePendingTask(FFImageLoading.Work.IImageLoaderTask)">
+            <summary>
+            Removes a pending image loading task from the work queue.
+            </summary>
+            <param name="task">Image loading task to remove.</param>
+        </member>
+        <member name="M:FFImageLoading.ImageService.LoadImage(FFImageLoading.Work.IImageLoaderTask)">
+            <summary>
+            Queue an image loading task.
+            </summary>
+            <param name="task">Image loading task.</param>
+        </member>
+        <member name="M:FFImageLoading.ImageService.InvalidateCacheAsync(FFImageLoading.Cache.CacheType)">
+            <summary>
+            Invalidates selected caches.
+            </summary>
+            <returns>An awaitable task.</returns>
+            <param name="cacheType">Memory cache, Disk cache or both</param>
+        </member>
+        <member name="M:FFImageLoading.ImageService.InvalidateMemoryCache">
+            <summary>
+            Invalidates the memory cache.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.ImageService.InvalidateDiskCacheAsync">
+            <summary>
+            Invalidates the disk cache.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.ImageService.InvalidateCacheEntryAsync(System.String,FFImageLoading.Cache.CacheType,System.Boolean)">
+            <summary>
+            Invalidates the cache for given key.
+            </summary>
+            <returns>The async.</returns>
+            <param name="key">Concerns images with this key.</param>
+            <param name="cacheType">Memory cache, Disk cache or both</param>
+            <param name="removeSimilar">If similar keys should be removed, ie: typically keys with extra transformations</param>
+        </member>
+        <member name="M:FFImageLoading.ImageService.Cancel(System.Func{FFImageLoading.Work.IImageLoaderTask,System.Boolean})">
+            <summary>
+            Cancels tasks that match predicate.
+            </summary>
+            <param name="predicate">Predicate for finding relevant tasks to cancel.</param>
+        </member>
+        <member name="M:FFImageLoading.ImageService.Cancel(System.Func{FFImageLoading.Work.TaskParameter,System.Boolean})">
+            <summary>
+            Cancels tasks that match predicate.
+            </summary>
+            <param name="predicate">Predicate for finding relevant tasks to cancel.</param>
+        </member>
+        <member name="P:FFImageLoading.Work.ImageLoaderTaskBase.Parameters">
+            <summary>
+            Gets the parameters used to retrieve the image.
+            </summary>
+            <value>The parameters to retrieve the image.</value>
+        </member>
+        <member name="P:FFImageLoading.Work.ImageLoaderTaskBase.Completed">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:FFImageLoading.Work.ImageLoaderTaskBase"/> is completed.
+            </summary>
+            <value><c>true</c> if completed; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="M:FFImageLoading.Work.ImageLoaderTaskBase.GetKey(System.String,System.Boolean)">
+            <summary>
+            Gets the cache key for this image loading task.
+            </summary>
+            <value>The cache key.</value>
+        </member>
+        <member name="M:FFImageLoading.Work.ImageLoaderTaskBase.CanUseMemoryCache(System.String)">
+            <summary>
+            Indicates if memory cache should be used for the request
+            </summary>
+            <returns><c>true</c>, if memory cache should be used, <c>false</c> otherwise.</returns>
+            <param name="path">Path.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.ImageLoaderTaskBase.PrepareAndTryLoadingFromCacheAsync">
+            <summary>
+            Prepares the instance before it runs.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Work.ImageLoaderTaskBase.CancelIfNeeded">
+            <summary>
+            Cancel current task only if needed
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Work.ImageLoaderTaskBase.TryLoadingFromCacheAsync">
+            <summary>
+            Tries to load requested image from the cache asynchronously.
+            </summary>
+            <returns>A boolean indicating if image was loaded from cache.</returns>
+        </member>
+        <member name="M:FFImageLoading.Work.ImageLoaderTaskBase.LoadFromStreamAsync(System.IO.Stream)">
+            <summary>
+            Loads the image from given stream asynchronously.
+            </summary>
+            <returns>An awaitable task.</returns>
+            <param name="stream">The stream to get data from.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.ImageLoaderTask.#ctor(FFImageLoading.Cache.IDownloadCache,FFImageLoading.Helpers.IMainThreadDispatcher,FFImageLoading.Helpers.IMiniLogger,System.String,FFImageLoading.Work.ITarget{Android.Graphics.Drawables.BitmapDrawable,FFImageLoading.Work.ImageLoaderTask})">
+            <summary>
+            This constructor is useful for child classes only. It can help when having a totally different loading logic.
+            </summary>
+            <param name="miniLogger">Logger</param>
+            <param name="key">Key.</param>
+            <param name="imageView">Image view.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.ImageLoaderTask.UsesSameNativeControl(FFImageLoading.Work.IImageLoaderTask)">
+            <summary>
+            Indicates if the task uses the same native control
+            </summary>
+            <returns><c>true</c>, if same native control is used, <c>false</c> otherwise.</returns>
+            <param name="task">Task to check.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.ImageLoaderTask.PrepareAndTryLoadingFromCacheAsync">
+            <summary>
+            Prepares the instance before it runs.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Work.ImageLoaderTask.TryGeneratingImageAsync">
+            <summary>
+            Runs the image loading task: gets image from file, url, asset or cache. Then assign it to the imageView.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Work.ImageLoaderTask.TryLoadingFromCacheAsync">
+            <summary>
+            Tries to load requested image from the cache asynchronously.
+            </summary>
+            <returns>A boolean indicating if image was loaded from cache.</returns>
+        </member>
+        <member name="M:FFImageLoading.Work.ImageLoaderTask.LoadFromStreamAsync(System.IO.Stream)">
+            <summary>
+            Loads the image from given stream asynchronously.
+            </summary>
+            <returns>An awaitable task.</returns>
+            <param name="stream">The stream to get data from.</param>
+        </member>
+        <member name="M:FFImageLoading.Work.ImageLoaderTask.LoadPlaceHolderAsync(System.String,FFImageLoading.Work.ImageSource,System.Boolean)">
+            <summary>
+            Loads given placeHolder into the imageView.
+            </summary>
+            <returns>An awaitable task.</returns>
+            <param name="placeholderPath">Full path to the placeholder.</param>
+            <param name="source">Source for the path: local, web, assets</param>
+        </member>
+        <member name="M:FFImageLoading.Work.ImageLoaderTask.CalculateInSampleSize(Android.Graphics.BitmapFactory.Options,System.Int32,System.Int32)">
+            <summary>
+            Calculate an inSampleSize for use in a {@link android.graphics.BitmapFactory.Options} object when decoding
+            the closest inSampleSize that is a power of 2 and will result in the final decoded bitmap
+            </summary>
+            <param name="options"></param>
+            <param name="reqWidth"></param>
+            <param name="reqHeight"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FFImageLoading.Extensions.ImageViewExtensions.GetImageLoaderTask(Android.Widget.ImageView)">
+            <summary>
+            Retrieve the currently active work task (if any) associated with this imageView.
+            </summary>
+            <param name="imageView"></param>
+            <returns></returns>
+        </member>
+        <member name="P:FFImageLoading.Views.ImageViewAsync.ScaleToFit">
+            <summary>
+            Gets or sets a value if the image should be scale to fit in the available space keeping aspect ratio.
+            <remarks>AdjustViewToBounds should be false and ScaleType should be matrix.</remarks>
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Views.ImageViewAsync.AlignMode">
+            <summary>
+            Gets or sets a value if the image should be aligned to left and bottom in the available space.
+            <remarks>AdjustViewToBounds should be false and ScaleType should be matrix.</remarks>
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.TaskParameterExtensions.Into(FFImageLoading.Work.TaskParameter,FFImageLoading.Views.ImageViewAsync)">
+            <summary>
+            Loads the image into given imageView using defined parameters.
+            </summary>
+            <param name="parameters">Parameters for loading the image.</param>
+            <param name="imageView">Image view that should receive the image.</param>
+        </member>
+        <member name="M:FFImageLoading.TaskParameterExtensions.IntoAsync(FFImageLoading.Work.TaskParameter,FFImageLoading.Views.ImageViewAsync)">
+            <summary>
+            Only use this method if you plan to handle exceptions in your code. Awaiting this method will give you this flexibility.
+            </summary>
+            <returns>An awaitable Task.</returns>
+            <param name="parameters">Parameters for loading the image.</param>
+            <param name="imageView">Image view that should receive the image.</param>
+        </member>
+        <member name="M:FFImageLoading.TaskParameterExtensions.AsBitmapDrawableAsync(FFImageLoading.Work.TaskParameter)">
+            <summary>
+            Loads and gets BitmapDrawable using defined parameters.
+            IMPORTANT: you should call SetNoLongerDisplayed method if drawable is no longer displayed
+            </summary>
+            <returns>The bitmap drawable async.</returns>
+            <param name="parameters">Parameters.</param>
+        </member>
+        <member name="M:FFImageLoading.TaskParameterExtensions.InvalidateAsync(FFImageLoading.Work.TaskParameter,FFImageLoading.Cache.CacheType)">
+            <summary>
+            Invalidate the image corresponding to given parameters from given caches.
+            </summary>
+            <param name="parameters">Image parameters.</param>
+            <param name="cacheType">Cache type.</param>
+        </member>
+        <member name="M:FFImageLoading.TaskParameterExtensions.Preload(FFImageLoading.Work.TaskParameter)">
+            <summary>
+            Preload the image request into memory cache/disk cache for future use.
+            </summary>
+            <param name="parameters">Image parameters.</param>
+        </member>
+        <member name="M:FFImageLoading.TaskParameterExtensions.PreloadAsync(FFImageLoading.Work.TaskParameter)">
+            <summary>
+            Preload the image request into memory cache/disk cache for future use.
+            </summary>
+            <param name="parameters">Image parameters.</param>
+        </member>
+        <member name="T:FFImageLoading.Drawables.SelfDisposingBitmapDrawable">
+            <summary>
+            A BitmapDrawable that uses reference counting to determine when internal resources
+            should be freed (Disposed).
+            
+            On Android versions Honeycomb and higher the internal Bitmap is Dispose()d but not recycled.
+            On all other Android versions the Bitmap is recycled then disposed.
+            </summary>
+        </member>
+        <member name="E:FFImageLoading.Drawables.SelfDisposingBitmapDrawable.NoLongerDisplayed">
+            <summary>
+            Occurs when internal displayed reference count has reached 0.
+            It is raised before the counts are rechecked, and thus before
+            any resources have potentially been freed.
+            </summary>
+        </member>
+        <member name="E:FFImageLoading.Drawables.SelfDisposingBitmapDrawable.Displayed">
+            <summary>
+            Occurs when internal displayed reference count goes from 0 to 1.
+            Once the internal reference count is > 1 this event will not be raised
+            on subsequent calls to SetIsDisplayed(bool).
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Drawables.SelfDisposingBitmapDrawable.SetIsDisplayed(System.Boolean)">
+             <summary>
+             This should only be called by Views that are actually going to draw the drawable.
+            
+             Increments or decrements the internal displayed reference count.
+             If the internal reference count becomes 0, NoLongerDisplayed will be raised.
+             If the internal reference count becomes 1, Displayed will be raised.
+             This method should be called from the main thread.
+             </summary>
+             <param name="isDisplayed">If set to <c>true</c> reference count is
+             incremented, otherwise it is decremented.</param>
+        </member>
+        <member name="M:FFImageLoading.Drawables.SelfDisposingBitmapDrawable.SetIsCached(System.Boolean)">
+             <summary>
+             This should only be called by caching entities.
+            
+             Increments or decrements the cache reference count.
+             This count represents if the instance is cached by something
+             and should not free its resources when no longer displayed.
+             </summary>
+             <param name="isCached">If set to <c>true</c> is cached.</param>
+        </member>
+        <member name="M:FFImageLoading.Drawables.SelfDisposingBitmapDrawable.SetIsRetained(System.Boolean)">
+             <summary>
+             If you wish to use the instance beyond the lifecycle managed by the caching entity
+             call this method with true. But be aware that you must also have the same number
+             of calls with false or the instance and its resources will be leaked.
+            
+             Also be aware that once retained, the caching entity will not allow the internal
+             Bitmap allocation to be reused. Retaining an instance does not guarantee it a place
+             in the cache, it can be evicted at any time.
+             </summary>
+             <param name="isRetained">If set to <c>true</c> is retained.</param>
+        </member>
+        <member name="M:FFImageLoading.Collections.StrongLruCache`2.Peek(`0)">
+            <summary>
+            Returns the value for the key if it exists in the cache.
+            It does not refresh the LRU order of the returned entry.
+            </summary>
+            <param name="key">Key.</param>
+        </member>
+        <member name="M:FFImageLoading.Collections.StrongLruCache`2.Add(`0,`1)">
+            <summary>
+            Add the specified key and value. This will overwrite the value if the key
+            already exists.
+            </summary>
+            <param name="key">Key.</param>
+            <param name="value">Value.</param>
+        </member>
+    </members>
+</doc>

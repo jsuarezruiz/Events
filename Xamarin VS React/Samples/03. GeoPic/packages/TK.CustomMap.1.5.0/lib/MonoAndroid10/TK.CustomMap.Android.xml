@@ -1,0 +1,386 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TK.CustomMap.Android</name>
+    </assembly>
+    <members>
+        <member name="T:TK.CustomMap.Droid.NativePlacesApi">
+            <inheritdoc />
+        </member>
+        <member name="M:TK.CustomMap.Droid.NativePlacesApi.GetPredictions(System.String,Xamarin.Forms.Maps.MapSpan)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.Droid.NativePlacesApi.Connect">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.Droid.NativePlacesApi.DisconnectAndRelease">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.Droid.NativePlacesApi.GetDetails(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:TK.CustomMap.Droid.Extensions">
+            <summary>
+            Extension methods
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.Droid.Extensions.ToPosition(Android.Gms.Maps.Model.LatLng)">
+            <summary>
+            Convert <see cref="T:Android.Gms.Maps.Model.LatLng" /> to <see cref="T:Xamarin.Forms.Maps.Position"/>
+            </summary>
+            <param name="self">Self instance</param>
+            <returns>Forms Position</returns>
+        </member>
+        <member name="M:TK.CustomMap.Droid.Extensions.ToLatLng(Xamarin.Forms.Maps.Position)">
+            <summary>
+            Convert <see cref="T:Xamarin.Forms.Maps.Position" /> to <see cref="T:Android.Gms.Maps.Model.LatLng"/>
+            </summary>
+            <param name="self">Self instance</param>
+            <returns>Android Position</returns>
+        </member>
+        <member name="M:TK.CustomMap.Droid.Extensions.ToGmsTravelMode(TK.CustomMap.Overlays.TKRouteTravelMode)">
+            <summary>
+            Convert <see cref="T:TK.CustomMap.Overlays.TKRouteTravelMode"/> to <see cref="T:TK.CustomMap.Api.Google.GmsDirectionTravelMode"/>
+            </summary>
+            <param name="self">Self instance</param>
+            <returns>Gms Direction API travel mode</returns>
+        </member>
+        <member name="M:TK.CustomMap.Droid.Extensions.ToBitmap(Xamarin.Forms.ImageSource,Android.Content.Context)">
+            <summary>
+            Convert a <see cref="T:Xamarin.Forms.ImageSource"/> to the native Android <see cref="T:Android.Graphics.Bitmap"/>
+            </summary>
+            <param name="source">Self instance</param>
+            <param name="context">Android Context</param>
+            <returns>The Bitmap</returns>
+        </member>
+        <member name="T:TK.CustomMap.Droid.TKCustomMapRenderer">
+            <summary>
+            Android Renderer of <see cref="T:TK.CustomMap.TKCustomMap"/>
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnElementChanged(Xamarin.Forms.Platform.Android.ElementChangedEventArgs{Xamarin.Forms.View})">
+            <inheritdoc />
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnLayout(System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.FormsMapPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            When a property of the Forms map changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnMapReady(Android.Gms.Maps.GoogleMap)">
+            <summary>
+            When the map is ready to use
+            </summary>
+            <param name="googleMap">The map instance</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnUserLocationChange(System.Object,Android.Gms.Maps.GoogleMap.MyLocationChangeEventArgs)">
+            <summary>
+            When the location of the user changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnInfoWindowClick(System.Object,Android.Gms.Maps.GoogleMap.InfoWindowClickEventArgs)">
+            <summary>
+            When the info window gets clicked
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnMarkerDrag(System.Object,Android.Gms.Maps.GoogleMap.MarkerDragEventArgs)">
+            <summary>
+            Dragging process
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnMarkerDragStart(System.Object,Android.Gms.Maps.GoogleMap.MarkerDragStartEventArgs)">
+            <summary>
+            When a dragging starts
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnCameraChange(System.Object,Android.Gms.Maps.GoogleMap.CameraChangeEventArgs)">
+            <summary>
+            When the camera position changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnMarkerClick(System.Object,Android.Gms.Maps.GoogleMap.MarkerClickEventArgs)">
+            <summary>
+            When a pin gets clicked
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnMarkerDragEnd(System.Object,Android.Gms.Maps.GoogleMap.MarkerDragEndEventArgs)">
+            <summary>
+            When a drag of a marker ends
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnMapLongClick(System.Object,Android.Gms.Maps.GoogleMap.MapLongClickEventArgs)">
+            <summary>
+            When a long click was performed on the map
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnMapClick(System.Object,Android.Gms.Maps.GoogleMap.MapClickEventArgs)">
+            <summary>
+            When the map got tapped
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnCustomPinsCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Updates the markers when a pin gets added or removed in the collection
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnPinPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            When a property of a pin changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnLineCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Collection of routes changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnLinePropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            A property of a route changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.UpdatePins(System.Boolean)">
+            <summary>
+            Creates all Markers on the map
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.AddPin(TK.CustomMap.TKCustomMapPin)">
+            <summary>
+            Adds a marker to the map
+            </summary>
+            <param name="pin">The Forms Pin</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.RemovePin(TK.CustomMap.TKCustomMapPin,System.Boolean)">
+            <summary>
+            Remove a pin from the map and the internal dictionary
+            </summary>
+            <param name="pin">The pin to remove</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.SetSelectedItem">
+            <summary>
+            Set the selected item on the map
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.MoveToCenter">
+            <summary>
+            Move the google map to the map center
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.UpdateLines(System.Boolean)">
+            <summary>
+            Creates the routes on the map
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.UpdateCircles(System.Boolean)">
+            <summary>
+            Updates all circles
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.UpdatePolygons(System.Boolean)">
+            <summary>
+            Creates the polygones on the map
+            </summary>
+            <param name="firstUpdate">If the collection updates the first time</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.UpdateRoutes(System.Boolean)">
+            <summary>
+            Create all routes
+            </summary>
+            <param name="firstUpdate">If first update of collection or not</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnRouteCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            When the collection of routes changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnRoutePropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            When a property of a route changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnPolygonsCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            When the polygon collection changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.AddPolygon(TK.CustomMap.Overlays.TKPolygon)">
+            <summary>
+            Adds a polygon to the map
+            </summary>
+            <param name="polygon">The polygon to add</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnPolygonPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            When a property of a <see cref="T:TK.CustomMap.Overlays.TKPolygon"/> changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.CirclesCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            When the circle collection changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.AddCircle(TK.CustomMap.Overlays.TKCircle)">
+            <summary>
+            Adds a circle to the map
+            </summary>
+            <param name="circle">The circle to add</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.CirclePropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            When a property of a <see cref="T:TK.CustomMap.Overlays.TKCircle"/> changed
+            </summary>
+            <param name="sender">Event Sender</param>
+            <param name="e">Event Arguments</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.AddLine(TK.CustomMap.Overlays.TKPolyline)">
+            <summary>
+            Adds a route to the map
+            </summary>
+            <param name="line">The route to add</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.AddRoute(TK.CustomMap.Overlays.TKRoute)">
+            <summary>
+            Calculates and adds the route to the map
+            </summary>
+            <param name="route">The route to add</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.SetRouteData(TK.CustomMap.Overlays.TKRoute,TK.CustomMap.Api.Google.GmsRouteResult)">
+            <summary>
+            Sets the route calculation data
+            </summary>
+            <param name="route">The PCL route</param>
+            <param name="routeResult">The rourte api result</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.UpdateImage(TK.CustomMap.TKCustomMapPin,Android.Gms.Maps.Model.MarkerOptions)">
+            <summary>
+            Updates the image of a pin
+            </summary>
+            <param name="pin">The forms pin</param>
+            <param name="markerOptions">The native marker options</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.UpdateImage(TK.CustomMap.TKCustomMapPin,Android.Gms.Maps.Model.Marker)">
+            <summary>
+            Updates the image on a marker
+            </summary>
+            <param name="pin">The forms pin</param>
+            <param name="marker">The native marker</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.UpdateTileOptions">
+            <summary>
+            Updates the custom tile provider 
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.UpdateMapRegion">
+            <summary>
+            Updates the visible map region
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.UpdateShowTraffic">
+            <summary>
+            Sets traffic enabled on the google map
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.BoundsFromMapSpans(Xamarin.Forms.Maps.MapSpan[])">
+            <summary>
+            Creates a <see cref="T:Android.Gms.Maps.Model.LatLngBounds"/> from a collection of <see cref="T:Xamarin.Forms.Maps.MapSpan"/>
+            </summary>
+            <param name="spans">The spans to get calculate the bounds from</param>
+            <returns>The bounds</returns>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.UnregisterCollections(TK.CustomMap.TKCustomMap)">
+            <summary>
+            Unregisters all collections
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.UnregisterCollection(System.Collections.IEnumerable,System.Collections.Specialized.NotifyCollectionChangedEventHandler,System.ComponentModel.PropertyChangedEventHandler)">
+            <summary>
+            Unregisters one collection and all of its items
+            </summary>
+            <param name="collection">The collection to unregister</param>
+            <param name="observableHandler">The <see cref="T:System.Collections.Specialized.NotifyCollectionChangedEventHandler"/> of the collection</param>
+            <param name="propertyHandler">The <see cref="T:System.ComponentModel.PropertyChangedEventHandler"/> of the collection items</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.GetSnapshot">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.OnSnapshotReady(Android.Graphics.Bitmap)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.FitMapRegionToPositions(System.Collections.Generic.IEnumerable{Xamarin.Forms.Maps.Position},System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.MoveToMapRegion(Xamarin.Forms.Maps.MapSpan,System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.FitToMapRegions(System.Collections.Generic.IEnumerable{Xamarin.Forms.Maps.MapSpan},System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomMapRenderer.GetPinByMarker(Android.Gms.Maps.Model.Marker)">
+            <summary>
+            Gets the <see cref="T:TK.CustomMap.TKCustomMapPin"/> by the native <see cref="T:Android.Gms.Maps.Model.Marker"/>
+            </summary>
+            <param name="marker">The marker to search the pin for</param>
+            <returns>The forms pin</returns>
+        </member>
+        <member name="T:TK.CustomMap.Droid.TKCustomTileProvider">
+            <summary>
+            Provides the map with custom tiles via an url
+            </summary>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomTileProvider.#ctor(TK.CustomMap.Overlays.TKTileUrlOptions)">
+            <summary>
+            Creates a new instance of <see cref="T:TK.CustomMap.Droid.TKCustomTileProvider" />
+            </summary>
+            <param name="options">Options of the tiles</param>
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomTileProvider.GetTileUrl(System.Int32,System.Int32,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:TK.CustomMap.Droid.TKCustomTileProvider.CheckTileExists(System.Int32)">
+            <summary>
+            Check if the tile is available in the specified zoom
+            </summary>
+            <param name="zoom">The zoom to request the tile</param>
+            <returns><value>False</value> if tile in the specified zoom is not available</returns>
+        </member>
+    </members>
+</doc>

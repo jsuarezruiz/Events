@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FormsToolkit.iOS</name>
+    </assembly>
+    <members>
+        <member name="T:FormsToolkit.iOS.ListViewGroupedRenderer">
+            <summary>
+            List view grouped renderer.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.iOS.ListViewGroupedRenderer.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.iOS.ListViewGroupedRenderer.OnElementChanged(Xamarin.Forms.Platform.iOS.ElementChangedEventArgs{Xamarin.Forms.ListView})">
+            <summary>
+            Raises the element changed event.
+            </summary>
+            <param name="e">E.</param>
+        </member>
+        <member name="T:FormsToolkit.iOS.EntryLineRenderer">
+            <summary>
+            Entry line renderer.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.iOS.EntryLineRenderer.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.iOS.EntryLineRenderer.OnElementChanged(Xamarin.Forms.Platform.iOS.ElementChangedEventArgs{Xamarin.Forms.Entry})">
+            <summary>
+            Raises the element changed event.
+            </summary>
+            <param name="e">E.</param>
+        </member>
+        <member name="M:FormsToolkit.iOS.EntryLineRenderer.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Raises the element property changed event.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="e">E.</param>
+        </member>
+        <member name="T:FormsToolkit.iOS.StandardImageCellRenderer">
+            <summary>
+            Standard image cell renderer.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.iOS.StandardImageCellRenderer.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.iOS.StandardImageCellRenderer.GetCell(Xamarin.Forms.Cell,UIKit.UITableViewCell,UIKit.UITableView)">
+            <summary>
+            Gets the cell.
+            </summary>
+            <returns>The cell.</returns>
+            <param name="item">Item.</param>
+            <param name="reusableCell">Reusable cell.</param>
+            <param name="tv">Tv.</param>
+        </member>
+        <member name="T:FormsToolkit.iOS.StandardTextCellRenderer">
+            <summary>
+            Standard text cell renderer.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.iOS.StandardTextCellRenderer.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.iOS.StandardTextCellRenderer.GetCell(Xamarin.Forms.Cell,UIKit.UITableViewCell,UIKit.UITableView)">
+            <summary>
+            Gets the cell.
+            </summary>
+            <returns>The cell.</returns>
+            <param name="item">Item.</param>
+            <param name="reusableCell">Reusable cell.</param>
+            <param name="tv">Tv.</param>
+        </member>
+        <member name="T:FormsToolkit.iOS.StandardViewCellRenderer">
+            <summary>
+            Standard view cell renderer.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.iOS.StandardViewCellRenderer.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.iOS.StandardViewCellRenderer.GetCell(Xamarin.Forms.Cell,UIKit.UITableViewCell,UIKit.UITableView)">
+            <summary>
+            Gets the cell.
+            </summary>
+            <returns>The cell.</returns>
+            <param name="item">Item.</param>
+            <param name="reusableCell">Reusable cell.</param>
+            <param name="tv">Tv.</param>
+        </member>
+        <member name="T:FormsToolkit.iOS.CellHelpers">
+            <summary>
+            Cell helpers.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.iOS.CellHelpers.SetDisclosure(UIKit.UITableViewCell,System.String)">
+            <summary>
+            Sets the disclosure.
+            </summary>
+            <param name="cell">Cell.</param>
+            <param name="id">Identifier.</param>
+        </member>
+        <member name="T:FormsToolkit.iOS.Toolkit">
+            <summary>
+            Toolkit.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.iOS.Toolkit.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="T:FormsToolkit.iOS.NavigationPageNoLineRenderer">
+            <summary>
+            Navigation page no line renderer.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.iOS.NavigationPageNoLineRenderer.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.iOS.NavigationPageNoLineRenderer.ViewDidLoad">
+            <summary>
+            Views the did load.
+            </summary>
+        </member>
+    </members>
+</doc>

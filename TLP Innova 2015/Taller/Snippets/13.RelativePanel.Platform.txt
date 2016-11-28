@@ -1,0 +1,10 @@
+<VisualState x:Name="mobile">
+	<VisualState.StateTriggers>
+		<customAdaptiveTriggers:DeviceFamilyAdaptiveTrigger DeviceFamily="Mobile" />
+	</VisualState.StateTriggers>
+	<VisualState.Setters>
+		<Setter Target="BackButton.Visibility" Value="Collapsed" />
+		<Setter Target="Splitter.DisplayMode" Value="Overlay"/>
+		<Setter Target="MenuList.Margin" Value="0, 50, 0, 0"/>
+	</VisualState.Setters>
+</VisualState>

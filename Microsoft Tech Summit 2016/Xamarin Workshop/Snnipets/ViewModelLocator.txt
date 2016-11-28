@@ -1,0 +1,32 @@
+using Microsoft.Practices.Unity;
+
+namespace Weather.ViewModels.Base
+{
+    public class ViewModelLocator
+    {
+        readonly IUnityContainer _container;
+
+        public ViewModelLocator()
+        {
+            _container = new UnityContainer();
+
+            // ViewModels
+            _container.RegisterType<WeatherViewModel>();
+            _container.RegisterType<WeatherDetailViewModel>();
+
+            // Services     
+            _container.RegisterType<INavigationService, NavigationService>();
+            _container.RegisterType<IWeatherService, WeatherService>();
+        }
+
+        public WeatherViewModel WeatherViewModel
+        {
+            get { return _container.Resolve<WeatherViewModel>(); }
+        }
+
+        public WeatherDetailViewModel WeatherDetailViewModel
+        {
+            get { return _container.Resolve<WeatherDetailViewModel>(); }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\XamarinForms Navigation\XamarinForms Navigation\XamarinForms_Navigation\bin\Debug\XamarinForms_Navigation.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\XamarinForms Navigation\XamarinForms Navigation\XamarinForms_Navigation\bin\Debug\XamarinForms_Navigation.pdb
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\XamarinForms Navigation\XamarinForms Navigation\XamarinForms_Navigation\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\XamarinForms Navigation\XamarinForms Navigation\XamarinForms_Navigation\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\XamarinForms Navigation\XamarinForms Navigation\XamarinForms_Navigation\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\XamarinForms Navigation\XamarinForms Navigation\XamarinForms_Navigation\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\XamarinForms Navigation\XamarinForms Navigation\XamarinForms_Navigation\obj\Debug\XamarinForms_Navigation.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\XamarinForms Navigation\XamarinForms Navigation\XamarinForms_Navigation\obj\Debug\FirstView.xaml.g.cs
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\XamarinForms Navigation\XamarinForms Navigation\XamarinForms_Navigation\obj\Debug\SecondView.xaml.g.cs
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\XamarinForms Navigation\XamarinForms Navigation\XamarinForms_Navigation\obj\Debug\XamarinForms_Navigation.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\XamarinForms Navigation\XamarinForms Navigation\XamarinForms_Navigation\obj\Debug\XamarinForms_Navigation.pdb

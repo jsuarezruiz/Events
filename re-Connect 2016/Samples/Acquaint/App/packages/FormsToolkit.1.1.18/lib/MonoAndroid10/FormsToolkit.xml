@@ -1,0 +1,483 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FormsToolkit</name>
+    </assembly>
+    <members>
+        <member name="T:FormsToolkit.ListViewGrouped">
+            <summary>
+            ListView that is Grouped on iOS
+            </summary>
+        </member>
+        <member name="T:FormsToolkit.BooleanToObjectConverter`1">
+            <summary>
+            Boolean to object converter.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.BooleanToObjectConverter`1.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="P:FormsToolkit.BooleanToObjectConverter`1.FalseObject">
+            <summary>
+            Gets or sets the false object.
+            </summary>
+            <value>The false object.</value>
+        </member>
+        <member name="P:FormsToolkit.BooleanToObjectConverter`1.TrueObject">
+            <summary>
+            Gets or sets the true object.
+            </summary>
+            <value>The true object.</value>
+        </member>
+        <member name="M:FormsToolkit.BooleanToObjectConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <param name="value">To be added.</param>
+            <param name="targetType">To be added.</param>
+            <param name="parameter">To be added.</param>
+            <param name="culture">To be added.</param>
+            <summary>
+            Convert the specified value, targetType, parameter and culture.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.BooleanToObjectConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <param name="value">To be added.</param>
+            <param name="targetType">To be added.</param>
+            <param name="parameter">To be added.</param>
+            <param name="culture">To be added.</param>
+            <summary>
+            Converts the back.
+            </summary>
+            <returns>The back.</returns>
+        </member>
+        <member name="T:FormsToolkit.HexToColorConverter">
+            <summary>
+            Hex to color converter.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.HexToColorConverter.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.HexToColorConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <param name="value">To be added.</param>
+            <param name="targetType">To be added.</param>
+            <param name="parameter">To be added.</param>
+            <param name="culture">To be added.</param>
+            <summary>
+            Convert the specified value, targetType, parameter and culture.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.HexToColorConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <param name="value">To be added.</param>
+            <param name="targetType">To be added.</param>
+            <param name="parameter">To be added.</param>
+            <param name="culture">To be added.</param>
+            <summary>
+            Converts the back.
+            </summary>
+            <returns>The back.</returns>
+        </member>
+        <member name="T:FormsToolkit.InvertedBooleanConverter">
+            <summary>
+            Inverted boolen converter.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.InvertedBooleanConverter.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.InvertedBooleanConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <param name="value">To be added.</param>
+            <param name="targetType">To be added.</param>
+            <param name="parameter">To be added.</param>
+            <param name="culture">To be added.</param>
+            <summary>
+            Convert the specified value, targetType, parameter and culture.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.InvertedBooleanConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <param name="value">To be added.</param>
+            <param name="targetType">To be added.</param>
+            <param name="parameter">To be added.</param>
+            <param name="culture">To be added.</param>
+            <summary>
+            Converts the back.
+            </summary>
+            <returns>The back.</returns>
+        </member>
+        <member name="T:FormsToolkit.EmailValidatorBehavior">
+            <summary>
+            Email validator behavior.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.EmailValidatorBehavior.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="F:FormsToolkit.EmailValidatorBehavior.TextColorInvalidProperty">
+            <summary>
+            The text color invalid property.
+            </summary>
+        </member>
+        <member name="P:FormsToolkit.EmailValidatorBehavior.TextColorInvalid">
+            <summary>
+            Gets or sets the text color invalid.
+            </summary>
+            <value>The text color invalid.</value>
+        </member>
+        <member name="F:FormsToolkit.EmailValidatorBehavior.IsValidProperty">
+            <summary>
+            The is valid property.
+            </summary>
+        </member>
+        <member name="P:FormsToolkit.EmailValidatorBehavior.IsValid">
+            <summary>
+            Gets a value indicating whether this instance is valid.
+            </summary>
+            <value><c>true</c> if this instance is valid; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="M:FormsToolkit.EmailValidatorBehavior.OnAttachedTo(Xamarin.Forms.Entry)">
+            <param name="bindable">To be added.</param>
+            <summary>
+            Raises the attached to event.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.EmailValidatorBehavior.OnDetachingFrom(Xamarin.Forms.Entry)">
+            <param name="bindable">To be added.</param>
+            <summary>
+            Raises the detaching from event.
+            </summary>
+        </member>
+        <member name="T:FormsToolkit.EmptyValidatorBehavior">
+            <summary>
+            Empty validator behavior.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.EmptyValidatorBehavior.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="F:FormsToolkit.EmptyValidatorBehavior.IsValidProperty">
+            <summary>
+            The is valid property.
+            </summary>
+        </member>
+        <member name="P:FormsToolkit.EmptyValidatorBehavior.IsValid">
+            <summary>
+            Gets a value indicating whether this instance is valid.
+            </summary>
+            <value><c>true</c> if this instance is valid; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="M:FormsToolkit.EmptyValidatorBehavior.OnAttachedTo(Xamarin.Forms.Entry)">
+            <param name="bindable">To be added.</param>
+            <summary>
+            Raises the attached to event.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.EmptyValidatorBehavior.OnDetachingFrom(Xamarin.Forms.Entry)">
+            <param name="bindable">To be added.</param>
+            <summary>
+            Raises the detaching from event.
+            </summary>
+        </member>
+        <member name="T:FormsToolkit.EntryLine">
+            <summary>
+            Entry line controls
+            </summary>
+        </member>
+        <member name="F:FormsToolkit.EntryLine.BorderColorProperty">
+            <summary>
+            The border color property.
+            </summary>
+        </member>
+        <member name="P:FormsToolkit.EntryLine.BorderColor">
+            <summary>
+            Gets or sets the color of the border.
+            </summary>
+            <value>The color of the border.</value>
+        </member>
+        <member name="F:FormsToolkit.EntryLine.FontSizeProperty">
+            <summary>
+            To be added.
+            </summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:FormsToolkit.EntryLine.FontSize">
+            <summary>
+            Gets the size of the font for the Entry element text.
+            </summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:FormsToolkit.EntryLine.PlaceholderColorProperty">
+            <summary>
+            To be added.
+            </summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:FormsToolkit.EntryLine.PlaceholderColor">
+            <summary>
+            To be added.
+            </summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:FormsToolkit.NavigationPageNoLine">
+            <summary>
+            Navigation page no line.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.NavigationPageNoLine.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FormsToolkit.NavigationPageNoLine"/> class.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.NavigationPageNoLine.#ctor(Xamarin.Forms.Page)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FormsToolkit.NavigationPageNoLine"/> class.
+            </summary>
+            <param name="root">Root.</param>
+        </member>
+        <member name="T:FormsToolkit.MessagingService">
+            <summary>
+            Messaging service implementation
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.MessagingService.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.MessagingService.Subscribe(System.String,System.Action{FormsToolkit.IMessagingService})">
+            <summary>
+            Subscribe the specified message and callback.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="callback">Callback.</param>
+        </member>
+        <member name="M:FormsToolkit.MessagingService.Subscribe``1(System.String,System.Action{FormsToolkit.IMessagingService,``0})">
+            <summary>
+            Subscribe the specified message and callback.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="callback">Callback.</param>
+            <typeparam name="T">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:FormsToolkit.MessagingService.SendMessage(System.String)">
+            <summary>
+            Sends the message.
+            </summary>
+            <param name="message">Message.</param>
+        </member>
+        <member name="M:FormsToolkit.MessagingService.SendMessage``1(System.String,``0)">
+            <summary>
+            Sends the message.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="args">Arguments.</param>
+            <typeparam name="T">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:FormsToolkit.MessagingService.Unsubscribe(System.String)">
+            <summary>
+            Unsubscribe the specified message.
+            </summary>
+            <param name="message">Message.</param>
+        </member>
+        <member name="M:FormsToolkit.MessagingService.Unsubscribe``1(System.String)">
+            <summary>
+            Unsubscribe the specified message and args.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="args">Arguments.</param>
+            <typeparam name="T">The 1st type parameter.</typeparam>
+        </member>
+        <member name="P:FormsToolkit.MessagingService.Current">
+            <summary>
+            Gets the instance of the Messaging Service
+            </summary>
+        </member>
+        <member name="T:FormsToolkit.IMessagingService">
+            <summary>
+            Interface to simplify messaging center
+            Never have to worry about the sender or subscriber, everything is sent/received for you
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.IMessagingService.Subscribe(System.String,System.Action{FormsToolkit.IMessagingService})">
+            <summary>
+            Subscribe the specified message and callback.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="callback">Callback.</param>
+        </member>
+        <member name="M:FormsToolkit.IMessagingService.Subscribe``1(System.String,System.Action{FormsToolkit.IMessagingService,``0})">
+            <summary>
+            Subscribe the specified message and callback.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="callback">Callback.</param>
+            <typeparam name="T">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:FormsToolkit.IMessagingService.SendMessage(System.String)">
+            <summary>
+            Sends the message.
+            </summary>
+            <param name="message">Message.</param>
+        </member>
+        <member name="M:FormsToolkit.IMessagingService.SendMessage``1(System.String,``0)">
+            <summary>
+            Sends the message.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="args">Arguments.</param>
+            <typeparam name="T">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:FormsToolkit.IMessagingService.Unsubscribe(System.String)">
+            <summary>
+            Unsubscribe the specified message.
+            </summary>
+            <param name="message">Message.</param>
+        </member>
+        <member name="M:FormsToolkit.IMessagingService.Unsubscribe``1(System.String)">
+            <summary>
+            Unsubscribe the specified message and args.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="args">Arguments.</param>
+            <typeparam name="T">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:FormsToolkit.LowerTextConverter.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.UpperTextConverter.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.HasDataConverter.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="T:FormsToolkit.MessagingServiceQuestion">
+            <summary>
+            Messaging service question.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.MessagingServiceQuestion.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="P:FormsToolkit.MessagingServiceQuestion.Title">
+            <summary>
+            Gets or sets the title.
+            </summary>
+            <value>The title.</value>
+        </member>
+        <member name="P:FormsToolkit.MessagingServiceQuestion.Question">
+            <summary>
+            Gets or sets the question.
+            </summary>
+            <value>The question.</value>
+        </member>
+        <member name="P:FormsToolkit.MessagingServiceQuestion.Positive">
+            <summary>
+            Gets or sets the positive button text.
+            </summary>
+            <value>The positive.</value>
+        </member>
+        <member name="P:FormsToolkit.MessagingServiceQuestion.Negative">
+            <summary>
+            Gets or sets the negative button text
+            </summary>
+            <value>The negative.</value>
+        </member>
+        <member name="P:FormsToolkit.MessagingServiceQuestion.OnCompleted">
+            <summary>
+            Gets or sets the OnCompleted Action&lt;bool&gt;.
+            </summary>
+            <value>The OnCompleted Action&lt;bool&gt;.</value>
+        </member>
+        <member name="T:FormsToolkit.MessagingServiceAlert">
+            <summary>
+            Messaging service alert.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.MessagingServiceAlert.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="P:FormsToolkit.MessagingServiceAlert.Title">
+            <summary>
+            Gets or sets the title.
+            </summary>
+            <value>The title.</value>
+        </member>
+        <member name="P:FormsToolkit.MessagingServiceAlert.Message">
+            <summary>
+            Gets or sets the message.
+            </summary>
+            <value>The message.</value>
+        </member>
+        <member name="P:FormsToolkit.MessagingServiceAlert.Cancel">
+            <summary>
+            Gets or sets a value indicating whether this instance cancel/OK text.
+            </summary>
+            <value><c>true</c> if this instance cancel; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:FormsToolkit.MessagingServiceAlert.OnCompleted">
+            <summary>
+            Gets or sets the OnCompleted Action.
+            </summary>
+            <value>The OnCompleted Action.</value>
+        </member>
+        <member name="T:FormsToolkit.MessagingServiceChoice">
+            <summary>
+            Messaging service choice.
+            </summary>
+        </member>
+        <member name="M:FormsToolkit.MessagingServiceChoice.Init">
+            <summary>
+            Init this instance.
+            </summary>
+        </member>
+        <member name="P:FormsToolkit.MessagingServiceChoice.Title">
+            <summary>
+            Gets or sets the title.
+            </summary>
+            <value>The title.</value>
+        </member>
+        <member name="P:FormsToolkit.MessagingServiceChoice.Cancel">
+            <summary>
+            Gets or sets a value indicating whether this instance cancel. can be null
+            </summary>
+            <value><c>true</c> if this instance cancel; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:FormsToolkit.MessagingServiceChoice.Destruction">
+            <summary>
+            Gets or sets the destruction. can be null
+            </summary>
+            <value>The destruction.</value>
+        </member>
+        <member name="P:FormsToolkit.MessagingServiceChoice.Items">
+            <summary>
+            Gets or sets the items to display in the list
+            </summary>
+            <value>The items.</value>
+        </member>
+        <member name="P:FormsToolkit.MessagingServiceChoice.OnCompleted">
+            <summary>
+            Gets or sets the on completed action
+            </summary>
+            <value>The on completed.</value>
+        </member>
+    </members>
+</doc>

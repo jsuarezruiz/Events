@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-CO94C1B</Machine>
+    <WindowsUser>javie</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>10ed11c0-7cd9-4264-b89d-8e9b93e71934</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.UI.WindowsStore\obj\x86\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.UI.WindowsStore\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.UI.WindowsStore\bin\x86\Debug\TipCalc.UI.WindowsStore.exe">
+      <PackagePath>TipCalc.UI.WindowsStore.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\netcore45\Cirrious.CrossCore.dll">
+      <PackagePath>Cirrious.CrossCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\netcore45\Cirrious.CrossCore.WindowsStore.dll">
+      <PackagePath>Cirrious.CrossCore.WindowsStore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.0\lib\netcore45\Cirrious.MvvmCross.dll">
+      <PackagePath>Cirrious.MvvmCross.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\packages\MvvmCross.HotTuna.CrossCore.3.5.0\lib\netcore45\Cirrious.MvvmCross.Localization.dll">
+      <PackagePath>Cirrious.MvvmCross.Localization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.0\lib\netcore45\Cirrious.MvvmCross.WindowsStore.dll">
+      <PackagePath>Cirrious.MvvmCross.WindowsStore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.Core\bin\Debug\TipCalc.Core.dll">
+      <PackagePath>TipCalc.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.UI.WindowsStore\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.UI.WindowsStore\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.UI.WindowsStore\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.UI.WindowsStore\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.UI.WindowsStore\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.UI.WindowsStore\bin\x86\Debug\TipCalc.UI.WindowsStore.xr.xml">
+      <PackagePath>TipCalc.UI.WindowsStore.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.UI.WindowsStore\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.UI.WindowsStore\bin\x86\Debug\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.UI.WindowsStore\bin\x86\Debug\Views\TipView.xbf">
+      <PackagePath>Views\TipView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\javie\Documents\GitHub\Events\Codemotion\2015\Ejemplos\01. Classic and Forms\01. MVVMCross\TipCalc\TipCalc.UI.WindowsStore\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

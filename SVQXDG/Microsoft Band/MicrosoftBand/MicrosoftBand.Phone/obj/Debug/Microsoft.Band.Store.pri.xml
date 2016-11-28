@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Microsoft.Band.Store" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Microsoft.Band.Store">
+				<NamedResource name="Microsoft.Band.Store.xr.xml" uri="ms-resource://Microsoft.Band.Store/Files/Microsoft.Band.Store/Microsoft.Band.Store.xr.xml">
+					<Candidate type="Path">
+						<Value>Microsoft.Band.Store\Microsoft.Band.Store.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Sensors">
+					<NamedResource name="SensorConsentPage.xbf" uri="ms-resource://Microsoft.Band.Store/Files/Microsoft.Band.Store/Sensors/SensorConsentPage.xbf">
+						<Candidate type="Path">
+							<Value>Microsoft.Band.Store\Sensors\SensorConsentPage.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Tiles">
+					<NamedResource name="AddTilePage.xbf" uri="ms-resource://Microsoft.Band.Store/Files/Microsoft.Band.Store/Tiles/AddTilePage.xbf">
+						<Candidate type="Path">
+							<Value>Microsoft.Band.Store\Tiles\AddTilePage.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.Band.Store">
+			<ResourceMapSubtree name="StoreResources">
+				<NamedResource name="DeviceInfoNotBluetooth" uri="ms-resource://Microsoft.Band.Store/Microsoft.Band.Store/StoreResources/DeviceInfoNotBluetooth">
+					<Candidate type="String">
+						<Value>BandInfo must be for a Bluetooth connection.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PushServiceNotFound" uri="ms-resource://Microsoft.Band.Store/Microsoft.Band.Store/StoreResources/PushServiceNotFound">
+					<Candidate type="String">
+						<Value>Band does not support push service.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="RfComm_FromId_ReturnedNull" uri="ms-resource://Microsoft.Band.Store/Microsoft.Band.Store/StoreResources/RfComm_FromId_ReturnedNull">
+					<Candidate type="String">
+						<Value>A non-specific error occurred while attempting to aquire the Bluetooth device service. This error can occur if the application manifest does not have the required permissions for opening the Bluetooth connection to the Microsoft Band, or if the user denies access.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="RfComm_FromId_Threw" uri="ms-resource://Microsoft.Band.Store/Microsoft.Band.Store/StoreResources/RfComm_FromId_Threw">
+					<Candidate type="String">
+						<Value>An error occurred while attempting to aquire the Bluetooth device service. This error can occur if the paired device is unreachable or has become unpaired from the current host.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

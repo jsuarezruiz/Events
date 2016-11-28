@@ -1,0 +1,32 @@
+﻿<base:PageBase
+    x:Class="BackgroundTask.Views.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:base="using:BackgroundTask.Views.Base"
+    mc:Ignorable="d"
+    DataContext="{Binding MainViewModel, Source={StaticResource Locator}}">
+    <Grid
+        Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel
+            Grid.Row="0"
+            Orientation="Horizontal">
+            <Button
+                Content="Register"
+                Command="{Binding RegisterCommand}"
+                Margin="0,0,10,0"/>
+            <Button
+                Content="UnRegister"
+                Command="{Binding UnRegisterCommand}"/>
+        </StackPanel>
+        <TextBlock 
+            Grid.Row="1"
+            Text="{Binding Info}"/>
+    </Grid>
+</base:PageBase>
+

@@ -1,0 +1,332 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FFImageLoading.Forms</name>
+    </assembly>
+    <members>
+        <member name="T:FFImageLoading.Forms.CachedImage">
+            <summary>
+            CachedImage - Xamarin.Forms Image replacement with caching and downsampling capabilities
+            </summary>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.AspectProperty">
+            <summary>
+            The aspect property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.Aspect">
+            <summary>
+            Gets or sets the aspect.
+            </summary>
+            <value>The aspect.</value> 
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.IsLoadingPropertyKey">
+            <summary>
+            The is loading property key.
+            </summary>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.IsLoadingProperty">
+            <summary>
+            The is loading property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.IsLoading">
+            <summary>
+            Gets a value indicating whether this instance is loading.
+            </summary>
+            <value><c>true</c> if this instance is loading; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.IsOpaqueProperty">
+            <summary>
+            The is opaque property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.IsOpaque">
+            <summary>
+            Gets or sets a value indicating whether this instance is opaque.
+            </summary>
+            <value><c>true</c> if this instance is opaque; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.SourceProperty">
+            <summary>
+            The source property.
+            </summary> 
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.Source">
+            <summary>
+            Gets or sets the source.
+            </summary>
+            <value>The source.</value>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.RetryCountProperty">
+            <summary>
+            The retry count property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.RetryCount">
+            <summary>
+            If image loading fails automatically retry it a number of times, with a specific delay. Sets number of retries.
+            </summary>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.RetryDelayProperty">
+            <summary>
+            The retry delay property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.RetryDelay">
+            <summary>
+            If image loading fails automatically retry it a number of times, with a specific delay. Sets delay in milliseconds between each trial
+            </summary>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.LoadingDelayProperty">
+            <summary>
+            The loading delay property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.LoadingDelay">
+            <summary>
+            Sets delay in milliseconds before image loading
+            </summary>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.DownsampleWidthProperty">
+            <summary>
+            The downsample width property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.DownsampleWidth">
+            <summary>
+            Reduce memory usage by downsampling the image. Aspect ratio will be kept even if width/height values are incorrect. 
+            Optional DownsampleWidth parameter, if value is higher than zero it will try to downsample to this width while keeping aspect ratio.
+            </summary>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.DownsampleHeightProperty">
+            <summary>
+            The downsample height property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.DownsampleHeight">
+            <summary>
+            Reduce memory usage by downsampling the image. Aspect ratio will be kept even if width/height values are incorrect. 
+            Optional DownsampleHeight parameter, if value is higher than zero it will try to downsample to this height while keeping aspect ratio.
+            </summary>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.DownsampleToViewSizeProperty">
+            <summary>
+            The downsample to view size property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.DownsampleToViewSize">
+            <summary>
+            Reduce memory usage by downsampling the image. Aspect ratio will be kept even if width/height values are incorrect.
+            DownsampleWidth and DownsampleHeight properties will be automatically set to view size
+            If the view height or width will not return > 0 - it'll fall back 
+            to using DownsampleWidth / DownsampleHeight properties values
+            </summary>
+            <value><c>true</c> if downsample to view size; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.DownsampleUseDipUnitsProperty">
+            <summary>
+            The downsample use dip units property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.DownsampleUseDipUnits">
+            <summary>
+            If set to <c>true</c> DownsampleWidth and DownsampleHeight properties 
+            will use density independent pixels for downsampling
+            </summary>
+            <value><c>true</c> if downsample use dip units; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.CacheDurationProperty">
+            <summary>
+            The cache duration property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.CacheDuration">
+            <summary>
+            How long the file will be cached on disk.
+            </summary>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.LoadingPriorityProperty">
+            <summary>
+            The loading priority property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.LoadingPriority">
+            <summary>
+            Defines the loading priority, the default is LoadingPriority.Normal
+            </summary>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.TransparencyEnabledProperty">
+            <summary>
+            The transparency enabled property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.TransparencyEnabled">
+            <summary>
+            Indicates if the transparency channel should be loaded. By default this value comes from ImageService.Instance.Config.LoadWithTransparencyChannel.
+            </summary>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.FadeAnimationEnabledProperty">
+            <summary>
+            The fade animation enabled property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.FadeAnimationEnabled">
+            <summary>
+            Indicates if the fade animation effect should be enabled. By default this value comes from ImageService.Instance.Config.FadeAnimationEnabled.
+            </summary>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.LoadingPlaceholderProperty">
+            <summary>
+            The loading placeholder property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.LoadingPlaceholder">
+            <summary>
+            Gets or sets the loading placeholder image.
+            </summary>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.ErrorPlaceholderProperty">
+            <summary>
+            The error placeholder property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.ErrorPlaceholder">
+            <summary>
+            Gets or sets the error placeholder image.
+            </summary>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.TransformPlaceholdersProperty">
+            <summary>
+            The TransformPlaceholders property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.TransformPlaceholders">
+            <summary>
+            Indicates if transforms should be applied to placeholders. By default this value comes from ImageService.Instance.Config.TransformPlaceholders.
+            </summary>
+            <value>The transform placeholders.</value>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.TransformationsProperty">
+            <summary>
+            The transformations property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.Transformations">
+            <summary>
+            Gets or sets the transformations.
+            </summary>
+            <value>The transformations.</value>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.CacheKeyFactory">
+            <summary>
+            Gets or sets the cache custom key factory.
+            </summary>
+            <value>The cache key factory.</value>
+        </member>
+        <member name="M:FFImageLoading.Forms.CachedImage.ReloadImage">
+            <summary>
+            Reloads the image.
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Forms.CachedImage.Cancel">
+            <summary>
+            Cancels image loading tasks
+            </summary>
+        </member>
+        <member name="M:FFImageLoading.Forms.CachedImage.GetImageAsJpgAsync(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Gets the image as JPG.
+            </summary>
+            <returns>The image as JPG.</returns>
+        </member>
+        <member name="M:FFImageLoading.Forms.CachedImage.GetImageAsPngAsync(System.Int32,System.Int32)">
+            <summary>
+            Gets the image as PNG
+            </summary>
+            <returns>The image as PNG.</returns>
+        </member>
+        <member name="M:FFImageLoading.Forms.CachedImage.InvalidateCache(Xamarin.Forms.ImageSource,FFImageLoading.Cache.CacheType,System.Boolean)">
+            <summary>
+            Invalidates cache for a specified image source.
+            </summary>
+            <param name="source">Image source.</param>
+            <param name="cacheType">Cache type.</param>
+            <param name = "removeSimilar">If set to <c>true</c> removes all image cache variants 
+            (downsampling and transformations variants)</param>
+        </member>
+        <member name="M:FFImageLoading.Forms.CachedImage.InvalidateCache(System.String,FFImageLoading.Cache.CacheType,System.Boolean)">
+            <summary>
+            Invalidates cache for a specified key.
+            </summary>
+            <param name="source">Image key.</param>
+            <param name="cacheType">Cache type.</param>
+            <param name = "removeSimilar">If set to <c>true</c> removes all image cache variants 
+            (downsampling and transformations variants)</param>
+        </member>
+        <member name="E:FFImageLoading.Forms.CachedImage.Success">
+            <summary>
+            Occurs after image loading success.
+            </summary>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.SuccessCommandProperty">
+            <summary>
+            The SuccessCommandProperty.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.SuccessCommand">
+            <summary>
+            Gets or sets the SuccessCommand.
+            Occurs after image loading success.
+            Command parameter: CachedImageEvents.SuccessEventArgs
+            </summary>
+            <value>The success command.</value>
+        </member>
+        <member name="E:FFImageLoading.Forms.CachedImage.Error">
+            <summary>
+            Occurs after image loading error.
+            </summary>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.ErrorCommandProperty">
+            <summary>
+            The ErrorCommandProperty.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.ErrorCommand">
+            <summary>
+            Gets or sets the ErrorCommand.
+            Occurs after image loading error.
+            Command parameter: CachedImageEvents.ErrorEventArgs
+            </summary>
+            <value>The error command.</value>
+        </member>
+        <member name="E:FFImageLoading.Forms.CachedImage.Finish">
+            <summary>
+            Occurs after every image loading.
+            </summary>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.FinishCommandProperty">
+            <summary>
+            The FinishCommandProperty.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.FinishCommand">
+            <summary>
+            Gets or sets the FinishCommand.
+            Occurs after every image loading.
+            Command parameter: CachedImageEvents.FinishEventArgs
+            </summary>
+            <value>The finish command.</value>
+        </member>
+        <member name="F:FFImageLoading.Forms.CachedImage.CacheTypeProperty">
+            <summary>
+            The cache type property.
+            </summary>
+        </member>
+        <member name="P:FFImageLoading.Forms.CachedImage.CacheType">
+            <summary>
+            Set the cache storage type, (Memory, Disk, All). by default cache is set to All.
+            </summary>
+        </member>
+    </members>
+</doc>

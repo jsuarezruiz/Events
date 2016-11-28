@@ -1,0 +1,11 @@
+﻿<Application
+    x:Class="Value.Store.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:nativeConverters="using:Value.Store.NativeConverters">
+    <Application.Resources>
+        <nativeConverters:NativeStringLengthValueConverter x:Key="StringLength" />
+        <nativeConverters:NativeStringReverseValueConverter x:Key="StringReverse" />
+    </Application.Resources>
+</Application>
+
