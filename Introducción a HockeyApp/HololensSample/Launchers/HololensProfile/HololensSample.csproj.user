@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
-    <DeviceId>F957827B-6FC8-4538-A5BA-3B3807152A56</DeviceId>
-    <UseEmulator>true</UseEmulator>
-  </PropertyGroup>
-</Project>
