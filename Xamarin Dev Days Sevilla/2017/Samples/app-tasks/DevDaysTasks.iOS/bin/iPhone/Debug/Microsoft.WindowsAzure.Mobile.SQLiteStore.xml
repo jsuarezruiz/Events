@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.WindowsAzure.Mobile.SQLiteStore</name>
+    </assembly>
+    <members>
+        <member name="M:System.Collections.Generic.EnumerableExtensions.Split``1(System.Collections.Generic.IEnumerable{``0},System.Int32)">
+            <summary>
+            Splits the given sequence into sequences of the given length.
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.MobileServices.SQLiteStore.MobileServiceSQLiteStore">
+            <summary>
+            SQLite based implementation of <see cref="T:Microsoft.WindowsAzure.MobileServices.Sync.IMobileServiceLocalStore"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsAzure.MobileServices.SQLiteStore.MobileServiceSQLiteStore.MaxParametersPerQuery">
+            <summary>
+            The maximum number of parameters allowed in any "upsert" prepared statement.
+            Note: The default maximum number of parameters allowed by sqlite is 999
+            See: http://www.sqlite.org/limits.html#max_variable_number
+            </summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.MobileServices.SQLiteStore.MobileServiceSQLiteStore.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of <see cref="T:Microsoft.WindowsAzure.MobileServices.SQLiteStore.MobileServiceSQLiteStore"/>
+            </summary>
+            <param name="fileName">Name of the local SQLite database file.</param>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.MobileServices.SQLiteStore.MobileServiceSQLiteStore.DefineTable(System.String,Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Defines the local table on the store.
+            </summary>
+            <param name="tableName">Name of the local table.</param>
+            <param name="item">An object that represents the structure of the table.</param>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.MobileServices.SQLiteStore.MobileServiceSQLiteStore.ReadAsync(Microsoft.WindowsAzure.MobileServices.Query.MobileServiceTableQueryDescription)">
+            <summary>
+            Reads data from local store by executing the query.
+            </summary>
+            <param name="query">The query to execute on local store.</param>
+            <returns>A task that will return with results when the query finishes.</returns>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.MobileServices.SQLiteStore.MobileServiceSQLiteStore.UpsertAsync(System.String,System.Collections.Generic.IEnumerable{Newtonsoft.Json.Linq.JObject},System.Boolean)">
+            <summary>
+            Updates or inserts data in local table.
+            </summary>
+            <param name="tableName">Name of the local table.</param>
+            <param name="items">A list of items to be inserted.</param>
+            <param name="ignoreMissingColumns"><code>true</code> if the extra properties on item can be ignored; <code>false</code> otherwise.</param>
+            <returns>A task that completes when item has been upserted in local table.</returns>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.MobileServices.SQLiteStore.MobileServiceSQLiteStore.DeleteAsync(Microsoft.WindowsAzure.MobileServices.Query.MobileServiceTableQueryDescription)">
+            <summary>
+            Deletes items from local table that match the given query.
+            </summary>
+            <param name="query">A query to find records to delete.</param>
+            <returns>A task that completes when delete query has executed.</returns>
+            <exception cref="T:System.ArgumentNullException">You must supply a query value</exception>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.MobileServices.SQLiteStore.MobileServiceSQLiteStore.DeleteAsync(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Deletes items from local table with the given list of ids
+            </summary>
+            <param name="tableName">Name of the local table.</param>
+            <param name="ids">A list of ids of the items to be deleted</param>
+            <returns>A task that completes when delete query has executed.</returns>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.MobileServices.SQLiteStore.MobileServiceSQLiteStore.LookupAsync(System.String,System.String)">
+            <summary>
+            Executes a lookup against a local table.
+            </summary>
+            <param name="tableName">Name of the local table.</param>
+            <param name="id">The id of the item to lookup.</param>
+            <returns>A task that will return with a result when the lookup finishes.</returns>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.MobileServices.SQLiteStore.MobileServiceSQLiteStore.ExecuteNonQueryInternal(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Executes a sql statement on a given table in local SQLite database.
+            </summary>
+            <param name="tableName">The name of the table.</param>
+            <param name="parameters">The query parameters.</param>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.MobileServices.SQLiteStore.MobileServiceSQLiteStore.ExecuteQueryAsync(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Executes a SQL query against the store.  This is useful for running arbitrary queries
+            that are supported by SQLite but not the SDK LINQ Provider
+            </summary>
+            <param name="tableName">The name of the table</param>
+            <param name="sql">The SQL command</param>
+            <param name="parameters">The list of parameters</param>
+            <returns>The result of the query (untyped objects)</returns>
+            <exception cref="T:System.ArgumentNullException">tableName and sql must be provided</exception>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.MobileServices.SQLiteStore.MobileServiceSQLiteStore.ExecuteQueryInternal(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Executes a sql statement on a given table in local SQLite database.
+            </summary>
+            <param name="tableName">The name of the table.</param>
+            <param name="sql">The SQL query to execute.</param>
+            <param name="parameters">The query parameters.</param>
+            <returns>The result of query.</returns>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.MobileServices.SQLiteStore.MobileServiceSQLiteStore.ExecuteQueryInternal(Microsoft.WindowsAzure.MobileServices.SQLiteStore.TableDefinition,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Executes a sql statement on a given table in local SQLite database.
+            </summary>
+            <param name="table">The table definition.</param>
+            <param name="sql">The SQL query to execute.</param>
+            <param name="parameters">The query parameters.</param>
+            <returns>The result of query.</returns>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.MobileServices.SQLiteStore.MobileServiceSQLiteStoreExtensions">
+            <summary>
+             Provides extension methods on <see cref="T:Microsoft.WindowsAzure.MobileServices.SQLiteStore.MobileServiceSQLiteStore"/>.
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources.Platform_AssemblyNotFound">
+            <summary>
+              Looks up a localized string similar to A Windows Azure Mobile Services assembly for the current platform was not found. Ensure that the current project references both {0} and the following platform-specific assembly: {1}..
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources.SQLiteStore_ColumnNotDefined">
+            <summary>
+              Looks up a localized string similar to Column with name &apos;{0}&apos; is not defined on the local table &apos;{1}&apos;..
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources.SQLiteStore_DefineAfterInitialize">
+            <summary>
+              Looks up a localized string similar to Cannot define a table after the store has been initialized..
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources.SQLiteStore_DefineTableEmptyCtorNotDefined">
+            <summary>
+              Looks up a localized string similar to The generic type T does not have parameterless constructor..
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources.SQLiteStore_DefineTableTNotAnObject">
+            <summary>
+              Looks up a localized string similar to The generic type T is not an object..
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources.SQLiteStore_InvalidIdentifier">
+            <summary>
+              Looks up a localized string similar to &apos;{0}&apos; is not a valid identifier. Identifiers must be under 128 characters in length, start with a letter or underscore, and can contain only alpha-numeric and underscore characters..
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources.SQLiteStore_JTokenNotSupported">
+            <summary>
+              Looks up a localized string similar to Property of type &apos;{0}&apos; is not supported..
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources.SQLiteStore_QueryExecutionFailed">
+            <summary>
+              Looks up a localized string similar to Query execution failed with result: &apos;{0}&apos;..
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources.SQLiteStore_TableNotDefined">
+            <summary>
+              Looks up a localized string similar to Table with name &apos;{0}&apos; is not defined..
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources.SQLiteStore_TooManyColumns">
+            <summary>
+              Looks up a localized string similar to The number of fields per entity in an upsert operation is limited to {0}..
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources.SQLiteStore_ValueTypeNotSupported">
+            <summary>
+              Looks up a localized string similar to Value of type &apos;{0}&apos; is not supported..
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.MobileServices.SQLiteStore.ColumnDefinition">
+            <summary>
+            A class that represents the type of column on local store
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.MobileServices.SQLiteStore.TableDefinition">
+            <summary>
+            A class that represents the structure of table on local store
+            </summary>
+        </member>
+    </members>
+</doc>
