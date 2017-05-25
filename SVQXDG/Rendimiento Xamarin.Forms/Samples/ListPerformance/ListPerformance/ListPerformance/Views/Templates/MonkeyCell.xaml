@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="ListPerformance.Views.Templates.MonkeyCell">
+    <ViewCell.View>
+        <Grid
+            HeightRequest="200"
+            WidthRequest="200">
+            <AbsoluteLayout>
+                <Image 
+                    x:Name="MonkeyImage"
+                    Grid.Row="0"
+                    Aspect="AspectFill"
+                    AbsoluteLayout.LayoutFlags="All"                               
+                    AbsoluteLayout.LayoutBounds="0, 0, 1.0, 1.0" />
+            </AbsoluteLayout>
+            <Label 
+                x:Name="MonkeyName"
+                TextColor="White"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                VerticalOptions="EndAndExpand"/>
+        </Grid>
+    </ViewCell.View>
+</ViewCell>

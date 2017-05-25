@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TipCalc.Views.MainView">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+   <!-- Row 0 -->
+    <Label 
+      Grid.Column="0"
+      Grid.Row="0"
+      Text="SubTotal:"
+      FontSize="Large"
+      HorizontalOptions="End"
+      VerticalOptions="Center"/>
+    <Entry    
+      x:Name="Subtotal" 
+      Grid.Column="1"
+      Grid.Row="0"
+      Placeholder="SubTotal"
+      Text="{Binding SubTotal, Mode=TwoWay}"
+      Keyboard="Numeric"/>
+    <!-- Row 1 -->
+    <Label
+      Text="Total (Post-Tax):"
+      Grid.Row="1" Grid.Column="0"
+      Font="Large"
+      HorizontalTextAlignment="End"
+      VerticalTextAlignment="Center" />
+    <Entry
+      x:Name="ReceiptTotal"
+      Grid.Row="1"
+      Grid.Column="1"
+      Keyboard="Numeric"
+      Placeholder="Receipt total"
+      Text="{Binding PostTaxTotal, Mode=TwoWay}"/>
+    <!-- Row 2 -->
+    <Label
+      Text="Tip Percent:"
+      Grid.Row="2"
+      Grid.Column="0"
+      Font="Large"
+      HorizontalTextAlignment="End"
+      VerticalTextAlignment="Center" />
+    <Entry
+      x:Name="TipPercent"
+      Grid.Row="2"
+      Grid.Column="1"
+      Keyboard="Numeric" 
+      Text="{Binding TipPercent, Mode=TwoWay}"/>
+    <!-- Row 3 -->
+    <Slider
+      x:Name="TipPercentSlider"
+      Grid.Row="3"
+      Grid.Column="0"
+      Grid.ColumnSpan="2"
+      Value="{Binding TipPercent, Mode=TwoWay}"
+      Minimum="0"
+      Maximum="100"/>
+    <!-- Row 4 -->
+    <Label
+      Text="Tip Value:"
+      Grid.Row="4"
+      Grid.Column="0" Font="Large"
+      HorizontalTextAlignment="End"
+      VerticalTextAlignment="Center" />
+    <ContentView
+      BackgroundColor="#40808080"
+      Grid.Row="4"
+      Grid.Column="1"
+      Padding="10, 10, 40, 10">
+      <Label
+        x:Name="TipValue"
+        Text="{Binding TipAmount, StringFormat='{0:C}'}"
+        Font="Large"
+        HorizontalTextAlignment="End" />
+    </ContentView>
+    <!-- Row 5 -->
+    <Label
+      Text="Total:"
+      Grid.Row="5"
+      Grid.Column="0"
+      Font="Large"
+      HorizontalTextAlignment="End"
+      VerticalTextAlignment="Center" />
+    <ContentView
+      BackgroundColor="#40808080"
+      Grid.Row="5"
+      Grid.Column="1"
+      Padding="10, 10, 40, 10">
+      <Label
+        x:Name="Total"
+        Text="{Binding Total, StringFormat='{0:C}'}"
+        Font="Large"
+        HorizontalTextAlignment="End" />
+    </ContentView>
+  </Grid>
+</ContentPage>
