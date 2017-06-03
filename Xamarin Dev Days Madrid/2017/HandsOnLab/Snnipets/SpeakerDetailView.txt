@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DevDaysWorkshop.Views.SpeakerDetailView"
+             Title="{Binding Item.Name}">
+    <ContentPage.Content>
+        <ScrollView
+            Padding="10">
+            <StackLayout 
+                Spacing="10">
+                <Image 
+                    Source="{Binding Item.Avatar}" 
+                    HeightRequest="200"/>
+                <Label
+                    Text="{Binding Item.Name}"
+                    FontSize="24"/>
+                <Label 
+                    Text="{Binding Item.Title}" 
+                    TextColor="Blue"/>
+                <Label 
+                    Text="{Binding Item.Description}"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
