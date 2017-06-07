@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="3.0" package="XamarinTizenApp.TizenMobile" version="1.0.0">
+	<profile name="common" />
+	<ui-application appid="org.tizen.example.XamarinTizenApp.TizenMobile"
+					exec="XamarinTizenApp.TizenMobile.exe"
+					type="dotnet"
+					multiple="false"
+					taskmanage="true"
+					nodisplay="false"
+					launch_mode="single">
+  <label>XamarinTizenApp.TizenMobile</label>
+	<icon>XamarinTizenApp.TizenMobile.png</icon>
+	</ui-application>
+</manifest>

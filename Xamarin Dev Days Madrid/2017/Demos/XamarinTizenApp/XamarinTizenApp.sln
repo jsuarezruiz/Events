@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinTizenApp", "XamarinTizenApp\XamarinTizenApp\XamarinTizenApp.csproj", "{DF28E772-5CD6-4470-A150-FF93D010104C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinTizenApp.TizenTV", "XamarinTizenApp\XamarinTizenApp.TizenTV\XamarinTizenApp.TizenTV.csproj", "{A6E1971C-7A28-42D7-89D2-81127747420A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinTizenApp.TizenMobile", "XamarinTizenApp\XamarinTizenApp.TizenMobile\XamarinTizenApp.TizenMobile.csproj", "{A6377913-4549-42D0-9124-75855D1903EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF28E772-5CD6-4470-A150-FF93D010104C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF28E772-5CD6-4470-A150-FF93D010104C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF28E772-5CD6-4470-A150-FF93D010104C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF28E772-5CD6-4470-A150-FF93D010104C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6E1971C-7A28-42D7-89D2-81127747420A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E1971C-7A28-42D7-89D2-81127747420A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E1971C-7A28-42D7-89D2-81127747420A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E1971C-7A28-42D7-89D2-81127747420A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6377913-4549-42D0-9124-75855D1903EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6377913-4549-42D0-9124-75855D1903EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6377913-4549-42D0-9124-75855D1903EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6377913-4549-42D0-9124-75855D1903EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
