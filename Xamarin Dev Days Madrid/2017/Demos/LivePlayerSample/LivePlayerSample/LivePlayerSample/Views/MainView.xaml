@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LivePlayerSample.Views.MainView">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <!-- Row 0 -->
+        <Label Text="Food &amp; Drink:" Grid.Row="0" Grid.Column="0" Font="Large" HorizontalTextAlignment="End" VerticalTextAlignment="Center" />
+        <Entry Grid.Row="0" Grid.Column="1" Keyboard="Numeric" Placeholder="Subtotal" />
+        <!-- Row 1 -->
+        <Label Text="Total after Tax:" Grid.Row="1" Grid.Column="0" Font="Large" HorizontalTextAlignment="End" VerticalTextAlignment="Center" />
+        <Entry Grid.Row="1" Grid.Column="1" Keyboard="Numeric" Placeholder="Receipt total" />
+        <!-- Row 2 -->
+        <Label Text="Tip Percent:" Grid.Row="2" Grid.Column="0" Font="Large" HorizontalTextAlignment="End" VerticalTextAlignment="Center" />
+        <Entry Grid.Row="2" Grid.Column="1" Keyboard="Numeric" Text="" />
+        <!-- Row 3 -->
+        <Slider Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Minimum="0" Maximum="100" />
+        <!-- Row 4 -->
+        <Label Text="Tip Amount:" Grid.Row="4" Grid.Column="0" Font="Large" HorizontalTextAlignment="End" VerticalTextAlignment="Center" />
+        <ContentView BackgroundColor="LightGray" Grid.Row="4" Grid.Column="1" Padding="10, 10, 40, 10">
+            <Label Font="Large" HorizontalTextAlignment="End" />
+        </ContentView>
+        <!-- Row 5 -->
+        <Label Text="Total:" Grid.Row="5" Grid.Column="0" Font="Large" HorizontalTextAlignment="End" VerticalTextAlignment="Center" />
+        <ContentView BackgroundColor="LightGray" Grid.Row="5" Grid.Column="1" Padding="10, 10, 40, 10">
+            <Label Font="Large" HorizontalTextAlignment="End" />
+        </ContentView>
+    </Grid>
+</ContentPage>
