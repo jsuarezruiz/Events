@@ -1,0 +1,60 @@
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DevDaysWorkshop.Views.SpeakersView"
+             Title="Speakers">
+    <ContentPage.Content>
+        <Grid>
+            <StackLayout>
+                <Button 
+                    Text="Sync Speakers"
+                    Command="{Binding GetSpeakersCommand}"/>
+                <ListView 
+                    ItemsSource="{Binding Speakers}"
+                    SelectedItem="{Binding SelectedItem, Mode=TwoWay}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="120" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Image 
+                                        Grid.Column="0"
+                                        Source="{Binding Avatar}"
+                                        Aspect="AspectFill"/>
+                                    <StackLayout
+                                        Grid.Column="1">
+                                        <Label 
+                                            Text="{Binding Name}"
+                                            FontSize="24"
+                                            FontAttributes="Bold"/>
+                                        <Label 
+                                            Text="{Binding Description}"
+                                            TextColor="DarkGray"/>
+                                        <Label 
+                                            Text="{Binding Website}"
+                                            TextColor="Blue"/>
+                                    </StackLayout>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            <ActivityIndicator 
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Color="Black"
+                IsRunning="{Binding IsBusy}"
+                IsVisible="{Binding IsBusy}">
+                <ActivityIndicator.WidthRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="Android, WinPhone">150</On>
+                        <On Platform="Android, iOS">Auto</On>
+                    </OnPlatform>
+                </ActivityIndicator.WidthRequest>
+            </ActivityIndicator>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
