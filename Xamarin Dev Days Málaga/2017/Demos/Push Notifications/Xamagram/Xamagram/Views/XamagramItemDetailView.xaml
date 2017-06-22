@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamagram.Views.XamagramItemDetailView"
+             Title="{Binding Item.Name}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <ScrollView
+            Grid.Row="0">
+            <StackLayout>
+                <Image
+                    Source="{Binding Item.Image}"
+                    Aspect="AspectFill"/>
+                <Grid
+                    Margin="12, 0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Label     
+                        Grid.Row="0"
+                        Text="{Binding Item.Name}"
+                        FontSize="Large"/>
+                    <Label 
+                        Grid.Row="1"
+                        Text="{Binding Item.Description}"
+                        FontSize="Medium"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+        <Button 
+            Grid.Row="1"
+            Text="Edit"
+            Command="{Binding EditCommand}"/>
+        <Button 
+            Grid.Row="2"
+            Text="Delete"
+            Command="{Binding DeleteCommand}"/>
+    </Grid>
+</ContentPage>

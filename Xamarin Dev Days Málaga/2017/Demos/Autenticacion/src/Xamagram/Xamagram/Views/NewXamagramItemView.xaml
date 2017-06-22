@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamagram.Views.NewXamagramItemView"
+             Title="New Xamagram Item">
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <StackLayout
+                Grid.Row="0">
+                <Label 
+                    Text="Image"
+                    TextColor="Blue"
+                    FontSize="Small"/>
+                <Image
+                    HeightRequest="150"
+                    Source="{Binding ImageUrl}"
+                    Aspect="AspectFit"/>
+                <Button 
+                    Text="Take Picture"
+                    Command="{Binding CameraCommand}"/>
+            </StackLayout>
+            <StackLayout
+                Grid.Row="1">
+                <Label 
+                    Text="Name"
+                    TextColor="Blue"
+                    FontSize="Small"/>
+                <Entry 
+                    Placeholder="Name"
+                    Text="{Binding Name, Mode=TwoWay}"/>
+            </StackLayout>
+            <StackLayout
+                Grid.Row="2">
+                <Label 
+                Text="Description"
+                TextColor="Blue"
+                FontSize="Small"/>
+                <Editor
+                HeightRequest="150"
+                Text="{Binding Description, Mode=TwoWay}"/>
+            </StackLayout>
+            <StackLayout
+                Grid.Row="3">
+                <Button
+                    Text="Save"
+                    Command="{Binding SaveCommand}"/>
+                <Button 
+                    Text="Cancel"
+                    Command="{Binding CancelCommand}"/>
+            </StackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

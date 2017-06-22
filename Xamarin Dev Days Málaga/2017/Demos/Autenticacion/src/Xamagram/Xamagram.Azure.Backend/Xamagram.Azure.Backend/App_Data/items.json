@@ -1,0 +1,32 @@
+﻿[
+  {
+    "Id": "59C25A3C-0059-4275-8CD2-83ED914DFEFA",
+    "Name": "New York",
+    "Description": "Nueva York es la ciudad más poblada del estado homónimo y de los Estados Unidos de América, y la segunda mayor concentración urbana del continente americano, después de la Ciudad de México. La ciudad de Nueva York está entre las aglomeraciones urbanas más grandes y más pobladas del mundo."
+  },
+  {
+    "Id": "C9BB0308-549A-4EA1-A1BC-74D7A84EB79D",
+    "Name": "Paris",
+    "Description": "París es la capital de Francia y su ciudad más poblada. Capital de la región de Isla de Francia, es constituida en la única comuna unidepartamental del país. Está situada a ambos márgenes de un largo meandro del río Sena, en el centro de la Cuenca parisina, entre la confluencia del río Marne y el Sena, aguas arriba, y el Oise y el Sena, aguas abajo."
+  },
+  {
+    "Id": "F366EBB2-6D7D-4E09-A4F2-DF16819F6302",
+    "Name": "Roma",
+    "Description": "Roma es una ciudad y capital italiana, de 2 872 082 habitantes, capital de la Ciudad metropolitana de Roma Capital, de la región del Lacio y de Italia. Es el municipio más poblado de Italia y es la cuarta ciudad más poblada de la Unión Europea."
+  },
+  {
+    "Id": "048C7F59-9892-4997-9FCD-CA59671CD178",
+    "Name": "San Francisco",
+    "Description": "San Francisco, de forma oficial la Ciudad y Condado de San Francisco (en inglés: City and County of San Francisco), es una ciudad que ocupa la cuarta posición de ciudad más poblada del estado de California y la 13.ª de Estados Unidos, con una población de aproximadamente 837 442 habitantes en 2013."
+  },
+  {
+    "Id": "CC02798E-CDF1-4376-B2F3-9B914D0A119D",
+    "Name": "Seattle",
+    "Description": "Seattle es la ciudad más grande del estado de Washington, en el noroeste de los Estados Unidos de América. El área metropolitana de la ciudad comprende Seattle-Tacoma-Bellevue, es la 15.ª más poblada del país y la mayor del Noroeste del Pacífico.5 La ciudad está situada entre el lago Washington y la bahía conocida como Puget Sound, junto al océano Pacífico. Se encuentra 155 kilómetros al sur de la frontera entre Estados Unidos y Canadá. Importante centro cultural, educativo y económico de la región, Seattle es sede del condado de King. En el Censo estimado de 2007, la ciudad contaba con una población municipal de 594.210 habitantes, por lo que es la vigésimo cuarta ciudad más poblada de los Estados Unidos, y un área metropolitana de 3.263.497 habitantes."
+  },
+  {
+    "Id": "7D02798E-CDF1-4376-B2F3-9B914D0A118C",
+    "Name": "Sevilla",
+    "Description": "Sevilla es un municipio y una ciudad de España, capital de la provincia homónima y de la comunidad autónoma de Andalucía."
+  }
+]
