@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/weather_header_height">
+    <TextView
+        android:text="San Francisco"
+        android:gravity="center_horizontal|bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:id="@+id/DetailsHeader_locationLabel"
+        android:textSize="@dimen/weather_location_title" />
+    <TextView
+        android:text="Text"
+        android:padding="12dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/DetailsHeader_conditionLabel" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|right"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="12dp">
+        <ImageView
+            android:src="@drawable/logo_wunderground_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/DetailsHeader_wunderground"
+            android:scaleType="center"
+            android:paddingRight="8dp"
+            android:layout_marginBottom="2dp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/theme_white_50" />
+</LinearLayout>

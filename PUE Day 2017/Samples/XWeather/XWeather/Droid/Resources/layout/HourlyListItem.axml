@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeightSmall"
+    android:paddingRight="12dp"
+    android:paddingBottom="4dp"
+    android:paddingLeft="12dp"
+    android:paddingTop="4dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:text="00:00"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/HourlyListItem_hourLabel"
+                android:gravity="center_vertical" />
+            <TextView
+                android:text="mm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/HourlyListItem_periodLabel"
+                android:gravity="center_vertical"
+                android:paddingLeft="4dp"
+                style="@style/secondaryText"
+                android:textSize="12dp" />
+        </LinearLayout>
+        <TextView
+            android:text="tomorrow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/HourlyListItem_tomorrowLabel"
+            android:gravity="bottom"
+            android:textSize="10sp"
+            style="@style/secondaryText" />
+    </FrameLayout>
+    <TextView
+        style="@style/blueTextBright"
+        android:text="0%"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/HourlyListItem_precipLabel"
+        android:gravity="center_vertical|right"
+        android:layout_weight="1"
+        android:paddingRight="4dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="left">
+        <ImageView
+            android:src="@drawable/cloudy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/HourlyListItem_iconImageView"
+            android:scaleType="center"
+            android:paddingLeft="4dp" />
+    </LinearLayout>
+    <TextView
+        android:text="00°"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/HourlyListItem_tempLabel"
+        android:gravity="center_vertical|right"
+        android:layout_weight="1" />
+</LinearLayout>

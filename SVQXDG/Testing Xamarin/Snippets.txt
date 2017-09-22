@@ -1,0 +1,1 @@
+mobile-center test run uitest --app "jsuarezruiz/calculator" --devices fb253a53 --app-path "C:\Users\javie\Documents\GitHub\Calculator.Forms\packages\Calculator.Droid-Signed.apk"  --test-series "master" --locale "en_US" --build-dir "C:\Users\javie\Documents\GitHub\Calculator.Forms\src\Calculator\Calculator.UITests\bin\Release\"

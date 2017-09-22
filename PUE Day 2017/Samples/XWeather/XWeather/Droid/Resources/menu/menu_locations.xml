@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:context="XWeather.Droid.LocationsActivity">
+	<item
+		android:orderInCategory="1"
+		android:id="@+id/action_search"
+		android:icon="@drawable/i_search"
+		app:showAsAction="always|collapseActionView"
+		android:title="@string/action_search"
+		app:actionViewClass="android.support.v7.widget.SearchView" />
+	<item
+		android:orderInCategory="2"
+		android:id="@+id/action_radar"
+		android:icon="@drawable/i_track_changes"
+		app:showAsAction="always"
+		android:title="@string/action_radar" />
+	<item
+		android:orderInCategory="3"
+		android:id="@+id/action_settings"
+		android:icon="@drawable/i_settings"
+		app:showAsAction="always"
+		android:title="@string/action_settings" />
+</menu>
