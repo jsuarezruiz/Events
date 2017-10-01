@@ -1,0 +1,80 @@
+ABSOLUTELAYOUT    
+    <!-- TEST 1 (Fijo) -->
+    <!--
+    Call ID: InvalidateMeasureInternal - , Call Count: 4, Time: 0.0009 ms
+    Call ID: InvalidateMeasureInternal - AbsoluteLayout, Call Count: 6, Time: 0.1645 ms
+    Call ID: InvalidateMeasureInternal - Button1, Call Count: 2, Time: 0.2471 ms
+    Call ID: InvalidateMeasureInternal - Button2, Call Count: 2, Time: 0.0009 ms
+    Call ID: InvalidateMeasureInternal - Button3, Call Count: 2, Time: 0.0007 ms
+    Call ID: InvalidateMeasureInternal - Button4, Call Count: 2, Time: 0.9957 ms
+    Call ID: UpdateChildrenLayout - AbsoluteLayout, Call Count: 6, Time: 0.712 ms
+    -->
+
+    <!-- TEST 2 (Variable) -->
+    <!--
+    Call ID: InvalidateMeasureInternal - , Call Count: 4, Time: 0.0007 ms
+    Call ID: InvalidateMeasureInternal - AbsoluteLayout, Call Count: 6, Time: 0.1849 ms
+    Call ID: InvalidateMeasureInternal - Button1, Call Count: 2, Time: 0.2304 ms
+    Call ID: InvalidateMeasureInternal - Button2, Call Count: 2, Time: 0.0007 ms
+    Call ID: InvalidateMeasureInternal - Button3, Call Count: 2, Time: 0.0005 ms
+    Call ID: InvalidateMeasureInternal - Button4, Call Count: 2, Time: 1.0673 ms
+    Call ID: UpdateChildrenLayout - AbsoluteLayout, Call Count: 6, Time: 2.3401 ms
+    -->
+
+RELATIVELAYOUT
+    <!-- TEST -->
+    <!--
+    Call ID: InvalidateMeasureInternal - , Call Count: 6, Time: 0.0974 ms
+    Call ID: InvalidateMeasureInternal - Button1, Call Count: 2, Time: 0.1406 ms
+    Call ID: InvalidateMeasureInternal - Button2, Call Count: 2, Time: 0.0008 ms
+    Call ID: InvalidateMeasureInternal - Button3, Call Count: 2, Time: 0.0008 ms
+    Call ID: InvalidateMeasureInternal - Button4, Call Count: 2, Time: 1.0018 ms
+    Call ID: InvalidateMeasureInternal - RelativeLayout, Call Count: 6, Time: 0.1609 ms
+    Call ID: UpdateChildrenLayout - RelativeLayout, Call Count: 6, Time: 4.6698 ms
+    -->
+
+STACKLAYOUT
+    <!-- TEST -->
+    <!-- 
+    Call ID: InvalidateMeasureInternal - , Call Count: 4, Time: 0.0009 ms
+    Call ID: InvalidateMeasureInternal - Button1, Call Count: 2, Time: 0.2524 ms
+    Call ID: InvalidateMeasureInternal - Button2, Call Count: 2, Time: 0.0007 ms
+    Call ID: InvalidateMeasureInternal - Button3, Call Count: 2, Time: 0.0005 ms
+    Call ID: InvalidateMeasureInternal - Button4, Call Count: 2, Time: 1.0445 ms
+    Call ID: InvalidateMeasureInternal - StackLayout, Call Count: 6, Time: 0.224 ms
+    Call ID: UpdateChildrenLayout - StackLayout, Call Count: 6, Time: 3.6712 ms
+    -->
+
+GRID
+    <!-- TEST 1 (Auto) -->
+    <!--
+    Call ID: InvalidateMeasureInternal - , Call Count: 4, Time: 0.002 ms
+    Call ID: InvalidateMeasureInternal - Grid, Call Count: 10, Time: 0.2982 ms
+    Call ID: InvalidateMeasureInternal - Button1, Call Count: 2, Time: 0.1484 ms
+    Call ID: InvalidateMeasureInternal - Button2, Call Count: 2, Time: 0.0007 ms
+    Call ID: InvalidateMeasureInternal - Button3, Call Count: 2, Time: 0.0006 ms
+    Call ID: InvalidateMeasureInternal - Button4, Call Count: 2, Time: 1.018 ms
+    Call ID: UpdateChildrenLayout - Grid, Call Count: 10, Time: 3.4278 ms
+    -->
+
+    <!-- TEST 2 (Fijos) -->
+    <!--
+    Call ID: InvalidateMeasureInternal - , Call Count: 4, Time: 0.0007 ms
+    Call ID: InvalidateMeasureInternal - Grid, Call Count: 10, Time: 0.2979 ms
+    Call ID: InvalidateMeasureInternal - Button1, Call Count: 2, Time: 0.1565 ms
+    Call ID: InvalidateMeasureInternal - Button2, Call Count: 2, Time: 0.0009 ms
+    Call ID: InvalidateMeasureInternal - Button3, Call Count: 2, Time: 0.0006 ms
+    Call ID: InvalidateMeasureInternal - Button4, Call Count: 2, Time: 1.0206 ms
+    Call ID: UpdateChildrenLayout - Grid, Call Count: 10, Time: 1.8237 ms
+    -->    
+
+    <!-- TEST 3 (*) -->
+    <!--
+    Call ID: InvalidateMeasureInternal - , Call Count: 4, Time: 0.0008 ms
+    Call ID: InvalidateMeasureInternal - Grid, Call Count: 10, Time: 0.2973 ms
+    Call ID: InvalidateMeasureInternal - Button1, Call Count: 2, Time: 0.1348 ms
+    Call ID: InvalidateMeasureInternal - Button2, Call Count: 2, Time: 0.0007 ms
+    Call ID: InvalidateMeasureInternal - Button3, Call Count: 2, Time: 0.0005 ms
+    Call ID: InvalidateMeasureInternal - Button4, Call Count: 2, Time: 1.3195 ms
+    Call ID: UpdateChildrenLayout - Grid, Call Count: 10, Time: 1.7849 ms
+    -->

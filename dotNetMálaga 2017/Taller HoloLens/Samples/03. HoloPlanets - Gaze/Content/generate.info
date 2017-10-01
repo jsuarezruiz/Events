@@ -1,0 +1,187 @@
+﻿<GenerateInfo xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="WaveEditor.Exporter.Model">
+  <files xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/01. Introducción al mundo 3D/HoloPlanets - Models/Content/Assets/Models/Earth.fbx#WaveEditor.Exporter.Exporters.StaticModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>349a36d1890917cde109e9e6c61ea9f1</FileHash>
+        <WinfoHash>91806829ae950fbfdba210980b1018a7</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/01. Introducción al mundo 3D/HoloPlanets - Models/Content/Assets/Models/Earth.fbx#WaveEditor.Exporter.Exporters.SkinnedModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>349a36d1890917cde109e9e6c61ea9f1</FileHash>
+        <WinfoHash>91806829ae950fbfdba210980b1018a7</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/01. Introducción al mundo 3D/HoloPlanets - Models/Content/Assets/Models/Earth.fbx#WaveEditor.Exporter.Exporters.AnimationModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>349a36d1890917cde109e9e6c61ea9f1</FileHash>
+        <WinfoHash>91806829ae950fbfdba210980b1018a7</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/01. Introducción al mundo 3D/HoloPlanets - Models/Content/Assets/Models/Sun.fbx#WaveEditor.Exporter.Exporters.StaticModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>61272fa044f670dd682e087436cf5953</FileHash>
+        <WinfoHash>cf0f6b83dd3436443c4c3e25baca9f7f</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/01. Introducción al mundo 3D/HoloPlanets - Models/Content/Assets/Models/Sun.fbx#WaveEditor.Exporter.Exporters.SkinnedModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>61272fa044f670dd682e087436cf5953</FileHash>
+        <WinfoHash>cf0f6b83dd3436443c4c3e25baca9f7f</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/01. Introducción al mundo 3D/HoloPlanets - Models/Content/Assets/Models/Sun.fbx#WaveEditor.Exporter.Exporters.AnimationModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>61272fa044f670dd682e087436cf5953</FileHash>
+        <WinfoHash>cf0f6b83dd3436443c4c3e25baca9f7f</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/01. Introducción al mundo 3D/HoloPlanets - Models/Content/Assets/Textures/Sun_512.png#WaveEditor.Exporter.Exporters.TextureExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>8abffae9c01fb613319e341a69a48d19</FileHash>
+        <WinfoHash>a939051a0f00954e889fc507933ff65f</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/01. Introducción al mundo 3D/HoloPlanets - Models/Content/Assets/Textures/Earth_512.png#WaveEditor.Exporter.Exporters.TextureExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>7d92e2303e6ff2b9fef2400d1710e968</FileHash>
+        <WinfoHash>da2ec7e10e3d74b6349cd49d74642ec1</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/03. Gaze, 3D panels/HoloPlanets - Gaze/Content/Assets/Textures/Earth_512.png#WaveEditor.Exporter.Exporters.TextureExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>7d92e2303e6ff2b9fef2400d1710e968</FileHash>
+        <WinfoHash>da2ec7e10e3d74b6349cd49d74642ec1</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/03. Gaze, 3D panels/HoloPlanets - Gaze/Content/Assets/Textures/Sun_512.png#WaveEditor.Exporter.Exporters.TextureExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>8abffae9c01fb613319e341a69a48d19</FileHash>
+        <WinfoHash>a939051a0f00954e889fc507933ff65f</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/03. Gaze, 3D panels/HoloPlanets - Gaze/Content/Assets/Models/Sun.fbx#WaveEditor.Exporter.Exporters.StaticModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>61272fa044f670dd682e087436cf5953</FileHash>
+        <WinfoHash>cf0f6b83dd3436443c4c3e25baca9f7f</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/03. Gaze, 3D panels/HoloPlanets - Gaze/Content/Assets/Models/Sun.fbx#WaveEditor.Exporter.Exporters.SkinnedModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>61272fa044f670dd682e087436cf5953</FileHash>
+        <WinfoHash>cf0f6b83dd3436443c4c3e25baca9f7f</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/03. Gaze, 3D panels/HoloPlanets - Gaze/Content/Assets/Models/Sun.fbx#WaveEditor.Exporter.Exporters.AnimationModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>61272fa044f670dd682e087436cf5953</FileHash>
+        <WinfoHash>cf0f6b83dd3436443c4c3e25baca9f7f</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/03. Gaze, 3D panels/HoloPlanets - Gaze/Content/Assets/Models/Earth.fbx#WaveEditor.Exporter.Exporters.StaticModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>349a36d1890917cde109e9e6c61ea9f1</FileHash>
+        <WinfoHash>91806829ae950fbfdba210980b1018a7</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/03. Gaze, 3D panels/HoloPlanets - Gaze/Content/Assets/Models/Earth.fbx#WaveEditor.Exporter.Exporters.SkinnedModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>349a36d1890917cde109e9e6c61ea9f1</FileHash>
+        <WinfoHash>91806829ae950fbfdba210980b1018a7</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/03. Gaze, 3D panels/HoloPlanets - Gaze/Content/Assets/Models/Earth.fbx#WaveEditor.Exporter.Exporters.AnimationModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>349a36d1890917cde109e9e6c61ea9f1</FileHash>
+        <WinfoHash>91806829ae950fbfdba210980b1018a7</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:\Users\javie\Desktop\dotNetMálaga 2017\Taller HoloLens\Samples\03. Gaze, 3D panels\HoloPlanets - Gaze\Content\Assets\Prefabs\Ready.wpref#WaveEditor.Exporter.Exporters.ByPassExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>616ce433d4ed6e48026923cb04b2c617</FileHash>
+        <WinfoHash>36bf8fb9496668999fc2847c7ef1fe88</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:\Users\javie\Desktop\dotNetMálaga 2017\Taller HoloLens\Samples\03. Gaze, 3D panels\HoloPlanets - Gaze\Content\Assets\Prefabs\Undetected.wpref#WaveEditor.Exporter.Exporters.ByPassExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>0c0b8caaa56d9c7cbd98e4e07668de9f</FileHash>
+        <WinfoHash>88c068fd2eb8601fb28262f72d36ad1e</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:\Users\javie\Desktop\dotNetMálaga 2017\Taller HoloLens\Samples\03. Gaze, 3D panels\HoloPlanets - Gaze\Content\Assets\Prefabs\AirTap.wpref#WaveEditor.Exporter.Exporters.ByPassExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>83b3c6458e0ad0d118bd342ca7ef82dc</FileHash>
+        <WinfoHash>3217d77f68d15e9a36c74329f7fb492e</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/03. Gaze, 3D panels/HoloPlanets - Gaze/Content/Assets/Materials/donut.png#WaveEditor.Exporter.Exporters.TextureExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>511f96ac8c2194927c07014dff3a2fda</FileHash>
+        <WinfoHash>424c0014f7458c05bbfc297d0ea95c77</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/03. Gaze, 3D panels/HoloPlanets - Gaze/Content/Assets/Materials/dot.png#WaveEditor.Exporter.Exporters.TextureExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>5acd61319701df70a3cd6f2d619807c3</FileHash>
+        <WinfoHash>d532c6fba550107af15ad6c249212438</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/03. Gaze, 3D panels/HoloPlanets - Gaze/Content/Assets/Textures/donut.png#WaveEditor.Exporter.Exporters.TextureExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>511f96ac8c2194927c07014dff3a2fda</FileHash>
+        <WinfoHash>a8fef75af3cd613206258cffd5755ed2</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/03. Gaze, 3D panels/HoloPlanets - Gaze/Content/Assets/Textures/dot.png#WaveEditor.Exporter.Exporters.TextureExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>5acd61319701df70a3cd6f2d619807c3</FileHash>
+        <WinfoHash>1354afded5e17dd81a6db51a318e626c</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/03. Gaze, 3D panels/HoloPlanets - Gaze/Content/Assets/Models/cursorPlane.fbx#WaveEditor.Exporter.Exporters.StaticModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>9915af3c7ee3f11dc70be9a9f17333d3</FileHash>
+        <WinfoHash>916abd219057848076cf234d6c6c687a</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/03. Gaze, 3D panels/HoloPlanets - Gaze/Content/Assets/Models/cursorPlane.fbx#WaveEditor.Exporter.Exporters.SkinnedModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>9915af3c7ee3f11dc70be9a9f17333d3</FileHash>
+        <WinfoHash>916abd219057848076cf234d6c6c687a</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/03. Gaze, 3D panels/HoloPlanets - Gaze/Content/Assets/Models/cursorPlane.fbx#WaveEditor.Exporter.Exporters.AnimationModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>9915af3c7ee3f11dc70be9a9f17333d3</FileHash>
+        <WinfoHash>916abd219057848076cf234d6c6c687a</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+  </files>
+  <id>BFEBFBFF000506E3</id>
+</GenerateInfo>

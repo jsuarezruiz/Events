@@ -1,0 +1,61 @@
+﻿<GenerateInfo xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="WaveEditor.Exporter.Model">
+  <files xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/01. Introducción al mundo 3D/HoloPlanets - Models/Content/Assets/Models/Earth.fbx#WaveEditor.Exporter.Exporters.StaticModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>349a36d1890917cde109e9e6c61ea9f1</FileHash>
+        <WinfoHash>91806829ae950fbfdba210980b1018a7</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/01. Introducción al mundo 3D/HoloPlanets - Models/Content/Assets/Models/Earth.fbx#WaveEditor.Exporter.Exporters.SkinnedModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>349a36d1890917cde109e9e6c61ea9f1</FileHash>
+        <WinfoHash>91806829ae950fbfdba210980b1018a7</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/01. Introducción al mundo 3D/HoloPlanets - Models/Content/Assets/Models/Earth.fbx#WaveEditor.Exporter.Exporters.AnimationModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>349a36d1890917cde109e9e6c61ea9f1</FileHash>
+        <WinfoHash>91806829ae950fbfdba210980b1018a7</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/01. Introducción al mundo 3D/HoloPlanets - Models/Content/Assets/Models/Sun.fbx#WaveEditor.Exporter.Exporters.StaticModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>61272fa044f670dd682e087436cf5953</FileHash>
+        <WinfoHash>cf0f6b83dd3436443c4c3e25baca9f7f</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/01. Introducción al mundo 3D/HoloPlanets - Models/Content/Assets/Models/Sun.fbx#WaveEditor.Exporter.Exporters.SkinnedModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>61272fa044f670dd682e087436cf5953</FileHash>
+        <WinfoHash>cf0f6b83dd3436443c4c3e25baca9f7f</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/01. Introducción al mundo 3D/HoloPlanets - Models/Content/Assets/Models/Sun.fbx#WaveEditor.Exporter.Exporters.AnimationModelExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>61272fa044f670dd682e087436cf5953</FileHash>
+        <WinfoHash>cf0f6b83dd3436443c4c3e25baca9f7f</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/01. Introducción al mundo 3D/HoloPlanets - Models/Content/Assets/Textures/Sun_512.png#WaveEditor.Exporter.Exporters.TextureExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>8abffae9c01fb613319e341a69a48d19</FileHash>
+        <WinfoHash>a939051a0f00954e889fc507933ff65f</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+    <d2p1:KeyValueOfstringFileHashesH8kexHFU>
+      <d2p1:Key>C:/Users/javie/Desktop/dotNetMálaga 2017/Taller HoloLens/Samples/01. Introducción al mundo 3D/HoloPlanets - Models/Content/Assets/Textures/Earth_512.png#WaveEditor.Exporter.Exporters.TextureExporter</d2p1:Key>
+      <d2p1:Value>
+        <FileHash>7d92e2303e6ff2b9fef2400d1710e968</FileHash>
+        <WinfoHash>da2ec7e10e3d74b6349cd49d74642ec1</WinfoHash>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringFileHashesH8kexHFU>
+  </files>
+  <id>BFEBFBFF000506E3</id>
+</GenerateInfo>

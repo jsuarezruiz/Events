@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListPerformance.Views.MonkeysView"
+             xmlns:templates="clr-namespace:ListPerformance.Views.Templates"
+             Title="ListView Performance">
+    <Grid>
+        <!-- 1º APPROACH -->
+        <ListView 
+            IsVisible="False"
+            CachingStrategy="RetainElement"
+            ItemsSource="{Binding Monkeys}"
+            RowHeight="200">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid
+                            HeightRequest="200"
+                            WidthRequest="200">
+                            <AbsoluteLayout>
+                                <Image 
+                                    Grid.Row="0"
+                                    Source="{Binding Image}"
+                                    Aspect="AspectFill"
+                                    AbsoluteLayout.LayoutFlags="All"                               
+                                    AbsoluteLayout.LayoutBounds="0, 0, 1.0, 1.0" />
+                            </AbsoluteLayout>
+                            <Label 
+                                Text="{Binding Name}"
+                                TextColor="White"
+                                FontSize="Large"
+                                HorizontalOptions="Center"
+                                VerticalOptions="EndAndExpand"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <!-- 2º APPROACH -->
+        <!-- Virtualization KO! -->
+        <ScrollView
+            IsVisible="False">
+            <StackLayout>
+                <Label 
+                    Text="List of Monkeys"
+                    TextColor="Teal"
+                    FontSize="22"
+                    HorizontalTextAlignment="Center"
+                    FontAttributes="Bold"/>
+                <ListView 
+                    CachingStrategy="RecycleElement"
+                    ItemsSource="{Binding Monkeys}"
+                    RowHeight="220">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <templates:MonkeyCell/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+        <!-- 3º APPROACH -->
+        <ListView 
+            IsVisible="False"
+            CachingStrategy="RecycleElement"
+            ItemsSource="{Binding Monkeys}"
+            RowHeight="200"
+            Header="List of Monkeys">
+            <ListView.HeaderTemplate>
+                <DataTemplate>
+                    <Label 
+                        Text="{Binding .}"
+                        TextColor="Teal"
+                        FontSize="22"
+                        HorizontalTextAlignment="Center"
+                        FontAttributes="Bold"/>
+                </DataTemplate>
+            </ListView.HeaderTemplate>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <templates:MonkeyCell/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</ContentPage>
