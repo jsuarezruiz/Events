@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Movies.Views.MoviesView"       
+             BackgroundColor="White"
+             Title="Movies">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button
+                Text="Get Popular Movies"
+                Command="{Binding GetMoviesCommand}"/>
+            <ListView
+                ItemsSource="{Binding Movies}"
+                SelectedItem="{Binding Movie, Mode=TwoWay}"
+                HasUnevenRows="True"
+                SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid
+                                BackgroundColor="White">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="250" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Image 
+                                    Grid.Row="0"
+                                    Source="{Binding BackdropPath, Converter={StaticResource MovieImageConverter}}"/>
+                                <Label 
+                                    Grid.Row="1"
+                                    Text="{Binding Title}"
+                                    Style="{StaticResource MovieTitleStyle}"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

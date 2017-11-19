@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Movies.Views.MovieDetailView"
+             Title="{Binding Movie.Title}">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="MovieImageStyle" TargetType="Image">
+                <Setter Property="Aspect" Value="AspectFill" />
+                <Setter Property="HeightRequest" Value="300" />
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Image  
+                    Source="{Binding Movie.BackdropPath, Converter={StaticResource MovieImageConverter}}"
+                    Style="{StaticResource MovieImageStyle}"/>
+                <Label 
+                    Text="{Binding Movie.Title}"
+                    Style="{StaticResource MovieTitleStyle}"/>
+                <Label
+                    Text="{Binding Movie.Overview}"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
