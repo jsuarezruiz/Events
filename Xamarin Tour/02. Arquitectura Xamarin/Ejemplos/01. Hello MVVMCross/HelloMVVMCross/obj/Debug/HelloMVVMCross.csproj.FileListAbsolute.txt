@@ -1,7 +1,0 @@
-c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross\bin\Debug\HelloMVVMCross.dll
-c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross\bin\Debug\HelloMVVMCross.pdb
-c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross\bin\Debug\Cirrious.CrossCore.dll
-c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross\bin\Debug\Cirrious.MvvmCross.dll
-c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross\bin\Debug\Cirrious.MvvmCross.Localization.dll
-c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross\obj\Debug\HelloMVVMCross.dll
-c:\users\javier\documents\visual studio 2013\Projects\HelloMVVMCross\HelloMVVMCross\obj\Debug\HelloMVVMCross.pdb

@@ -1,2 +1,0 @@
-C:\MVVMCross\02. Converters\Value.Core\Value.Core.csproj;neutral
-C:\MVVMCross\02. Converters\Value.Store\Value.Store.csproj;x86

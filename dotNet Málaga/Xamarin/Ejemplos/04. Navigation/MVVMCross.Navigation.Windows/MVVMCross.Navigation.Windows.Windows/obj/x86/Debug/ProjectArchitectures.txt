@@ -1,2 +1,0 @@
-C:\MVVMCross\04. Navigation\MVVMCross.Navigation.Windows\MVVMCross.Navigation.Windows.Windows\MVVMCross.Navigation.Windows.Windows.csproj;x86
-C:\MVVMCross\04. Navigation\MVVMCross.Navigation\MVVMCross.Navigation.csproj;neutral

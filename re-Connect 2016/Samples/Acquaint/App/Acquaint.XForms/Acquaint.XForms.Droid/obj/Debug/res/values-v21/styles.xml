@@ -1,1 +1,0 @@
-<resources><style name="AcquaintTheme" parent="AcquaintTheme.Base"><item name="android:windowDrawsSystemBarBackgrounds">true</item><item name="android:statusBarColor">@android:color/transparent</item></style></resources>

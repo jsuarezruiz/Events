@@ -1,9 +1,0 @@
-c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\obj\Debug\HelloXamarinFormsCSharp.csprojResolveAssemblyReference.cache
-c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\bin\Debug\HelloXamarinFormsCSharp.dll
-c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\bin\Debug\HelloXamarinFormsCSharp.pdb
-c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\bin\Debug\Xamarin.Forms.Core.dll
-c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\bin\Debug\Xamarin.Forms.Xaml.dll
-c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\bin\Debug\Xamarin.Forms.Core.xml
-c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\bin\Debug\Xamarin.Forms.Xaml.xml
-c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\obj\Debug\HelloXamarinFormsCSharp.dll
-c:\users\javier\documents\visual studio 2013\Projects\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\HelloXamarinFormsCSharp\obj\Debug\HelloXamarinFormsCSharp.pdb
