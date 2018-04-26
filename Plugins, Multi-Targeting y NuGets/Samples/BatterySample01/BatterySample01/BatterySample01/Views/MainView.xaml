@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BatterySample01.Views.MainView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button
+                x:Name="GetBatteryLevelBtn"
+                Text="Get Battery Level"/>
+            <Label 
+                x:Name="BatteryLevelLabel"
+                FontSize="Large"
+                HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
