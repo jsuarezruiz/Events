@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Movies.Views.Templates.MovieItemTemplate"            
+             xmlns:controls="clr-namespace:Movies.Controls;assembly=Movies">
+    <ContentView.Resources>
+        <ResourceDictionary>
+            
+            <Style x:Key="PhoneMovieImageStyle" TargetType="Image">
+                <Setter Property="Aspect" Value="AspectFit" />
+                <Setter Property="HorizontalOptions" Value="Start" />
+                <Setter Property="WidthRequest" Value="150" />
+            </Style>
+            
+            <Style x:Key="MovieImageStyle" TargetType="Image">
+                <Setter Property="Aspect" Value="AspectFit" />
+                <Setter Property="HorizontalOptions" Value="Start" />
+            </Style>
+            
+            <Style x:Key="MovieTitleStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource WhiteColor}" />
+                <Setter Property="LineBreakMode" Value="TailTruncation" />
+            </Style>
+            
+            <Style x:Key="MovieRatingStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource WhiteColor}" />
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+            
+        </ResourceDictionary>
+    </ContentView.Resources>
+    <ContentView.Content>
+        <Grid 
+            BackgroundColor="{StaticResource BackgroundColor}"
+            Margin="0, 0, 12, 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition>
+                    <ColumnDefinition.Width>
+                        <OnPlatform x:TypeArguments="GridLength">
+                            <On Platform="Android, iOS" Value="Auto"/>
+                            <On Platform="GTK, WPF" Value="200"/>
+                            <On Platform="UWP" Value="200"/>
+                        </OnPlatform>
+                    </ColumnDefinition.Width>
+                </ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="12" />
+            </Grid.RowDefinitions>
+            <Image
+                Grid.Column="0"
+                Grid.Row="0"
+                Source="{Binding PosterPath, Converter={StaticResource MovieImageConverter}}">
+                <Image.Style>
+                    <OnPlatform x:TypeArguments="Style">
+                        <On Platform="Android, iOS" Value="{StaticResource PhoneMovieImageStyle}"/>
+                        <On Platform="GTK, WPF" Value="{StaticResource MovieImageStyle}"/>
+                        <On Platform="UWP" Value="{StaticResource MovieImageStyle}"/>
+                    </OnPlatform>
+                </Image.Style>
+            </Image>
+            <Label 	
+                Grid.Column="0"
+                Grid.Row="1" 
+                Text="{Binding OriginalTitle}"
+                Style="{StaticResource MovieTitleStyle}"/>
+            <Grid  
+                Grid.Column="0"
+                Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="24" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label 
+                    Text="{Binding VoteAverage}"
+                    Style="{StaticResource MovieRatingStyle}"/>
+                <controls:RatingStars
+                    Grid.Column="1"
+                    Rating="{Binding VoteAverage}"
+                    Precision="Half"
+                    HorizontalOptions="Start"
+                    HeightRequest="20"
+                    WidthRequest="150"/>
+            </Grid>
+        </Grid>
+    </ContentView.Content>
+</ContentView>
