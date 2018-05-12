@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotDogOrNot.Views.HotDotView"
+             Title="HotDogOrNot">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image BackgroundColor="LightGray"
+                   Source="{Binding Photo}"
+                   Aspect="AspectFill"
+                   HeightRequest="240" />
+            <Button Text="Select a Photo"
+                    Command="{Binding PickPhotoCommand}" />
+            <Label Text="{Binding HotDogOrNot}"
+                   HorizontalTextAlignment="Center"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="30" />
+            <ListView ItemsSource="{Binding Predictions}"
+                      HorizontalOptions="Fill">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding TagName}" />
+                                    <Label Text="{Binding Probability, StringFormat='{0:P}'}"
+                                           HorizontalOptions="EndAndExpand" />
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
