@@ -1,0 +1,956 @@
+﻿<Asset xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="WaveEngine.Framework.Models">
+  <Id>2e9b3b54-defd-4157-9c04-0cd82c185471</Id>
+  <AsRaw>false</AsRaw>
+  <Asset xmlns:d2p1="WaveEngine.Framework.Models.Assets" i:type="d2p1:Model">
+    <d2p1:AssociatedFiles xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <d2p1:Profiles xmlns:d3p1="WaveEngine.Framework.Models.Profiles">
+      <d3p1:ExportProfile i:type="d3p1:ModelProfile">
+        <d3p1:ExcludeAsset>false</d3p1:ExcludeAsset>
+        <d3p1:Name i:nil="true" />
+      </d3p1:ExportProfile>
+    </d2p1:Profiles>
+    <d2p1:ZipCompress>true</d2p1:ZipCompress>
+    <d2p1:Clips xmlns:d3p1="WaveEngine.Framework.Models.Profiles" />
+    <d2p1:EmbeddedResources xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <d2p1:ExportAnimations>false</d2p1:ExportAnimations>
+    <d2p1:GenerateTangentSpace>true</d2p1:GenerateTangentSpace>
+    <d2p1:Materials>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>85</d5p1:B>
+          <d5p1:G>85</d5p1:G>
+          <d5p1:R>85</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>headlights</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>0.6867466</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>163</d5p1:B>
+          <d5p1:G>163</d5p1:G>
+          <d5p1:R>163</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>alloy</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>55</d5p1:B>
+          <d5p1:G>55</d5p1:G>
+          <d5p1:R>55</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>black_paint</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>255</d5p1:B>
+          <d5p1:G>255</d5p1:G>
+          <d5p1:R>255</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>tire</d2p1:Name>
+        <d2p1:NormalTextureFile>datsun240k_0.jpg</d2p1:NormalTextureFile>
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>31</d5p1:B>
+          <d5p1:G>31</d5p1:G>
+          <d5p1:R>31</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>black_matte</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>98</d5p1:B>
+          <d5p1:G>98</d5p1:G>
+          <d5p1:R>98</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>chrome</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>255</d5p1:B>
+          <d5p1:G>255</d5p1:G>
+          <d5p1:R>255</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>license</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>36</d5p1:B>
+          <d5p1:G>78</d5p1:G>
+          <d5p1:R>163</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>orange_glass</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>0.7922865</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>47</d5p1:B>
+          <d5p1:G>47</d5p1:G>
+          <d5p1:R>47</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>glass</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>0.9108652</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>69</d5p1:B>
+          <d5p1:G>78</d5p1:G>
+          <d5p1:R>87</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>paint</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>17</d5p1:B>
+          <d5p1:G>19</d5p1:G>
+          <d5p1:R>100</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>red_glass</d2p1:Name>
+        <d2p1:NormalTextureFile>datsun240k_1.jpg</d2p1:NormalTextureFile>
+        <d2p1:Opacity>0.917232454</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>163</d5p1:B>
+          <d5p1:G>163</d5p1:G>
+          <d5p1:R>163</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>coat</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>128</d5p1:B>
+          <d5p1:G>128</d5p1:G>
+          <d5p1:R>128</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>DefaultMaterial</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>255</d5p1:B>
+          <d5p1:G>255</d5p1:G>
+          <d5p1:R>255</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>stickers</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>0.199999988</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+    </d2p1:Materials>
+    <d2p1:Meshes>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>3</d2p1:MaterialIndex>
+        <d2p1:Name>Cylinder.013</d2p1:Name>
+        <d2p1:NumFaces>33792</d2p1:NumFaces>
+        <d2p1:NumVertices>17954</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>1</d2p1:MaterialIndex>
+        <d2p1:Name>Cylinder.013</d2p1:Name>
+        <d2p1:NumFaces>29496</d2p1:NumFaces>
+        <d2p1:NumVertices>16415</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>2</d2p1:MaterialIndex>
+        <d2p1:Name>Cylinder.013</d2p1:Name>
+        <d2p1:NumFaces>21120</d2p1:NumFaces>
+        <d2p1:NumVertices>14440</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>3</d2p1:MaterialIndex>
+        <d2p1:Name>Cylinder.014</d2p1:Name>
+        <d2p1:NumFaces>7052</d2p1:NumFaces>
+        <d2p1:NumVertices>5848</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>3</d2p1:MaterialIndex>
+        <d2p1:Name>Cylinder.012</d2p1:Name>
+        <d2p1:NumFaces>33792</d2p1:NumFaces>
+        <d2p1:NumVertices>17954</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>1</d2p1:MaterialIndex>
+        <d2p1:Name>Cylinder.012</d2p1:Name>
+        <d2p1:NumFaces>29496</d2p1:NumFaces>
+        <d2p1:NumVertices>16415</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>2</d2p1:MaterialIndex>
+        <d2p1:Name>Cylinder.012</d2p1:Name>
+        <d2p1:NumFaces>21120</d2p1:NumFaces>
+        <d2p1:NumVertices>14440</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>3</d2p1:MaterialIndex>
+        <d2p1:Name>Cylinder.011</d2p1:Name>
+        <d2p1:NumFaces>33792</d2p1:NumFaces>
+        <d2p1:NumVertices>17954</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>1</d2p1:MaterialIndex>
+        <d2p1:Name>Cylinder.011</d2p1:Name>
+        <d2p1:NumFaces>29496</d2p1:NumFaces>
+        <d2p1:NumVertices>16415</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>2</d2p1:MaterialIndex>
+        <d2p1:Name>Cylinder.011</d2p1:Name>
+        <d2p1:NumFaces>21120</d2p1:NumFaces>
+        <d2p1:NumVertices>14440</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>3</d2p1:MaterialIndex>
+        <d2p1:Name>Cylinder.010</d2p1:Name>
+        <d2p1:NumFaces>7052</d2p1:NumFaces>
+        <d2p1:NumVertices>5848</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>3</d2p1:MaterialIndex>
+        <d2p1:Name>Cylinder.009</d2p1:Name>
+        <d2p1:NumFaces>7052</d2p1:NumFaces>
+        <d2p1:NumVertices>5848</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>3</d2p1:MaterialIndex>
+        <d2p1:Name>Cylinder.007</d2p1:Name>
+        <d2p1:NumFaces>33792</d2p1:NumFaces>
+        <d2p1:NumVertices>17954</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>1</d2p1:MaterialIndex>
+        <d2p1:Name>Cylinder.007</d2p1:Name>
+        <d2p1:NumFaces>29496</d2p1:NumFaces>
+        <d2p1:NumVertices>16415</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>2</d2p1:MaterialIndex>
+        <d2p1:Name>Cylinder.007</d2p1:Name>
+        <d2p1:NumFaces>21120</d2p1:NumFaces>
+        <d2p1:NumVertices>14440</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>3</d2p1:MaterialIndex>
+        <d2p1:Name>Cylinder.008</d2p1:Name>
+        <d2p1:NumFaces>7052</d2p1:NumFaces>
+        <d2p1:NumVertices>5848</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>4</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.036</d2p1:Name>
+        <d2p1:NumFaces>22138</d2p1:NumFaces>
+        <d2p1:NumVertices>20399</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>6</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.056</d2p1:Name>
+        <d2p1:NumFaces>178</d2p1:NumFaces>
+        <d2p1:NumVertices>104</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>6</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.040</d2p1:Name>
+        <d2p1:NumFaces>178</d2p1:NumFaces>
+        <d2p1:NumVertices>104</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>13</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.034</d2p1:Name>
+        <d2p1:NumFaces>24</d2p1:NumFaces>
+        <d2p1:NumVertices>28</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.034</d2p1:Name>
+        <d2p1:NumFaces>360</d2p1:NumFaces>
+        <d2p1:NumVertices>211</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>13</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.033</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>13</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.032</d2p1:Name>
+        <d2p1:NumFaces>5</d2p1:NumFaces>
+        <d2p1:NumVertices>7</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>13</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.031</d2p1:Name>
+        <d2p1:NumFaces>24</d2p1:NumFaces>
+        <d2p1:NumVertices>28</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.031</d2p1:Name>
+        <d2p1:NumFaces>360</d2p1:NumFaces>
+        <d2p1:NumVertices>211</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>13</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.029</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>0</d2p1:MaterialIndex>
+        <d2p1:Name>Sphere.001</d2p1:Name>
+        <d2p1:NumFaces>41472</d2p1:NumFaces>
+        <d2p1:NumVertices>21516</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>0</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.053</d2p1:Name>
+        <d2p1:NumFaces>5984</d2p1:NumFaces>
+        <d2p1:NumVertices>3188</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.053</d2p1:Name>
+        <d2p1:NumFaces>896</d2p1:NumFaces>
+        <d2p1:NumVertices>484</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>7</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.053</d2p1:Name>
+        <d2p1:NumFaces>5824</d2p1:NumFaces>
+        <d2p1:NumVertices>3044</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>0</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.047</d2p1:Name>
+        <d2p1:NumFaces>27648</d2p1:NumFaces>
+        <d2p1:NumVertices>13824</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>4</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.047</d2p1:Name>
+        <d2p1:NumFaces>23424</d2p1:NumFaces>
+        <d2p1:NumVertices>11943</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.047</d2p1:Name>
+        <d2p1:NumFaces>74408</d2p1:NumFaces>
+        <d2p1:NumVertices>52226</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.047</d2p1:Name>
+        <d2p1:NumFaces>26784</d2p1:NumFaces>
+        <d2p1:NumVertices>15590</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>0</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.039</d2p1:Name>
+        <d2p1:NumFaces>5824</d2p1:NumFaces>
+        <d2p1:NumVertices>3074</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.039</d2p1:Name>
+        <d2p1:NumFaces>896</d2p1:NumFaces>
+        <d2p1:NumVertices>504</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>7</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.039</d2p1:Name>
+        <d2p1:NumFaces>5824</d2p1:NumFaces>
+        <d2p1:NumVertices>3066</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>2</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.055</d2p1:Name>
+        <d2p1:NumFaces>1824</d2p1:NumFaces>
+        <d2p1:NumVertices>937</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>4</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.055</d2p1:Name>
+        <d2p1:NumFaces>1824</d2p1:NumFaces>
+        <d2p1:NumVertices>937</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.055</d2p1:Name>
+        <d2p1:NumFaces>106179</d2p1:NumFaces>
+        <d2p1:NumVertices>54551</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>2</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.054</d2p1:Name>
+        <d2p1:NumFaces>91069</d2p1:NumFaces>
+        <d2p1:NumVertices>49533</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>4</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.054</d2p1:Name>
+        <d2p1:NumFaces>102546</d2p1:NumFaces>
+        <d2p1:NumVertices>65534</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>4</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.054</d2p1:Name>
+        <d2p1:NumFaces>57594</d2p1:NumFaces>
+        <d2p1:NumVertices>36739</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.054</d2p1:Name>
+        <d2p1:NumFaces>121798</d2p1:NumFaces>
+        <d2p1:NumVertices>65534</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.054</d2p1:Name>
+        <d2p1:NumFaces>123893</d2p1:NumFaces>
+        <d2p1:NumVertices>65534</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.054</d2p1:Name>
+        <d2p1:NumFaces>118708</d2p1:NumFaces>
+        <d2p1:NumVertices>65534</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.054</d2p1:Name>
+        <d2p1:NumFaces>60926</d2p1:NumFaces>
+        <d2p1:NumVertices>31325</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>2</d2p1:MaterialIndex>
+        <d2p1:Name>Cube.001</d2p1:Name>
+        <d2p1:NumFaces>11936</d2p1:NumFaces>
+        <d2p1:NumVertices>6556</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>2</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.049</d2p1:Name>
+        <d2p1:NumFaces>33184</d2p1:NumFaces>
+        <d2p1:NumVertices>17236</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>4</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.049</d2p1:Name>
+        <d2p1:NumFaces>21612</d2p1:NumFaces>
+        <d2p1:NumVertices>16831</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>4</d2p1:MaterialIndex>
+        <d2p1:Name>wyciroczka.001</d2p1:Name>
+        <d2p1:NumFaces>1843</d2p1:NumFaces>
+        <d2p1:NumVertices>978</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>wyciroczka.001</d2p1:Name>
+        <d2p1:NumFaces>11254</d2p1:NumFaces>
+        <d2p1:NumVertices>5760</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>4</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.052</d2p1:Name>
+        <d2p1:NumFaces>550</d2p1:NumFaces>
+        <d2p1:NumVertices>446</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>4</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.048</d2p1:Name>
+        <d2p1:NumFaces>592</d2p1:NumFaces>
+        <d2p1:NumVertices>464</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>4</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.046</d2p1:Name>
+        <d2p1:NumFaces>8192</d2p1:NumFaces>
+        <d2p1:NumVertices>6232</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.046</d2p1:Name>
+        <d2p1:NumFaces>9472</d2p1:NumFaces>
+        <d2p1:NumVertices>7360</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>4</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.044</d2p1:Name>
+        <d2p1:NumFaces>5427</d2p1:NumFaces>
+        <d2p1:NumVertices>4342</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>4</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.042</d2p1:Name>
+        <d2p1:NumFaces>39384</d2p1:NumFaces>
+        <d2p1:NumVertices>26856</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.057</d2p1:Name>
+        <d2p1:NumFaces>4286</d2p1:NumFaces>
+        <d2p1:NumVertices>3240</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.043</d2p1:Name>
+        <d2p1:NumFaces>11734</d2p1:NumFaces>
+        <d2p1:NumVertices>8253</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>7</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.038</d2p1:Name>
+        <d2p1:NumFaces>6208</d2p1:NumFaces>
+        <d2p1:NumVertices>3276</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>7</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.037</d2p1:Name>
+        <d2p1:NumFaces>1408</d2p1:NumFaces>
+        <d2p1:NumVertices>900</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>8</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.051</d2p1:Name>
+        <d2p1:NumFaces>9228</d2p1:NumFaces>
+        <d2p1:NumVertices>7053</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>9</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.050</d2p1:Name>
+        <d2p1:NumFaces>1520</d2p1:NumFaces>
+        <d2p1:NumVertices>1254</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>9</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.045</d2p1:Name>
+        <d2p1:NumFaces>104514</d2p1:NumFaces>
+        <d2p1:NumVertices>65534</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>9</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.045</d2p1:Name>
+        <d2p1:NumFaces>54344</d2p1:NumFaces>
+        <d2p1:NumVertices>34569</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>11</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.041</d2p1:Name>
+        <d2p1:NumFaces>107511</d2p1:NumFaces>
+        <d2p1:NumVertices>65534</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>11</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.041</d2p1:Name>
+        <d2p1:NumFaces>107763</d2p1:NumFaces>
+        <d2p1:NumVertices>65534</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>11</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.041</d2p1:Name>
+        <d2p1:NumFaces>2633</d2p1:NumFaces>
+        <d2p1:NumVertices>1822</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>12</d2p1:MaterialIndex>
+        <d2p1:Name>Plane.035</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+    </d2p1:Meshes>
+    <d2p1:Nodes xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+      <d3p1:string>RootNode</d3p1:string>
+      <d3p1:string>RootNode.Sphere_001</d3p1:string>
+      <d3p1:string>RootNode.Cylinder_013</d3p1:string>
+      <d3p1:string>RootNode.Cylinder_013.Cylinder_014</d3p1:string>
+      <d3p1:string>RootNode.Plane_036</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.wyciroczka_001</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Cylinder_012</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_057</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_056</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_055</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_054</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_053</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_052</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_051</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Cube_002</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Cube_001</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_050</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_049</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_048</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_047</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_046</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_045</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_044</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_043</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_042</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_041</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Cylinder_011</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_040</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_039</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_038</d3p1:string>
+      <d3p1:string>RootNode.Plane_036.Plane_037</d3p1:string>
+      <d3p1:string>RootNode.Plane_035</d3p1:string>
+      <d3p1:string>RootNode.Cylinder_010</d3p1:string>
+      <d3p1:string>RootNode.Cylinder_009</d3p1:string>
+      <d3p1:string>RootNode.Cylinder_007</d3p1:string>
+      <d3p1:string>RootNode.Cylinder_007.Cylinder_008</d3p1:string>
+      <d3p1:string>RootNode.Plane_034</d3p1:string>
+      <d3p1:string>RootNode.Plane_033</d3p1:string>
+      <d3p1:string>RootNode.Plane_032</d3p1:string>
+      <d3p1:string>RootNode.Plane_031</d3p1:string>
+      <d3p1:string>RootNode.Plane_029</d3p1:string>
+    </d2p1:Nodes>
+    <d2p1:SourceAnimationTracks xmlns:d3p1="http://schemas.datacontract.org/2004/07/WaveEngine.Framework.Models.Profiles" />
+    <d2p1:SwapWindingOrder>true</d2p1:SwapWindingOrder>
+  </Asset>
+  <Thumbnail i:nil="true" />
+  <Version xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
+    <d2p1:_Build>0</d2p1:_Build>
+    <d2p1:_Major>1</d2p1:_Major>
+    <d2p1:_Minor>0</d2p1:_Minor>
+    <d2p1:_Revision>0</d2p1:_Revision>
+  </Version>
+</Asset>

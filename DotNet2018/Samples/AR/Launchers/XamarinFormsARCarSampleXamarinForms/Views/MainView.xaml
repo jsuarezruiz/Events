@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slideOverKit:MenuContainerPage xmlns="http://xamarin.com/schemas/2014/forms"
+                                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                                x:Class="XamarinFormsARCarSample.Views.MainView"
+                                xmlns:converters="clr-namespace:XamarinFormsARCarSample.Converters;assembly=XamarinFormsARCarSample"
+                                xmlns:controls="clr-namespace:XamarinFormsARCarSample.Controls;assembly=XamarinFormsARCarSample"
+                                xmlns:slideOverKit="clr-namespace:SlideOverKit;assembly=SlideOverKit">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <!-- COLORS -->
+            <Color x:Key="WhiteColor">#ffffff</Color>
+            <Color x:Key="BlackColor">#000000</Color>
+
+            <!-- CONVERTERS -->
+            <converters:InverseBoolConverter x:Key="InverseBoolConverter" />
+
+            <!-- STYLES -->
+            <Style x:Key="MenuImageStyle"
+                   TargetType="Image">
+                <Setter Property="HorizontalOptions"
+                        Value="Start" />
+                <Setter Property="VerticalOptions"
+                        Value="Start" />
+                <Setter Property="HeightRequest"
+                        Value="48" />
+                <Setter Property="WidthRequest"
+                        Value="48" />
+                <Setter Property="Margin"
+                        Value="12" />
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid>
+        <Grid>
+            <AbsoluteLayout>
+                <!-- WAVE ENGINE SURFACE -->
+                <controls:WaveEngineSurface x:Name="WaveEngineSurface"
+                                            AbsoluteLayout.LayoutFlags="All"
+                                            AbsoluteLayout.LayoutBounds="0, 0, 1, 1" />
+            </AbsoluteLayout>
+            <!-- MENU -->
+            <Image Source="menu"
+                   Style="{StaticResource MenuImageStyle}">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding OpenMenuCommand}" />
+                </Image.GestureRecognizers>
+            </Image>
+        </Grid>
+        <!-- LOADING -->
+        <Grid BackgroundColor="{StaticResource WhiteColor}"
+              IsVisible="{Binding IsInit, Converter={StaticResource InverseBoolConverter}}">
+            <ActivityIndicator Color="{StaticResource BlackColor}"
+                               IsRunning="True"
+                               IsVisible="{Binding IsInit, Converter={StaticResource InverseBoolConverter}}"
+                               HeightRequest="100"
+                               WidthRequest="100"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center" />
+        </Grid>
+    </Grid>
+</slideOverKit:MenuContainerPage>

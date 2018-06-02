@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<slideOverKit:SlideMenuView xmlns="http://xamarin.com/schemas/2014/forms"
+                            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                            x:Class="XamarinFormsARCarSample.Views.ColorsView"
+                            xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+                            xmlns:slideOverKit="clr-namespace:SlideOverKit;assembly=SlideOverKit"
+                            MenuOrientations="LeftToRight"
+                            AnimationDurationMillisecond="500"
+                            WidthRequest="300"
+                            BackgroundViewColor="Transparent"
+                            IsFullScreen="True">
+    <slideOverKit:SlideMenuView.Resources>
+        <ResourceDictionary>
+
+            <Color x:Key="ColorsBackgroundColor">#B3222527</Color>
+
+            <Style x:Key="CloseImageStyle"
+                   TargetType="Image">
+                <Setter Property="VerticalOptions"
+                        Value="Start" />
+                <Setter Property="Margin"
+                        Value="0, 6, 6, 6" />
+            </Style>
+
+        </ResourceDictionary>
+    </slideOverKit:SlideMenuView.Resources>
+    <Grid BackgroundColor="{StaticResource ColorsBackgroundColor}"
+          WidthRequest="300">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="9*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1">
+            <Image Source="ico_close_white"
+                   Style="{StaticResource CloseImageStyle}" />
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding CloseMenuCommand}"
+                                      NumberOfTapsRequired="1" />
+            </Grid.GestureRecognizers>
+        </Grid>
+        <flv:FlowListView  Grid.Column="0"
+                           FlowColumnCount="4"
+                           FlowColumnMinWidth="100"
+                           SeparatorVisibility="None"
+                           HasUnevenRows="false"
+                           FlowItemsSource="{Binding Colors}"
+                           FlowItemTappedCommand="{Binding ColorTappedCommand}">
+            <flv:FlowListView.FlowColumnTemplate>
+                <DataTemplate>
+                    <StackLayout BackgroundColor="{Binding Hex}"
+                                 VerticalOptions="Fill"
+                                 Margin="0, 0, 6, 6" />
+                </DataTemplate>
+            </flv:FlowListView.FlowColumnTemplate>
+        </flv:FlowListView>
+    </Grid>
+</slideOverKit:SlideMenuView>

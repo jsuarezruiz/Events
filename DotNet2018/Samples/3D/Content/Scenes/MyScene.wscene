@@ -1,0 +1,2264 @@
+﻿<Scene xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="WaveEngine.Framework.Models">
+  <Id>ca1e2372-d6d6-46d2-b894-6ae25ffff02f</Id>
+  <Entities xmlns:d2p1="WaveEngine.Framework.Models.Entities">
+    <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+      <d2p1:SerializeChildrens />
+      <d2p1:isDisabled>false</d2p1:isDisabled>
+      <d2p1:isStatic>false</d2p1:isStatic>
+      <d2p1:isVisible>true</d2p1:isVisible>
+      <d2p1:name>camera</d2p1:name>
+      <d2p1:tag i:nil="true" />
+      <d2p1:SerializeComponents xmlns:d4p1="WaveEngine.Framework">
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Graphics" i:type="d5p1:Transform3D">
+          <d5p1:LocalOrientation xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:W>0.923879564</d6p1:W>
+            <d6p1:X>-0.3826834</d6p1:X>
+            <d6p1:Y>0</d6p1:Y>
+            <d6p1:Z>0</d6p1:Z>
+          </d5p1:LocalOrientation>
+          <d5p1:LocalPosition xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>-1.02072562E-07</d6p1:X>
+            <d6p1:Y>20</d6p1:Y>
+            <d6p1:Z>20</d6p1:Z>
+          </d5p1:LocalPosition>
+          <d5p1:LocalScale xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>1</d6p1:X>
+            <d6p1:Y>1</d6p1:Y>
+            <d6p1:Z>1</d6p1:Z>
+          </d5p1:LocalScale>
+        </d4p1:Component>
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Graphics" i:type="d5p1:Camera3D">
+          <d5p1:BackgroundColor xmlns:d6p1="WaveEngine.Common.Graphics">
+            <d6p1:A>255</d6p1:A>
+            <d6p1:B>237</d6p1:B>
+            <d6p1:G>149</d6p1:G>
+            <d6p1:R>100</d6p1:R>
+          </d5p1:BackgroundColor>
+          <d5p1:CameraOrder>0</d5p1:CameraOrder>
+          <d5p1:ClearDepth>1</d5p1:ClearDepth>
+          <d5p1:ClearFlags>All</d5p1:ClearFlags>
+          <d5p1:ClearStencil>0</d5p1:ClearStencil>
+          <d5p1:DepthRange xmlns:d6p1="WaveEngine.Common.Graphics">
+            <d6p1:MaxDepth>1</d6p1:MaxDepth>
+            <d6p1:MinDepth>0</d6p1:MinDepth>
+          </d5p1:DepthRange>
+          <d5p1:FarPlane>1000</d5p1:FarPlane>
+          <d5p1:FieldOfView>0.7853982</d5p1:FieldOfView>
+          <d5p1:FrustumCullingEnabled>true</d5p1:FrustumCullingEnabled>
+          <d5p1:IsActive>true</d5p1:IsActive>
+          <d5p1:LayerMaskDefaultValue>true</d5p1:LayerMaskDefaultValue>
+          <d5p1:NearPlane>1</d5p1:NearPlane>
+          <d5p1:UpVector xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>0</d6p1:X>
+            <d6p1:Y>1</d6p1:Y>
+            <d6p1:Z>0</d6p1:Z>
+          </d5p1:UpVector>
+          <d5p1:Viewport xmlns:d6p1="WaveEngine.Common.Graphics">
+            <d6p1:Height>1</d6p1:Height>
+            <d6p1:Width>1</d6p1:Width>
+            <d6p1:X>0</d6p1:X>
+            <d6p1:Y>0</d6p1:Y>
+          </d5p1:Viewport>
+          <d5p1:AspectRatio>1.78217816</d5p1:AspectRatio>
+        </d4p1:Component>
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Sound" i:type="d5p1:SoundListener3D">
+          <d4p1:UpdateOrder>0.5</d4p1:UpdateOrder>
+          <d4p1:isDisabled>false</d4p1:isDisabled>
+        </d4p1:Component>
+        <d4p1:Component xmlns:d5p1="http://schemas.datacontract.org/2004/07/XamarinForms3DCarSample.Behaviors" i:type="d5p1:LimitCameraBehavior">
+          <d4p1:UpdateOrder>0.5</d4p1:UpdateOrder>
+          <d4p1:isDisabled>false</d4p1:isDisabled>
+          <d5p1:MaxPitch>0.235619411</d5p1:MaxPitch>
+          <d5p1:MaxYaw>0.235619411</d5p1:MaxYaw>
+          <d5p1:RotationSpeed>10</d5p1:RotationSpeed>
+          <d5p1:Speed>20</d5p1:Speed>
+        </d4p1:Component>
+        <d4p1:Component xmlns:d5p1="http://schemas.datacontract.org/2004/07/XamarinForms3DCarSample.Components" i:type="d5p1:AnimationCameraComponent">
+          <d5p1:RotationDuration>2</d5p1:RotationDuration>
+          <d5p1:TranslationDuration>2</d5p1:TranslationDuration>
+        </d4p1:Component>
+      </d2p1:SerializeComponents>
+    </d2p1:BaseEntityModel>
+    <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+      <d2p1:SerializeChildrens />
+      <d2p1:isDisabled>false</d2p1:isDisabled>
+      <d2p1:isStatic>false</d2p1:isStatic>
+      <d2p1:isVisible>true</d2p1:isVisible>
+      <d2p1:name>frontLight</d2p1:name>
+      <d2p1:tag i:nil="true" />
+      <d2p1:SerializeComponents xmlns:d4p1="WaveEngine.Framework">
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Graphics" i:type="d5p1:Transform3D">
+          <d5p1:LocalOrientation xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:W>1</d6p1:W>
+            <d6p1:X>0</d6p1:X>
+            <d6p1:Y>0</d6p1:Y>
+            <d6p1:Z>0</d6p1:Z>
+          </d5p1:LocalOrientation>
+          <d5p1:LocalPosition xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>3.23791933</d6p1:X>
+            <d6p1:Y>6.81779861</d6p1:Y>
+            <d6p1:Z>20.7751846</d6p1:Z>
+          </d5p1:LocalPosition>
+          <d5p1:LocalScale xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>1</d6p1:X>
+            <d6p1:Y>1</d6p1:Y>
+            <d6p1:Z>1</d6p1:Z>
+          </d5p1:LocalScale>
+        </d4p1:Component>
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Graphics" i:type="d5p1:DirectionalLightProperties">
+          <d5p1:Color xmlns:d6p1="WaveEngine.Common.Graphics">
+            <d6p1:A>255</d6p1:A>
+            <d6p1:B>255</d6p1:B>
+            <d6p1:G>255</d6p1:G>
+            <d6p1:R>255</d6p1:R>
+          </d5p1:Color>
+          <d5p1:Intensity>1</d5p1:Intensity>
+          <d5p1:isLightDisabled>false</d5p1:isLightDisabled>
+        </d4p1:Component>
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Graphics" i:type="d5p1:DirectionalLightRenderer">
+          <d4p1:FrustumCullingEnabled>true</d4p1:FrustumCullingEnabled>
+          <d4p1:IsVisible>true</d4p1:IsVisible>
+        </d4p1:Component>
+      </d2p1:SerializeComponents>
+    </d2p1:BaseEntityModel>
+    <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+      <d2p1:SerializeChildrens />
+      <d2p1:isDisabled>false</d2p1:isDisabled>
+      <d2p1:isStatic>false</d2p1:isStatic>
+      <d2p1:isVisible>true</d2p1:isVisible>
+      <d2p1:name>lateralLight</d2p1:name>
+      <d2p1:tag i:nil="true" />
+      <d2p1:SerializeComponents xmlns:d4p1="WaveEngine.Framework">
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Graphics" i:type="d5p1:Transform3D">
+          <d5p1:LocalOrientation xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:W>1</d6p1:W>
+            <d6p1:X>0</d6p1:X>
+            <d6p1:Y>0</d6p1:Y>
+            <d6p1:Z>0</d6p1:Z>
+          </d5p1:LocalOrientation>
+          <d5p1:LocalPosition xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>6.53631449</d6p1:X>
+            <d6p1:Y>4</d6p1:Y>
+            <d6p1:Z>4</d6p1:Z>
+          </d5p1:LocalPosition>
+          <d5p1:LocalScale xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>1</d6p1:X>
+            <d6p1:Y>1</d6p1:Y>
+            <d6p1:Z>1</d6p1:Z>
+          </d5p1:LocalScale>
+        </d4p1:Component>
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Graphics" i:type="d5p1:DirectionalLightProperties">
+          <d5p1:Color xmlns:d6p1="WaveEngine.Common.Graphics">
+            <d6p1:A>255</d6p1:A>
+            <d6p1:B>255</d6p1:B>
+            <d6p1:G>255</d6p1:G>
+            <d6p1:R>255</d6p1:R>
+          </d5p1:Color>
+          <d5p1:Intensity>1</d5p1:Intensity>
+          <d5p1:isLightDisabled>false</d5p1:isLightDisabled>
+        </d4p1:Component>
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Graphics" i:type="d5p1:DirectionalLightRenderer">
+          <d4p1:FrustumCullingEnabled>true</d4p1:FrustumCullingEnabled>
+          <d4p1:IsVisible>true</d4p1:IsVisible>
+        </d4p1:Component>
+      </d2p1:SerializeComponents>
+    </d2p1:BaseEntityModel>
+    <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+      <d2p1:SerializeChildrens>
+        <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+          <d2p1:SerializeChildrens />
+          <d2p1:isDisabled>false</d2p1:isDisabled>
+          <d2p1:isStatic>false</d2p1:isStatic>
+          <d2p1:isVisible>true</d2p1:isVisible>
+          <d2p1:name>Sphere_001</d2p1:name>
+          <d2p1:tag i:nil="true" />
+          <d2p1:SerializeComponents xmlns:d6p1="WaveEngine.Framework">
+            <d6p1:Component xmlns:d7p1="WaveEngine.Framework.Graphics" i:type="d7p1:Transform3D">
+              <d7p1:LocalOrientation xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:W>8.146034E-08</d8p1:W>
+                <d8p1:X>1</d8p1:X>
+                <d8p1:Y>2.42647382E-24</d8p1:Y>
+                <d8p1:Z>-1.11022355E-16</d8p1:Z>
+              </d7p1:LocalOrientation>
+              <d7p1:LocalPosition xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>-0.205804288</d8p1:X>
+                <d8p1:Y>3.419494</d8p1:Y>
+                <d8p1:Z>0.336103976</d8p1:Z>
+              </d7p1:LocalPosition>
+              <d7p1:LocalScale xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>56.67585</d8p1:X>
+                <d8p1:Y>56.67585</d8p1:Y>
+                <d8p1:Z>38.19649</d8p1:Z>
+              </d7p1:LocalScale>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>headlights</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/headlights.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:FileMesh">
+              <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Sphere_001</ModelMeshName>
+              <d7p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d7p1:ModelPath>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="WaveEngine.Components.Graphics3D" i:type="d7p1:MeshRenderer">
+              <d6p1:FrustumCullingEnabled>true</d6p1:FrustumCullingEnabled>
+              <d6p1:IsVisible>true</d6p1:IsVisible>
+            </d6p1:Component>
+          </d2p1:SerializeComponents>
+        </d2p1:BaseEntityModel>
+        <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+          <d2p1:SerializeChildrens>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Cylinder_014</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>0.7910759</d10p1:W>
+                    <d10p1:X>0.00437287148</d10p1:X>
+                    <d10p1:Y>0.6046226</d10p1:Y>
+                    <d10p1:Z>0.09279711</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>4.76837148E-09</d10p1:X>
+                    <d10p1:Y>4.76837148E-09</d10p1:Y>
+                    <d10p1:Z>2.38418574E-09</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0.0104306927</d10p1:X>
+                    <d10p1:Y>0.0103714261</d10p1:Y>
+                    <d10p1:Z>0.0135053229</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>tire</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/tire.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Cylinder_014</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+          </d2p1:SerializeChildrens>
+          <d2p1:isDisabled>false</d2p1:isDisabled>
+          <d2p1:isStatic>false</d2p1:isStatic>
+          <d2p1:isVisible>true</d2p1:isVisible>
+          <d2p1:name>Cylinder_013</d2p1:name>
+          <d2p1:tag i:nil="true" />
+          <d2p1:SerializeComponents xmlns:d6p1="WaveEngine.Framework">
+            <d6p1:Component xmlns:d7p1="WaveEngine.Framework.Graphics" i:type="d7p1:Transform3D">
+              <d7p1:LocalOrientation xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:W>-1.37678768E-07</d8p1:W>
+                <d8p1:X>1.37678768E-07</d8p1:X>
+                <d8p1:Y>0.7071068</d8p1:Y>
+                <d8p1:Z>0.7071067</d8p1:Z>
+              </d7p1:LocalOrientation>
+              <d7p1:LocalPosition xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>-4.131233</d8p1:X>
+                <d8p1:Y>1.70907938</d8p1:Y>
+                <d8p1:Z>-6.12984848</d8p1:Z>
+              </d7p1:LocalPosition>
+              <d7p1:LocalScale xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>103.0605</d8p1:X>
+                <d8p1:Y>115.468178</d8p1:Y>
+                <d8p1:Z>115.468178</d8p1:Z>
+              </d7p1:LocalScale>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>tire</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/tire.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>alloy</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/alloy.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>black_paint</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/black_paint.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:FileMesh">
+              <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Cylinder_013</ModelMeshName>
+              <d7p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d7p1:ModelPath>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="WaveEngine.Components.Graphics3D" i:type="d7p1:MeshRenderer">
+              <d6p1:FrustumCullingEnabled>true</d6p1:FrustumCullingEnabled>
+              <d6p1:IsVisible>true</d6p1:IsVisible>
+            </d6p1:Component>
+          </d2p1:SerializeComponents>
+        </d2p1:BaseEntityModel>
+        <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+          <d2p1:SerializeChildrens>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>wyciroczka_001</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>0.9449806</d10p1:W>
+                    <d10p1:X>-0.257786632</d10p1:X>
+                    <d10p1:Y>-0.00300421845</d10p1:Y>
+                    <d10p1:Z>0.201367065</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0.0333419852</d10p1:X>
+                    <d10p1:Y>-0.038889315</d10p1:Y>
+                    <d10p1:Z>0.0126472637</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0.9999998</d10p1:X>
+                    <d10p1:Y>0.99999994</d10p1:Y>
+                    <d10p1:Z>0.9999999</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>black_matte</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/black_matte.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>chrome</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/chrome.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">wyciroczka_001</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Cylinder_012</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>1</d10p1:W>
+                    <d10p1:X>-3.05851544E-09</d10p1:X>
+                    <d10p1:Y>-8.747623E-10</d10p1:Y>
+                    <d10p1:Z>-7.22932736E-09</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0.039254263</d10p1:X>
+                    <d10p1:Y>0.06465952</d10p1:Y>
+                    <d10p1:Z>-0.0171041451</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1.030605</d10p1:X>
+                    <d10p1:Y>1.1546818</d10p1:Y>
+                    <d10p1:Z>1.1546818</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>tire</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/tire.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>alloy</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/alloy.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>black_paint</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/black_paint.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Cylinder_012</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_057</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>1</d10p1:W>
+                    <d10p1:X>-8.12113932E-10</d10p1:X>
+                    <d10p1:Y>5.357421E-10</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0</d10p1:X>
+                    <d10p1:Y>1.19209287E-09</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>chrome</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/chrome.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_057</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_056</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>-1.76463885E-07</d10p1:W>
+                    <d10p1:X>1.45755592E-07</d10p1:X>
+                    <d10p1:Y>0.635186732</d10p1:Y>
+                    <d10p1:Z>0.772358656</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>2.235174E-09</d10p1:X>
+                    <d10p1:Y>0.114337772</d10p1:Y>
+                    <d10p1:Z>-0.009544504</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0.961723447</d10p1:X>
+                    <d10p1:Y>0.9617234</d10p1:Y>
+                    <d10p1:Z>0.961723447</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>license</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/license.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_056</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_055</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>0.7071067</d10p1:W>
+                    <d10p1:X>-0.7071068</d10p1:X>
+                    <d10p1:Y>-2.955361E-08</d10p1:Y>
+                    <d10p1:Z>-3.031127E-08</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>-0.00662320247</d10p1:X>
+                    <d10p1:Y>-0.0305723064</d10p1:Y>
+                    <d10p1:Z>0.009055903</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>0.99999994</d10p1:Y>
+                    <d10p1:Z>0.99999994</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>black_paint</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/black_paint.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>black_matte</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/black_matte.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>chrome</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/chrome.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_055</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_054</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>-1.94707184E-07</d10p1:W>
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>9.784898E-15</d10p1:Y>
+                    <d10p1:Z>-5.357421E-10</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0</d10p1:X>
+                    <d10p1:Y>1.19209287E-09</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>black_paint</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/black_paint.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>black_matte</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/black_matte.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>chrome</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/chrome.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_054</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_053</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>-3.13916445E-07</d10p1:W>
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1.705847E-14</d10p1:Y>
+                    <d10p1:Z>-5.357421E-10</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>-2.38418574E-09</d10p1:X>
+                    <d10p1:Y>-8.21101639E-05</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>headlights</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/headlights.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>chrome</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/chrome.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>orange_glass</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/orange_glass.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_053</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_052</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>1</d10p1:W>
+                    <d10p1:X>-3.058516E-09</d10p1:X>
+                    <d10p1:Y>-8.747634E-10</d10p1:Y>
+                    <d10p1:Z>-1.33896E-16</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0</d10p1:X>
+                    <d10p1:Y>1.19209287E-09</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>black_matte</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/black_matte.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_052</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_051</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>1</d10p1:W>
+                    <d10p1:X>-2.79834977E-09</d10p1:X>
+                    <d10p1:Y>9.475798E-10</d10p1:Y>
+                    <d10p1:Z>-1.22115655E-16</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0</d10p1:X>
+                    <d10p1:Y>1.19209287E-09</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>glass</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/glass.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_051</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Cube_002</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>0.9396926</d10p1:W>
+                    <d10p1:X>0.342020124</d10p1:X>
+                    <d10p1:Y>-3.27852012E-09</d10p1:Y>
+                    <d10p1:Z>-2.917815E-09</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0.0154290386</d10p1:X>
+                    <d10p1:Y>0.06465969</d10p1:Y>
+                    <d10p1:Z>-0.0194069259</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>0.99999994</d10p1:Y>
+                    <d10p1:Z>0.99999994</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Cube_001</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>-1.634484E-07</d10p1:W>
+                    <d10p1:X>1.11909145E-07</d10p1:X>
+                    <d10p1:Y>0.7071068</d10p1:Y>
+                    <d10p1:Z>-0.7071067</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>-0.0112886876</d10p1:X>
+                    <d10p1:Y>-0.108948812</d10p1:Y>
+                    <d10p1:Z>-0.00163466216</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0.99999994</d10p1:X>
+                    <d10p1:Y>0.99999994</d10p1:Y>
+                    <d10p1:Z>0.99999994</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>black_paint</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/black_paint.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Cube_001</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_050</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>1</d10p1:W>
+                    <d10p1:X>-3.058516E-09</d10p1:X>
+                    <d10p1:Y>-8.747634E-10</d10p1:Y>
+                    <d10p1:Z>-1.33896E-16</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0</d10p1:X>
+                    <d10p1:Y>1.19209287E-09</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>paint</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/paint.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_050</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_049</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>-1.94707184E-07</d10p1:W>
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>9.784898E-15</d10p1:Y>
+                    <d10p1:Z>-5.357421E-10</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0</d10p1:X>
+                    <d10p1:Y>1.19209287E-09</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>black_paint</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/black_paint.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>black_matte</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/black_matte.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_049</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_048</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>-1.94707184E-07</d10p1:W>
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>9.784898E-15</d10p1:Y>
+                    <d10p1:Z>-5.357421E-10</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0</d10p1:X>
+                    <d10p1:Y>1.19209287E-09</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>black_matte</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/black_matte.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_048</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_047</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>-1.94707184E-07</d10p1:W>
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>9.784898E-15</d10p1:Y>
+                    <d10p1:Z>-5.357421E-10</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0</d10p1:X>
+                    <d10p1:Y>1.19209287E-09</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>headlights</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/headlights.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>black_matte</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/black_matte.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>chrome</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/chrome.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>red_glass</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/red_glass.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_047</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_046</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>-1.94707184E-07</d10p1:W>
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>9.784898E-15</d10p1:Y>
+                    <d10p1:Z>-5.357421E-10</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0</d10p1:X>
+                    <d10p1:Y>1.19209287E-09</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>black_matte</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/black_matte.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>chrome</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/chrome.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_046</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_045</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>1</d10p1:W>
+                    <d10p1:X>-3.058516E-09</d10p1:X>
+                    <d10p1:Y>-8.747634E-10</d10p1:Y>
+                    <d10p1:Z>-1.33896E-16</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0</d10p1:X>
+                    <d10p1:Y>1.19209287E-09</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>paint</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/paint.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_045</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_044</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>1</d10p1:W>
+                    <d10p1:X>-3.058516E-09</d10p1:X>
+                    <d10p1:Y>-8.747634E-10</d10p1:Y>
+                    <d10p1:Z>-1.33896E-16</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0</d10p1:X>
+                    <d10p1:Y>1.19209287E-09</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>black_matte</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/black_matte.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_044</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_043</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>1</d10p1:W>
+                    <d10p1:X>-3.058516E-09</d10p1:X>
+                    <d10p1:Y>-8.747634E-10</d10p1:Y>
+                    <d10p1:Z>-1.33896E-16</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0</d10p1:X>
+                    <d10p1:Y>1.19209287E-09</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>chrome</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/chrome.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_043</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_042</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>1</d10p1:W>
+                    <d10p1:X>-8.12113932E-10</d10p1:X>
+                    <d10p1:Y>5.357421E-10</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0</d10p1:X>
+                    <d10p1:Y>1.19209287E-09</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>black_matte</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/black_matte.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_042</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_041</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>1</d10p1:W>
+                    <d10p1:X>-3.058516E-09</d10p1:X>
+                    <d10p1:Y>-8.747634E-10</d10p1:Y>
+                    <d10p1:Z>-1.33896E-16</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0</d10p1:X>
+                    <d10p1:Y>1.19209287E-09</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>coat</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/coat.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_041</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Cylinder_011</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>0.9928956</d10p1:W>
+                    <d10p1:X>-3.06554E-09</d10p1:X>
+                    <d10p1:Y>-4.156273E-10</d10p1:Y>
+                    <d10p1:Z>-0.118988708</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0.0388814248</d10p1:X>
+                    <d10p1:Y>-0.07661615</d10p1:Y>
+                    <d10p1:Z>-0.0171041451</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1.030605</d10p1:X>
+                    <d10p1:Y>1.15468192</d10p1:Y>
+                    <d10p1:Z>1.1546818</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>tire</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/tire.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>alloy</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/alloy.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>black_paint</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/black_paint.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Cylinder_011</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_040</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>0.638284147</d10p1:W>
+                    <d10p1:X>0.7696308</d10p1:X>
+                    <d10p1:Y>0.0131210592</d10p1:Y>
+                    <d10p1:Z>0.009468697</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0.0133161061</d10p1:X>
+                    <d10p1:Y>-0.117290519</d10p1:Y>
+                    <d10p1:Z>-0.0124482531</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0.8712834</d10p1:X>
+                    <d10p1:Y>0.871283531</d10p1:Y>
+                    <d10p1:Z>0.8712834</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>license</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/license.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_040</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_039</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>-4.33125734E-07</d10p1:W>
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>2.433204E-14</d10p1:Y>
+                    <d10p1:Z>-5.35738565E-10</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>2.235174E-09</d10p1:X>
+                    <d10p1:Y>0.00184989057</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>headlights</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/headlights.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>chrome</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/chrome.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>orange_glass</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/orange_glass.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_039</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_038</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>-1.94707184E-07</d10p1:W>
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>9.784898E-15</d10p1:Y>
+                    <d10p1:Z>-5.357421E-10</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0</d10p1:X>
+                    <d10p1:Y>1.19209287E-09</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>orange_glass</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/orange_glass.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_038</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Plane_037</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>-1.94707184E-07</d10p1:W>
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>9.784898E-15</d10p1:Y>
+                    <d10p1:Z>-5.357421E-10</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0</d10p1:X>
+                    <d10p1:Y>1.19209287E-09</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>1</d10p1:X>
+                    <d10p1:Y>1</d10p1:Y>
+                    <d10p1:Z>1</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>orange_glass</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/orange_glass.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_037</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+          </d2p1:SerializeChildrens>
+          <d2p1:isDisabled>false</d2p1:isDisabled>
+          <d2p1:isStatic>false</d2p1:isStatic>
+          <d2p1:isVisible>true</d2p1:isVisible>
+          <d2p1:name>Plane_036</d2p1:name>
+          <d2p1:tag i:nil="true" />
+          <d2p1:SerializeComponents xmlns:d6p1="WaveEngine.Framework">
+            <d6p1:Component xmlns:d7p1="WaveEngine.Framework.Graphics" i:type="d7p1:Transform3D">
+              <d7p1:LocalOrientation xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:W>0.7071068</d8p1:W>
+                <d8p1:X>-0.7071067</d8p1:X>
+                <d8p1:Y>0</d8p1:Y>
+                <d8p1:Z>0</d8p1:Z>
+              </d7p1:LocalOrientation>
+              <d7p1:LocalPosition xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>-0.205803975</d8p1:X>
+                <d8p1:Y>3.419494</d8p1:Y>
+                <d8p1:Z>0.336103052</d8p1:Z>
+              </d7p1:LocalPosition>
+              <d7p1:LocalScale xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>100</d8p1:X>
+                <d8p1:Y>99.99999</d8p1:Y>
+                <d8p1:Z>99.99999</d8p1:Z>
+              </d7p1:LocalScale>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>black_matte</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/black_matte.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:FileMesh">
+              <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_036</ModelMeshName>
+              <d7p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d7p1:ModelPath>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="WaveEngine.Components.Graphics3D" i:type="d7p1:MeshRenderer">
+              <d6p1:FrustumCullingEnabled>true</d6p1:FrustumCullingEnabled>
+              <d6p1:IsVisible>true</d6p1:IsVisible>
+            </d6p1:Component>
+          </d2p1:SerializeComponents>
+        </d2p1:BaseEntityModel>
+        <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+          <d2p1:SerializeChildrens />
+          <d2p1:isDisabled>false</d2p1:isDisabled>
+          <d2p1:isStatic>false</d2p1:isStatic>
+          <d2p1:isVisible>true</d2p1:isVisible>
+          <d2p1:name>Plane_035</d2p1:name>
+          <d2p1:tag i:nil="true" />
+          <d2p1:SerializeComponents xmlns:d6p1="WaveEngine.Framework">
+            <d6p1:Component xmlns:d7p1="WaveEngine.Framework.Graphics" i:type="d7p1:Transform3D">
+              <d7p1:LocalOrientation xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:W>0.7071068</d8p1:W>
+                <d8p1:X>-0.7071067</d8p1:X>
+                <d8p1:Y>0</d8p1:Y>
+                <d8p1:Z>0</d8p1:Z>
+              </d7p1:LocalOrientation>
+              <d7p1:LocalPosition xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>-0.205803975</d8p1:X>
+                <d8p1:Y>0.00441589346</d8p1:Y>
+                <d8p1:Z>0.336103052</d8p1:Z>
+              </d7p1:LocalPosition>
+              <d7p1:LocalScale xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>685.9215</d8p1:X>
+                <d8p1:Y>1371.8429</d8p1:Y>
+                <d8p1:Z>685.921448</d8p1:Z>
+              </d7p1:LocalScale>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>DefaultMaterial</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/DefaultMaterial.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:FileMesh">
+              <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_035</ModelMeshName>
+              <d7p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d7p1:ModelPath>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="WaveEngine.Components.Graphics3D" i:type="d7p1:MeshRenderer">
+              <d6p1:FrustumCullingEnabled>true</d6p1:FrustumCullingEnabled>
+              <d6p1:IsVisible>true</d6p1:IsVisible>
+            </d6p1:Component>
+          </d2p1:SerializeComponents>
+        </d2p1:BaseEntityModel>
+        <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+          <d2p1:SerializeChildrens />
+          <d2p1:isDisabled>false</d2p1:isDisabled>
+          <d2p1:isStatic>false</d2p1:isStatic>
+          <d2p1:isVisible>true</d2p1:isVisible>
+          <d2p1:name>Cylinder_010</d2p1:name>
+          <d2p1:tag i:nil="true" />
+          <d2p1:SerializeComponents xmlns:d6p1="WaveEngine.Framework">
+            <d6p1:Component xmlns:d7p1="WaveEngine.Framework.Graphics" i:type="d7p1:Transform3D">
+              <d7p1:LocalOrientation xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:W>0.560574532</d8p1:W>
+                <d8p1:X>-0.558936238</d8p1:X>
+                <d8p1:Y>0.489810348</d8p1:Y>
+                <d8p1:Z>-0.365283877</d8p1:Z>
+              </d7p1:LocalOrientation>
+              <d7p1:LocalPosition xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>3.71962261</d8p1:X>
+                <d8p1:Y>1.70907938</d8p1:Y>
+                <d8p1:Z>-6.129849</d8p1:Z>
+              </d7p1:LocalPosition>
+              <d7p1:LocalScale xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>1.19466877</d8p1:X>
+                <d8p1:Y>1.19466889</d8p1:Y>
+                <d8p1:Z>1.40379381</d8p1:Z>
+              </d7p1:LocalScale>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>tire</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/tire.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:FileMesh">
+              <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Cylinder_010</ModelMeshName>
+              <d7p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d7p1:ModelPath>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="WaveEngine.Components.Graphics3D" i:type="d7p1:MeshRenderer">
+              <d6p1:FrustumCullingEnabled>true</d6p1:FrustumCullingEnabled>
+              <d6p1:IsVisible>true</d6p1:IsVisible>
+            </d6p1:Component>
+          </d2p1:SerializeComponents>
+        </d2p1:BaseEntityModel>
+        <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+          <d2p1:SerializeChildrens />
+          <d2p1:isDisabled>false</d2p1:isDisabled>
+          <d2p1:isStatic>false</d2p1:isStatic>
+          <d2p1:isVisible>true</d2p1:isVisible>
+          <d2p1:name>Cylinder_009</d2p1:name>
+          <d2p1:tag i:nil="true" />
+          <d2p1:SerializeComponents xmlns:d6p1="WaveEngine.Framework">
+            <d6p1:Component xmlns:d7p1="WaveEngine.Framework.Graphics" i:type="d7p1:Transform3D">
+              <d7p1:LocalOrientation xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:W>0.6148739</d8p1:W>
+                <d8p1:X>-0.5115006</d8p1:X>
+                <d8p1:Y>0.419628531</d8p1:Y>
+                <d8p1:Z>-0.42919594</d8p1:Z>
+              </d7p1:LocalOrientation>
+              <d7p1:LocalPosition xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>3.68233871</d8p1:X>
+                <d8p1:Y>1.70907938</d8p1:Y>
+                <d8p1:Z>7.99772</d8p1:Z>
+              </d7p1:LocalPosition>
+              <d7p1:LocalScale xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>1.19466853</d8p1:X>
+                <d8p1:Y>1.19466841</d8p1:Y>
+                <d8p1:Z>1.40379322</d8p1:Z>
+              </d7p1:LocalScale>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>tire</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/tire.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:FileMesh">
+              <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Cylinder_009</ModelMeshName>
+              <d7p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d7p1:ModelPath>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="WaveEngine.Components.Graphics3D" i:type="d7p1:MeshRenderer">
+              <d6p1:FrustumCullingEnabled>true</d6p1:FrustumCullingEnabled>
+              <d6p1:IsVisible>true</d6p1:IsVisible>
+            </d6p1:Component>
+          </d2p1:SerializeComponents>
+        </d2p1:BaseEntityModel>
+        <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+          <d2p1:SerializeChildrens>
+            <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+              <d2p1:SerializeChildrens />
+              <d2p1:isDisabled>false</d2p1:isDisabled>
+              <d2p1:isStatic>false</d2p1:isStatic>
+              <d2p1:isVisible>true</d2p1:isVisible>
+              <d2p1:name>Cylinder_008</d2p1:name>
+              <d2p1:tag i:nil="true" />
+              <d2p1:SerializeComponents xmlns:d8p1="WaveEngine.Framework">
+                <d8p1:Component xmlns:d9p1="WaveEngine.Framework.Graphics" i:type="d9p1:Transform3D">
+                  <d9p1:LocalOrientation xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:W>0.7910759</d10p1:W>
+                    <d10p1:X>0.00437281933</d10p1:X>
+                    <d10p1:Y>0.6046226</d10p1:Y>
+                    <d10p1:Z>0.09279713</d10p1:Z>
+                  </d9p1:LocalOrientation>
+                  <d9p1:LocalPosition xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0</d10p1:X>
+                    <d10p1:Y>0</d10p1:Y>
+                    <d10p1:Z>0</d10p1:Z>
+                  </d9p1:LocalPosition>
+                  <d9p1:LocalScale xmlns:d10p1="WaveEngine.Common.Math">
+                    <d10p1:X>0.0104306918</d10p1:X>
+                    <d10p1:Y>0.0103714243</d10p1:Y>
+                    <d10p1:Z>0.0135053219</d10p1:Z>
+                  </d9p1:LocalScale>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:MaterialComponent">
+                  <d9p1:AsignedTo>tire</d9p1:AsignedTo>
+                  <d9p1:MaterialPath>Content/Assets/Models/Materials/tire.wmat</d9p1:MaterialPath>
+                  <d9p1:UseCopy>false</d9p1:UseCopy>
+                  <d9p1:useDummyMaterial>false</d9p1:useDummyMaterial>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d9p1:FileMesh">
+                  <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Cylinder_008</ModelMeshName>
+                  <d9p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d9p1:ModelPath>
+                </d8p1:Component>
+                <d8p1:Component xmlns:d9p1="WaveEngine.Components.Graphics3D" i:type="d9p1:MeshRenderer">
+                  <d8p1:FrustumCullingEnabled>true</d8p1:FrustumCullingEnabled>
+                  <d8p1:IsVisible>true</d8p1:IsVisible>
+                </d8p1:Component>
+              </d2p1:SerializeComponents>
+            </d2p1:BaseEntityModel>
+          </d2p1:SerializeChildrens>
+          <d2p1:isDisabled>false</d2p1:isDisabled>
+          <d2p1:isStatic>false</d2p1:isStatic>
+          <d2p1:isVisible>true</d2p1:isVisible>
+          <d2p1:name>Cylinder_007</d2p1:name>
+          <d2p1:tag i:nil="true" />
+          <d2p1:SerializeComponents xmlns:d6p1="WaveEngine.Framework">
+            <d6p1:Component xmlns:d7p1="WaveEngine.Framework.Graphics" i:type="d7p1:Transform3D">
+              <d7p1:LocalOrientation xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:W>0.100480974</d8p1:W>
+                <d8p1:X>-0.118814431</d8p1:X>
+                <d8p1:Y>0.6970533</d8p1:Y>
+                <d8p1:Z>0.699931</d8p1:Z>
+              </d7p1:LocalOrientation>
+              <d7p1:LocalPosition xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>-4.099032</d8p1:X>
+                <d8p1:Y>1.69158316</d8p1:Y>
+                <d8p1:Z>7.61767</d8p1:Z>
+              </d7p1:LocalPosition>
+              <d7p1:LocalScale xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>103.060493</d8p1:X>
+                <d8p1:Y>115.468163</d8p1:Y>
+                <d8p1:Z>115.46817</d8p1:Z>
+              </d7p1:LocalScale>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>tire</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/tire.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>alloy</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/alloy.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>black_paint</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/black_paint.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:FileMesh">
+              <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Cylinder_007</ModelMeshName>
+              <d7p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d7p1:ModelPath>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="WaveEngine.Components.Graphics3D" i:type="d7p1:MeshRenderer">
+              <d6p1:FrustumCullingEnabled>true</d6p1:FrustumCullingEnabled>
+              <d6p1:IsVisible>true</d6p1:IsVisible>
+            </d6p1:Component>
+          </d2p1:SerializeComponents>
+        </d2p1:BaseEntityModel>
+        <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+          <d2p1:SerializeChildrens />
+          <d2p1:isDisabled>false</d2p1:isDisabled>
+          <d2p1:isStatic>false</d2p1:isStatic>
+          <d2p1:isVisible>true</d2p1:isVisible>
+          <d2p1:name>Plane_034</d2p1:name>
+          <d2p1:tag i:nil="true" />
+          <d2p1:SerializeComponents xmlns:d6p1="WaveEngine.Framework">
+            <d6p1:Component xmlns:d7p1="WaveEngine.Framework.Graphics" i:type="d7p1:Transform3D">
+              <d7p1:LocalOrientation xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:W>0.7009545</d8p1:W>
+                <d8p1:X>-0.0624773949</d8p1:X>
+                <d8p1:Y>-0.707764566</d8p1:Y>
+                <d8p1:Z>-0.0618762225</d8p1:Z>
+              </d7p1:LocalOrientation>
+              <d7p1:LocalPosition xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>-4.59259462</d8p1:X>
+                <d8p1:Y>4.12084532</d8p1:Y>
+                <d8p1:Z>-10.1653738</d8p1:Z>
+              </d7p1:LocalPosition>
+              <d7p1:LocalScale xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>126.707893</d8p1:X>
+                <d8p1:Y>126.707863</d8p1:Y>
+                <d8p1:Z>126.707886</d8p1:Z>
+              </d7p1:LocalScale>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>stickers</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/stickers.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>chrome</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/chrome.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:FileMesh">
+              <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_034</ModelMeshName>
+              <d7p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d7p1:ModelPath>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="WaveEngine.Components.Graphics3D" i:type="d7p1:MeshRenderer">
+              <d6p1:FrustumCullingEnabled>true</d6p1:FrustumCullingEnabled>
+              <d6p1:IsVisible>true</d6p1:IsVisible>
+            </d6p1:Component>
+          </d2p1:SerializeComponents>
+        </d2p1:BaseEntityModel>
+        <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+          <d2p1:SerializeChildrens />
+          <d2p1:isDisabled>false</d2p1:isDisabled>
+          <d2p1:isStatic>false</d2p1:isStatic>
+          <d2p1:isVisible>true</d2p1:isVisible>
+          <d2p1:name>Plane_033</d2p1:name>
+          <d2p1:tag i:nil="true" />
+          <d2p1:SerializeComponents xmlns:d6p1="WaveEngine.Framework">
+            <d6p1:Component xmlns:d7p1="WaveEngine.Framework.Graphics" i:type="d7p1:Transform3D">
+              <d7p1:LocalOrientation xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:W>-0.0111662764</d8p1:W>
+                <d8p1:X>0.0002737695</d8p1:X>
+                <d8p1:Y>0.999636769</d8p1:Y>
+                <d8p1:Z>0.02452759</d8p1:Z>
+              </d7p1:LocalOrientation>
+              <d7p1:LocalPosition xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>-1.50303781</d8p1:X>
+                <d8p1:Y>3.79694271</d8p1:Y>
+                <d8p1:Z>-11.2437353</d8p1:Z>
+              </d7p1:LocalPosition>
+              <d7p1:LocalScale xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>75.0445</d8p1:X>
+                <d8p1:Y>75.04451</d8p1:Y>
+                <d8p1:Z>75.04452</d8p1:Z>
+              </d7p1:LocalScale>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>stickers</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/stickers.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:FileMesh">
+              <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_033</ModelMeshName>
+              <d7p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d7p1:ModelPath>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="WaveEngine.Components.Graphics3D" i:type="d7p1:MeshRenderer">
+              <d6p1:FrustumCullingEnabled>true</d6p1:FrustumCullingEnabled>
+              <d6p1:IsVisible>true</d6p1:IsVisible>
+            </d6p1:Component>
+          </d2p1:SerializeComponents>
+        </d2p1:BaseEntityModel>
+        <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+          <d2p1:SerializeChildrens />
+          <d2p1:isDisabled>false</d2p1:isDisabled>
+          <d2p1:isStatic>false</d2p1:isStatic>
+          <d2p1:isVisible>true</d2p1:isVisible>
+          <d2p1:name>Plane_032</d2p1:name>
+          <d2p1:tag i:nil="true" />
+          <d2p1:SerializeComponents xmlns:d6p1="WaveEngine.Framework">
+            <d6p1:Component xmlns:d7p1="WaveEngine.Framework.Graphics" i:type="d7p1:Transform3D">
+              <d7p1:LocalOrientation xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:W>0.183000565</d8p1:W>
+                <d8p1:X>0.795337558</d8p1:X>
+                <d8p1:Y>0.574891269</d8p1:Y>
+                <d8p1:Z>-0.0587281473</d8p1:Z>
+              </d7p1:LocalOrientation>
+              <d7p1:LocalPosition xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>3.48897338</d8p1:X>
+                <d8p1:Y>2.157745</d8p1:Y>
+                <d8p1:Z>-10.7854147</d8p1:Z>
+              </d7p1:LocalPosition>
+              <d7p1:LocalScale xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>129.135376</d8p1:X>
+                <d8p1:Y>129.135345</d8p1:Y>
+                <d8p1:Z>129.13533</d8p1:Z>
+              </d7p1:LocalScale>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>stickers</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/stickers.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:FileMesh">
+              <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_032</ModelMeshName>
+              <d7p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d7p1:ModelPath>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="WaveEngine.Components.Graphics3D" i:type="d7p1:MeshRenderer">
+              <d6p1:FrustumCullingEnabled>true</d6p1:FrustumCullingEnabled>
+              <d6p1:IsVisible>true</d6p1:IsVisible>
+            </d6p1:Component>
+          </d2p1:SerializeComponents>
+        </d2p1:BaseEntityModel>
+        <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+          <d2p1:SerializeChildrens />
+          <d2p1:isDisabled>false</d2p1:isDisabled>
+          <d2p1:isStatic>false</d2p1:isStatic>
+          <d2p1:isVisible>true</d2p1:isVisible>
+          <d2p1:name>Plane_031</d2p1:name>
+          <d2p1:tag i:nil="true" />
+          <d2p1:SerializeComponents xmlns:d6p1="WaveEngine.Framework">
+            <d6p1:Component xmlns:d7p1="WaveEngine.Framework.Graphics" i:type="d7p1:Transform3D">
+              <d7p1:LocalOrientation xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:W>0.690726638</d8p1:W>
+                <d8p1:X>-0.08444072</d8p1:X>
+                <d8p1:Y>0.7134198</d8p1:Y>
+                <d8p1:Z>0.0824535638</d8p1:Z>
+              </d7p1:LocalOrientation>
+              <d7p1:LocalPosition xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>4.19459343</d8p1:X>
+                <d8p1:Y>4.1216855</d8p1:Y>
+                <d8p1:Z>-9.389948</d8p1:Z>
+              </d7p1:LocalPosition>
+              <d7p1:LocalScale xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>126.707893</d8p1:X>
+                <d8p1:Y>126.707855</d8p1:Y>
+                <d8p1:Z>126.707878</d8p1:Z>
+              </d7p1:LocalScale>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>stickers</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/stickers.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>chrome</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/chrome.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:FileMesh">
+              <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_031</ModelMeshName>
+              <d7p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d7p1:ModelPath>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="WaveEngine.Components.Graphics3D" i:type="d7p1:MeshRenderer">
+              <d6p1:FrustumCullingEnabled>true</d6p1:FrustumCullingEnabled>
+              <d6p1:IsVisible>true</d6p1:IsVisible>
+            </d6p1:Component>
+          </d2p1:SerializeComponents>
+        </d2p1:BaseEntityModel>
+        <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+          <d2p1:SerializeChildrens />
+          <d2p1:isDisabled>false</d2p1:isDisabled>
+          <d2p1:isStatic>false</d2p1:isStatic>
+          <d2p1:isVisible>true</d2p1:isVisible>
+          <d2p1:name>Plane_029</d2p1:name>
+          <d2p1:tag i:nil="true" />
+          <d2p1:SerializeComponents xmlns:d6p1="WaveEngine.Framework">
+            <d6p1:Component xmlns:d7p1="WaveEngine.Framework.Graphics" i:type="d7p1:Transform3D">
+              <d7p1:LocalOrientation xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:W>1</d8p1:W>
+                <d8p1:X>8.146034E-08</d8p1:X>
+                <d8p1:Y>0</d8p1:Y>
+                <d8p1:Z>0</d8p1:Z>
+              </d7p1:LocalOrientation>
+              <d7p1:LocalPosition xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>1.364301</d8p1:X>
+                <d8p1:Y>3.26132917</d8p1:Y>
+                <d8p1:Z>11.4983006</d8p1:Z>
+              </d7p1:LocalPosition>
+              <d7p1:LocalScale xmlns:d8p1="WaveEngine.Common.Math">
+                <d8p1:X>73.11839</d8p1:X>
+                <d8p1:Y>73.11839</d8p1:Y>
+                <d8p1:Z>73.11839</d8p1:Z>
+              </d7p1:LocalScale>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:MaterialComponent">
+              <d7p1:AsignedTo>stickers</d7p1:AsignedTo>
+              <d7p1:MaterialPath>Content/Assets/Models/Materials/stickers.wmat</d7p1:MaterialPath>
+              <d7p1:UseCopy>false</d7p1:UseCopy>
+              <d7p1:useDummyMaterial>false</d7p1:useDummyMaterial>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d7p1:FileMesh">
+              <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Plane_029</ModelMeshName>
+              <d7p1:ModelPath>Content/Assets/Models/datsun240k.fbx.wpk</d7p1:ModelPath>
+            </d6p1:Component>
+            <d6p1:Component xmlns:d7p1="WaveEngine.Components.Graphics3D" i:type="d7p1:MeshRenderer">
+              <d6p1:FrustumCullingEnabled>true</d6p1:FrustumCullingEnabled>
+              <d6p1:IsVisible>true</d6p1:IsVisible>
+            </d6p1:Component>
+          </d2p1:SerializeComponents>
+        </d2p1:BaseEntityModel>
+      </d2p1:SerializeChildrens>
+      <d2p1:isDisabled>false</d2p1:isDisabled>
+      <d2p1:isStatic>false</d2p1:isStatic>
+      <d2p1:isVisible>true</d2p1:isVisible>
+      <d2p1:name>car</d2p1:name>
+      <d2p1:tag i:nil="true" />
+      <d2p1:SerializeComponents xmlns:d4p1="WaveEngine.Framework">
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Graphics" i:type="d5p1:Transform3D">
+          <d5p1:LocalOrientation xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:W>1</d6p1:W>
+            <d6p1:X>0</d6p1:X>
+            <d6p1:Y>0</d6p1:Y>
+            <d6p1:Z>0</d6p1:Z>
+          </d5p1:LocalOrientation>
+          <d5p1:LocalPosition xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>0</d6p1:X>
+            <d6p1:Y>-0.0005338192</d6p1:Y>
+            <d6p1:Z>-0.0005340576</d6p1:Z>
+          </d5p1:LocalPosition>
+          <d5p1:LocalScale xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>1</d6p1:X>
+            <d6p1:Y>1</d6p1:Y>
+            <d6p1:Z>1</d6p1:Z>
+          </d5p1:LocalScale>
+        </d4p1:Component>
+      </d2p1:SerializeComponents>
+    </d2p1:BaseEntityModel>
+    <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+      <d2p1:SerializeChildrens />
+      <d2p1:isDisabled>false</d2p1:isDisabled>
+      <d2p1:isStatic>false</d2p1:isStatic>
+      <d2p1:isVisible>true</d2p1:isVisible>
+      <d2p1:name>floor</d2p1:name>
+      <d2p1:tag i:nil="true" />
+      <d2p1:SerializeComponents xmlns:d4p1="WaveEngine.Framework">
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Graphics" i:type="d5p1:Transform3D">
+          <d5p1:LocalOrientation xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:W>1</d6p1:W>
+            <d6p1:X>0</d6p1:X>
+            <d6p1:Y>0</d6p1:Y>
+            <d6p1:Z>0</d6p1:Z>
+          </d5p1:LocalOrientation>
+          <d5p1:LocalPosition xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>0</d6p1:X>
+            <d6p1:Y>0</d6p1:Y>
+            <d6p1:Z>0</d6p1:Z>
+          </d5p1:LocalPosition>
+          <d5p1:LocalScale xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>100</d6p1:X>
+            <d6p1:Y>100</d6p1:Y>
+            <d6p1:Z>100</d6p1:Z>
+          </d5p1:LocalScale>
+        </d4p1:Component>
+        <d4p1:Component xmlns:d5p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d5p1:MaterialComponent">
+          <d5p1:AsignedTo i:nil="true" />
+          <d5p1:MaterialPath>Content/Assets/Materials/floorMaterial.wmat</d5p1:MaterialPath>
+          <d5p1:UseCopy>false</d5p1:UseCopy>
+          <d5p1:useDummyMaterial>false</d5p1:useDummyMaterial>
+        </d4p1:Component>
+        <d4p1:Component xmlns:d5p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d5p1:PlaneMesh">
+          <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Primitive</ModelMeshName>
+          <d5p1:Height>1</d5p1:Height>
+          <d5p1:Normal xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>0</d6p1:X>
+            <d6p1:Y>1</d6p1:Y>
+            <d6p1:Z>0</d6p1:Z>
+          </d5p1:Normal>
+          <d5p1:TwoSides>false</d5p1:TwoSides>
+          <d5p1:UTile>1</d5p1:UTile>
+          <d5p1:UVHorizontalFlip>false</d5p1:UVHorizontalFlip>
+          <d5p1:UVVerticalFlip>false</d5p1:UVVerticalFlip>
+          <d5p1:Width>1</d5p1:Width>
+          <d5p1:YTile>1</d5p1:YTile>
+        </d4p1:Component>
+        <d4p1:Component xmlns:d5p1="WaveEngine.Components.Graphics3D" i:type="d5p1:MeshRenderer">
+          <d4p1:FrustumCullingEnabled>true</d4p1:FrustumCullingEnabled>
+          <d4p1:IsVisible>true</d4p1:IsVisible>
+        </d4p1:Component>
+      </d2p1:SerializeComponents>
+    </d2p1:BaseEntityModel>
+    <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+      <d2p1:SerializeChildrens />
+      <d2p1:isDisabled>false</d2p1:isDisabled>
+      <d2p1:isStatic>false</d2p1:isStatic>
+      <d2p1:isVisible>true</d2p1:isVisible>
+      <d2p1:name>limits</d2p1:name>
+      <d2p1:tag i:nil="true" />
+      <d2p1:SerializeComponents xmlns:d4p1="WaveEngine.Framework">
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Graphics" i:type="d5p1:Transform3D">
+          <d5p1:LocalOrientation xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:W>1</d6p1:W>
+            <d6p1:X>0</d6p1:X>
+            <d6p1:Y>0</d6p1:Y>
+            <d6p1:Z>0</d6p1:Z>
+          </d5p1:LocalOrientation>
+          <d5p1:LocalPosition xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>0</d6p1:X>
+            <d6p1:Y>0</d6p1:Y>
+            <d6p1:Z>0</d6p1:Z>
+          </d5p1:LocalPosition>
+          <d5p1:LocalScale xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>100</d6p1:X>
+            <d6p1:Y>-50</d6p1:Y>
+            <d6p1:Z>100</d6p1:Z>
+          </d5p1:LocalScale>
+        </d4p1:Component>
+        <d4p1:Component xmlns:d5p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d5p1:MaterialComponent">
+          <d5p1:AsignedTo i:nil="true" />
+          <d5p1:MaterialPath>Content/Assets/Materials/floorMaterial.wmat</d5p1:MaterialPath>
+          <d5p1:UseCopy>false</d5p1:UseCopy>
+          <d5p1:useDummyMaterial>false</d5p1:useDummyMaterial>
+        </d4p1:Component>
+        <d4p1:Component xmlns:d5p1="http://schemas.datacontract.org/2004/07/WaveEngine.Components.Graphics3D" i:type="d5p1:SphereMesh">
+          <ModelMeshName xmlns="WaveEngine.Components.Graphics3D">Primitive</ModelMeshName>
+          <d5p1:Diameter>1</d5p1:Diameter>
+          <d5p1:Tessellation>16</d5p1:Tessellation>
+          <d5p1:UVHorizontalFlip>false</d5p1:UVHorizontalFlip>
+          <d5p1:UVVerticalFlip>false</d5p1:UVVerticalFlip>
+        </d4p1:Component>
+        <d4p1:Component xmlns:d5p1="WaveEngine.Components.Graphics3D" i:type="d5p1:MeshRenderer">
+          <d4p1:FrustumCullingEnabled>true</d4p1:FrustumCullingEnabled>
+          <d4p1:IsVisible>true</d4p1:IsVisible>
+        </d4p1:Component>
+      </d2p1:SerializeComponents>
+    </d2p1:BaseEntityModel>
+    <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+      <d2p1:SerializeChildrens />
+      <d2p1:isDisabled>false</d2p1:isDisabled>
+      <d2p1:isStatic>false</d2p1:isStatic>
+      <d2p1:isVisible>true</d2p1:isVisible>
+      <d2p1:name>backLight</d2p1:name>
+      <d2p1:tag i:nil="true" />
+      <d2p1:SerializeComponents xmlns:d4p1="WaveEngine.Framework">
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Graphics" i:type="d5p1:Transform3D">
+          <d5p1:LocalOrientation xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:W>1</d6p1:W>
+            <d6p1:X>0</d6p1:X>
+            <d6p1:Y>0</d6p1:Y>
+            <d6p1:Z>0</d6p1:Z>
+          </d5p1:LocalOrientation>
+          <d5p1:LocalPosition xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>4.24293566</d6p1:X>
+            <d6p1:Y>9.18805</d6p1:Y>
+            <d6p1:Z>-11.9509678</d6p1:Z>
+          </d5p1:LocalPosition>
+          <d5p1:LocalScale xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>1</d6p1:X>
+            <d6p1:Y>1</d6p1:Y>
+            <d6p1:Z>1</d6p1:Z>
+          </d5p1:LocalScale>
+        </d4p1:Component>
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Graphics" i:type="d5p1:PointLightProperties">
+          <d5p1:Color xmlns:d6p1="WaveEngine.Common.Graphics">
+            <d6p1:A>255</d6p1:A>
+            <d6p1:B>255</d6p1:B>
+            <d6p1:G>255</d6p1:G>
+            <d6p1:R>255</d6p1:R>
+          </d5p1:Color>
+          <d5p1:Intensity>1</d5p1:Intensity>
+          <d5p1:isLightDisabled>false</d5p1:isLightDisabled>
+          <d5p1:LightRange>5</d5p1:LightRange>
+        </d4p1:Component>
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Graphics" i:type="d5p1:PointLightRenderer">
+          <d4p1:FrustumCullingEnabled>true</d4p1:FrustumCullingEnabled>
+          <d4p1:IsVisible>true</d4p1:IsVisible>
+        </d4p1:Component>
+      </d2p1:SerializeComponents>
+    </d2p1:BaseEntityModel>
+    <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+      <d2p1:SerializeChildrens />
+      <d2p1:isDisabled>false</d2p1:isDisabled>
+      <d2p1:isStatic>false</d2p1:isStatic>
+      <d2p1:isVisible>true</d2p1:isVisible>
+      <d2p1:name>camera1Entity</d2p1:name>
+      <d2p1:tag i:nil="true" />
+      <d2p1:SerializeComponents xmlns:d4p1="WaveEngine.Framework">
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Graphics" i:type="d5p1:Transform3D">
+          <d5p1:LocalOrientation xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:W>0.8532191</d6p1:W>
+            <d6p1:X>-0.03887838</d6p1:X>
+            <d6p1:Y>-0.519239545</d6p1:Y>
+            <d6p1:Z>-0.02989738</d6p1:Z>
+          </d5p1:LocalOrientation>
+          <d5p1:LocalPosition xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>-22.9226</d6p1:X>
+            <d6p1:Y>5.96403837</d6p1:Y>
+            <d6p1:Z>14.8994665</d6p1:Z>
+          </d5p1:LocalPosition>
+          <d5p1:LocalScale xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>1</d6p1:X>
+            <d6p1:Y>1</d6p1:Y>
+            <d6p1:Z>1</d6p1:Z>
+          </d5p1:LocalScale>
+        </d4p1:Component>
+      </d2p1:SerializeComponents>
+    </d2p1:BaseEntityModel>
+    <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+      <d2p1:SerializeChildrens />
+      <d2p1:isDisabled>false</d2p1:isDisabled>
+      <d2p1:isStatic>false</d2p1:isStatic>
+      <d2p1:isVisible>true</d2p1:isVisible>
+      <d2p1:name>camera2Entity</d2p1:name>
+      <d2p1:tag i:nil="true" />
+      <d2p1:SerializeComponents xmlns:d4p1="WaveEngine.Framework">
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Graphics" i:type="d5p1:Transform3D">
+          <d5p1:LocalOrientation xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:W>0.823334336</d6p1:W>
+            <d6p1:X>-0.09130236</d6p1:X>
+            <d6p1:Y>0.556752443</d6p1:Y>
+            <d6p1:Z>0.0617401861</d6p1:Z>
+          </d5p1:LocalOrientation>
+          <d5p1:LocalPosition xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>11.74948</d6p1:X>
+            <d6p1:Y>4.36136675</d6p1:Y>
+            <d6p1:Z>2.08907</d6p1:Z>
+          </d5p1:LocalPosition>
+          <d5p1:LocalScale xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>1</d6p1:X>
+            <d6p1:Y>1</d6p1:Y>
+            <d6p1:Z>1</d6p1:Z>
+          </d5p1:LocalScale>
+        </d4p1:Component>
+      </d2p1:SerializeComponents>
+    </d2p1:BaseEntityModel>
+    <d2p1:BaseEntityModel i:type="d2p1:EntityModel">
+      <d2p1:SerializeChildrens />
+      <d2p1:isDisabled>false</d2p1:isDisabled>
+      <d2p1:isStatic>false</d2p1:isStatic>
+      <d2p1:isVisible>true</d2p1:isVisible>
+      <d2p1:name>camera3Entity</d2p1:name>
+      <d2p1:tag i:nil="true" />
+      <d2p1:SerializeComponents xmlns:d4p1="WaveEngine.Framework">
+        <d4p1:Component xmlns:d5p1="WaveEngine.Framework.Graphics" i:type="d5p1:Transform3D">
+          <d5p1:LocalOrientation xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:W>0.445929885</d6p1:W>
+            <d6p1:X>-0.05863363</d6p1:X>
+            <d6p1:Y>0.883247435</d6p1:Y>
+            <d6p1:Z>0.132597491</d6p1:Z>
+          </d5p1:LocalOrientation>
+          <d5p1:LocalPosition xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>8.741213</d6p1:X>
+            <d6p1:Y>6.204065</d6p1:Y>
+            <d6p1:Z>-10.5373659</d6p1:Z>
+          </d5p1:LocalPosition>
+          <d5p1:LocalScale xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>1</d6p1:X>
+            <d6p1:Y>1</d6p1:Y>
+            <d6p1:Z>1</d6p1:Z>
+          </d5p1:LocalScale>
+        </d4p1:Component>
+      </d2p1:SerializeComponents>
+    </d2p1:BaseEntityModel>
+  </Entities>
+  <EntityPointers xmlns:d2p1="http://schemas.datacontract.org/2004/07/WaveEngine.Framework.Models.Entities" />
+  <Settings xmlns:d2p1="WaveEngine.Framework.Models.Settings">
+    <d2p1:Categories xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+      <d3p1:KeyValueOfstringanyType>
+        <d3p1:Key>VirtualScreen</d3p1:Key>
+        <d3p1:Value xmlns:d5p1="WaveEngine.Framework.Managers" i:type="d5p1:VirtualScreenManager">
+          <d5p1:Enabled>true</d5p1:Enabled>
+          <d5p1:Expand>true</d5p1:Expand>
+          <d5p1:Stretch>Uniform</d5p1:Stretch>
+          <d5p1:VirtualHeight>720</d5p1:VirtualHeight>
+          <d5p1:VirtualWidth>1280</d5p1:VirtualWidth>
+        </d3p1:Value>
+      </d3p1:KeyValueOfstringanyType>
+      <d3p1:KeyValueOfstringanyType>
+        <d3p1:Key>Physics</d3p1:Key>
+        <d3p1:Value xmlns:d5p1="WaveEngine.Framework.Models.Settings.Categories" i:type="d5p1:PhysicCategory">
+          <d5p1:AllowSleep>true</d5p1:AllowSleep>
+          <d5p1:Gravity2D xmlns:d6p1="http://schemas.datacontract.org/2004/07/WaveEngine.Common.Math">
+            <d6p1:X>0</d6p1:X>
+            <d6p1:Y>9.8</d6p1:Y>
+          </d5p1:Gravity2D>
+          <d5p1:Gravity3D xmlns:d6p1="WaveEngine.Common.Math">
+            <d6p1:X>0</d6p1:X>
+            <d6p1:Y>-9.8</d6p1:Y>
+            <d6p1:Z>0</d6p1:Z>
+          </d5p1:Gravity3D>
+        </d3p1:Value>
+      </d3p1:KeyValueOfstringanyType>
+    </d2p1:Categories>
+  </Settings>
+</Scene>
