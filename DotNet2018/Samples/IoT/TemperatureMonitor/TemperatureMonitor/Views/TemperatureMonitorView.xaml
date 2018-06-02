@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TemperatureMonitor.Views.TemperatureMonitorView"
+             xmlns:oxyplot="clr-namespace:TemperatureMonitor.Controls;assembly=TemperatureMonitor"
+             xmlns:converters="clr-namespace:TemperatureMonitor.Converters;"
+             Title="TemperatureMonitor">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <converters:InverseBooleanConverter x:Key="InverseBooleanConverter" />
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem 
+            Text="Refresh"
+            Icon="Images/Reload.png"
+            Command="{Binding RefreshCommand}"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid
+                Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <!-- Latest data -->
+                <Label
+                    Grid.Column="0"  
+                    FontSize="Large" 
+                    Text="{Binding Latest.Temperature, StringFormat='{0} C'}"  
+                    VerticalOptions="Center"
+                    HorizontalTextAlignment="Center" 
+                    VerticalTextAlignment="End" />
+                <Label
+                    Grid.Column="1"
+                    FontSize="Large" 
+                    Text="{Binding Latest.Humidity, StringFormat='{0}% RH'}" 
+                    VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand" 
+                    HorizontalTextAlignment="Center" 
+                    VerticalTextAlignment="Start" />
+            </Grid>
+            <Grid
+                Grid.Row="1"
+                IsVisible="{Binding IsLoading, Converter={StaticResource InverseBooleanConverter}}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid 
+                    Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Button 
+                        Grid.Column="0"
+                        TextColor="Black" 
+                        WidthRequest="50" 
+                        HorizontalOptions="Start"
+                        FontSize="Large" 
+                        BorderColor="Transparent" 
+                        BackgroundColor="Transparent" 
+                        Command="{Binding PreviousDateCommand}" 
+                        Text="◀" />
+                    <Label         
+                        Grid.Column="1"
+                        Text="{Binding Date, StringFormat='{0:d}'}"   
+                        HorizontalOptions="Start"
+                        VerticalOptions="Center"
+                        TextColor="Black" 
+                        FontSize="Large"/>
+                    <Button 
+                        Grid.Column="2"
+                        TextColor="Black" 
+                        WidthRequest="50"
+                        HorizontalOptions="End" 
+                        FontSize="Large" 
+                        BorderColor="Transparent" 
+                        BackgroundColor="Transparent"
+                        Command="{Binding NextDateCommand}"
+                        Text="▶" />
+                </Grid>
+                <ScrollView 
+                    Grid.Row="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid
+                            Grid.Column="0">
+                            <AbsoluteLayout>
+                                <oxyplot:PlotView
+                                    x:Name="TemperaturePlot"
+                                    AbsoluteLayout.LayoutFlags="All"
+                                    AbsoluteLayout.LayoutBounds="0, 0, 1, 0.8"
+                                    Model="{Binding TemperaturePlotModel}" />
+                            </AbsoluteLayout>
+                        </Grid>
+                        <Grid
+                            Grid.Column="1">
+                            <AbsoluteLayout>
+                                <oxyplot:PlotView
+                                    x:Name="HumidityPlot"
+                                    AbsoluteLayout.LayoutFlags="All"
+                                    AbsoluteLayout.LayoutBounds="0, 0, 1, 0.8"
+                                    Model="{Binding HumidityPlotModel}"/>
+                            </AbsoluteLayout>
+                        </Grid>
+                    </Grid>
+                </ScrollView>
+            </Grid>
+            <ActivityIndicator 
+                Grid.RowSpan="2"
+                IsVisible="{Binding IsLoading}"
+                IsRunning="True"
+                Color="Black"
+                HeightRequest="100"
+                WidthRequest="100"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

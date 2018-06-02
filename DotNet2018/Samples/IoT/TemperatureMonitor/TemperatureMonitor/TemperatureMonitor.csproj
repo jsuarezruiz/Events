@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-win+net45+wp8+win81+wpa8;portable-net45+win8</PackageTargetFallback>
+    <AssemblyName>TemperatureMonitor</AssemblyName>
+    <RootNamespace>TemperatureMonitor</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="OxyPlot.Core" Version="1.0.0" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.1.1" />
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
+  </ItemGroup>
+  <Import Project="..\TemperatureMonitor.Shared\TemperatureMonitor.Shared.projitems" Label="Shared" />
+</Project>
