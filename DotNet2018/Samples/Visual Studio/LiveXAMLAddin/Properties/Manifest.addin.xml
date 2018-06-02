@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+    
+    <Extension path="/MonoDevelop/Ide/StartupHandlers">
+        <Class class="LiveXAMLAddin.Commands.InitXamarinFormsCommand"/>
+    </Extension>
+
+    <Extension path="/MonoDevelop/Ide/Commands">
+        <Command _label="Live XAML Editor" 
+                 id="LiveXAMLAddin.Commands.LiveXAMLCommand"
+                 defaultHandler="LiveXAMLAddin.Commands.LiveXAMLCommand"/>
+        <Command _label="Preview XAML" 
+                 id="LiveXAMLAddin.Commands.PreviewXAMLCommand"
+                 defaultHandler="LiveXAMLAddin.Commands.PreviewXAMLCommand"/>
+    </Extension>
+    
+    <Extension path = "/MonoDevelop/Ide/MainMenu/Tools">
+        <CommandItem id="LiveXAMLAddin.Commands.LiveXAMLCommand"/>
+    </Extension>
+
+    <Extension path = "/MonoDevelop/Ide/MainMenu/Edit">
+        <CommandItem id="LiveXAMLAddin.Commands.PreviewXAMLCommand"/>
+    </Extension>
+    
+</ExtensionModel>

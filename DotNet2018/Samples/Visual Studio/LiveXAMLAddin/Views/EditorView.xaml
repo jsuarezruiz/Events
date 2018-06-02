@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="LiveXAMLAddin.Views.EditorView">
+ <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Editor
+                Grid.Column="0"
+                Text="{Binding LiveXaml}"/>
+            <ContentView
+                Grid.Column="1"
+                Content="{Binding Preview}" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

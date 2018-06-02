@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoDevelop.Addins" Version="0.4.4" />
+    <PackageReference Include="Xamarin.Forms.Platform.GTK" Version="3.0.0.354232-pre3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Commands\" />
+    <Folder Include="Windows\" />
+    <Folder Include="Pads\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="ViewModels\EditorViewModel.cs" />
+  </ItemGroup>
+</Project>
