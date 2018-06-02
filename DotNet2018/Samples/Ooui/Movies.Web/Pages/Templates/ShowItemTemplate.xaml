@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Movies.Web.Pages.Templates.ShowItemTemplate"
+             xmlns:converters="clr-namespace:Movies.Web.Converters;assembly=Movies.Web">
+    <ContentView.Resources>
+        <ResourceDictionary>
+            
+            <!-- COLORS -->
+            <Color x:Key="WhiteColor">#FFFFFF</Color>
+            <Color x:Key="BackgroundColor">#1E2634</Color>
+            
+            <!-- CONVERTERS -->
+            <converters:MovieImageConverter x:Key="MovieImageConverter" />
+           
+            <!-- STYLES -->
+            <Style x:Key="ShowImageStyle"
+                   TargetType="Image">
+                <Setter Property="Aspect"
+                        Value="AspectFit" />
+                <Setter Property="HorizontalOptions"
+                        Value="Start" />
+            </Style>
+
+            <Style x:Key="ShowTitleStyle"
+                   TargetType="Label">
+                <Setter Property="TextColor"
+                        Value="{StaticResource WhiteColor}" />
+                <Setter Property="LineBreakMode"
+                        Value="TailTruncation" />
+            </Style>
+
+        </ResourceDictionary>
+    </ContentView.Resources>
+    <ContentView.Content>
+        <Grid BackgroundColor="{StaticResource BackgroundColor}"
+              WidthRequest="200"
+              Margin="0, 0, 12, 0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="20" />
+                <RowDefinition Height="12" />
+            </Grid.RowDefinitions>
+            <Image Grid.Column="0"
+                   Grid.Row="0"
+                   WidthRequest="150"
+                   Source="{Binding PosterPath, Converter={StaticResource MovieImageConverter}}"
+                   Style="{StaticResource ShowImageStyle}">
+            </Image>
+            <Label Grid.Column="0"
+                   Grid.Row="1"
+                   Text="{Binding Name}"
+                   Style="{StaticResource ShowTitleStyle}" />
+        </Grid>
+    </ContentView.Content>
+</ContentView>

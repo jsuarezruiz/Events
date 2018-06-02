@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Movies.Web.Pages.HomeView"
+             xmlns:controls="clr-namespace:Movies.Web.Controls;assembly=Movies.Web"
+             xmlns:templates="clr-namespace:Movies.Web.Pages.Templates;assembly=Movies.Web">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <!-- GENERAL COLORS -->
+            <Color x:Key="WhiteColor">#FFFFFF</Color>
+            <Color x:Key="BlackColor">#000000</Color>
+
+            <!-- THEME COLORS -->
+            <Color x:Key="AccentColor">#F5C210</Color>
+            <Color x:Key="BackgroundColor">#1E2634</Color>
+            <Color x:Key="TitleColor">#5D6576</Color>
+
+            <!-- STYLES -->
+            <Style x:Key="TitleStyle"
+                   TargetType="Label">
+                <Setter Property="TextColor"
+                        Value="{StaticResource TitleColor}" />
+                <Setter Property="FontSize"
+                        Value="14" />
+                <Setter Property="FontAttributes"
+                        Value="Bold" />
+            </Style>
+            
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid>
+            <ScrollView BackgroundColor="{StaticResource BackgroundColor}">
+                <Grid RowSpacing="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="300" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <!-- HIGHLIGHT -->
+                    <templates:HomeMainItemTemplate Grid.Row="0" />
+                    <StackLayout Grid.Row="1">
+                        <!-- TOP MOVIES -->
+                        <Grid Margin="12">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="36" />
+                                <RowDefinition Height="300" />
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0"
+                                   Text="TOP MOVIES"
+                                   Style="{StaticResource TitleStyle}" />
+                            <controls:HorizontalList Grid.Row="1"
+                                                     ListOrientation="Horizontal"
+                                                     BackgroundColor="{StaticResource BackgroundColor}"
+                                                     ItemsSource="{Binding TopRatedMovies}"
+                                                     SelectedCommand="{Binding MovieDetailCommand}">
+                                <controls:HorizontalList.ItemTemplate>
+                                    <DataTemplate>
+                                        <templates:MovieItemTemplate />
+                                    </DataTemplate>
+                                </controls:HorizontalList.ItemTemplate>
+                            </controls:HorizontalList>
+                        </Grid>
+                        <!-- POPULAR MOVIES -->
+                        <Grid Margin="12">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="36" />
+                                <RowDefinition Height="300" />
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0"
+                                   Text="POPULAR MOVIES"
+                                   Style="{StaticResource TitleStyle}" />
+                            <controls:HorizontalList Grid.Row="1"
+                                                     ListOrientation="Horizontal"
+                                                     BackgroundColor="{StaticResource BackgroundColor}"
+                                                     ItemsSource="{Binding PopularMovies}"
+                                                     SelectedCommand="{Binding MovieDetailCommand}">
+                                <controls:HorizontalList.ItemTemplate>
+                                    <DataTemplate>
+                                        <templates:MovieItemTemplate />
+                                    </DataTemplate>
+                                </controls:HorizontalList.ItemTemplate>
+                            </controls:HorizontalList>
+                        </Grid>
+                        <!-- TOP TVSHOWS -->
+                        <Grid Margin="12">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="36" />
+                                <RowDefinition Height="300" />
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0"
+                                   Text="TOP TV SHOWS"
+                                   Style="{StaticResource TitleStyle}" />
+                            <controls:HorizontalList Grid.Row="1"
+                                                     ListOrientation="Horizontal"
+                                                     BackgroundColor="{StaticResource BackgroundColor}"
+                                                     ItemsSource="{Binding TopRatedTvShows}">
+                                <controls:HorizontalList.ItemTemplate>
+                                    <DataTemplate>
+                                        <templates:ShowItemTemplate />
+                                    </DataTemplate>
+                                </controls:HorizontalList.ItemTemplate>
+                            </controls:HorizontalList>
+                        </Grid>
+                        <!-- POPULAR TVSHOWS -->
+                        <Grid Margin="12">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="36" />
+                                <RowDefinition Height="300" />
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0"
+                                   Text="POPULAR TV SHOWS"
+                                   Style="{StaticResource TitleStyle}" />
+                            <controls:HorizontalList Grid.Row="1"
+                                                     ListOrientation="Horizontal"
+                                                     BackgroundColor="{StaticResource BackgroundColor}"
+                                                     ItemsSource="{Binding PopularTvShows}">
+                                <controls:HorizontalList.ItemTemplate>
+                                    <DataTemplate>
+                                        <templates:ShowItemTemplate />
+                                    </DataTemplate>
+                                </controls:HorizontalList.ItemTemplate>
+                            </controls:HorizontalList>
+                        </Grid>
+                    </StackLayout>
+                </Grid>
+            </ScrollView>
+            <ActivityIndicator IsVisible="{Binding IsBusy}"
+                               IsRunning="{Binding IsBusy}"
+                               Color="{StaticResource AccentColor}"
+                               BackgroundColor="{StaticResource BackgroundColor}"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

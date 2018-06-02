@@ -1,0 +1,86 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\movies-back.png" />
+    <None Remove="Images\movies-cake.png" />
+    <None Remove="Images\movies-circle.png" />
+    <None Remove="Images\movies-discover.png" />
+    <None Remove="Images\movies-favourites.png" />
+    <None Remove="Images\movies-icon.png" />
+    <None Remove="Images\movies-menu.png" />
+    <None Remove="Images\movies-movie.png" />
+    <None Remove="Images\movies-opacity.png" />
+    <None Remove="Images\movies-play.png" />
+    <None Remove="Images\movies-search.png" />
+    <None Remove="Images\movies-settings.png" />
+    <None Remove="Images\movies-shows.png" />
+    <None Remove="Images\movies-upcoming.png" />
+    <None Remove="Images\movies-web.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="Xamarin.Forms" Version="2.5.1.527436" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\movies-back.png" />
+    <EmbeddedResource Include="Images\movies-cake.png" />
+    <EmbeddedResource Include="Images\movies-circle.png" />
+    <EmbeddedResource Include="Images\movies-discover.png" />
+    <EmbeddedResource Include="Images\movies-favourites.png" />
+    <EmbeddedResource Include="Images\movies-icon.png" />
+    <EmbeddedResource Include="Images\movies-menu.png" />
+    <EmbeddedResource Include="Images\movies-movie.png" />
+    <EmbeddedResource Include="Images\movies-opacity.png" />
+    <EmbeddedResource Include="Images\movies-play.png" />
+    <EmbeddedResource Include="Images\movies-search.png" />
+    <EmbeddedResource Include="Images\movies-settings.png" />
+    <EmbeddedResource Include="Images\movies-shows.png" />
+    <EmbeddedResource Include="Images\movies-upcoming.png" />
+    <EmbeddedResource Include="Images\movies-web.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Ooui">
+      <HintPath>..\Dependencies\Ooui.dll</HintPath>
+    </Reference>
+    <Reference Include="Ooui.AspNetCore">
+      <HintPath>..\Dependencies\Ooui.AspNetCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Ooui.Forms">
+      <HintPath>..\Dependencies\Ooui.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Pages\DetailView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\HomeView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\Templates\CastingItemTemplate.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\Templates\HomeMainItemTemplate.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\Templates\MovieItemTemplate.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\Templates\ShowItemTemplate.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
